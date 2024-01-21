@@ -69,12 +69,9 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export function November() {
+export function Mars() {
   return (
-    <div
-      id="november"
-      className="w-full overflow-x-hidden bg-yellow-50 dark:bg-red-950"
-    >
+    <div className="w-full overflow-x-hidden bg-sky-50 dark:bg-sky-950">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (

@@ -20,118 +20,119 @@ export const navigation = [
       { title: 'Konserter 2024', href: '/' },
       {
         title: `Om Nordic Tenors`,
-        href: '/docs/om',
+        href: '/konserter/om-nordic-tenors',
       },
-      { title: 'Kontakt oss', href: '/docs/kontakt' },
+      { title: 'Kontakt oss', href: '/konserter/kontakt' },
     ],
   },
   {
     title: 'Agder',
     links: [
-      { title: 'Arendal', href: '/docs/arendal' },
-      { title: 'Flekkefjord', href: '/docs/flekkefjord' },
-      { title: 'Kristiansand', href: '/docs/kristiansand' },
-      // { title: 'Mandal', href: '/docs/mandal' },
+      { title: 'Arendal', href: '/konserter/arendal' },
+      { title: 'Flekkefjord', href: '/konserter/flekkefjord' },
+      { title: 'Kristiansand', href: '/konserter/kristiansand' },
+      // { title: 'Mandal', href: '/konserter/mandal' },
     ],
   },
   {
     title: 'Akershus',
     links: [
-      { title: 'Asker', href: '/docs/asker' },
-      { title: 'Sandvika', href: '/docs/sandvika' },
+      { title: 'Asker', href: '/konserter/asker' },
+      { title: 'Sandvika', href: '/konserter/sandvika' },
     ],
   },
   {
     title: 'Innlandet',
     links: [
-      // { title: 'Elverum', href: '/docs/elverum' },
-      // { title: 'Hamar', href: '/docs/hamar' },
-      { title: 'Hadeland', href: '/docs/hadeland' },
+      // { title: 'Elverum', href: '/konserter/elverum' },
+      // { title: 'Hamar', href: '/konserter/hamar' },
+      { title: 'Hadeland', href: '/konserter/hadeland' },
       {
         title: 'Lillehammer',
-        href: '/docs/lillehammer',
+        href: '/konserter/lillehammer',
       },
     ],
   },
   // {
   //   title: 'Møre og Romsdal',
   //   links: [
-  //     { title: 'Fosnavåg', href: '/docs/fosnavaag' },
-  //     { title: 'Ålesund', href: '/docs/aalesund' },
+  //     { title: 'Fosnavåg', href: '/konserter/fosnavag' },
+  //     { title: 'Ålesund', href: '/konserter/alesund' },
   //   ],
   // },
   {
     title: 'Nordland',
-    links: [{ title: 'Bodø', href: '/docs/bodoe' }],
+    links: [{ title: 'Bodø', href: '/konserter/bodo' }],
   },
   {
     title: 'Oslo',
-    links: [{ title: 'Oslo', href: '/docs/oslo' }],
+    links: [{ title: 'Oslo', href: '/konserter/oslo' }],
   },
   {
     title: 'Rogaland',
     links: [
-      { title: 'Haugesund', href: '/docs/haugesund' },
+      { title: 'Haugesund', href: '/konserter/haugesund' },
       {
         title: 'Sandnes',
-        href: '/docs/sandnes',
+        href: '/konserter/sandnes',
       },
-      { title: 'Stavanger', href: '/docs/stavanger' },
+      { title: 'Stavanger', href: '/konserter/stavanger' },
     ],
   },
   {
     title: 'Troms og Finnmark',
-    links: [{ title: 'Tromsø', href: '/docs/tromsoe' }],
+    links: [{ title: 'Tromsø', href: '/konserter/tromso' }],
   },
   {
     title: 'Trøndelag',
     links: [
-      // { title: 'Grong', href: '/docs/grong' },
-      { title: 'Stjørdal', href: '/docs/stjoerdal' },
-      { title: 'Trondheim', href: '/docs/trondheim' },
+      // { title: 'Grong', href: '/konserter/grong' },
+      { title: 'Stjørdal', href: '/konserter/stjordal' },
+      { title: 'Trondheim', href: '/konserter/trondheim' },
     ],
   },
   {
     title: 'Vestfold og Telemark',
     links: [
-      { title: 'Holmestrand', href: '/docs/holmestrand' },
-      { title: 'Horten', href: '/docs/horten' },
-      { title: 'Larvik', href: '/docs/larvik' },
-      { title: 'Nøtterøy', href: '/docs/noetteroey' },
-      // { title: 'Sandefjord', href: '/docs/sandefjord' },
+      { title: 'Holmestrand', href: '/konserter/holmestrand' },
+      { title: 'Horten', href: '/konserter/horten' },
+      { title: 'Larvik', href: '/konserter/larvik' },
+      { title: 'Nøtterøy', href: '/konserter/notteroy' },
+      // { title: 'Sandefjord', href: '/konserter/sandefjord' },
     ],
   },
   {
     title: 'Vestland',
     links: [
-      { title: 'Bergen', href: '/docs/bergen' },
+      { title: 'Bergen', href: '/konserter/bergen' },
       // {
       //   title: 'Nordfjord',
-      //   href: '/docs/nordfjord',
+      //   href: '/konserter/nordfjord',
       // },
     ],
   },
   {
     title: 'Viken',
     links: [
-      { title: 'Askim', href: '/docs/askim' },
+      { title: 'Askim', href: '/konserter/askim' },
       {
         title: 'Drammen',
-        href: '/docs/drammen',
+        href: '/konserter/drammen',
       },
-      { title: 'Fredrikstad', href: '/docs/fredrikstad' },
-      { title: 'Hønefoss', href: '/docs/honefoss' },
+      { title: 'Drøbak', href: '/konserter/drobak' },
+      { title: 'Fredrikstad', href: '/konserter/fredrikstad' },
+      { title: 'Hønefoss', href: '/konserter/honefoss' },
       // {
       //   title: 'Kongsberg',
-      //   href: '/docs/kongsberg',
+      //   href: '/konserter/kongsberg',
       // },
-      { title: 'Lillestrøm', href: '/docs/lillestroem' },
+      { title: 'Lillestrøm', href: '/konserter/lillestrom' },
       {
         title: 'Moss',
-        href: '/docs/moss',
+        href: '/konserter/moss',
       },
 
-      { title: 'Ullensaker', href: '/docs/ullensaker' },
+      { title: 'Ullensaker', href: '/konserter/ullensaker' },
     ],
   },
 ]

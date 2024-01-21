@@ -9,7 +9,7 @@ locationName: Kimen Kulturhus
 locationAddress: Sandgata 15, 7500 Stjørdal, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kimen_kulturhus_stj%C3%B8rdal_tylj6b.webp
-url: https://julekonsert.com/docs/stjoerdal
+url: https://julekonsert.com/docs/stjordal
 organizer: Nordic Moments AS
 ticketUrl: https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=502
 ticketPrice: 590 # Replace with the actual price

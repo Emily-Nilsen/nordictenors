@@ -2,6 +2,8 @@ import { Callout } from '@/components/Callout'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { Video, Videos } from '@/components/Videos'
 import { Category, Categories } from '@/components/Categories'
+import { Februar } from '@/components/Februar'
+import { Mars } from '@/components/Mars'
 import { November } from '@/components/November'
 import { Desember } from '@/components/Desember'
 import CurrentYear from '@/components/CurrentYear'
@@ -36,7 +38,6 @@ const tags = {
     selfClosing: true,
     render: () => {
       const word = getConcertYearWord()
-      console.log('Concert year word is:', word) // Debugging log
       return <>{word}</>
     },
   },
@@ -141,6 +142,14 @@ const tags = {
       href: { type: String },
       posterImg: { type: String },
     },
+  },
+  februar: {
+    selfClosing: true,
+    render: Februar,
+  },
+  mars: {
+    selfClosing: true,
+    render: Mars,
   },
   november: {
     selfClosing: true,

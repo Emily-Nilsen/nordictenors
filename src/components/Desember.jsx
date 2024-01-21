@@ -10,7 +10,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694981083/Julekonsert/Moss_Kulturhus_lnpkyw.webp',
     date: '1. desember',
-    pageUrl: '/docs/moss',
+    pageUrl: '/konserter/moss',
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704980301/Julekonsert/B%C3%A6rum_kulturhus_oriunn.webp',
     date: '2. desember',
-    pageUrl: '/docs/sandvika',
+    pageUrl: '/konserter/sandvika',
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695031332/Julekonsert/Bla%CC%8A_Grotte_x4x2hx.webp',
     date: '3. desember',
-    pageUrl: '/docs/fredrikstad',
+    pageUrl: '/konserter/fredrikstad',
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694977171/Julekonsert/n%C3%B8tter%C3%B8y_kulturhus_mxugdj.webp',
     date: '4. desember',
-    pageUrl: '/docs/noetteroey',
+    pageUrl: '/konserter/notteroy',
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704983890/Julekonsert/B%C3%B8lgen_kulturhus_f8mbxg.webp',
     date: '5. desember',
-    pageUrl: '/docs/larvik',
+    pageUrl: '/konserter/larvik',
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704984754/Julekonsert/Asker_kulturhus_l7xhoo.webp',
     date: '6. desember',
-    pageUrl: '/docs/asker',
+    pageUrl: '/konserter/asker',
   },
   {
     id: 7,
@@ -58,7 +58,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704990446/Julekonsert/Biorama_d17sr3.webp',
     date: '7. desember',
-    pageUrl: '/docs/holmestrand',
+    pageUrl: '/konserter/holmestrand',
   },
   {
     id: 8,
@@ -66,7 +66,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704992281/Julekonsert/Hadeland_Kultursal_bdpha3.webp',
     date: '8. desember',
-    pageUrl: '/docs/hadeland',
+    pageUrl: '/konserter/hadeland',
   },
   {
     id: 9,
@@ -74,7 +74,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694973738/Julekonsert/Oslo_Konserthus_bw940p.webp',
     date: '9. desember',
-    pageUrl: '/docs/oslo',
+    pageUrl: '/konserter/oslo',
   },
   {
     id: 10,
@@ -82,7 +82,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695032351/Julekonsert/Maihaugsalen_rakxmc.webp',
     date: '10. desember',
-    pageUrl: '/docs/lillehammer',
+    pageUrl: '/konserter/lillehammer',
   },
   {
     id: 11,
@@ -90,7 +90,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695043591/Julekonsert/Arendal_kulturhus_xydymn.webp',
     date: '11. desember',
-    pageUrl: '/docs/arendal',
+    pageUrl: '/konserter/arendal',
   },
   {
     id: 12,
@@ -98,7 +98,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695044421/Julekonsert/Kilden_kulturhus_ux1ewk.webp',
     date: '12. desember',
-    pageUrl: '/docs/kristiansand',
+    pageUrl: '/konserter/kristiansand',
   },
   {
     id: 13,
@@ -106,7 +106,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704993834/Julekonsert/Flekkefjord_kyzmwo.webp',
     date: '13. desember',
-    pageUrl: '/docs/flekkefjord',
+    pageUrl: '/konserter/flekkefjord',
   },
   {
     id: 14,
@@ -114,7 +114,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695048267/Julekonsert/Sandnes_kulturhus_qdnush.webp',
     date: '14. desember',
-    pageUrl: '/docs/sandnes',
+    pageUrl: '/konserter/sandnes',
   },
   {
     id: 15,
@@ -122,7 +122,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695049327/Julekonsert/Stavanger_konserthus_xfqt2s.webp',
     date: '15. desember',
-    pageUrl: '/docs/stavanger',
+    pageUrl: '/konserter/stavanger',
   },
   {
     id: 16,
@@ -130,7 +130,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695051392/Julekonsert/Festiviteten_Haugesund_nkllsw.webp',
     date: '16. desember',
-    pageUrl: '/docs/haugesund',
+    pageUrl: '/konserter/haugesund',
   },
   {
     id: 17,
@@ -138,7 +138,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695103770/Julekonsert/Grieghallen_Bergen_cm8qsr.webp',
     date: '17. desember',
-    pageUrl: '/docs/bergen',
+    pageUrl: '/konserter/bergen',
   },
   {
     id: 18,
@@ -146,7 +146,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695033204/Julekonsert/Olavshallen_dzwrff.webp',
     date: '18. desember',
-    pageUrl: '/docs/trondheim',
+    pageUrl: '/konserter/trondheim',
   },
   {
     id: 19,
@@ -154,7 +154,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695062936/Julekonsert/Kulturhuset_troms%C3%B8_tp5q3k.webp',
     date: '19. desember',
-    pageUrl: '/docs/tromsoe',
+    pageUrl: '/konserter/tromso',
   },
   {
     id: 20,
@@ -162,7 +162,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695102938/Julekonsert/Stormen_konserthus_a3xklm.webp',
     date: '20. desember',
-    pageUrl: '/docs/bodoe',
+    pageUrl: '/konserter/bodo',
   },
   {
     id: 21,
@@ -170,7 +170,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695036048/Julekonsert/Kimen_hld2po.webp',
     date: '21. desember',
-    pageUrl: '/docs/stjoerdal',
+    pageUrl: '/konserter/stjordal',
   },
   {
     id: 22,
@@ -178,7 +178,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695104625/Julekonsert/Drammens_Teater_i81lcc.webp',
     date: '22. desember',
-    pageUrl: '/docs/drammen',
+    pageUrl: '/konserter/drammen',
   },
 ]
 

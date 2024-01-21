@@ -9,59 +9,19 @@ import { GoBackButton } from './GoBackButton'
 const concerts = [
   {
     id: 1,
-    name: 'Bakkenteigen Kulturhus, Horten',
+    name: 'Moss Kulturhus',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694971527/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp',
-    date: '22. november',
-    pageUrl: '/konserter/horten',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694981083/Julekonsert/Moss_Kulturhus_lnpkyw.webp',
+    date: '28. februar',
+    pageUrl: '/konserter/moss',
   },
   {
     id: 2,
-    name: 'Alles Kulturhus, Hønefoss',
+    name: 'Smia Flerbrukshus, Drøbak',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704979651/Julekonsert/alles-kulturhus_muvum4.webp',
-    date: '23. november',
-    pageUrl: '/konserter/honefoss',
-  },
-  {
-    id: 3,
-    name: 'Lillestrøm Kultursenter',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695030110/Julekonsert/Lillestr%C3%B8m_kultursenter_yl2vwa.webp',
-    date: '24. november',
-    pageUrl: '/konserter/lillestrom',
-  },
-  // {
-  //   id: 4,
-  //   name: 'Oslo Konserthus',
-  //   imageUrl:
-  //     'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694973738/Julekonsert/Oslo_Konserthus_bw940p.webp',
-  //   date: '26. november',
-  //   pageUrl: '/konserter/oslo',
-  // },
-  // {
-  //   id: 5,
-  //   name: 'Kongsberg Musikkteater',
-  //   imageUrl:
-  //     'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694974538/Julekonsert/Kongsberg_Musikkteater_vmxx7a.webp',
-  //   date: '28. november',
-  //   pageUrl: '/konserter/kongsberg',
-  // },
-  {
-    id: 6,
-    name: 'Ullensaker Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695042423/Julekonsert/Ullensaker_kulturhus_b62zpr.webp',
-    date: '29. november',
-    pageUrl: '/konserter/ullensaker',
-  },
-  {
-    id: 7,
-    name: 'Askim Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/Julekonsert/Askim_Kulturhus_night_fjetxj.webp',
-    date: '30. november',
-    pageUrl: '/konserter/askim',
+    date: '29. februar',
+    pageUrl: '/konserter/drobak',
   },
 ]
 
@@ -69,12 +29,9 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export function November() {
+export function Februar() {
   return (
-    <div
-      id="november"
-      className="w-full overflow-x-hidden bg-yellow-50 dark:bg-red-950"
-    >
+    <div className="w-full overflow-x-hidden bg-sky-50 dark:bg-sky-950">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (
