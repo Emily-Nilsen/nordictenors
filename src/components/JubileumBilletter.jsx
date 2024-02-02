@@ -8,32 +8,32 @@ function TicketIcon(props) {
   )
 }
 
-export function Billetter({ concert, outlet, ticketUrl }) {
+export function JubiluemBilletter({ concert, outlet, ticketUrl }) {
   return (
     <div className="mb-12">
-      <div className="mt-8 flex items-center rounded-3xl bg-red-50/70 p-6 py-8 ring-1 ring-red-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10">
+      <div className="mt-8 flex items-center rounded-3xl bg-sky-50/70 p-6 py-8 ring-1 ring-sky-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10">
         <div className="">
-          <h2 className="-mt-2 font-medium text-red-800 dark:text-red-600">
+          <h2 className="-mt-2 font-medium text-sky-800 dark:text-sky-600">
             {concert}
-            <span>Christmas with Nordic Tenors</span>
+            <span>Nordic Tenors Jubileum</span>
           </h2>
           {ticketUrl ? (
             <>
-              <p className="-mt-2 text-red-900 [--tw-prose-background:theme(colors.red.50)] prose-a:text-red-900 prose-code:text-red-900 dark:text-gray-300 dark:prose-code:text-gray-300">
+              <p className="-mt-2 text-sky-900 [--tw-prose-background:theme(colors.sky.50)] prose-a:text-sky-900 prose-code:text-sky-900 dark:text-gray-300 dark:prose-code:text-gray-300">
                 Billetter kan kjøpes hos{' '}
                 <span className="font-bold">{outlet}</span>
               </p>
               <a href={ticketUrl} target="_blank" rel="noopener noreferrer">
                 <button className="dark:bg-t flex items-center justify-center rounded-lg bg-white/80 px-5 py-2.5 text-base text-gray-500 shadow-md shadow-black/5 ring-1 ring-black/5 transition duration-150 ease-in-out hover:bg-white dark:bg-gray-700 dark:text-gray-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-white/10">
-                  <span className="flex items-center gap-3 text-sm text-red-800 dark:text-white">
-                    <TicketIcon className="h-6 w-6 fill-red-700 dark:fill-red-500" />
+                  <span className="flex items-center gap-3 text-sm text-sky-800 dark:text-white">
+                    <TicketIcon className="h-6 w-6 fill-sky-700 dark:fill-sky-500" />
                     Kjøp billetter
                   </span>
                 </button>
               </a>
             </>
           ) : (
-            <p className="-mt-2 text-red-900 [--tw-prose-background:theme(colors.red.50)] prose-a:text-red-900 prose-code:text-red-900 dark:text-gray-300 dark:prose-code:text-gray-300">
+            <p className="-mt-2 text-sky-900 [--tw-prose-background:theme(colors.sky.50)] prose-a:text-sky-900 prose-code:text-sky-900 dark:text-gray-300 dark:prose-code:text-gray-300">
               Billettsalg ikke åpnet
             </p>
           )}

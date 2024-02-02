@@ -50,7 +50,7 @@ export default function App({ Component, pageProps }) {
   const title = pageProps.markdoc?.frontmatter.title
   const pageTitle =
     pageProps.markdoc?.frontmatter.pageTitle ||
-    `${pageProps.markdoc?.frontmatter.title} | Julekonserter med Nordic Tenors - 2024`
+    `${pageProps.markdoc?.frontmatter.title} | Konserter med Nordic Tenors - 2024`
   const description = pageProps.markdoc?.frontmatter.description
   const { pathname } = useRouter()
   const tableOfContents = pageProps.markdoc?.content
@@ -97,7 +97,7 @@ export default function App({ Component, pageProps }) {
             '@type': 'Offer',
             url:
               pageProps.markdoc?.frontmatter.ticketUrl ||
-              'https://julekonsert.com', // Replace Default_URL with a fallback
+              'https://nordictenors.no', // Replace Default_URL with a fallback
             price: pageProps.markdoc?.frontmatter.ticketPrice || '575', // Replace Default_Price with a fallback
             priceCurrency: 'NOK',
             availability: 'http://schema.org/InStock',
@@ -120,13 +120,13 @@ export default function App({ Component, pageProps }) {
         />
         <link
           rel="canonical"
-          href={`https://julekonsert.com${pathname}`}
+          href={`https://nordictenors.no${pathname}`}
           key="canonical"
         />
-        <meta property="og:title" content="Christmas with Nordic Tenors 2024" />
+        <meta property="og:title" content="Konserter with Nordic Tenors 2024" />
         <meta
           property="og:description"
-          content="Velkommen skal du være til julekonsert med Nordic Tenors i 2024!"
+          content="Velkommen skal du være til konserter med Nordic Tenors i 2024!"
         />
         <meta
           property="og:image"

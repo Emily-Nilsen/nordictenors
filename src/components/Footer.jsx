@@ -1,9 +1,19 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { SpotifyIcon } from '@/components/Logo'
-import { GlitterLights } from '@/components/GlitterLights'
+
+// viewBox="0 0 496 512
 
 const navigation = [
+  {
+    name: 'Spotify',
+    href: 'https://open.spotify.com/artist/2oYkhGSHICR2on9Vm91zV4?si=L9ARZcKlRXuJNMaM52RBRg&nd=1',
+    icon: (props) => (
+      <svg fill="currentColor" {...props} viewBox="0 0 496 512">
+        <path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z" />
+      </svg>
+    ),
+  },
   {
     name: 'Facebook',
     href: 'https://www.facebook.com/nordictenors',
@@ -48,30 +58,14 @@ const navigation = [
 
 export function Footer() {
   return (
-    <footer className="relative bg-red-800">
-      <div className="absolute inset-0 bg-red-900 dark:bg-red-950">
-        <Image
-          alt="Nordic Tenors"
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/footer_bg_fzjvzx.webp"
-          width={3000}
-          height={1000}
-          unoptimized
-          priority
-          className="mx-auto h-full object-cover object-center"
-        />
+    <footer className="relative bg-sky-800">
+      <div className="absolute inset-0 bg-sky-900 dark:bg-sky-950">
         <div className="inset-0 hidden bg-black/30 mix-blend-multiply lg:absolute lg:block" />
       </div>
-      {/* <GlitterLights /> */}
+
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex items-center justify-center space-x-6 md:order-2">
-          <Link
-            href="https://open.spotify.com/artist/2oYkhGSHICR2on9Vm91zV4?si=L9ARZcKlRXuJNMaM52RBRg&nd=1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SpotifyIcon className="h-5 w-auto transition-all duration-150 ease-in-out dark:fill-white dark:hover:fill-amber-400" />
-          </Link>
-          {navigation.map((item) => (
+          {navigation.map((item, index) => (
             <Link
               key={item.name}
               href={item.href}
@@ -80,7 +74,10 @@ export function Footer() {
               className="text-white transition-colors duration-200 ease-in-out hover:text-amber-400"
             >
               <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
+              <item.icon
+                className={`${index === 0 ? 'h-5 w-5' : 'h-6 w-6'}`}
+                aria-hidden="true"
+              />
             </Link>
           ))}
         </div>

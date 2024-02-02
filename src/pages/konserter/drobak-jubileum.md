@@ -1,5 +1,5 @@
 ---
-title: Bodø
+title: Drøbak
 description: Nordic Tenors Jubileum | Smia Flerbrukshus, Drøbak
 schemaName: Nordic Tenors Jubileum 2024 | Smia Flerbrukshus, Drøbak
 schemaDescription: Nordic Tenors Jubileum i Smia Flerbrukshus, Drøbak
@@ -8,11 +8,11 @@ duration: 80
 locationName: Smia Flerbrukshus, Drøbak
 locationAddress: Dyrløkkebakken 1, 1448 Drøbak, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_stormen_bod%C3%B8_gxpx11.webp
-url: https://julekonsert.com/docs/bodo
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Dr%C3%B8bak_vxrape.webp
+url: https://nordictenors.no/konserter/drobak-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/221/events/7009/purchase/setup?kanal=fw
-ticketPrice: 595 # Replace with the actual price
+ticketPrice: 450 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
@@ -23,15 +23,15 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Smia Flerbrukshus, Drøbak
 
-{% concert-introduction location="Smia Flerbrukshus, Drøbak" day="onsdag" date="28" month="februar" /%}
+{% jubileum-introduction location="Smia Flerbrukshus, Drøbak" day="onsdag" date="28" month="februar" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Stormen_konserthus_a3xklm.webp" title="Smia Flerbrukshus, Drøbak" /%}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Smia_Flerbrukshus_hgukth.webp" title="Smia Flerbrukshus, Drøbak" /%}
 {% /categories %}
 
 ### Billetter
 
-{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/221/events/7009/purchase/setup?kanal=fw" /%}
+{% jubileum-billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/221/events/7009/purchase/setup?kanal=fw" /%}
 
 ### Konsertdetaljer
 

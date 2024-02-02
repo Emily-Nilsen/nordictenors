@@ -25,112 +25,92 @@ export const navigation = [
       { title: 'Kontakt oss', href: '/konserter/kontakt' },
     ],
   },
+  // jubileum
   {
-    title: 'Agder',
+    title: 'Nordic Tenors Jubileum 2024',
+    links: [
+      { title: 'Askim', href: '/konserter/askim-jubileum' },
+
+      { title: 'Bergen', href: '/konserter/bergen-jubileum' },
+
+      { title: 'Bremnes', href: '/konserter/bremnes-jubileum' },
+      { title: 'Bryne', href: '/konserter/bryne-jubileum' },
+      {
+        title: 'Drammen',
+        href: '/konserter/drammen-jubileum',
+      },
+      { title: 'Drøbak', href: '/konserter/drobak-jubileum' },
+      { title: 'Flekkefjord', href: '/konserter/flekkefjord-jubileum' },
+
+      { title: 'Haugesund', href: '/konserter/haugesund-jubileum' },
+
+      { title: 'Horten', href: '/konserter/horten-jubileum' },
+
+      { title: 'Lillestrøm', href: '/konserter/lillestrom-jubileum' },
+      {
+        title: 'Moss',
+        href: '/konserter/moss-jubileum',
+      },
+
+      { title: 'Sandvika', href: '/konserter/sandvika-jubileum' },
+      {
+        title: 'Sauda',
+        href: '/konserter/sauda-jubileum',
+      },
+      {
+        title: 'Stavanger',
+        href: '/konserter/stavanger-jubileum',
+      },
+      { title: 'Valdres', href: '/konserter/valdres-jubileum' },
+    ],
+  },
+
+  // julekonsert
+  {
+    title: 'Christmas with Nordic Tenors 2024',
     links: [
       { title: 'Arendal', href: '/konserter/arendal' },
-      { title: 'Flekkefjord', href: '/konserter/flekkefjord' },
-      { title: 'Kristiansand', href: '/konserter/kristiansand' },
-      // { title: 'Mandal', href: '/konserter/mandal' },
-    ],
-  },
-  {
-    title: 'Akershus',
-    links: [
       { title: 'Asker', href: '/konserter/asker' },
-      { title: 'Sandvika', href: '/konserter/sandvika' },
-    ],
-  },
-  {
-    title: 'Innlandet',
-    links: [
-      // { title: 'Elverum', href: '/konserter/elverum' },
-      // { title: 'Hamar', href: '/konserter/hamar' },
-      { title: 'Hadeland', href: '/konserter/hadeland' },
-      {
-        title: 'Lillehammer',
-        href: '/konserter/lillehammer',
-      },
-    ],
-  },
-  // {
-  //   title: 'Møre og Romsdal',
-  //   links: [
-  //     { title: 'Fosnavåg', href: '/konserter/fosnavag' },
-  //     { title: 'Ålesund', href: '/konserter/alesund' },
-  //   ],
-  // },
-  {
-    title: 'Nordland',
-    links: [{ title: 'Bodø', href: '/konserter/bodo' }],
-  },
-  {
-    title: 'Oslo',
-    links: [{ title: 'Oslo', href: '/konserter/oslo' }],
-  },
-  {
-    title: 'Rogaland',
-    links: [
-      { title: 'Haugesund', href: '/konserter/haugesund' },
-      {
-        title: 'Sandnes',
-        href: '/konserter/sandnes',
-      },
-      { title: 'Stavanger', href: '/konserter/stavanger' },
-    ],
-  },
-  {
-    title: 'Troms og Finnmark',
-    links: [{ title: 'Tromsø', href: '/konserter/tromso' }],
-  },
-  {
-    title: 'Trøndelag',
-    links: [
-      // { title: 'Grong', href: '/konserter/grong' },
-      { title: 'Stjørdal', href: '/konserter/stjordal' },
-      { title: 'Trondheim', href: '/konserter/trondheim' },
-    ],
-  },
-  {
-    title: 'Vestfold og Telemark',
-    links: [
-      { title: 'Holmestrand', href: '/konserter/holmestrand' },
-      { title: 'Horten', href: '/konserter/horten' },
-      { title: 'Larvik', href: '/konserter/larvik' },
-      { title: 'Nøtterøy', href: '/konserter/notteroy' },
-      // { title: 'Sandefjord', href: '/konserter/sandefjord' },
-    ],
-  },
-  {
-    title: 'Vestland',
-    links: [
-      { title: 'Bergen', href: '/konserter/bergen' },
-      // {
-      //   title: 'Nordfjord',
-      //   href: '/konserter/nordfjord',
-      // },
-    ],
-  },
-  {
-    title: 'Viken',
-    links: [
       { title: 'Askim', href: '/konserter/askim' },
+      { title: 'Bergen', href: '/konserter/bergen' },
+
+      { title: 'Bodø', href: '/konserter/bodo' },
       {
         title: 'Drammen',
         href: '/konserter/drammen',
       },
-      { title: 'Drøbak', href: '/konserter/drobak' },
+      { title: 'Flekkefjord', href: '/konserter/flekkefjord' },
       { title: 'Fredrikstad', href: '/konserter/fredrikstad' },
+
+      { title: 'Hadeland', href: '/konserter/hadeland' },
+      { title: 'Haugesund', href: '/konserter/haugesund' },
+      { title: 'Holmestrand', href: '/konserter/holmestrand' },
+      { title: 'Horten', href: '/konserter/horten' },
       { title: 'Hønefoss', href: '/konserter/honefoss' },
-      // {
-      //   title: 'Kongsberg',
-      //   href: '/konserter/kongsberg',
-      // },
+      { title: 'Kristiansand', href: '/konserter/kristiansand' },
+      { title: 'Larvik', href: '/konserter/larvik' },
+      {
+        title: 'Lillehammer',
+        href: '/konserter/lillehammer',
+      },
       { title: 'Lillestrøm', href: '/konserter/lillestrom' },
       {
         title: 'Moss',
         href: '/konserter/moss',
       },
+      { title: 'Nøtterøy', href: '/konserter/notteroy' },
+      { title: 'Oslo', href: '/konserter/oslo' },
+      {
+        title: 'Sandnes',
+        href: '/konserter/sandnes',
+      },
+      { title: 'Sandvika', href: '/konserter/sandvika' },
+
+      { title: 'Stavanger', href: '/konserter/stavanger' },
+
+      { title: 'Stjørdal', href: '/konserter/stjordal' },
+      { title: 'Tromsø', href: '/konserter/tromso' },
+      { title: 'Trondheim', href: '/konserter/trondheim' },
 
       { title: 'Ullensaker', href: '/konserter/ullensaker' },
     ],
@@ -164,7 +144,7 @@ function Header({ navigation }) {
         <MobileNavigation navigation={navigation} />
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
-        <Link href="/" aria-label="Home page">
+        <Link href="/" aria-label="Hjemmeside">
           <Logomark className="h-7 w-auto fill-red-900 dark:fill-white lg:hidden" />
           <Logo className="hidden h-2.5 w-auto fill-red-900 dark:fill-white md:h-3 lg:block" />
         </Link>
@@ -174,15 +154,15 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link
+        {/* <Link
           target="_blank"
           rel="noopener noreferrer"
           href="https://open.spotify.com/artist/2oYkhGSHICR2on9Vm91zV4?si=L9ARZcKlRXuJNMaM52RBRg&nd=1"
           className="group"
           aria-label="Spotify"
         >
-          <SpotifyIcon className="h-6 w-6 fill-red-800 transition-all duration-150 ease-in-out group-hover:fill-red-900 dark:fill-white dark:group-hover:fill-amber-300" />
-        </Link>
+          <SpotifyIcon className="w-6 h-6 transition-all duration-150 ease-in-out fill-red-800 group-hover:fill-red-900 dark:fill-white dark:group-hover:fill-amber-300" />
+        </Link> */}
       </div>
     </header>
   )
@@ -278,7 +258,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
             {(title || section) && (
               <header className="mb-9 space-y-1">
                 {section && (
-                  <p className="text-base font-semibold text-red-800 dark:text-amber-300">
+                  <p className="text-base font-semibold text-sky-800 dark:text-amber-300">
                     {section.title}
                   </p>
                 )}
@@ -331,11 +311,11 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
               <>
                 <h2
                   id="on-this-page-title"
-                  className="font-display text-base font-medium text-gray-900 dark:text-white"
+                  className="font-display text-base font-semibold text-gray-900 dark:text-white sm:text-lg"
                 >
                   På denne siden
                 </h2>
-                <ol role="list" className="mt-4 space-y-3 text-base">
+                <ol role="list" className="mt-4 space-y-3 text-sm">
                   {tableOfContents.map((section) => (
                     <li key={section.id}>
                       <p>
@@ -343,7 +323,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
                           href={`#${section.id}`}
                           className={clsx(
                             isActive(section)
-                              ? 'text-red-800 dark:text-amber-300'
+                              ? 'text-sky-800 dark:text-amber-300'
                               : 'font-normal text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'
                           )}
                         >
@@ -361,7 +341,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
                                 href={`#${subSection.id}`}
                                 className={
                                   isActive(subSection)
-                                    ? 'text-red-800 dark:text-amber-300'
+                                    ? 'text-sky-800 dark:text-amber-300'
                                     : 'hover:text-gray-600 dark:hover:text-gray-300'
                                 }
                               >

@@ -9,16 +9,26 @@
   }
 }
 
-.font-display {
+/* .font-display {
   text-transform: lowercase;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3 {
   text-transform: lowercase;
+} */
+
+p {
+  font-weight: 400;
 }
 
 body {
   outline: none;
+  font-weight: 400;
+}
+
+button {
+  outline: none;
+  font-weight: 600;
 }

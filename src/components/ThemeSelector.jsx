@@ -5,7 +5,7 @@ import clsx from 'clsx'
 const themes = [
   { name: 'Lys', value: 'light', icon: LightIcon },
   { name: 'Mørk', value: 'dark', icon: DarkIcon },
-  { name: 'System', value: 'system', icon: SystemIcon },
+  // { name: 'System', value: 'system', icon: SystemIcon },
 ]
 
 function LightIcon(props) {

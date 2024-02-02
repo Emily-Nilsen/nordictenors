@@ -45,11 +45,11 @@ export default function Document() {
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <link
           rel="stylesheet"
-          href="https://use.typekit.net/cdg8swx.css"
+          href="https://use.typekit.net/nii4mra.css"
         ></link>
       </Head>
-      <body className="relative bg-white dark:bg-blue-950">
-        <div className="absolute inset-0 dark:bg-zinc-950/80" />
+      <body className="relative bg-white dark:bg-sky-950">
+        <div className="absolute inset-0 dark:bg-zinc-950/70" />
 
         <Main />
         <NextScript />

@@ -184,7 +184,7 @@ const SearchInput = forwardRef(function SearchInput(
       <input
         ref={inputRef}
         className={clsx(
-          'flex-auto appearance-none bg-transparent pl-12 text-gray-900 outline-none placeholder:text-gray-400 focus:w-full focus:flex-none focus:border-red-600 focus:outline-none dark:text-white sm:text-sm [&::-webkit-search-cancel-button]:hidden [&::-webkit-search-decoration]:hidden [&::-webkit-search-results-button]:hidden [&::-webkit-search-results-decoration]:hidden',
+          'flex-auto appearance-none bg-transparent pl-12 text-gray-900 outline-none placeholder:text-gray-400 focus:w-full focus:flex-none focus:border-amber-600 focus:outline-none dark:text-white sm:text-sm [&::-webkit-search-cancel-button]:hidden [&::-webkit-search-decoration]:hidden [&::-webkit-search-results-button]:hidden [&::-webkit-search-results-decoration]:hidden',
           autocompleteState.status === 'stalled' ? 'pr-11' : 'pr-4'
         )}
         {...inputProps}

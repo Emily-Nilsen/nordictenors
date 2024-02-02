@@ -8,16 +8,6 @@ function classNames(...classes) {
 }
 
 export function Contact() {
-  // useEffect(() => {
-  //   // Use useEffect to play audio on component mount
-  //   const audioPlayer = new Audio(
-  //     'https://res.cloudinary.com/dt3k2apqd/video/upload/v1695115437/Julekonsert/MA_PashaStriker_ChristmasHandbell_3_btorlx.wav'
-  //   )
-  //   audioPlayer.play().catch((error) => {
-  //     console.error('Error playing audio:', error)
-  //   })
-  // }, [])
-
   return (
     <div className="isolate rounded-3xl bg-white px-6 pb-24 pt-6 shadow-md shadow-black/5 ring-1 ring-gray-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10 sm:pb-32 lg:px-8">
       <div className="mx-auto max-w-2xl text-center">
@@ -25,7 +15,7 @@ export function Contact() {
           Nordic Tenors
         </h2>
         <p className="mt-2 text-lg leading-8 text-gray-600 dark:text-gray-300">
-          Har du spørsmål om Nordic Tenors sine kommende julekonserter, spør oss
+          Har du spørsmål om Nordic Tenors sine planlagte konserter, spør oss
           gjerne ved å fylle ut skjemaet under.
         </p>
       </div>

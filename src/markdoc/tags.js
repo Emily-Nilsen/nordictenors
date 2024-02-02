@@ -2,6 +2,9 @@ import { Callout } from '@/components/Callout'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { Video, Videos } from '@/components/Videos'
 import { Category, Categories } from '@/components/Categories'
+import { FeatureImage, Images } from '@/components/Images'
+import { Jubileum } from '@/components/Jubileum'
+import { Christmas } from '@/components/Christmas'
 import { Februar } from '@/components/Februar'
 import { Mars } from '@/components/Mars'
 import { November } from '@/components/November'
@@ -12,13 +15,15 @@ import { AudioSample } from '@/components/AudioSample'
 import { GoBackButton } from '@/components/GoBackButton'
 import { Map } from '@/components/Map'
 import { Billetter } from '@/components/Billetter'
+import { JubiluemBilletter } from '@/components/JubileumBilletter'
 import { ConcertDetails } from '@/components/ConcertDetails'
 import { ConcertHeader } from '@/components/ConcertHeader'
 import { ConcertIntroduction } from '@/components/ConcertIntroduction'
+import { JubileumIntroduction } from '@/components/JubileumIntroduction'
 import { ExternalLink } from '@/components/ExternalLink'
 import { Reviews } from '@/components/Reviews'
 import { CalendarText } from '@/components/CalendarText'
-import { ChristmasConcertText } from '@/components/ChristmasConcertText'
+import { HomepageText } from '@/components/HomepageText'
 import { getConcertYearWord } from '../../utils/getConcertYearWord'
 
 const tags = {
@@ -78,6 +83,15 @@ const tags = {
       ticketUrl: { type: String },
     },
   },
+  'jubileum-billetter': {
+    selfClosing: true,
+    render: JubiluemBilletter,
+    attributes: {
+      concert: { type: String },
+      outlet: { type: String },
+      ticketUrl: { type: String },
+    },
+  },
   'concert-details': {
     selfClosing: true,
     render: ConcertDetails,
@@ -100,6 +114,16 @@ const tags = {
       time: { type: String },
     },
   },
+  'jubileum-introduction': {
+    selfClosing: true,
+    render: JubileumIntroduction,
+    attributes: {
+      day: { type: String },
+      location: { type: String },
+      date: { type: String },
+      month: { type: String },
+    },
+  },
   'concert-introduction': {
     selfClosing: true,
     render: ConcertIntroduction,
@@ -119,7 +143,17 @@ const tags = {
     attributes: {
       title: { type: String },
       imageUrl: { type: String },
-      href: { type: String },
+    },
+  },
+  images: {
+    render: Images,
+  },
+  'feature-image': {
+    selfClosing: true,
+    render: FeatureImage,
+    attributes: {
+      title: { type: String },
+      imageUrl: { type: String },
     },
   },
   contact: {
@@ -143,6 +177,14 @@ const tags = {
       posterImg: { type: String },
     },
   },
+  christmas: {
+    selfClosing: true,
+    render: Christmas,
+  },
+  jubileum: {
+    selfClosing: true,
+    render: Jubileum,
+  },
   februar: {
     selfClosing: true,
     render: Februar,
@@ -163,9 +205,9 @@ const tags = {
     selfClosing: true,
     render: CalendarText,
   },
-  'christmas-concert-text': {
+  'homepage-text': {
     selfClosing: true,
-    render: ChristmasConcertText,
+    render: HomepageText,
   },
   'current-year': {
     selfClosing: true,

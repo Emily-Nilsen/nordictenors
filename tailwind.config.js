@@ -16,9 +16,9 @@ module.exports = {
       '4xl': ['3rem', { lineHeight: '3.5rem' }],
       '5xl': ['3.75rem', { lineHeight: '1' }],
       '6xl': ['4.5rem', { lineHeight: '1' }],
-      '7xl': ['6rem', { lineHeight: '1' }],
-      '8xl': ['8rem', { lineHeight: '1' }],
-      '9xl': ['9rem', { lineHeight: '1' }],
+      '7xl': ['5rem', { lineHeight: '1' }],
+      '8xl': ['6rem', { lineHeight: '1' }],
+      '9xl': ['7rem', { lineHeight: '1' }],
     },
     extend: {
       animation: {
@@ -36,8 +36,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['tenez', ...defaultTheme.fontFamily.sans],
-        display: ['trajan-pro-3', ...defaultTheme.fontFamily.serif],
+        sans: ['ff-nuvo-web-pro', ...defaultTheme.fontFamily.sans],
+        display: ['kepler-std-display', ...defaultTheme.fontFamily.serif],
       },
 
       maxWidth: {
