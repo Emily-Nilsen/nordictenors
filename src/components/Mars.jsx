@@ -171,7 +171,8 @@ export function Mars() {
                   </span>
                 </p>
               </div>
-              <div className="z-10">
+              {/* Large screens */}
+              <div className="z-10 hidden sm:block">
                 {concert.ticketLink ? (
                   <Link
                     href={concert.ticketLink}
@@ -181,9 +182,26 @@ export function Mars() {
                     <button className="dark:bg-t flex items-center justify-center px-0 py-0 text-base text-gray-500 shadow-black/5 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:text-gray-300 dark:ring-inset sm:rounded-lg sm:bg-white/80 sm:px-5 sm:py-2.5 sm:shadow-md sm:ring-1 sm:dark:bg-gray-700 sm:dark:ring-white/5 sm:dark:hover:bg-white/10">
                       <span className="flex items-center gap-3 text-sm text-sky-800 dark:text-white">
                         <TicketIcon className="mr-2 h-10 w-10 fill-sky-700 focus:bg-transparent dark:fill-sky-500 sm:mr-0 sm:h-6 sm:w-6" />
-                        <span className="hidden sm:block">Kjøp billett</span>
+                        <span>Kjøp billett</span>
                       </span>
                     </button>
+                  </Link>
+                ) : null}
+              </div>
+              {/* Mobile devices */}
+              <div className="z-10 sm:hidden">
+                {concert.ticketLink ? (
+                  <Link
+                    href={concert.ticketLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <TicketIcon className="mr-2 h-10 w-10 fill-sky-700 focus:bg-transparent dark:fill-sky-500 sm:mr-0 sm:h-6 sm:w-6" />
+                    {/* <button className="dark:bg-t flex items-center justify-center px-0 py-0 text-base text-gray-500 shadow-black/5 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:text-gray-300 dark:ring-inset sm:rounded-lg sm:bg-white/80 sm:px-5 sm:py-2.5 sm:shadow-md sm:ring-1 sm:dark:bg-gray-700 sm:dark:ring-white/5 sm:dark:hover:bg-white/10">
+                      <span className="flex items-center gap-3 text-sm text-sky-800 dark:text-white">
+                        
+                      </span>
+                    </button> */}
                   </Link>
                 ) : null}
               </div>
