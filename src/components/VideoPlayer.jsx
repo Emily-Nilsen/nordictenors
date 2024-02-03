@@ -3,8 +3,7 @@ import { Video, CloudinaryContext, Transformation } from 'cloudinary-react'
 
 export default function VideoPlayer({ publicId, poster }) {
   const videoRef = useRef()
-  // const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
-  const cloudName = 'dt3k2apqd'
+  const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
 
   return (
     <CloudinaryContext cloud_name={cloudName}>
