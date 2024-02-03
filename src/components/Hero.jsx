@@ -32,7 +32,7 @@ export function Hero() {
                 </p>
               </div>
               <div>
-                <p className="-mb-40 mt-40 font-display text-4xl font-semibold uppercase tracking-normal text-amber-300 sm:hidden sm:text-6xl">
+                <p className="-mb-40 mt-40 font-display text-3xl font-semibold uppercase tracking-normal text-amber-300 sm:hidden">
                   nordic tenors
                 </p>
               </div>
@@ -41,7 +41,7 @@ export function Hero() {
                 genrespekter, humor og musikalske overraskelser.
               </p>
               <div className="h-12 sm:hidden" />
-              <div className="-mb-20 mt-32 flex justify-center gap-8 sm:-mb-20 sm:mt-20 sm:gap-10 lg:-mb-0 lg:mt-8 lg:justify-start">
+              <div className="-mb-24 mt-32 flex justify-center gap-8 sm:-mb-20 sm:mt-20 sm:gap-10 lg:-mb-0 lg:mt-8 lg:justify-start">
                 <Button className="relative z-20" href="/#konsertplan">
                   Jubileum
                 </Button>
