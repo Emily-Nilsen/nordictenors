@@ -1,6 +1,6 @@
 ---
-title: Kontakt Nordic Tenors
-description: Har spørsmål om våre julekonserter? Kontakt oss enkelt her!
+title: Kontakt
+description: Har du spørsmål om våre konserter? Kontakt oss her!
 ---
 
 {% contact /%}

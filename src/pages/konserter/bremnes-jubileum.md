@@ -1,15 +1,15 @@
 ---
-title: Bremnes
+title: Jubileumskonsert i Bremnes
 description: Nordic Tenors Jubileum | Bremnes Kyrkje
 schemaName: Nordic Tenors Jubileum 2024 | Bremnes Kyrkje
 schemaDescription: Nordic Tenors Jubileum i Bremnes Kyrkje
 date: 2024-03-07T19:00:00.000Z
-duration: 90
+duration: 80
 locationName: Bremnes Kyrkje
 locationAddress: Kyrkjevegen 417, 5430 Bremnes, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_stavanger_konserthus_bpphya.webp
-url: https://julekonsert.com/docs/bremnes
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Bremnes_Kyrkje_vh2x62.webp
+url: https://nordictenors.no/konserter/bremnes-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/121/events/39857/purchase/setup
 ticketPrice: 390 # Replace with the actual price
@@ -23,7 +23,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Bremnes Kyrkje
 
-{% concert-introduction location="Bremnes Kyrkje" day="torsdag" date="7" month="mars" /%}
+{% jubileum-introduction location="Bremnes Kyrkje" day="torsdag" date="7" month="mars" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Bremnes_kyrkje_w9zdpp.webp" title="Bremnes Kyrkje" /%}
@@ -31,7 +31,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="Bømlo kulturhus" ticketUrl="https://checkout.ebillett.no/121/events/39857/purchase/setup" /%}
+{% jubileum-billetter concert="" outlet="Bømlo kulturhus" ticketUrl="https://checkout.ebillett.no/121/events/39857/purchase/setup" /%}
 
 ### Konsertdetaljer
 

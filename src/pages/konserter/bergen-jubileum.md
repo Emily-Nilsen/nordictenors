@@ -1,5 +1,5 @@
 ---
-title: Ole Bull, Bergen
+title: Jubileumskonsert i Bergen
 description: Nordic Tenors Jubileum | Ole Bull Scene, Bergen
 schemaName: Nordic Tenors Jubileum 2024 | Ole Bull Scene, Bergen
 schemaDescription: Nordic Tenors Jubileum i Ole Bull Scene, Bergen
@@ -8,8 +8,8 @@ duration: 80
 locationName: Ole Bull Scene, Bergen
 locationAddress: Øvre Ole Bulls plass 3, 5012 Bergen, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_stavanger_konserthus_bpphya.webp
-url: https://julekonsert.com/docs/sauda
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Bergen_dcxbya.webp
+url: https://nordictenors.no/konserter/bergen-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/722191
 ticketPrice: 440 # Replace with the actual price
@@ -23,7 +23,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Ole Bull Scene, Bergen
 
-{% concert-introduction location="Ole Bull Scene, Bergen" day="fredag" date="8" month="mars" /%}
+{% jubileum-introduction location="Ole Bull Scene, Bergen" day="fredag" date="8" month="mars" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Ole_Bull_Scene_ubfy35.webp" title="Ole Bull Scene, Bergen" /%}
@@ -31,7 +31,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="eBillett" ticketUrl="https://www.ticketmaster.no/event/722191" /%}
+{% jubileum-billetter concert="" outlet="Ticketmaster" ticketUrl="https://www.ticketmaster.no/event/722191" /%}
 
 ### Konsertdetaljer
 

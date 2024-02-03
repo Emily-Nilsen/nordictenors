@@ -31,7 +31,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="festiviteten.no" ticketUrl="https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/" /%}
+{% billetter concert="" outlet="Festiviteten" ticketUrl="https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/" /%}
 
 ### Konsertdetaljer
 

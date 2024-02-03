@@ -1,5 +1,5 @@
 ---
-title: Valdres
+title: Jubileumskonsert i Valdres
 description: Nordic Tenors Jubileum | Begnadalen Kirke, Valdres
 schemaName: Nordic Tenors Jubileum 2024 | Begnadalen Kirke, Valdres
 schemaDescription: Nordic Tenors Jubileum i Begnadalen Kirke, Valdres

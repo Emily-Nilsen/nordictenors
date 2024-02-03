@@ -1,5 +1,5 @@
 ---
-title: Drøbak
+title: Jubileumskonsert i Drøbak
 description: Nordic Tenors Jubileum | Smia Flerbrukshus, Drøbak
 schemaName: Nordic Tenors Jubileum 2024 | Smia Flerbrukshus, Drøbak
 schemaDescription: Nordic Tenors Jubileum i Smia Flerbrukshus, Drøbak

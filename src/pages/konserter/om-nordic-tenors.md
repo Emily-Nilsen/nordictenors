@@ -1,10 +1,10 @@
 ---
-title: Om Nordic Tenors
+title: Om oss
 subtitle: En harmonisk blanding av kunst og underholdning
-description: Nordic Tenors gir deg en vakker konsert med unike stemmer, varme, humor, og et tradisjonelt repertoar. Opplev en harmonisk blanding av kunst og underholdning med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
+description: Nordic Tenors er kjent for unik stemmeprakt, varme, humor, og blanding av tradisjonelt og nyskapende repertoar. Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak tilbyr en harmonisk blanding av kunst og underholdning.
 ---
 
-Nordic Tenors gir deg en vakker konsert med unike stemmer, varme, humor, og et tradisjonelt repertoar. Opplev en harmonisk blanding av kunst og underholdning med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak. {% .lead %}
+Nordic Tenors er kjent for unik stemmeprakt, varme, humor, og blanding av tradisjonelt og nyskapende repertoar. Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak tilbyr en harmonisk blanding av kunst og underholdning. {% .lead %}
 
 ## Utmerkede tenorer
 

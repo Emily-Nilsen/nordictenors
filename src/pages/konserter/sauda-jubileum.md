@@ -1,5 +1,5 @@
 ---
-title: Sauda
+title: Jubileumskonsert i Sauda
 description: Nordic Tenors Jubileum | Folkets Hus, Sauda
 schemaName: Nordic Tenors Jubileum 2024 | Folkets Hus, Sauda
 schemaDescription: Nordic Tenors Jubileum i Folkets Hus, Sauda
@@ -8,8 +8,8 @@ duration: 80
 locationName: Folkets Hus, Sauda
 locationAddress: Skulegata 20, 4200 Sauda, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_stavanger_konserthus_bpphya.webp
-url: https://julekonsert.com/docs/sauda
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Sauda_nqyqzy.webp
+url: https://nordictenors.no/konserter/sauda-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/160/events/7807/purchase/setup?kanal=fw
 ticketPrice: 390 # Replace with the actual price
@@ -23,7 +23,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Folkets Hus, Sauda
 
-{% concert-introduction location="Folkets Hus, Sauda" day="tirsdag" date="5" month="mars" /%}
+{% jubileum-introduction location="Folkets Hus, Sauda" day="tirsdag" date="5" month="mars" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/fh_a6yang.webp" title="Folkets Hus, Sauda" /%}
@@ -31,7 +31,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/160/events/7807/purchase/setup?kanal=fw" /%}
+{% jubileum-billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/160/events/7807/purchase/setup?kanal=fw" /%}
 
 ### Konsertdetaljer
 

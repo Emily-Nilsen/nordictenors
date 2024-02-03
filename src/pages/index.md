@@ -1,7 +1,7 @@
 ---
 title: Konsertplan
-pageTitle: Christmas with Nordic Tenors | Julekonserter 2024
-description: Opplev våre konserter for 2024 med Nordic Tenors. Finn datoer i kalenderen og kjøp billetter for en uforglemmelig opplevelse.
+pageTitle: Konserter | Nordic Tenors
+description: Opplev konserter med Nordic Tenors. Finn datoer i kalenderen og kjøp billetter for en uforglemmelig opplevelse.
 ---
 
 {% homepage-text /%}

@@ -1,5 +1,5 @@
 ---
-title: Bryne
+title: Jubileumskonsert i Bryne
 description: Nordic Tenors Jubileum | Storstova, Bryne
 schemaName: Nordic Tenors Jubileum 2024 | Storstova, Bryne
 schemaDescription: Nordic Tenors Jubileum i Storstova, Bryne

@@ -17,7 +17,7 @@ export const navigation = [
   {
     title: 'Nordic Tenors',
     links: [
-      { title: 'Konserter 2024', href: '/' },
+      { title: 'Konserter', href: '/' },
       {
         title: `Om Nordic Tenors`,
         href: '/konserter/om-nordic-tenors',

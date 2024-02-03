@@ -1,5 +1,5 @@
 ---
-title: Arendal
+title: Julekonsert i Arendal
 description: Christmas with Nordic Tenors | Arendal Kulturhus
 schemaName: Christmas with Nordic Tenors 2024 | Arendal Kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Arendal Kulturhus

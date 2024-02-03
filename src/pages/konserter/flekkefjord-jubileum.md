@@ -1,5 +1,5 @@
 ---
-title: Flekkefjord
+title: Jubileumskonsert i Flekkefjord
 description: Nordic Tenors Jubileum | Flekkefjord Kultursenter Spira
 schemaName: Nordic Tenors Jubileum 2024 | Flekkefjord Kultursenter Spira
 schemaDescription: Nordic Tenors Jubileum i Flekkefjord Kultursenter Spira

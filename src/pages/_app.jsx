@@ -50,7 +50,7 @@ export default function App({ Component, pageProps }) {
   const title = pageProps.markdoc?.frontmatter.title
   const pageTitle =
     pageProps.markdoc?.frontmatter.pageTitle ||
-    `${pageProps.markdoc?.frontmatter.title} | Konserter med Nordic Tenors - 2024`
+    `${pageProps.markdoc?.frontmatter.title} | Nordic Tenors`
   const description = pageProps.markdoc?.frontmatter.description
   const { pathname } = useRouter()
   const tableOfContents = pageProps.markdoc?.content
@@ -116,21 +116,21 @@ export default function App({ Component, pageProps }) {
         {description && <meta name="description" content={description} />}
         <link
           rel="icon"
-          href="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/julekonsert_favicon_c1iul8.webp"
+          href="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/favicon_temp_di6jgv.webp"
         />
         <link
           rel="canonical"
           href={`https://nordictenors.no${pathname}`}
           key="canonical"
         />
-        <meta property="og:title" content="Konserter with Nordic Tenors 2024" />
+        <meta property="og:title" content="Konserter – Nordic Tenors" />
         <meta
           property="og:description"
-          content="Velkommen skal du være til konserter med Nordic Tenors i 2024!"
+          content="Velkommen skal du være til konsert med Nordic Tenors!"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Facebook_poster_ssyqkp.webp"
+          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Nordic_Tenors_d8ucgs.webp"
         />
         {schema && (
           <script
