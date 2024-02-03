@@ -154,15 +154,18 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        {/* <Link
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://open.spotify.com/artist/2oYkhGSHICR2on9Vm91zV4?si=L9ARZcKlRXuJNMaM52RBRg&nd=1"
+        <div
+          // target="_blank"
+          // rel="noopener noreferrer"
+          // href="https://open.spotify.com/artist/2oYkhGSHICR2on9Vm91zV4?si=L9ARZcKlRXuJNMaM52RBRg&nd=1"
           className="group"
-          aria-label="Spotify"
+          // aria-label="Spotify"
         >
-          <SpotifyIcon className="w-6 h-6 transition-all duration-150 ease-in-out fill-red-800 group-hover:fill-red-900 dark:fill-white dark:group-hover:fill-amber-300" />
-        </Link> */}
+          <p className="cursor-pointer font-display font-semibold text-sky-800 hover:text-red-700 dark:text-amber-300 dark:hover:text-white">
+            EN
+          </p>
+          {/* <SpotifyIcon className="w-6 h-6 transition-all duration-150 ease-in-out fill-red-800 group-hover:fill-red-900 dark:fill-white dark:group-hover:fill-amber-300" /> */}
+        </div>
       </div>
     </header>
   )

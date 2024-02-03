@@ -40,7 +40,7 @@ export function Hero() {
                 Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med et vidt
                 genrespekter, humor og musikalske overraskelser.
               </p>
-              <div className="h-12 sm:h-44 xl:hidden" />
+              <div className="h-12 sm:hidden" />
               <div className="-mb-20 mt-32 flex justify-center gap-8 sm:-mb-20 sm:mt-20 sm:gap-10 lg:-mb-0 lg:mt-8 lg:justify-start">
                 <Button className="relative z-20" href="/#konsertplan">
                   Jubileum
