@@ -239,7 +239,7 @@ export function Desember() {
           {concerts.map((concert) => (
             <li
               key={concert.id}
-              className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-amber-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-gray-50 dark:bg-amber-950/30 dark:focus-within:bg-gray-800/60 dark:hover:bg-gray-800/60"
+              className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-amber-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-amber-100/60 dark:bg-amber-950/30 dark:focus-within:bg-gray-800/60 dark:hover:bg-red-950/60"
             >
               <Image
                 src={concert.imageUrl}

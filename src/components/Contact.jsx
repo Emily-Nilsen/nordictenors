@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-// import { Switch } from '@headlessui/react'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -21,7 +20,7 @@ export function Contact() {
       </div>
       <form
         action="#"
-        name="Spørsmål om Christmas with Nordic Tenors"
+        name="Spørsmål til Nordic Tenors"
         data-netlify="true"
         method="POST"
         className="mx-auto mt-16 max-w-xl sm:mt-20"
@@ -29,12 +28,12 @@ export function Contact() {
         <input
           type="hidden"
           name="form-name"
-          value="Spørsmål om Christmas with Nordic Tenors"
+          value="Spørsmål til Nordic Tenors"
         />
         <input
           type="hidden"
           name="subject"
-          value="Spørsmål om Christmas with Nordic Tenors"
+          value="Spørsmål til Nordic Tenors"
         />
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>

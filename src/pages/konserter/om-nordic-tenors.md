@@ -11,7 +11,7 @@ Nordic Tenors er kjent for unik stemmeprakt, varme, humor, og blanding av tradis
 Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med humor, dans og musikalske overraskelser, og har vært en fremtredende del av den skandinaviske musikkscenen siden 2005. Med premieren på deres første show "Nordic Tenors & Sjur Hjeltnes/Bella Notte", markerte de starten på en bemerkelsesverdig karriere.
 
 {% images %}
-{% feature-image imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/Pianist_on_stage_t83xun.webp" title="Nordic Tenors" /%}
+{% feature-image imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/nordic_tenors_vswjkl.webp" title="Nordic Tenors" /%}
 {% /images %}
 
 I 2006 ble Nordic Tenors tildelt Komiprisens "årets nykommer", en pris som anerkjente gruppens innflytelse med bruk av humor for å nå ut med klassisk musikk til et bredt publikum. Nordic Tenors fortsatte å imponere, med betydningsfulle opptredener som kongelige toastmastere for HMK Harald i 2007, og under åpningen av den nye operaen i Bjørvika i 2008. Deres evne til å fenge publikum fortsatte i 2009 med premieren på "Nytt Show" i Bergen og utgivelsen av gruppens første CD, "Live at Logen". Nordic Tenors kreativitet ble igjen anerkjent i 2010 med en nominasjon til Komiprisen for "Årets nummer".
@@ -34,14 +34,6 @@ Alle konsert og bestillingsmuligheter er satt opp av arrangøren. Arrangør er s
 
 ## Medlemmenes Unike Bakgrunner
 
-### Espen Solsbak
-
-Med en stemme mer fremtredende enn sitt hår, er Espen kjent for sitt tatoverte utseende og sin kraftfulle opptreden. Hans bakgrunn inkluderer operastudier i Stavanger, Roma og Oslo, og han har bred erfaring innen musikaler og populærmusikk.
-
-{% images %}
-{% feature-image imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/Solsbak_yng4in.webp" title="Espen Solsbak" /%}
-{% /images %}
-
 ### Jan-Tore Saltnes
 
 Jan-Tore, stolt av sin opprinnelse fra Holmestrand, er en musikalsk allsidig kunstner. Utdannet ved Norges Musikkhøgskole i Oslo, har han en variert bakgrunn som strekker seg fra boyband til heavy metal, og har bidratt til over 30 utgivelser.
@@ -56,6 +48,14 @@ Oppvokst på Jar i Bærum, balanserer Nils sin lidenskap mellom fotball og musik
 
 {% images %}
 {% feature-image imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/NG_on_stage_eajyqo.webp" title="Nils Georg Nilsen" /%}
+{% /images %}
+
+### Espen Solsbak
+
+Espen har mer stemme enn han har hår, og han er den eneste i Nordic Tenors med tatovering. Han er fra Stavanger, men har bosatt seg på Tomter. Han har studert opera i Stavanger, Roma og Oslo, men har også bred erfaring innen musikaler og populærmusikalske genre.
+
+{% images %}
+{% feature-image imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/Solsbak_yng4in.webp" title="Espen Solsbak" /%}
 {% /images %}
 
 ---
