@@ -1,5 +1,5 @@
 ---
-title: Jubileumskonsert i Askim
+title: Askim
 description: Nordic Tenors Jubileum | Askim Kulturhus
 schemaName: Nordic Tenors Jubileum 2024 | Askim Kulturhus
 schemaDescription: Nordic Tenors Jubileum i Askim Kulturhus

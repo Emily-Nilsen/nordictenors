@@ -1,5 +1,5 @@
 ---
-title: Jubileumskonsert i Stavanger
+title: Stavanger
 description: Nordic Tenors Jubileum | Stavangeren, Stavanger
 schemaName: Nordic Tenors Jubileum 2024 | Stavangeren, Stavanger
 schemaDescription: Nordic Tenors Jubileum i Stavangeren, Stavanger

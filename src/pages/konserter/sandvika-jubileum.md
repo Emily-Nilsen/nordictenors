@@ -1,5 +1,5 @@
 ---
-title: Jubileumskonsert i Sandvika
+title: Sandvika
 description: Nordic Tenors Jubileum | Bærum Kulturhus, Sandvika
 schemaName: Nordic Tenors Jubileum 2024 | Bærum Kulturhus, Sandvika
 schemaDescription: Nordic Tenors Jubileum i Bærum Kulturhus, Sandvika

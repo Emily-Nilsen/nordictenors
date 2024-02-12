@@ -1,5 +1,5 @@
 ---
-title: Jubileumskonsert i Bergen
+title: Bergen
 description: Nordic Tenors Jubileum | Ole Bull Scene, Bergen
 schemaName: Nordic Tenors Jubileum 2024 | Ole Bull Scene, Bergen
 schemaDescription: Nordic Tenors Jubileum i Ole Bull Scene, Bergen

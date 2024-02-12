@@ -1,5 +1,5 @@
 ---
-title: Jubileumskonsert i Haugesund
+title: Haugesund
 description: Nordic Tenors Jubileum | Festiviteten, Haugesund
 schemaName: Nordic Tenors Jubileum 2024 | Festiviteten, Haugesund
 schemaDescription: Nordic Tenors Jubileum i Festiviteten, Haugesund

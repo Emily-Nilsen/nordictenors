@@ -1,5 +1,5 @@
 ---
-title: Jubileumskonsert i Drammen
+title: Drammen
 description: Nordic Tenors Jubileum | Drammens Teater
 schemaName: Nordic Tenors Jubileum 2024 | Drammens Teater
 schemaDescription: Nordic Tenors Jubileum i Drammens Teater

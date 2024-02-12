@@ -9,7 +9,7 @@ locationName: Grieghallen, Bergen
 locationAddress: Edvard Griegs plass 1, 5015 Bergen, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Grieghallen_Bergen_fxncaq.webp
-url: https://julekonsert.com/docs/bergen
+url: https://nordictenors.no/konserter/bergen-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/731181
 ticketPrice: 595 # Replace with the actual price

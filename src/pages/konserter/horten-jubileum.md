@@ -1,5 +1,5 @@
 ---
-title: Jubileumskonsert i Horten
+title: Horten
 description: Nordic Tenors Jubileum | Bakkenteigen Kulturhus, Horten
 schemaName: Nordic Tenors Jubileum 2024 | Bakkenteigen Kulturhus, Horten
 schemaDescription: Nordic Tenors Jubileum i Bakkenteigen Kulturhus, Horten

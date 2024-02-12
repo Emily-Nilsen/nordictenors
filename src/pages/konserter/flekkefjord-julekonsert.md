@@ -1,29 +1,29 @@
 ---
-title: Flekkefjord
-description: Nordic Tenors Jubileum | Flekkefjord Kultursenter Spira
-schemaName: Nordic Tenors Jubileum 2024 | Flekkefjord Kultursenter Spira
-schemaDescription: Nordic Tenors Jubileum i Flekkefjord Kultursenter Spira
-date: 2024-03-02T19:00:00.000Z
+title: Julekonsert i Flekkefjord
+description: Christmas with Nordic Tenors | Flekkefjord Kultursenter Spira
+schemaName: Christmas with Nordic Tenors 2024 | Flekkefjord Kultursenter Spira
+schemaDescription: Julekonsert med Nordic Tenors i Flekkefjord Kultursenter Spira
+date: 2024-12-03T18:00:00.000Z
 duration: 80
 locationName: Flekkefjord Kultursenter Spira
 locationAddress: Elvegaten 1, 4400 Flekkefjord, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Flekkefjord_xflzsf.webp
-url: https://nordictenors.no/konserter/flekkefjord-jubileum
+url: https://nordictenors.no/konserter/flekkefjord-julekonsert
 organizer: Nordic Moments AS
-ticketUrl: https://checkout.ebillett.no/181/events/19516/purchase/setup
+ticketUrl: https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/
 ticketPrice: 450 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="2" month="mars" time="19:00" /%}
+{% concert-header day="fredag" date="13" month="desember" time="18:00" /%}
 
 ---
 
 ## Flekkefjord Kultursenter Spira
 
-{% jubileum-introduction location="Flekkefjord Kultursenter Spira" day="lørdag" date="2" month="mars" /%}
+{% concert-introduction location="Flekkefjord Kultursenter Spira" day="fredag" date="13" month="desember" /%}
 
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Flekkefjord_kyzmwo.webp" title="Flekkefjord Kultursenter Spira" /%}
@@ -31,11 +31,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Billetter
 
-{% jubileum-billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/181/events/19516/purchase/setup" /%}
+{% billetter concert="" outlet="eBillett" ticketUrl="https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/" /%}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Flekkefjord Kultursenter Spira" date="2" month="mars" day="lørdag" time="19:00 – 20:20" location="Storsal, Flekkefjord Kultursenter Spira" /%}
+{% concert-details concert="Flekkefjord Kultursenter Spira" date="13" month="desember" day="fredag" time="18:00 – 19:20" location="Storsal, Flekkefjord Kultursenter Spira" /%}
 
 ### Adresse
 

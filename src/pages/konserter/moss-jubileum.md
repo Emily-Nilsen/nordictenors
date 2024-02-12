@@ -1,5 +1,5 @@
 ---
-title: Jubileumskonsert i Moss
+title: Moss
 description: Nordic Tenors Jubileum | Moss Kulturhus - Parkteatret
 schemaName: Nordic Tenors Jubileum 2024 | Moss Kulturhus - Parkteatret
 schemaDescription: Nordic Tenors Jubileum i Moss Kulturhus - Parkteatret

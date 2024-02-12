@@ -23,7 +23,7 @@ const concerts = [
     date: '22. november',
     ticketLink:
       'https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024',
-    pageUrl: '/konserter/horten',
+    pageUrl: '/konserter/horten-julekonsert',
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704979651/Julekonsert/alles-kulturhus_muvum4.webp',
     date: '23. november',
     ticketLink: 'https://alleskulturhus.no/arrangement/christmas-with',
-    pageUrl: '/konserter/honefoss',
+    pageUrl: '/konserter/honefoss-julekonsert',
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const concerts = [
     date: '24. november',
     ticketLink:
       'https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors/',
-    pageUrl: '/konserter/lillestrom',
+    pageUrl: '/konserter/lillestrom-julekonsert',
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ const concerts = [
     date: '29. november',
     ticketLink:
       'https://www.ticketmaster.no/event/731653?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.228013205.905843521.1700720460-336858269.1579679332&_gl=1*wqena*_ga*MzM2ODU4MjY5LjE1Nzk2NzkzMzI.*_ga_Q5XX5068LZ*MTcwMDcyMDQ1OS4xMDAuMS4xNzAwNzIwNTQ4LjAuMC4w',
-    pageUrl: '/konserter/ullensaker',
+    pageUrl: '/konserter/ullensaker-julekonsert',
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/Julekonsert/Askim_Kulturhus_night_fjetxj.webp',
     date: '30. november',
     ticketLink: 'https://tix.no/nb/askim/buyingflow/tickets/25588/',
-    pageUrl: '/konserter/askim',
+    pageUrl: '/konserter/askim-julekonsert',
   },
 ]
 

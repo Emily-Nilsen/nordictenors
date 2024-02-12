@@ -1,5 +1,5 @@
 ---
-title: Jubileumskonsert i Sauda
+title: Sauda
 description: Nordic Tenors Jubileum | Folkets Hus, Sauda
 schemaName: Nordic Tenors Jubileum 2024 | Folkets Hus, Sauda
 schemaDescription: Nordic Tenors Jubileum i Folkets Hus, Sauda

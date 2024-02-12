@@ -19,7 +19,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694981083/Julekonsert/Moss_Kulturhus_lnpkyw.webp',
     date: '1. desember',
     ticketLink: 'https://tix.no/nb/moss/buyingflow/tickets/25614/48484/',
-    pageUrl: '/konserter/moss',
+    pageUrl: '/konserter/moss-julekonsert',
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704980301/Julekonsert/B%C3%A6rum_kulturhus_oriunn.webp',
     date: '2. desember',
     ticketLink: '',
-    pageUrl: '/konserter/sandvika',
+    pageUrl: '/konserter/sandvika-julekonsert',
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695031332/Julekonsert/Bla%CC%8A_Grotte_x4x2hx.webp',
     date: '3. desember',
     ticketLink: 'https://checkout.ebillett.no/260/events/129790/purchase/setup',
-    pageUrl: '/konserter/fredrikstad',
+    pageUrl: '/konserter/fredrikstad-julekonsert',
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694977171/Julekonsert/n%C3%B8tter%C3%B8y_kulturhus_mxugdj.webp',
     date: '4. desember',
     ticketLink: 'https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/',
-    pageUrl: '/konserter/notteroy',
+    pageUrl: '/konserter/notteroy-julekonsert',
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const concerts = [
     date: '5. desember',
     ticketLink:
       'https://tix.no/nb/bolgen/buyingflow/tickets/25744/?_ga=2.161043901.1051657898.1702914858-1165690517.1702914857&_gac=1.253871610.1702914858.CjwKCAiA-P-rBhBEEiwAQEXhH_WmJIGxwI7O6og-vDAp_WW5t7UB2nhQ5O9LhbCKNXotQGFB8cNqHBoCURAQAvD_BwE&_gl=1*1bnmxif*_ga*MTE2NTY5MDUxNy4xNzAyOTE0ODU3*_ga_R2NHV9NW52*MTcwMjkxNDg1Ny4xLjEuMTcwMjkxNDg4Ny4zMC4wLjA.',
-    pageUrl: '/konserter/larvik',
+    pageUrl: '/konserter/larvik-julekonsert',
   },
   {
     id: 6,
@@ -66,7 +66,7 @@ const concerts = [
     date: '6. desember',
     ticketLink:
       'https://tix.no/nb/bolgen/buyingflow/tickets/25744/?_ga=2.161043901.1051657898.1702914858-1165690517.1702914857&_gac=1.253871610.1702914858.CjwKCAiA-P-rBhBEEiwAQEXhH_WmJIGxwI7O6og-vDAp_WW5t7UB2nhQ5O9LhbCKNXotQGFB8cNqHBoCURAQAvD_BwE&_gl=1*1bnmxif*_ga*MTE2NTY5MDUxNy4xNzAyOTE0ODU3*_ga_R2NHV9NW52*MTcwMjkxNDg1Ny4xLjEuMTcwMjkxNDg4Ny4zMC4wLjA.',
-    pageUrl: '/konserter/asker',
+    pageUrl: '/konserter/asker-julekonsert',
   },
   {
     id: 7,
@@ -76,7 +76,7 @@ const concerts = [
     date: '7. desember',
     ticketLink:
       'https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024',
-    pageUrl: '/konserter/holmestrand',
+    pageUrl: '/konserter/holmestrand-julekonsert',
   },
   {
     id: 8,
@@ -86,7 +86,7 @@ const concerts = [
     date: '8. desember',
     ticketLink:
       'https://www.kulturhadeland.no/christmas-with-nordic-tenors-2024-xd5i6y4/',
-    pageUrl: '/konserter/hadeland',
+    pageUrl: '/konserter/hadeland-julekonsert',
   },
   {
     id: 9,
@@ -95,7 +95,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694973738/Julekonsert/Oslo_Konserthus_bw940p.webp',
     date: '9. desember',
     ticketLink: 'https://tix.no/nb/oslok/buyingflow/tickets/25447/48302/#tixsp',
-    pageUrl: '/konserter/oslo',
+    pageUrl: '/konserter/oslo-julekonsert',
   },
   {
     id: 10,
@@ -104,7 +104,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695032351/Julekonsert/Maihaugsalen_rakxmc.webp',
     date: '10. desember',
     ticketLink: 'https://www.ticketmaster.no/event/731015',
-    pageUrl: '/konserter/lillehammer',
+    pageUrl: '/konserter/lillehammer-julekonsert',
   },
   {
     id: 11,
@@ -113,7 +113,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695043591/Julekonsert/Arendal_kulturhus_xydymn.webp',
     date: '11. desember',
     ticketLink: 'https://tix.no/nb/arendal/buyingflow/tickets/25512/',
-    pageUrl: '/konserter/arendal',
+    pageUrl: '/konserter/arendal-julekonsert',
   },
   {
     id: 12,
@@ -123,7 +123,7 @@ const concerts = [
     date: '12. desember',
     ticketLink:
       'https://kilden.com/forestilling/christmas-with-nordic-tenors-5/',
-    pageUrl: '/konserter/kristiansand',
+    pageUrl: '/konserter/kristiansand-julekonsert',
   },
   {
     id: 13,
@@ -132,7 +132,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704993834/Julekonsert/Flekkefjord_kyzmwo.webp',
     date: '13. desember',
     ticketLink: 'https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/',
-    pageUrl: '/konserter/flekkefjord',
+    pageUrl: '/konserter/flekkefjord-julekonsert',
   },
   {
     id: 14,
@@ -141,7 +141,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695048267/Julekonsert/Sandnes_kulturhus_qdnush.webp',
     date: '14. desember',
     ticketLink: 'https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/',
-    pageUrl: '/konserter/sandnes',
+    pageUrl: '/konserter/sandnes-julekonsert',
   },
   {
     id: 15,
@@ -151,7 +151,7 @@ const concerts = [
     date: '15. desember',
     ticketLink:
       'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/',
-    pageUrl: '/konserter/stavanger',
+    pageUrl: '/konserter/stavanger-julekonsert',
   },
   {
     id: 16,
@@ -161,7 +161,7 @@ const concerts = [
     date: '16. desember',
     ticketLink:
       'https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/',
-    pageUrl: '/konserter/haugesund',
+    pageUrl: '/konserter/haugesund-julekonsert',
   },
   {
     id: 17,
@@ -170,7 +170,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695103770/Julekonsert/Grieghallen_Bergen_cm8qsr.webp',
     date: '17. desember',
     ticketLink: 'https://www.ticketmaster.no/event/731181',
-    pageUrl: '/konserter/bergen',
+    pageUrl: '/konserter/bergen-julekonsert',
   },
   {
     id: 18,
@@ -180,7 +180,7 @@ const concerts = [
     date: '18. desember',
     ticketLink:
       'https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors',
-    pageUrl: '/konserter/trondheim',
+    pageUrl: '/konserter/trondheim-julekonsert',
   },
   {
     id: 19,
@@ -189,7 +189,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695062936/Julekonsert/Kulturhuset_troms%C3%B8_tp5q3k.webp',
     date: '19. desember',
     ticketLink: 'https://tix.no/nb/tr/buyingflow/tickets/25469/48311/',
-    pageUrl: '/konserter/tromso',
+    pageUrl: '/konserter/tromso-julekonsert',
   },
   {
     id: 20,
@@ -199,7 +199,7 @@ const concerts = [
     date: '20. desember',
     ticketLink:
       'https://billetter.stormen.no/nb/buyingflow/tickets/26884/50393',
-    pageUrl: '/konserter/bodo',
+    pageUrl: '/konserter/bodo-julekonsert',
   },
   {
     id: 21,
@@ -209,7 +209,7 @@ const concerts = [
     date: '21. desember',
     ticketLink:
       'https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=502',
-    pageUrl: '/konserter/stjordal',
+    pageUrl: '/konserter/stjordal-julekonsert',
   },
   {
     id: 22,
@@ -219,7 +219,7 @@ const concerts = [
     date: '22. desember',
     ticketLink:
       'https://www.drammenscener.no/teatret/program/25611-christmas-with-nordic-tenors/',
-    pageUrl: '/konserter/drammen',
+    pageUrl: '/konserter/drammen-julekonsert',
   },
 ]
 

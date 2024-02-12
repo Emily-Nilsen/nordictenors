@@ -1,5 +1,5 @@
 ---
-title: Jubileumskonsert i Lillestrøm
+title: Lillestrøm
 description: Nordic Tenors Jubileum | Lillestrøm Kultursenter
 schemaName: Nordic Tenors Jubileum 2024 | Lillestrøm Kultursenter
 schemaDescription: Nordic Tenors Jubileum i Lillestrøm Kultursenter
