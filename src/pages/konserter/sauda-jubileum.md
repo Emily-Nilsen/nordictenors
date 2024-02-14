@@ -9,7 +9,7 @@ locationName: Folkets Hus, Sauda
 locationAddress: Skulegata 20, 4200 Sauda, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Sauda_nqyqzy.webp
-url: https://nordictenors.no/konserter/sauda-jubileum
+url: https://nordictenors.com/konserter/sauda-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/160/events/7807/purchase/setup?kanal=fw
 ticketPrice: 390 # Replace with the actual price

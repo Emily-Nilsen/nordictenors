@@ -9,7 +9,7 @@ locationName: Bremnes Kyrkje
 locationAddress: Kyrkjevegen 417, 5430 Bremnes, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Bremnes_Kyrkje_vh2x62.webp
-url: https://nordictenors.no/konserter/bremnes-jubileum
+url: https://nordictenors.com/konserter/bremnes-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/121/events/39857/purchase/setup
 ticketPrice: 390 # Replace with the actual price

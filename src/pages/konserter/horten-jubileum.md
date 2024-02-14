@@ -9,7 +9,7 @@ locationName: Bakkenteigen Kulturhus, Horten
 locationAddress: Raveien 197, 3184 Borre, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Horten_bhpi3e.webp
-url: https://nordictenors.no/konserter/horten
+url: https:/com/konserter/horten
 organizer: Nordic Moments AS
 ticketUrl: https://bakkenteigen.ticketco.events/no/nb/e/nordic_tenors__jubileum
 ticketPrice: 485 # Replace with the actual price

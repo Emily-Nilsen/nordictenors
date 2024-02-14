@@ -9,7 +9,7 @@ locationName: Nøtterøy Kulturhus
 locationAddress: Tinghaugveien 14, 3140 Borgheim, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_n%C3%B8tter%C3%B8y_kulturhus_wxobbk.webp
-url: https://nordictenors.no/konserter/notteroy-julekonsert
+url: https://nordictenors.com/konserter/notteroy-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/
 ticketPrice: 590 # Replace with the actual price

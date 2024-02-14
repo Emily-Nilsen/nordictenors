@@ -9,7 +9,7 @@ locationName: Storstova, Bryne
 locationAddress: Arne Garborgs veg 26, 4344 Bryne, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Bryne_kz9kcz.webp
-url: https://nordictenors.no/konserter/bryne-jubileum
+url: https://nordictenors.com/konserter/bryne-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://www.storstova.com/program/nordic-tenors/
 ticketPrice: 465 # Replace with the actual price

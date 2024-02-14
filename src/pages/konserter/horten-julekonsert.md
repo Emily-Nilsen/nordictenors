@@ -9,7 +9,7 @@ locationName: Bakkenteigen Kulturhus, Horten
 locationAddress: Raveien 197, 3184 Borre, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Bakkenteigen_Kulturhus_Horten_cstqv3.webp
-url: https://nordictenors.no/konserter/horten-julekonsert
+url: https://nordictenors.com/konserter/horten-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024
 ticketPrice: 595 # Replace with the actual price

@@ -9,7 +9,7 @@ locationName: Lillestrøm Kultursenter
 locationAddress: Kirkegata 11, 2000 Lillestrøm, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Lillestr%C3%B8m_n4eqmp.webp
-url: https://nordictenors.no/konserter/lillestrom-jubileum
+url: https://nordictenors.com/konserter/lillestrom-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://www.lillestrom-kultursenter.no/event/nordic-tenors-jubileum/
 ticketPrice: 475 # Replace with the actual price

@@ -9,7 +9,7 @@ locationName: Ole Bull Scene, Bergen
 locationAddress: Øvre Ole Bulls plass 3, 5012 Bergen, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Bergen_dcxbya.webp
-url: https://nordictenors.no/konserter/bergen-jubileum
+url: https://nordictenors.com/konserter/bergen-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/722191
 ticketPrice: 440 # Replace with the actual price

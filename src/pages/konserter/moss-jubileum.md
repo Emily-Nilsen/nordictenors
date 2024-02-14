@@ -9,7 +9,7 @@ locationName: Moss Kulturhus - Parkteatret
 locationAddress: Dronningens gate 25, 1530 Moss, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Moss_brkoub.webp
-url: https://nordictenors.no/konserter/moss-jubileum
+url: https://nordictenors.com/konserter/moss-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/moss/buyingflow/tickets/24900/47473/
 ticketPrice: 480 # Replace with the actual price

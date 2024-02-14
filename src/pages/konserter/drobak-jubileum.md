@@ -9,7 +9,7 @@ locationName: Smia Flerbrukshus, Drøbak
 locationAddress: Dyrløkkebakken 1, 1448 Drøbak, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Dr%C3%B8bak_vxrape.webp
-url: https://nordictenors.no/konserter/drobak-jubileum
+url: https://nordictenors.com/konserter/drobak-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/221/events/7009/purchase/setup?kanal=fw
 ticketPrice: 450 # Replace with the actual price

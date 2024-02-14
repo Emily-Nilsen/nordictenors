@@ -9,7 +9,7 @@ locationName: Stavangeren, Stavanger
 locationAddress: Vaisenhusgata 37, 4012 Stavanger, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Stavanger_kgc4ib.webp
-url: https://nordictenors.no/konserter/stavanger-stavangeren
+url: https://nordictenors.com/konserter/stavanger-stavangeren
 organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/722039
 ticketPrice: 505 # Replace with the actual price

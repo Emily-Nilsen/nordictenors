@@ -9,7 +9,7 @@ locationName: Begnadalen Kirke, Valdres
 locationAddress: Valdresvegen 1125, 2936 Begnadalen, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Valdres_ikl5nr.webp
-url: https://nordictenors.no/konserter/valdres-jubileum
+url: https://nordictenors.com/konserter/valdres-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://hedalenkultur.no/paskekonsert-2024/
 ticketPrice: 375 # Replace with the actual price

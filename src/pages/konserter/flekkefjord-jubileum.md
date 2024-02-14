@@ -9,7 +9,7 @@ locationName: Flekkefjord Kultursenter Spira
 locationAddress: Elvegaten 1, 4400 Flekkefjord, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Flekkefjord_xflzsf.webp
-url: https://nordictenors.no/konserter/flekkefjord-jubileum
+url: https://nordictenors.com/konserter/flekkefjord-jubileum
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/181/events/19516/purchase/setup
 ticketPrice: 450 # Replace with the actual price
