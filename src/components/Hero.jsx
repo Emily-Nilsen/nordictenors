@@ -51,7 +51,7 @@ export function Hero() {
               <div>
                 <p className="-mb-40 mt-40 font-hero text-4xl tracking-normal text-amber-300 sm:hidden">
                   {/* Animate each letter */}
-                  {nordicTenors.map((letter, index) => (
+                  {/* {nordicTenors.map((letter, index) => (
                     <motion.span
                       key={index}
                       initial={{ opacity: 0, y: 20 }}
@@ -64,7 +64,8 @@ export function Hero() {
                     >
                       {letter}
                     </motion.span>
-                  ))}
+                  ))} */}
+                  Nordic Tenors
                 </p>
               </div>
               <p className="mt-3 hidden max-w-xl text-xl tracking-tight text-white lg:block">
