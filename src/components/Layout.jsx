@@ -242,6 +242,9 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
     return section.children.findIndex(isActive) > -1
   }
 
+  // Function to check if the section title includes "Nordic Tenors"
+  const includesNordicTenors = section?.title.includes('Nordic Tenors')
+
   return (
     <>
       <Header navigation={navigation} />
@@ -262,7 +265,13 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
             {(title || section) && (
               <header className="mb-9 space-y-1">
                 {section && (
-                  <p className="text-base font-semibold text-sky-800 dark:text-amber-300">
+                  <p
+                    className={clsx(
+                      'text-base font-semibold',
+                      'text-sky-800 dark:text-amber-300',
+                      includesNordicTenors && 'font-logo lowercase' // Apply conditional class here
+                    )}
+                  >
                     {section.title}
                   </p>
                 )}
