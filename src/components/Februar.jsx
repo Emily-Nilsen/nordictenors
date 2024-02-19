@@ -50,70 +50,73 @@ export function Februar() {
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (
-            <li
-              key={concert.id}
-              className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-sky-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-sky-400/5 hover:bg-gray-50 dark:bg-sky-950/30 dark:focus-within:bg-gray-800/60 dark:hover:bg-gray-800/60"
-            >
-              <Image
-                src={concert.imageUrl}
-                alt={concert.name}
-                width={50}
-                height={50}
-                className="-ml-0 mr-1.5 h-14 w-14 flex-none rounded-full border border-sky-400/50 dark:border-amber-400/50 sm:-ml-0 sm:mr-3"
-              />
+            <Link key={concert.id} href={concert.pageUrl}>
+              <li className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-sky-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-sky-400/5 hover:bg-gray-50 dark:bg-sky-950/30 dark:focus-within:bg-gray-800/60 dark:hover:bg-gray-800/60 sm:pl-7">
+                <Image
+                  src={concert.imageUrl}
+                  alt={concert.name}
+                  width={50}
+                  height={50}
+                  className="-ml-0 mr-1.5 hidden h-14 w-14 flex-none rounded-full border border-sky-600/60 dark:border-amber-400/50 sm:-ml-0 sm:mr-3 sm:flex"
+                />
 
-              <div className="flex-auto font-normal">
-                <p className="text-base font-medium text-gray-900 dark:text-white sm:text-lg">
-                  {concert.name}
-                </p>
-                <p className="-mt-5 flex gap-x-3">
-                  <span className="font-bold text-gray-900 dark:text-white">
-                    {concert.date}
-                  </span>
-                </p>
-              </div>
-              {/* Large screens */}
-              <div className="z-10 hidden sm:block">
-                {concert.ticketLink ? (
-                  <Link
-                    href={concert.ticketLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="dark:bg-t flex items-center justify-center px-0 py-0 text-base text-gray-500 shadow-black/5 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:text-gray-300 dark:ring-inset sm:rounded-lg sm:bg-white/80 sm:px-5 sm:py-2.5 sm:shadow-md sm:ring-1 sm:dark:bg-gray-700 sm:dark:ring-white/5 sm:dark:hover:bg-white/10">
-                      <span className="flex items-center gap-3 text-sm text-sky-800 dark:text-white">
-                        <TicketIcon className="mr-2 h-10 w-10 fill-sky-700 focus:bg-transparent dark:fill-sky-500 sm:mr-0 sm:h-6 sm:w-6" />
-                        <span>Kjøp billett</span>
-                      </span>
-                    </button>
-                  </Link>
-                ) : null}
-              </div>
-              {/* Mobile devices */}
-              <div className="z-10 sm:hidden">
-                {concert.ticketLink ? (
-                  <Link
-                    href={concert.ticketLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <TicketIcon className="mr-2 h-10 w-10 fill-sky-700 focus:bg-transparent dark:fill-sky-500 sm:mr-0 sm:h-6 sm:w-6" />
-                  </Link>
-                ) : null}
-              </div>
+                <div className="flex-auto font-normal">
+                  <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
+                    {concert.name}
+                  </p>
+                  <p className="-mt-5 flex gap-x-3 text-sm">
+                    <span className="font-bold text-gray-900 dark:text-white">
+                      {concert.date}
+                    </span>
+                  </p>
+                </div>
+                {/* Large screens */}
+                <div className="z-10 hidden sm:block">
+                  {concert.ticketLink ? (
+                    <Link
+                      href={concert.ticketLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={handleTicketClick}
+                    >
+                      <button className="dark:bg-t flex items-center justify-center px-0 py-0 text-sm text-gray-500 shadow-black/5 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:text-gray-300 dark:ring-inset sm:rounded-lg sm:bg-white/80 sm:px-5 sm:py-2.5 sm:shadow-md sm:ring-1 sm:dark:bg-gray-700 sm:dark:ring-white/5 sm:dark:hover:bg-white/10">
+                        <span className="flex items-center gap-3 text-sm text-sky-800 dark:text-white">
+                          <TicketIcon className="mr-2 h-10 w-10 fill-sky-700 focus:bg-transparent dark:fill-sky-500 sm:mr-0 sm:h-6 sm:w-6" />
+                          <span>Billetter</span>
+                        </span>
+                      </button>
+                    </Link>
+                  ) : null}
+                </div>
+                {/* Mobile devices */}
+                <div className="z-10 sm:hidden">
+                  {concert.ticketLink ? (
+                    <Link
+                      href={concert.ticketLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="dark:bg-t flex items-center justify-center rounded-lg bg-white/80 px-2.5 py-1.5 text-2xl text-gray-500 shadow-md shadow-black/5 ring-1 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:bg-gray-700 dark:text-gray-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-white/10">
+                        <span className="flex items-center gap-3 text-sm text-sky-800 dark:text-white">
+                          <TicketIcon className="mr-0 hidden h-6 w-6 fill-sky-700 focus:bg-transparent dark:fill-sky-500 sm:mr-0 sm:h-6 sm:w-6" />
+                          <span className="text-left text-sm">Billetter</span>
+                        </span>
+                      </button>
+                    </Link>
+                  ) : null}
+                </div>
 
-              <div>
-                <Link href={concert.pageUrl}>
-                  <button className="-m-2 flex items-center rounded-full p-1.5 text-sm text-gray-500 hover:text-gray-600 dark:text-amber-400">
+                <div>
+                  <div className="-m-2 flex items-center rounded-full p-1.5 text-sm text-gray-500 hover:text-gray-600 dark:text-amber-400">
                     <p className="hidden px-3 sm:block">Vis mer</p>
                     <PlusCircleIcon
-                      className="ml-1 h-7 w-7 sm:hidden"
+                      className="ml-3 h-7 w-7 sm:hidden"
                       aria-hidden="true"
                     />
-                  </button>
-                </Link>
-              </div>
-            </li>
+                  </div>
+                </div>
+              </li>
+            </Link>
           ))}
         </ol>
       </section>

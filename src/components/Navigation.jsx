@@ -8,9 +8,16 @@ export function Navigation({ navigation, className }) {
   return (
     <nav className={clsx('text-base lg:text-base', className)}>
       <ul role="list" className="space-y-9">
-        {navigation.map((section) => (
+        {navigation.map((section, index) => (
           <li key={section.title}>
-            <h2 className="font-display font-semibold text-gray-900 dark:text-white sm:text-lg">
+            <h2
+              className={clsx(
+                index === 0
+                  ? 'font-logo lowercase'
+                  : 'font-display font-semibold',
+                'text-gray-900 dark:text-white sm:text-lg'
+              )}
+            >
               {section.title}
             </h2>
             <ul

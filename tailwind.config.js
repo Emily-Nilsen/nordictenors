@@ -36,8 +36,10 @@ module.exports = {
         },
       },
       fontFamily: {
+        hero: ['annabelle-jf', ...defaultTheme.fontFamily.sans],
         sans: ['ff-nuvo-web-pro', ...defaultTheme.fontFamily.sans],
         display: ['kepler-std-display', ...defaultTheme.fontFamily.serif],
+        logo: ['trajan-pro-3', ...defaultTheme.fontFamily.serif],
       },
 
       maxWidth: {

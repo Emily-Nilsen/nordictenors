@@ -27,13 +27,14 @@ export function Hero() {
           <div className="relative z-10 text-center sm:mt-72 lg:col-span-2 lg:text-left">
             <div className="relative">
               <div>
-                <p className="hidden font-display font-semibold uppercase tracking-normal text-amber-300 sm:block sm:text-6xl lg:text-7xl">
-                  nordic tenors
+                {/* lg:text-7xl */}
+                <p className="hidden font-hero tracking-normal text-amber-300 sm:block sm:text-6xl lg:text-[6.5rem]">
+                  Nordic Tenors
                 </p>
               </div>
               <div>
-                <p className="-mb-40 mt-40 font-display text-3xl font-semibold uppercase tracking-normal text-amber-300 sm:hidden">
-                  nordic tenors
+                <p className="-mb-40 mt-40 font-hero text-4xl tracking-normal text-amber-300 sm:hidden">
+                  Nordic Tenors
                 </p>
               </div>
               <p className="mt-3 hidden max-w-xl text-xl tracking-tight text-white lg:block">
