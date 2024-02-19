@@ -13,6 +13,20 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/index.md',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/konserter/:slug.md',
+        destination: '/konserter/:slug',
+        permanent: true,
+      },
+    ]
+  },
 }
 
 export default withSearch(
