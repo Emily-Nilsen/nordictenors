@@ -9,7 +9,7 @@ locationName: Kuben Kulturhus, Grong
 locationAddress: Sundspetvegen 23, 7870 Medjå, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kuben_kulturhus_grong_x8xcnp.webp
-url: https://julekonsert.com/docs/grong
+url: https://nordictenors.com/docs/grong
 organizer: Nordic Moments AS
 ticketUrl: https://kulturhusetkuben.no/christmas-with-nordic-tenors-a3l6hn/
 ticketPrice: 580 # Replace with the actual price

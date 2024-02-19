@@ -2,7 +2,7 @@
   "@context": "http://schema.org",
   "@type": "MusicEvent",
   "name": "Christmas with Nordic Tenors 2023",
-  "url": "https://julekonsert.com",
+  "url": "https://nordictenors.com",
   "description": "Join us for a series of festive Christmas concerts with Nordic Tenors.",
   "startDate": "2023-12-11T18:00:00+02:00",
   "endDate": "2023-12-11T19:20:00+02:00",

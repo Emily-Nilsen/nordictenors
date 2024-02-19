@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://julekonsert.com/',
+  siteUrl: process.env.SITE_URL || 'https://nordictenors.com/',
   generateRobotsTxt: true, // (optional)
   // ...other options
 }

@@ -9,7 +9,7 @@ locationName: Elverum Kulturhus
 locationAddress: Storgata 18, 2414 Elverum, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_elverum_konserthus_ebtaqz.webp
-url: https://julekonsert.com/docs/elverum
+url: https://nordictenors.com/docs/elverum
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/253/events/67298/purchase/setup?kanal=dxf
 ticketPrice: 580 # Replace with the actual price
