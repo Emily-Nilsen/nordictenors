@@ -6,6 +6,8 @@ import { motion } from 'framer-motion'
 import { Button } from '@/components/Button'
 
 export function Hero() {
+  // Split "Nordic Tenors" into an array of characters for animation
+  const nordicTenors = 'Nordic Tenors'.split('')
   return (
     <div className="relative overflow-hidden">
       <div className="absolute inset-0 bg-red-950">
@@ -29,12 +31,40 @@ export function Hero() {
               <div>
                 {/* lg:text-7xl */}
                 <p className="hidden font-hero tracking-normal text-amber-300 sm:block sm:text-6xl lg:text-[6.5rem]">
-                  Nordic Tenors
+                  {/* Animate each letter */}
+                  {nordicTenors.map((letter, index) => (
+                    <motion.span
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{
+                        delay: index * 0.1,
+                        duration: 0.4,
+                        ease: 'easeOut',
+                      }}
+                    >
+                      {letter}
+                    </motion.span>
+                  ))}
                 </p>
               </div>
               <div>
                 <p className="-mb-40 mt-40 font-hero text-4xl tracking-normal text-amber-300 sm:hidden">
-                  Nordic Tenors
+                  {/* Animate each letter */}
+                  {nordicTenors.map((letter, index) => (
+                    <motion.span
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{
+                        delay: index * 0.1,
+                        duration: 0.4,
+                        ease: 'easeOut',
+                      }}
+                    >
+                      {letter}
+                    </motion.span>
+                  ))}
                 </p>
               </div>
               <p className="mt-3 hidden max-w-xl text-xl tracking-tight text-white lg:block">
