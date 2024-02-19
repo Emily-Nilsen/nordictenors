@@ -124,6 +124,7 @@ export function November() {
                       href={concert.ticketLink}
                       target="_blank"
                       rel="noopener noreferrer"
+                      onClick={handleTicketClick}
                     >
                       <button className="dark:bg-t flex items-center justify-center rounded-lg bg-white/80 px-2.5 py-1.5 text-2xl text-gray-500 shadow-md shadow-black/5 ring-1 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:bg-red-700/20 dark:text-gray-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-white/10">
                         <span className="flex items-center gap-3 text-sm text-red-800 dark:text-white">
