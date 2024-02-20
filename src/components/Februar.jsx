@@ -99,8 +99,8 @@ export function Februar() {
                     >
                       <button className="dark:bg-t flex items-center justify-center rounded-lg bg-white/80 px-2.5 py-1.5 text-2xl text-gray-500 shadow-md shadow-black/5 ring-1 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:bg-gray-700 dark:text-gray-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-white/10">
                         <span className="flex items-center gap-3 text-sm text-sky-800 dark:text-white">
-                          <TicketIcon className="mr-0 hidden h-6 w-6 fill-sky-700 focus:bg-transparent dark:fill-sky-500 sm:mr-0 sm:h-6 sm:w-6" />
-                          <span className="text-left text-sm">Billetter</span>
+                          <TicketIcon className="mr-0 h-6 w-6 fill-sky-700 focus:bg-transparent dark:fill-sky-500 sm:mr-0 sm:h-6 sm:w-6" />
+                          <span className="text-left text-sm">Kjøp</span>
                         </span>
                       </button>
                     </Link>
