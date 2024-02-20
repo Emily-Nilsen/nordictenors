@@ -28,7 +28,7 @@ const concerts = [
     id: 2,
     name: 'Smia Flerbrukshus, Drøbak',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704979651/Julekonsert/alles-kulturhus_muvum4.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/Nordic%20Tenors/concert%20halls/Smia_Flerbrukshus_hgukth.webp',
     date: '29. februar',
     ticketLink:
       'https://checkout.ebillett.no/221/events/7009/purchase/setup?kanal=fw',
