@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="4" month="mars" time="19:00" /%}
+{% concert-header day="mandag" date="4" month="mars" time="19:00" ticketUrl="https://www.storstova.com/program/nordic-tenors/" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="Storstova" ticketUrl="https://www.storstova.com/program/nordic-tenors/" /%}
 
 ## Storstova, Bryne
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Storstova_hcljzz.webp" title="Storstova, Bryne" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="Storstova" ticketUrl="https://www.storstova.com/program/nordic-tenors/" /%}
 
 ### Konsertdetaljer
 

@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="30" month="november" time="18:00" /%}
+{% concert-header day="lørdag" date="30" month="november" time="18:00" ticketUrl="https://tix.no/nb/askim/buyingflow/tickets/25588/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/askim/buyingflow/tickets/25588/" /%}
 
 ## Askim Kulturhus
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Askim_Kulturhus_night_fjetxj.webp" title="Askim Kulturhus" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/askim/buyingflow/tickets/25588/" /%}
 
 ### Konsertdetaljer
 

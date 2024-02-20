@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="3" month="desember" time="19:00" /%}
+{% concert-header day="tirsdag" date="3" month="desember" time="19:00" ticketUrl="https://checkout.ebillett.no/260/events/129790/purchase/setup" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/260/events/129790/purchase/setup" /%}
 
 ## Blå Grotte, Fredrikstad
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Bla%CC%8A_Grotte_x4x2hx.webp" title="Blå Grotte, Fredrikstad" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/260/events/129790/purchase/setup" /%}
 
 ### Konsertdetaljer
 

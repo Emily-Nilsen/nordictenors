@@ -74,6 +74,7 @@ const tags = {
       href: { type: String },
     },
   },
+
   billetter: {
     selfClosing: true,
     render: Billetter,
@@ -112,6 +113,7 @@ const tags = {
       date: { type: String },
       month: { type: String },
       time: { type: String },
+      ticketUrl: { type: String },
     },
   },
   'jubileum-introduction': {

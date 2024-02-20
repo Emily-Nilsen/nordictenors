@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="8" month="desember" time="18:00" /%}
+{% concert-header day="søndag" date="8" month="desember" time="18:00" ticketUrl="https://www.kulturhadeland.no/christmas-with-nordic-tenors-2024-xd5i6y4/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="Kultur Hadeland" ticketUrl="https://www.kulturhadeland.no/christmas-with-nordic-tenors-2024-xd5i6y4/" /%}
 
 ## Hadeland Kultursal, Gran
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Hadeland_Kultursal_bdpha3.webp" title="Hadeland Kultursal, Gran" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="Kultur Hadeland" ticketUrl="https://www.kulturhadeland.no/christmas-with-nordic-tenors-2024-xd5i6y4/" /%}
 
 ### Konsertdetaljer
 

@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="20" month="desember" time="18:00" /%}
+{% concert-header day="fredag" date="20" month="desember" time="18:00" ticketUrl="https://checkout.ebillett.no/144/events/35932/purchase/setup" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/144/events/35932/purchase/setup" /%}
 
 ## Stormen, Bodø
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Stormen_konserthus_a3xklm.webp" title="Stormen, Bodø" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/144/events/35932/purchase/setup" /%}
 
 ### Konsertdetaljer
 

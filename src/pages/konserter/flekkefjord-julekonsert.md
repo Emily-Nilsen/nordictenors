@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="13" month="desember" time="18:00" /%}
+{% concert-header day="fredag" date="13" month="desember" time="18:00" ticketUrl="https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="eBillett" ticketUrl="https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/" /%}
 
 ## Flekkefjord Kultursenter Spira
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Flekkefjord_kyzmwo.webp" title="Flekkefjord Kultursenter Spira" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="eBillett" ticketUrl="https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/" /%}
 
 ### Konsertdetaljer
 

@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="4" month="desember" time="18:00" /%}
+{% concert-header day="onsdag" date="4" month="desember" time="18:00" ticketUrl="https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/" /%}
 
 ## Nøtterøy Kulturhus
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/n%C3%B8tter%C3%B8y_kulturhus_mxugdj.webp" title="Nøtterøy Kulturhus" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/" /%}
 
 ### Konsertdetaljer
 

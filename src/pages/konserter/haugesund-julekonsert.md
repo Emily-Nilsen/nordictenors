@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="16" month="desember" time="18:00" /%}
+{% concert-header day="mandag" date="16" month="desember" time="18:00" ticketUrl="https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="Festiviteten" ticketUrl="https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/" /%}
 
 ## Festiviteten, Haugesund
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Festiviteten_Haugesund_nkllsw.webp" title="Festiviteten, Haugesund" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="Festiviteten" ticketUrl="https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/" /%}
 
 ### Konsertdetaljer
 

@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="10" month="mars" time="19:00" /%}
+{% concert-header day="søndag" date="10" month="mars" time="19:00" ticketUrl="https://www.askimkulturhus.no/event/nordic-tenors-jubileum/" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="Askim Kulturhus" ticketUrl="https://www.askimkulturhus.no/event/nordic-tenors-jubileum/" /%}
 
 ## Askim Kulturhus
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Askim_Kulturhus_night_fjetxj.webp" title="Askim Kulturhus" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="Askim Kulturhus" ticketUrl="https://www.askimkulturhus.no/event/nordic-tenors-jubileum/" /%}
 
 ### Konsertdetaljer
 

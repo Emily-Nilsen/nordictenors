@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="6" month="mars" time="19:00" /%}
+{% concert-header day="onsdag" date="6" month="mars" time="19:00" ticketUrl="https://festiviteten.no/alle/nordic-tenors-jubileum/" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="Festiviteten" ticketUrl="https://festiviteten.no/alle/nordic-tenors-jubileum/" /%}
 
 ## Festiviteten, Haugesund
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Festiviteten_Haugesund_nkllsw.webp" title="Festiviteten, Haugesund" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="Festiviteten" ticketUrl="https://festiviteten.no/alle/nordic-tenors-jubileum/" /%}
 
 ### Konsertdetaljer
 

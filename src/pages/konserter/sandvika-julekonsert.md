@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="2" month="desember" time="19:00" /%}
+{% concert-header day="mandag" date="2" month="desember" time="19:00" ticketUrl="" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="eBillett" ticketUrl="" /%}
 
 ## Bærum Kulturhus, Sandvika
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/B%C3%A6rum_kulturhus_oriunn.webp" title="Bærum Kulturhus, Sandvika" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="eBillett" ticketUrl="" /%}
 
 ### Konsertdetaljer
 

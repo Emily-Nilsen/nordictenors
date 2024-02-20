@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="28" month="februar" time="19:00" /%}
+{% concert-header day="onsdag" date="28" month="februar" time="19:00" ticketUrl="https://checkout.ebillett.no/221/events/7009/purchase/setup?kanal=fw" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/221/events/7009/purchase/setup?kanal=fw" /%}
 
 ## Smia Flerbrukshus, Drøbak
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Smia_Flerbrukshus_hgukth.webp" title="Smia Flerbrukshus, Drøbak" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/221/events/7009/purchase/setup?kanal=fw" /%}
 
 ### Konsertdetaljer
 

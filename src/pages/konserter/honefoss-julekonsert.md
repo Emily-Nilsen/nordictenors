@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="23" month="november" time="18:00" /%}
+{% concert-header day="lørdag" date="23" month="november" time="18:00" ticketUrl="https://alleskulturhus.no/arrangement/christmas-with" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="eBillett" ticketUrl="https://alleskulturhus.no/arrangement/christmas-with" /%}
 
 ## Alles Kulturhus, Hønefoss
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/alles-kulturhus_muvum4.webp" title="Alles Kulturhus, Hønefoss" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="eBillett" ticketUrl="https://alleskulturhus.no/arrangement/christmas-with" /%}
 
 ### Konsertdetaljer
 

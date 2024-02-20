@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="16" month="mars" time="18:00" /%}
+{% concert-header day="lørdag" date="16" month="mars" time="18:00" ticketUrl="https://www.lillestrom-kultursenter.no/event/nordic-tenors-jubileum/" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="Lillestrøm Kultursenter" ticketUrl="https://www.lillestrom-kultursenter.no/event/nordic-tenors-jubileum/" /%}
 
 ## Lillestrøm Kultursenter
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Lillestr%C3%B8m_kultursenter_yl2vwa.webp" title="Lillestrøm Kultursenter" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="Lillestrøm Kultursenter" ticketUrl="https://www.lillestrom-kultursenter.no/event/nordic-tenors-jubileum/" /%}
 
 ### Konsertdetaljer
 

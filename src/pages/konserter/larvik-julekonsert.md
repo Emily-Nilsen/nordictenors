@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="5" month="desember" time="18:00" /%}
+{% concert-header day="torsdag" date="5" month="desember" time="18:00" ticketUrl="https://tix.no/nb/bolgen/buyingflow/tickets/25744/?_ga=2.161043901.1051657898.1702914858-1165690517.1702914857&_gac=1.253871610.1702914858.CjwKCAiA-P-rBhBEEiwAQEXhH_WmJIGxwI7O6og-vDAp_WW5t7UB2nhQ5O9LhbCKNXotQGFB8cNqHBoCURAQAvD_BwE&_gl=1*1bnmxif*_ga*MTE2NTY5MDUxNy4xNzAyOTE0ODU3*_ga_R2NHV9NW52*MTcwMjkxNDg1Ny4xLjEuMTcwMjkxNDg4Ny4zMC4wLjA." /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/bolgen/buyingflow/tickets/25744/?_ga=2.161043901.1051657898.1702914858-1165690517.1702914857&_gac=1.253871610.1702914858.CjwKCAiA-P-rBhBEEiwAQEXhH_WmJIGxwI7O6og-vDAp_WW5t7UB2nhQ5O9LhbCKNXotQGFB8cNqHBoCURAQAvD_BwE&_gl=1*1bnmxif*_ga*MTE2NTY5MDUxNy4xNzAyOTE0ODU3*_ga_R2NHV9NW52*MTcwMjkxNDg1Ny4xLjEuMTcwMjkxNDg4Ny4zMC4wLjA." /%}
 
 ## Bølgen Kulturhus, Larvik
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/B%C3%B8lgen_kulturhus_f8mbxg.webp" title="Bølgen Kulturhus, Larvik" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/bolgen/buyingflow/tickets/25744/?_ga=2.161043901.1051657898.1702914858-1165690517.1702914857&_gac=1.253871610.1702914858.CjwKCAiA-P-rBhBEEiwAQEXhH_WmJIGxwI7O6og-vDAp_WW5t7UB2nhQ5O9LhbCKNXotQGFB8cNqHBoCURAQAvD_BwE&_gl=1*1bnmxif*_ga*MTE2NTY5MDUxNy4xNzAyOTE0ODU3*_ga_R2NHV9NW52*MTcwMjkxNDg1Ny4xLjEuMTcwMjkxNDg4Ny4zMC4wLjA." /%}
 
 ### Konsertdetaljer
 

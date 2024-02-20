@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="7" month="mars" time="19:00" /%}
+{% concert-header day="torsdag" date="7" month="mars" time="19:00" ticketUrl="https://checkout.ebillett.no/121/events/39857/purchase/setup" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="Bømlo kulturhus" ticketUrl="https://checkout.ebillett.no/121/events/39857/purchase/setup" /%}
 
 ## Bremnes Kyrkje
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Bremnes_kyrkje_w9zdpp.webp" title="Bremnes Kyrkje" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="Bømlo kulturhus" ticketUrl="https://checkout.ebillett.no/121/events/39857/purchase/setup" /%}
 
 ### Konsertdetaljer
 

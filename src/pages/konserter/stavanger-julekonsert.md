@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="15" month="desember" time="18:00" /%}
+{% concert-header day="søndag" date="15" month="desember" time="18:00" ticketUrl="https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="tix.no" ticketUrl="https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/" /%}
 
 ## Stavanger Konserthus
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Stavanger_konserthus_xfqt2s.webp" title="Stavanger Konserthus" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="tix.no" ticketUrl="https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/" /%}
 
 ### Konsertdetaljer
 

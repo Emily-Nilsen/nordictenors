@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="6" month="desember" time="18:00" /%}
+{% concert-header day="fredag" date="6" month="desember" time="18:00" ticketUrl="https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="Asker kulturhus" ticketUrl="https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/" /%}
 
 ## Asker kulturhus
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Asker_kulturhus_l7xhoo.webp" title="Asker kulturhus" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="Asker kulturhus" ticketUrl="https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/" /%}
 
 ### Konsertdetaljer
 

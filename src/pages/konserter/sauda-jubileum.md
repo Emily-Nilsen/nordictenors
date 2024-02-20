@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="5" month="mars" time="19:00" /%}
+{% concert-header day="tirsdag" date="5" month="mars" time="19:00" ticketUrl="https://checkout.ebillett.no/160/events/7807/purchase/setup?kanal=fw" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/160/events/7807/purchase/setup?kanal=fw" /%}
 
 ## Folkets Hus, Sauda
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/fh_a6yang.webp" title="Folkets Hus, Sauda" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/160/events/7807/purchase/setup?kanal=fw" /%}
 
 ### Konsertdetaljer
 

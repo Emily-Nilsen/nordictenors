@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="7" month="desember" time="18:00" /%}
+{% concert-header day="lørdag" date="7" month="desember" time="18:00" ticketUrl="https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="TicketCo" ticketUrl="https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024" /%}
 
 ## Biorama, Holmestrand
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Biorama_d17sr3.webp" title="Biorama, Holmestrand" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="TicketCo" ticketUrl="https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024" /%}
 
 ### Konsertdetaljer
 

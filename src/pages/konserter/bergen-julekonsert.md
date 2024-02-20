@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="17" month="desember" time="18:00" /%}
+{% concert-header day="tirsdag" date="17" month="desember" time="18:00" ticketUrl="https://www.ticketmaster.no/event/731181" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="ticketmaster" ticketUrl="https://www.ticketmaster.no/event/731181" /%}
 
 ## Grieghallen, Bergen
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Grieghallen_Bergen_cm8qsr.webp" title="Grieghallen, Bergen" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="ticketmaster" ticketUrl="https://www.ticketmaster.no/event/731181" /%}
 
 ### Konsertdetaljer
 

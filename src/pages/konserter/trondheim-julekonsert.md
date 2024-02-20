@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="18" month="desember" time="18:00" /%}
+{% concert-header day="onsdag" date="18" month="desember" time="18:00" ticketUrl="https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="Olavshallen" ticketUrl="https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors" /%}
 
 ## Olavshallen, Trondheim
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Olavshallen_dzwrff.webp" title="Olavshallen, Trondheim" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="Olavshallen" ticketUrl="https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors" /%}
 
 ### Konsertdetaljer
 

@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="2" month="mars" time="19:00" /%}
+{% concert-header day="lørdag" date="2" month="mars" time="19:00" ticketUrl="https://checkout.ebillett.no/181/events/19516/purchase/setup" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/181/events/19516/purchase/setup" /%}
 
 ## Flekkefjord Kultursenter Spira
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Flekkefjord_kyzmwo.webp" title="Flekkefjord Kultursenter Spira" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/181/events/19516/purchase/setup" /%}
 
 ### Konsertdetaljer
 

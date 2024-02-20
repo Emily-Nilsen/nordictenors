@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="8" month="mars" time="19:00" /%}
+{% concert-header day="fredag" date="8" month="mars" time="19:00" ticketUrl="https://www.ticketmaster.no/event/722191" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="Ticketmaster" ticketUrl="https://www.ticketmaster.no/event/722191" /%}
 
 ## Ole Bull Scene, Bergen
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Ole_Bull_Scene_ubfy35.webp" title="Ole Bull Scene, Bergen" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="Ticketmaster" ticketUrl="https://www.ticketmaster.no/event/722191" /%}
 
 ### Konsertdetaljer
 

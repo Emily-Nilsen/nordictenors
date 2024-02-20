@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="12" month="desember" time="18:00" /%}
+{% concert-header day="torsdag" date="12" month="desember" time="18:00" ticketUrl="https://kilden.com/forestilling/christmas-with-nordic-tenors-5/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="kilden.com" ticketUrl="https://kilden.com/forestilling/christmas-with-nordic-tenors-5/" /%}
 
 ## Kilden, Kristiansand
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kilden_kulturhus_ux1ewk.webp" title="Kilden, Kristiansand" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="kilden.com" ticketUrl="https://kilden.com/forestilling/christmas-with-nordic-tenors-5/" /%}
 
 ### Konsertdetaljer
 

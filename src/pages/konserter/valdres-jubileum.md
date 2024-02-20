@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="27" month="mars" time="19:00" /%}
+{% concert-header day="onsdag" date="27" month="mars" time="19:00" ticketUrl="https://hedalenkultur.no/paskekonsert-2024/" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="TicketCo" ticketUrl="https://hedalenkultur.no/paskekonsert-2024/" /%}
 
 ## Begnadalen Kirke, Valdres
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Begnadalen_Kirke_Valdres_jjs5u5.webp" title="Begnadalen Kirke, Valdres" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="TicketCo" ticketUrl="https://hedalenkultur.no/paskekonsert-2024/" /%}
 
 ### Konsertdetaljer
 

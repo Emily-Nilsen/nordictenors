@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="17" month="mars" time="19:00" /%}
+{% concert-header day="søndag" date="17" month="mars" time="19:00" ticketUrl="https://billetter.baerumkulturhus.no/nb/buyingflow/tickets/23831/45630" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="Bærum Kulturhus" ticketUrl="https://billetter.baerumkulturhus.no/nb/buyingflow/tickets/23831/45630" /%}
 
 ## Bærum Kulturhus, Sandvika
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/B%C3%A6rum_kulturhus_oriunn.webp" title="Bærum Kulturhus, Sandvika" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="Bærum Kulturhus" ticketUrl="https://billetter.baerumkulturhus.no/nb/buyingflow/tickets/23831/45630" /%}
 
 ### Konsertdetaljer
 

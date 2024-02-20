@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="21" month="desember" time="18:00" /%}
+{% concert-header day="lørdag" date="21" month="desember" time="18:00" ticketUrl="https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=502" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="Kimen Kulturhus" ticketUrl="https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=502" /%}
 
 ## Kimen Kulturhus, Stjørdal
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kimen_hld2po.webp" title="Kimen Kulturhus, Stjørdal" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="Kimen Kulturhus" ticketUrl="https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=502" /%}
 
 ### Konsertdetaljer
 

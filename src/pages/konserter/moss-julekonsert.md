@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="1" month="desember" time="18:00" /%}
+{% concert-header day="søndag" date="1" month="desember" time="18:00" ticketUrl="https://tix.no/nb/moss/buyingflow/tickets/25614/48484/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="Moss Kulturhus" ticketUrl="https://tix.no/nb/moss/buyingflow/tickets/25614/48484/" /%}
 
 ## Moss Kulturhus - Parkteatret
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Moss_Kulturhus_lnpkyw.webp" title="Moss Kulturhus - Parkteatret" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="Moss Kulturhus" ticketUrl="https://tix.no/nb/moss/buyingflow/tickets/25614/48484/" /%}
 
 ### Konsertdetaljer
 

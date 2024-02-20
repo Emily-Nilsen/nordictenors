@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="10" month="desember" time="18:00" /%}
+{% concert-header day="tirsdag" date="10" month="desember" time="18:00" ticketUrl="https://www.ticketmaster.no/event/731015" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="ticketmaster.no" ticketUrl="https://www.ticketmaster.no/event/731015" /%}
 
 ## Maihaugsalen, Lillehammer
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Maihaugsalen_rakxmc.webp" title="Maihaugsalen, Lillehammer" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="ticketmaster.no" ticketUrl="https://www.ticketmaster.no/event/731015" /%}
 
 ### Konsertdetaljer
 

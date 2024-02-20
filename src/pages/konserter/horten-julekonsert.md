@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="22" month="november" time="19:00" /%}
+{% concert-header day="fredag" date="22" month="november" time="19:00" ticketUrl="https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="Turnépremiere: " outlet="TicketCo" ticketUrl="https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024" /%}
 
 ## Bakkenteigen Kulturhus, Horten
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Bakkenteigen_Kulturhus_Horten_ist5xq.webp" title="Bakkenteigen Kulturhus, Horten" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="Turnépremiere: " outlet="TicketCo" ticketUrl="https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024" /%}
 
 ### Konsertdetaljer
 

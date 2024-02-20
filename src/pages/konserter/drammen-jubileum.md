@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="9" month="mars" time="17:00 og 19:00" /%}
+{% concert-header day="lørdag" date="9" month="mars" time="17:00 og 19:00" ticketUrl="https://www.drammenscener.no/teatret/program/23925-nordic-tenors/" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="Drammens Teater" ticketUrl="https://www.drammenscener.no/teatret/program/23925-nordic-tenors/" /%}
 
 ## Drammens Teater – 2 forestillinger
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Drammens_Teater_i81lcc.webp" title="Drammens Teater" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="Drammens Teater" ticketUrl="https://www.drammenscener.no/teatret/program/23925-nordic-tenors/" /%}
 
 ### Konsertdetaljer
 

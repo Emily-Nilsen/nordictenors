@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="19" month="desember" time="18:00" /%}
+{% concert-header day="torsdag" date="19" month="desember" time="18:00" ticketUrl="https://tix.no/nb/tr/buyingflow/tickets/25469/48311/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/tr/buyingflow/tickets/25469/48311/" /%}
 
 ## Kulturhuset Tromsø
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Kulturhuset_troms%C3%B8_tp5q3k.webp" title="Kulturhuset Tromsø" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/tr/buyingflow/tickets/25469/48311/" /%}
 
 ### Konsertdetaljer
 

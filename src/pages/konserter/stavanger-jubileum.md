@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="3" month="mars" time="19:00" /%}
+{% concert-header day="søndag" date="3" month="mars" time="19:00" ticketUrl="https://www.ticketmaster.no/event/722039" ticketUrl="https://www.ticketmaster.no/event/722039" /%}
 
 ---
+
+## Billetter
+
+{% jubileum-billetter concert="" outlet="Ticketmaster" ticketUrl="https://www.ticketmaster.no/event/722039" /%}
 
 ## Stavangeren, Stavanger
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Stavangeren_uepfpy.webp" title="Stavangeren, Stavanger" /%}
 {% /categories %}
-
-### Billetter
-
-{% jubileum-billetter concert="" outlet="Ticketmaster" ticketUrl="https://www.ticketmaster.no/event/722039" /%}
 
 ### Konsertdetaljer
 

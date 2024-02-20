@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="9" month="desember" time="19:00" /%}
+{% concert-header day="mandag" date="9" month="desember" time="19:00" ticketUrl="https://tix.no/nb/oslok/buyingflow/tickets/25447/48302/#tixsp" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/oslok/buyingflow/tickets/25447/48302/#tixsp" /%}
 
 ## Oslo Konserthus
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Oslo_Konserthus_bw940p.webp" title="Oslo Konserthus" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/oslok/buyingflow/tickets/25447/48302/#tixsp" /%}
 
 ### Konsertdetaljer
 

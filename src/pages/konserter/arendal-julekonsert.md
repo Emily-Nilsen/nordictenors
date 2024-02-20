@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="11" month="desember" time="19:00" /%}
+{% concert-header day="onsdag" date="11" month="desember" time="19:00" ticketUrl="https://tix.no/nb/arendal/buyingflow/tickets/25512/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="arendalkulturhus.no" ticketUrl="https://tix.no/nb/arendal/buyingflow/tickets/25512/" /%}
 
 ## Arendal Kulturhus
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Arendal_kulturhus_xydymn.webp" title="Arendal Kulturhus" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="arendalkulturhus.no" ticketUrl="https://tix.no/nb/arendal/buyingflow/tickets/25512/" /%}
 
 ### Konsertdetaljer
 

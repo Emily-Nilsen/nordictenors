@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="22" month="desember" time="18:00 og 20:00" /%}
+{% concert-header day="søndag" date="22" month="desember" time="18:00 og 20:00" ticketUrl="https://www.drammenscener.no/teatret/program/25611-christmas-with-nordic-tenors/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="drammenscener.no" ticketUrl="https://www.drammenscener.no/teatret/program/25611-christmas-with-nordic-tenors/" /%}
 
 ## Drammens Teater – 2 forestillinger
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Drammens_Teater_i81lcc.webp" title="Drammens Teater" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="drammenscener.no" ticketUrl="https://www.drammenscener.no/teatret/program/25611-christmas-with-nordic-tenors/" /%}
 
 ### Konsertdetaljer
 

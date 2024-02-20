@@ -17,9 +17,13 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="14" month="desember" time="18:00" /%}
+{% concert-header day="lørdag" date="14" month="desember" time="18:00" ticketUrl="https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/" /%}
 
 ---
+
+## Billetter
+
+{% billetter concert="" outlet="sandnes-kulturhus.no" ticketUrl="https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/" /%}
 
 ## Sandnes Kulturhus
 
@@ -28,10 +32,6 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% categories %}
 {% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Sandnes_kulturhus_qdnush.webp" title="Sandnes Kulturhus" /%}
 {% /categories %}
-
-### Billetter
-
-{% billetter concert="" outlet="sandnes-kulturhus.no" ticketUrl="https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/" /%}
 
 ### Konsertdetaljer
 
