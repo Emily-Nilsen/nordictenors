@@ -6,6 +6,8 @@ description: Opplev konserter med Nordic Tenors. Finn datoer i kalenderen og kj√
 
 {% homepage-text /%}
 
+{% socials /%}
+
 ---
 
 {% jubileum /%}

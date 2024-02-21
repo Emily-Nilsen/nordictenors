@@ -13,6 +13,7 @@ import CurrentYear from '@/components/CurrentYear'
 import { Contact } from '@/components/Contact'
 import { AudioSample } from '@/components/AudioSample'
 import { GoBackButton } from '@/components/GoBackButton'
+import { Socials } from '@/components/Socials'
 import { Map } from '@/components/Map'
 import { Billetter } from '@/components/Billetter'
 import { JubiluemBilletter } from '@/components/JubileumBilletter'
@@ -214,6 +215,10 @@ const tags = {
   'current-year': {
     selfClosing: true,
     render: CurrentYear,
+  },
+  socials: {
+    selfClosing: true,
+    render: Socials,
   },
   'go-back-button': {
     selfClosing: true,
