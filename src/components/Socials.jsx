@@ -3,7 +3,7 @@ import navigation from 'utils/navigation'
 
 export function Socials() {
   return (
-    <div className="absolute right-0 top-0 pr-7 pt-6 lg:hidden">
+    <div className="absolute inset-0 pt-3 lg:hidden">
       {/* Social media icons */}
 
       <div className="flex items-center justify-center space-x-7 sm:space-x-8 md:order-2">
