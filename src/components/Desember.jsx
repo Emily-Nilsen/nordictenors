@@ -208,7 +208,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695036048/Julekonsert/Kimen_hld2po.webp',
     date: '21. desember',
     ticketLink:
-      'https://billett.kimenkulturhus.no/webshop/webticket/seatmap?eventId=502',
+      'https://tix.no/nb/kimenkulturhus/buyingflow/tickets/27102/50673/',
     pageUrl: '/konserter/stjordal-julekonsert',
   },
   {

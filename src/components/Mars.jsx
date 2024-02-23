@@ -229,7 +229,10 @@ export function Mars() {
           ))}
         </ol>
       </section>
-      <div className="h-10 w-full border-none border-gray-300/30 dark:border-gray-300/10" />
+      <div
+        id="julekonsertstart"
+        className="h-10 w-full border-none border-gray-300/30 dark:border-gray-300/10"
+      />
     </div>
   )
 }
