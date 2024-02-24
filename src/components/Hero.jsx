@@ -64,7 +64,20 @@ export function Hero() {
               </div>
               <div>
                 <p className="-mb-40 mt-40 font-logo text-[2.3rem] lowercase tracking-normal text-amber-300 sm:hidden">
-                  Nordic Tenors
+                  {nordicTenors.map((letter, index) => (
+                    <motion.span
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{
+                        delay: index * 0.1,
+                        duration: 0.4,
+                        ease: 'easeOut',
+                      }}
+                    >
+                      {letter}
+                    </motion.span>
+                  ))}
                 </p>
               </div>
               <p className="mt-3 hidden max-w-xl text-xl tracking-tight text-white lg:block">
