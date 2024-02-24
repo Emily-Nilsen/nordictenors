@@ -86,10 +86,11 @@ export function ContactInfo() {
             <h3 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
               Billetter
             </h3>
-            <p className="mt-2 leading-7 text-gray-600 dark:text-gray-400">
+            <p className="mt-2 max-w-64 leading-7 text-gray-600 dark:text-gray-400 sm:max-w-80">
               For billetter, kontakt det enkelte spillested direkte. Se vår
               konserter for link til spillesteder.
             </p>
+
             <p className="mt-4">
               <Link
                 href="#konsertplan"
