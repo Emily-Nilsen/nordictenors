@@ -63,10 +63,9 @@ export function ContactInfo() {
               target="_blank"
               rel="noopener noreferrer"
               href="email:booking@nordictenors.no"
+              className="text-gray-600 underline transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
             >
-              <p className="text-gray-600 underline dark:text-gray-400">
-                booking@nordictenors.no
-              </p>
+              booking@nordictenors.no
             </Link>
             <p className="mt-4">
               <a
