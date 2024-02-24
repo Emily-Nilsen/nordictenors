@@ -28,10 +28,8 @@ export function ContactInfo() {
             <p className="mt-2 leading-7 text-gray-600 dark:text-gray-400">
               Nordic Moments AS
             </p>
-            <p className="text-gray-600 dark:text-gray-400">
-              Nordsetergrenda 3D
-            </p>
-            <p className="text-gray-600 dark:text-gray-400">1161 Oslo</p>
+            <p className="text-gray-600 dark:text-gray-400">Skogsrudveien 7</p>
+            <p className="text-gray-600 dark:text-gray-400">3083 Holmestrand</p>
             <p className="mt-4">
               <a
                 href="tel:+47 906 61 926"
