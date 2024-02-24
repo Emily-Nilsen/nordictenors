@@ -5,6 +5,7 @@ import clsx from 'clsx'
 import Highlight, { defaultProps } from 'prism-react-renderer'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/Button'
+import { Socials } from './Socials'
 import navigation from 'utils/navigation'
 
 export function Hero() {
@@ -20,9 +21,19 @@ export function Hero() {
           height={1570}
           unoptimized
           priority
-          className="mx-auto h-full object-cover object-center"
+          className="mx-auto hidden h-full object-cover object-center lg:block"
+        />
+        <Image
+          alt="Nordic Tenors"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/Hero_mobile_ggx5ld.webp"
+          width={2254}
+          height={1865}
+          unoptimized
+          priority
+          className="mx-auto h-full object-cover object-center lg:hidden"
         />
       </div>
+      <Socials />
 
       {/* <div className="inset-0 hidden bg-black/20 mix-blend-multiply lg:absolute lg:block" /> */}
       <div className="absolute inset-0 bg-gradient-to-tr from-black/70 mix-blend-multiply lg:absolute lg:block" />
@@ -35,7 +46,6 @@ export function Hero() {
               <div>
                 {/* lg:text-7xl */}
                 <p className="hidden font-logo lowercase tracking-normal text-amber-300 sm:block sm:text-5xl md:-mb-10 md:text-6xl lg:-mb-0 lg:text-7xl">
-                  {/* Animate each letter */}
                   {nordicTenors.map((letter, index) => (
                     <motion.span
                       key={index}
@@ -53,7 +63,7 @@ export function Hero() {
                 </p>
               </div>
               <div>
-                <p className="-mb-40 mt-40 font-logo text-3xl lowercase tracking-normal text-amber-300 sm:hidden">
+                <p className="-mb-40 mt-40 font-logo text-[2.3rem] lowercase tracking-normal text-amber-300 sm:hidden">
                   Nordic Tenors
                 </p>
               </div>

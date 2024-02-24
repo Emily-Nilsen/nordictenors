@@ -3,10 +3,10 @@ import navigation from 'utils/navigation'
 
 export function Socials() {
   return (
-    <div className="absolute inset-0 pt-3 lg:hidden">
+    <div className="absolute right-0 top-0 p-3 sm:pr-5 lg:hidden">
       {/* Social media icons */}
 
-      <div className="flex items-center justify-center space-x-7 sm:space-x-8 md:order-2">
+      <div className="flex items-center justify-center space-x-6 sm:space-x-7 md:order-2">
         {navigation.map((item, index) => (
           <Link
             key={item.name}
