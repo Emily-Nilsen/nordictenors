@@ -23,7 +23,7 @@ export function ContactInfo() {
           </div>
           <div>
             <h3 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
-              Adresseinformasjon
+              Adresse
             </h3>
             <p className="mt-2 leading-7 text-gray-600 dark:text-gray-400">
               Nordic Moments AS
