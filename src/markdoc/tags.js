@@ -26,6 +26,7 @@ import { Reviews } from '@/components/Reviews'
 import { CalendarText } from '@/components/CalendarText'
 import { HomepageText } from '@/components/HomepageText'
 import { getConcertYearWord } from '../../utils/getConcertYearWord'
+import { ContactInfo } from '@/components/ContactInfo'
 
 const tags = {
   callout: {
@@ -158,6 +159,10 @@ const tags = {
       title: { type: String },
       imageUrl: { type: String },
     },
+  },
+  'contact-info': {
+    selfClosing: true,
+    render: ContactInfo,
   },
   contact: {
     selfClosing: true,

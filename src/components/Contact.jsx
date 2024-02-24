@@ -8,8 +8,8 @@ function classNames(...classes) {
 
 export function Contact() {
   return (
-    <div className="isolate rounded-3xl bg-white px-6 pb-24 pt-6 shadow-md shadow-black/5 ring-1 ring-gray-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10 sm:pb-32 lg:px-8">
-      <div className="mx-auto max-w-2xl text-center">
+    <div className="isolate mt-10 rounded-3xl bg-white px-6 pb-24 pt-6 shadow-md shadow-black/5 ring-1 ring-gray-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10 sm:pb-32 lg:px-8">
+      {/* <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
           Nordic Tenors
         </h2>
@@ -17,7 +17,7 @@ export function Contact() {
           Har du spørsmål om Nordic Tenors sine planlagte konserter, spør oss
           gjerne ved å fylle ut skjemaet under.
         </p>
-      </div>
+      </div> */}
       <form
         action="#"
         name="Spørsmål til Nordic Tenors"
