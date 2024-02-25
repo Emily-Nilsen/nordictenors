@@ -90,7 +90,7 @@ export function ContactInfo() {
 
             <p className="mt-4">
               <Link
-                href="#konsertplan"
+                href="/#konsertplan"
                 className="text-sm font-semibold leading-6 text-sky-600 dark:text-amber-300"
               >
                 Konserter <span aria-hidden="true">&rarr;</span>
