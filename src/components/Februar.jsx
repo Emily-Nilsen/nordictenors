@@ -15,15 +15,15 @@ function TicketIcon(props) {
 }
 
 const concerts = [
-  {
-    id: 1,
-    name: 'Moss Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694981083/Julekonsert/Moss_Kulturhus_lnpkyw.webp',
-    date: '28. februar',
-    ticketLink: 'https://tix.no/nb/moss/buyingflow/tickets/24900/47473/',
-    pageUrl: '/konserter/moss-jubileum',
-  },
+  // {
+  //   id: 1,
+  //   name: 'Moss Kulturhus',
+  //   imageUrl:
+  //     'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694981083/Julekonsert/Moss_Kulturhus_lnpkyw.webp',
+  //   date: '28. februar',
+  //   ticketLink: 'https://tix.no/nb/moss/buyingflow/tickets/24900/47473/',
+  //   pageUrl: '/konserter/moss-jubileum',
+  // },
   {
     id: 2,
     name: 'Smia Flerbrukshus, Drøbak',

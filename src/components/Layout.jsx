@@ -48,10 +48,10 @@ export const navigation = [
       { title: 'Horten', href: '/konserter/horten-jubileum' },
 
       { title: 'Lillestrøm', href: '/konserter/lillestrom-jubileum' },
-      {
-        title: 'Moss',
-        href: '/konserter/moss-jubileum',
-      },
+      // {
+      //   title: 'Moss',
+      //   href: '/konserter/moss-jubileum',
+      // },
 
       { title: 'Sandvika', href: '/konserter/sandvika-jubileum' },
       {
