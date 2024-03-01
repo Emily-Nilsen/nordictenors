@@ -40,7 +40,7 @@ export const navigation = [
         title: 'Drammen',
         href: '/konserter/drammen-jubileum',
       },
-      { title: 'Drøbak', href: '/konserter/drobak-jubileum' },
+      // { title: 'Drøbak', href: '/konserter/drobak-jubileum' },
       { title: 'Flekkefjord', href: '/konserter/flekkefjord-jubileum' },
 
       { title: 'Haugesund', href: '/konserter/haugesund-jubileum' },

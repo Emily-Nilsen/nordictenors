@@ -12,10 +12,6 @@ description: Opplev konserter med Nordic Tenors. Finn datoer i kalenderen og kj√
 
 ## Jubileum
 
-### Februar 2024
-
-{% februar /%}
-
 ### Mars 2024
 
 {% mars /%}
