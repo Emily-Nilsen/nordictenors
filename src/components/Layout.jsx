@@ -45,7 +45,7 @@ export const navigation = [
 
       { title: 'Haugesund', href: '/konserter/haugesund-jubileum' },
 
-      { title: 'Horten', href: '/konserter/horten-jubileum' },
+      // { title: 'Horten', href: '/konserter/horten-jubileum' },
 
       { title: 'Lillestrøm', href: '/konserter/lillestrom-jubileum' },
       // {

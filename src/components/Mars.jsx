@@ -148,11 +148,23 @@ export function Mars() {
     event.stopPropagation()
   }
 
+  const currentDate = new Date()
+  const currentYear = currentDate.getFullYear()
+  const filteredConcerts = concerts.filter((concert) => {
+    const [day, month] = concert.date.split('. ')
+    // Assuming all concerts are in March and constructing the date accordingly.
+    const concertDate = new Date(
+      `${currentYear}-03-${day.padStart(2, '0')}T00:00:00`
+    )
+    const differenceInHours = (currentDate - concertDate) / (1000 * 60 * 60)
+    return differenceInHours <= 24
+  })
+
   return (
     <div className="w-full overflow-x-hidden rounded-xl ">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
-          {concerts.map((concert) => (
+          {filteredConcerts.map((concert) => (
             <li
               key={concert.id}
               className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-sky-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-sky-400/5 hover:bg-gray-50 dark:bg-sky-950/30 dark:focus-within:bg-gray-800/60 dark:hover:bg-gray-800/60 sm:pl-7"
