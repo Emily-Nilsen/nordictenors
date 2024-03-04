@@ -41,7 +41,7 @@ export const navigation = [
         href: '/konserter/drammen-jubileum',
       },
       // { title: 'Drøbak', href: '/konserter/drobak-jubileum' },
-      { title: 'Flekkefjord', href: '/konserter/flekkefjord-jubileum' },
+      // { title: 'Flekkefjord', href: '/konserter/flekkefjord-jubileum' },
 
       { title: 'Haugesund', href: '/konserter/haugesund-jubileum' },
 
@@ -58,10 +58,10 @@ export const navigation = [
         title: 'Sauda',
         href: '/konserter/sauda-jubileum',
       },
-      {
-        title: 'Stavanger',
-        href: '/konserter/stavanger-jubileum',
-      },
+      // {
+      //   title: 'Stavanger',
+      //   href: '/konserter/stavanger-jubileum',
+      // },
       { title: 'Valdres', href: '/konserter/valdres-jubileum' },
     ],
   },
