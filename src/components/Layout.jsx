@@ -34,7 +34,7 @@ export const navigation = [
 
       { title: 'Bergen', href: '/konserter/bergen-jubileum' },
 
-      { title: 'Bremnes', href: '/konserter/bremnes-jubileum' },
+      // { title: 'Bremnes', href: '/konserter/bremnes-jubileum' },
       // { title: 'Bryne', href: '/konserter/bryne-jubileum' },
       {
         title: 'Drammen',
