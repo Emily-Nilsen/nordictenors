@@ -35,7 +35,7 @@ export const navigation = [
       { title: 'Bergen', href: '/konserter/bergen-jubileum' },
 
       { title: 'Bremnes', href: '/konserter/bremnes-jubileum' },
-      { title: 'Bryne', href: '/konserter/bryne-jubileum' },
+      // { title: 'Bryne', href: '/konserter/bryne-jubileum' },
       {
         title: 'Drammen',
         href: '/konserter/drammen-jubileum',
@@ -43,7 +43,7 @@ export const navigation = [
       // { title: 'Drøbak', href: '/konserter/drobak-jubileum' },
       // { title: 'Flekkefjord', href: '/konserter/flekkefjord-jubileum' },
 
-      { title: 'Haugesund', href: '/konserter/haugesund-jubileum' },
+      // { title: 'Haugesund', href: '/konserter/haugesund-jubileum' },
 
       // { title: 'Horten', href: '/konserter/horten-jubileum' },
 
@@ -54,10 +54,10 @@ export const navigation = [
       // },
 
       { title: 'Sandvika', href: '/konserter/sandvika-jubileum' },
-      {
-        title: 'Sauda',
-        href: '/konserter/sauda-jubileum',
-      },
+      // {
+      //   title: 'Sauda',
+      //   href: '/konserter/sauda-jubileum',
+      // },
       // {
       //   title: 'Stavanger',
       //   href: '/konserter/stavanger-jubileum',
