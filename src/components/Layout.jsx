@@ -30,16 +30,16 @@ export const navigation = [
   {
     title: 'Nordic Tenors Jubileum 2024',
     links: [
-      { title: 'Askim', href: '/konserter/askim-jubileum' },
+      // { title: 'Askim', href: '/konserter/askim-jubileum' },
 
-      { title: 'Bergen', href: '/konserter/bergen-jubileum' },
+      // { title: 'Bergen', href: '/konserter/bergen-jubileum' },
 
       // { title: 'Bremnes', href: '/konserter/bremnes-jubileum' },
       // { title: 'Bryne', href: '/konserter/bryne-jubileum' },
-      {
-        title: 'Drammen',
-        href: '/konserter/drammen-jubileum',
-      },
+      // {
+      //   title: 'Drammen',
+      //   href: '/konserter/drammen-jubileum',
+      // },
       // { title: 'Drøbak', href: '/konserter/drobak-jubileum' },
       // { title: 'Flekkefjord', href: '/konserter/flekkefjord-jubileum' },
 
