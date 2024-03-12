@@ -27,7 +27,7 @@ const concerts = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704980301/Julekonsert/B%C3%A6rum_kulturhus_oriunn.webp',
     date: '2. desember',
-    ticketLink: '',
+    ticketLink: 'https://www.baerumkulturhus.no/arrangement/nordic-tenors2/',
     pageUrl: '/konserter/sandvika-julekonsert',
   },
   {
