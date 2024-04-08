@@ -108,6 +108,7 @@ export const navigation = [
       { title: 'Trondheim', href: '/konserter/trondheim-julekonsert' },
 
       { title: 'Ullensaker', href: '/konserter/ullensaker-julekonsert' },
+      { title: 'Voss', href: '/konserter/voss-julekonsert' },
     ],
   },
 ]

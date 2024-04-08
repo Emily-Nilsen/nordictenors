@@ -45,6 +45,16 @@ const concerts = [
     pageUrl: '/konserter/lillestrom-julekonsert',
   },
   {
+    id: 6,
+    name: 'Voss Kino',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Voss_Kulturhus_thumbnail_xp37cz.webp',
+    date: '26. november',
+    ticketLink:
+      'https://checkout.ebillett.no/149/events/82831/purchase/setup?kanal=dxf',
+    pageUrl: '/konserter/voss-julekonsert',
+  },
+  {
     id: 4,
     name: 'Ullensaker Kulturhus',
     imageUrl:
