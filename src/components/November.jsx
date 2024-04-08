@@ -46,7 +46,7 @@ const concerts = [
   },
   {
     id: 6,
-    name: 'Voss Kino',
+    name: 'Voss Kulturhus',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Voss_Kulturhus_thumbnail_xp37cz.webp',
     date: '26. november',

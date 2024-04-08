@@ -1,14 +1,14 @@
 ---
 title: Voss
-description: Christmas with Nordic Tenors | Voss Kino
-schemaName: Christmas with Nordic Tenors 2024 | Voss Kino
-schemaDescription: Julekonsert med Nordic Tenors i Voss Kino
+description: Christmas with Nordic Tenors | Voss Kulturhus
+schemaName: Christmas with Nordic Tenors 2024 | Voss Kulturhus
+schemaDescription: Julekonsert med Nordic Tenors i Voss Kulturhus
 date: 2024-11-26T18:00:00.000Z
 duration: 80
-locationName: Voss Kino
+locationName: Voss Kulturhus
 locationAddress: Evangervegen 6, 5704 Vossevangen, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Julekonsert/Voss_ldic4t.webp
+image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Julekonsert/Voss_Kulturhus_dcga6t.webp
 url: https://nordictenors.com/konserter/voss-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/149/events/82831/purchase/setup?kanal=dxf
@@ -25,17 +25,17 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 {% billetter concert="" outlet="Voss Kulturhus" ticketUrl="https://checkout.ebillett.no/149/events/82831/purchase/setup?kanal=dxf" /%}
 
-## Voss Kino
+## Voss Kulturhus
 
-{% concert-introduction location="Voss Kino" day="tirsdag" date="26" month="november" /%}
+{% concert-introduction location="Voss Kulturhus" day="tirsdag" date="26" month="november" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Voss_Kulturhus_txxubr.webp" title="Voss Kino" /%}
+{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/concert%20halls/Voss_Kulturhus_txxubr.webp" title="Voss Kulturhus" /%}
 {% /categories %}
 
 ### Konsertdetaljer
 
-{% concert-details concert="Voss Kino" date="26" month="november" day="tirsdag" time="18:00 – 19:20" location="Voss Kino, Kultursal" /%}
+{% concert-details concert="Voss Kulturhus" date="26" month="november" day="tirsdag" time="18:00 – 19:20" location="Voss Kino, Kultursal" /%}
 
 ### Adresse
 
