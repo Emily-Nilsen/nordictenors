@@ -2,7 +2,7 @@
   "@context": "http://schema.org",
   "@type": "MusicEvent",
   "name": "Christmas with Nordic Tenors 2023",
-  "url": "https://nordictenors.com",
+  "url": "https://nordictenors.no",
   "description": "Join us for a series of festive Christmas concerts with Nordic Tenors.",
   "startDate": "2023-12-11T18:00:00+02:00",
   "endDate": "2023-12-11T19:20:00+02:00",
@@ -10,15 +10,15 @@
     "@type": "Place",
     "name": "Parken Kulturhus, Ålesund"
   },
-  "image": "https://example.com/concert-image.jpg",
+  "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/nordic_tenors_vswjkl.webp",
   "performer": {
     "@type": "PerformingGroup",
     "name": "Nordic Tenors"
   },
   "organizer": {
     "@type": "Organization",
-    "name": "Your Organization Name",
-    "url": "https://example.com"
+    "name": "Nordic Moments AS",
+    "url": "https://nordictenors.no"
   },
   "subEvent": [
     {

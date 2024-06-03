@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
    <url>
-     <loc>https://nordictenors.com/</loc>
+     <loc>https://nordictenors.no/</loc>
      <video:video>
        <video:thumbnail_loc>https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/O_Helga_Natt_poster_v2_cur6z8.webp</video:thumbnail_loc>
        <video:title>O Helga Natt</video:title>

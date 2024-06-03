@@ -9,7 +9,7 @@ locationName: Kilden, Kristiansand
 locationAddress: Sjølystveien 2, 4610 Kristiansand, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_kilden_kristiansand_mgrmx0.webp
-url: https://nordictenors.com/konserter/kristiansand-julekonsert
+url: https://nordictenors.no/konserter/kristiansand-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://kilden.com/forestilling/christmas-with-nordic-tenors-5/
 ticketPrice: 595 # Replace with the actual price

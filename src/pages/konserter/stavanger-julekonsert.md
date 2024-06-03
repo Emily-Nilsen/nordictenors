@@ -9,7 +9,7 @@ locationName: Stavanger Konserthus
 locationAddress: Sandvigå 1, 4007 Stavanger, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_stavanger_konserthus_bpphya.webp
-url: https://nordictenors.com/konserter/stavanger-julekonsert
+url: https://nordictenors.no/konserter/stavanger-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/
 ticketPrice: 590 # Replace with the actual price

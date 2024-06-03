@@ -9,7 +9,7 @@ locationName: Fosnavåg Konserthus
 locationAddress: Gerhard Voldnes veg 7, 6090 Fosnavåg, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_fosnava%CC%8Ag_konserthus_j75min.webp
-url: https://nordictenors.com/docs/fosnavag
+url: https://nordictenors.no/docs/fosnavag
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/139/events/18750/purchase/setup?kanal=dxf
 ticketPrice: 550 # Replace with the actual price

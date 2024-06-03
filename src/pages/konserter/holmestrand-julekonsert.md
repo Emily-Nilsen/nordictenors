@@ -9,7 +9,7 @@ locationName: Biorama, Holmestrand
 locationAddress: Rådhusgaten 11, 3080 Holmestrand, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Holmestrand_OG_ke0zku.webp
-url: https://nordictenors.com/konserter/holmestrand-julekonsert
+url: https://nordictenors.no/konserter/holmestrand-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024
 ticketPrice: 595 # Replace with the actual price

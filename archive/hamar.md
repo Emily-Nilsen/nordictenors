@@ -9,7 +9,7 @@ locationName: Hamar Kulturhus
 locationAddress: Torggata 100, 2317 Hamar, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_hamar_konserthus_vqohxr.webp
-url: https://nordictenors.com/docs/hamar
+url: https://nordictenors.no/docs/hamar
 organizer: Nordic Moments AS
 ticketUrl: https://www.hamar-kulturhus.no/november/christmas-with-nordic-tenors-article4692-425.html
 ticketPrice: 575 # Replace with the actual price

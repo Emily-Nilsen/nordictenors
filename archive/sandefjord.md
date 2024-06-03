@@ -9,7 +9,7 @@ locationName: Hjertnes Kulturhus, Sandefjord
 locationAddress: Sandefjordsveien 3, 3202 Sandefjord, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Hjertnes_Kulturhus_Sandefjord_utlesb.webp
-url: https://nordictenors.com/docs/sandefjord
+url: https://nordictenors.no/docs/sandefjord
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/262/events/108247/purchase/setup
 ticketPrice: 566 # Replace with the actual price

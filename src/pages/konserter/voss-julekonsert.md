@@ -9,7 +9,7 @@ locationName: Voss Kulturhus
 locationAddress: Evangervegen 6, 5704 Vossevangen, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Julekonsert/Voss_Kulturhus_dcga6t.webp
-url: https://nordictenors.com/konserter/voss-julekonsert
+url: https://nordictenors.no/konserter/voss-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/149/events/82831/purchase/setup?kanal=dxf
 ticketPrice: 515 # Replace with the actual price

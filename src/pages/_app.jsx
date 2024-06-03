@@ -90,14 +90,14 @@ export default function App({ Component, pageProps }) {
           organizer: {
             '@type': 'Organization',
             name: 'Nordic Moments AS',
-            url: 'https://www.nordictenors.com/',
+            url: 'https://www.nordictenors.no/',
           },
           offers: {
             // Modified to be dynamic
             '@type': 'Offer',
             url:
               pageProps.markdoc?.frontmatter.ticketUrl ||
-              'https://nordictenors.com', // Replace Default_URL with a fallback
+              'https://nordictenors.no', // Replace Default_URL with a fallback
             price: pageProps.markdoc?.frontmatter.ticketPrice || '575', // Replace Default_Price with a fallback
             priceCurrency: 'NOK',
             availability: 'http://schema.org/InStock',
@@ -120,7 +120,7 @@ export default function App({ Component, pageProps }) {
         />
         <link
           rel="canonical"
-          href={`https://nordictenors.com${pathname}`}
+          href={`https://nordictenors.no${pathname}`}
           key="canonical"
         />
         <meta property="og:title" content="Konserter – Nordic Tenors" />

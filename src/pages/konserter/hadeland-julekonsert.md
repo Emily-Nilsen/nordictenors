@@ -9,7 +9,7 @@ locationName: Hadeland Kultursal, Gran
 locationAddress: Skolelia 3, 2750 Gran, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Hadeland_OG_qfcw1v.webp
-url: https://nordictenors.com/konserter/hadeland-julekonsert
+url: https://nordictenors.no/konserter/hadeland-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://www.kulturhadeland.no/christmas-with-nordic-tenors-2024-xd5i6y4/
 ticketPrice: 595 # Replace with the actual price

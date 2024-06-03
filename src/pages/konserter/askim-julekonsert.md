@@ -9,7 +9,7 @@ locationName: Askim Kulturhus
 locationAddress: P.M. Røwdes gate 6, 1811 Askim, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Askim_Kulturhus_o4da6t.webp
-url: https://nordictenors.com/konserter/askim-julekonsert
+url: https://nordictenors.no/konserter/askim-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/askim/buyingflow/tickets/25588/
 ticketPrice: 590 # Replace with the actual price

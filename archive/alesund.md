@@ -9,7 +9,7 @@ locationName: Parken Kulturhus, Ålesund
 locationAddress: Parkgata 3B, 6003 Ålesund, Norway
 performer: Nordic Tenors
 image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_parken_kulturehus_a%CC%8Alesund_t69rqc.webp
-url: https://nordictenors.com/docs/alesund
+url: https://nordictenors.no/docs/alesund
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/217/events/54973/purchase/setup
 ticketPrice: 575 # Replace with the actual price
