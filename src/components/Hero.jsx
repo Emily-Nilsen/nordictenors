@@ -21,7 +21,7 @@ export function Hero() {
           height={1570}
           unoptimized
           priority
-          className="mx-auto hidden h-full object-cover object-center lg:block"
+          className="hidden object-cover object-center h-full mx-auto lg:block"
         />
         <Image
           alt="Nordic Tenors"
@@ -30,7 +30,7 @@ export function Hero() {
           height={1865}
           unoptimized
           priority
-          className="mx-auto h-full object-cover object-center lg:hidden"
+          className="object-cover object-center h-full mx-auto lg:hidden"
         />
       </div>
       <Socials />
@@ -39,13 +39,13 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-tr from-black/70 mix-blend-multiply lg:absolute lg:block" />
 
       <div className="py-16 sm:px-2 md:mb-10 lg:relative lg:mb-0 lg:px-0 lg:pb-0 lg:pt-20">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:max-w-8xl lg:grid-cols-3 lg:px-8 xl:gap-x-16 xl:px-12">
+        <div className="grid items-center max-w-2xl grid-cols-1 px-4 mx-auto gap-x-8 gap-y-16 lg:max-w-8xl lg:grid-cols-3 lg:px-8 xl:gap-x-16 xl:px-12">
           {/* Hero title and description (buttons separate) on large screen */}
           <div className="relative z-10 text-center sm:mt-72 lg:col-span-3 lg:text-left xl:col-span-2">
             <div className="relative">
               <div>
                 {/* lg:text-7xl */}
-                <p className="hidden font-logo lowercase tracking-normal text-amber-300 sm:block sm:text-5xl md:-mb-10 md:text-6xl lg:-mb-0 lg:text-7xl">
+                <p className="hidden tracking-normal lowercase font-logo text-amber-300 sm:block sm:text-5xl md:-mb-10 md:text-6xl lg:-mb-0 lg:text-7xl">
                   {nordicTenors.map((letter, index) => (
                     <motion.span
                       key={index}
@@ -80,16 +80,16 @@ export function Hero() {
                   ))}
                 </p>
               </div>
-              <p className="mt-3 hidden max-w-xl text-xl tracking-tight text-white lg:block">
+              <p className="hidden max-w-xl mt-3 text-xl tracking-tight text-white lg:block">
                 Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med et vidt
                 genrespekter, humor og musikalske overraskelser.
               </p>
               <div className="h-12 sm:hidden" />
               {/* Buttons */}
-              <div className="-mb-24 mt-32 flex justify-center gap-8 sm:-mb-20 sm:mt-20 sm:gap-10 lg:hidden lg:justify-start">
-                <Button className="relative z-20" href="/#konsertplan">
+              <div className="flex justify-center gap-8 mt-32 -mb-24 sm:-mb-20 sm:mt-20 sm:gap-10 lg:hidden lg:justify-start">
+                {/* <Button className="relative z-20" href="/#konsertplan">
                   Jubileum
-                </Button>
+                </Button> */}
                 <Button
                   className="relative z-20"
                   href="/#julekonsertstart"
@@ -101,7 +101,7 @@ export function Hero() {
             </div>
           </div>
           {/* Buttons and socials on large screen */}
-          <div className="col-span-3 hidden items-center justify-between lg:flex">
+          <div className="items-center justify-between hidden col-span-3 lg:flex">
             {/* Buttons */}
             <div className="flex justify-center gap-8 sm:gap-10 lg:-mb-0 lg:mt-0 lg:justify-start">
               <Button className="relative z-20" href="/#konsertplan">
