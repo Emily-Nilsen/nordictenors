@@ -104,15 +104,15 @@ export function Hero() {
           <div className="col-span-3 hidden items-center justify-between lg:flex">
             {/* Buttons */}
             <div className="flex justify-center gap-8 sm:gap-10 lg:-mb-0 lg:mt-0 lg:justify-start">
-              <Button className="relative z-20" href="/#konsertplan">
-                Jubileum
+              <Button className="relative z-20" href="/#julekonsertstart">
+                Julekonserter
               </Button>
               <Button
                 className="relative z-20"
-                href="/#julekonsertstart"
+                href="/konserter/kontakt"
                 variant="secondary"
               >
-                Julekonserter
+                Kontakt oss
               </Button>
             </div>
             {/* Social media icons */}
