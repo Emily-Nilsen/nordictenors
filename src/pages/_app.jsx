@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
 import { useRouter } from 'next/router'
 import { Layout } from '@/components/Layout'
+import OGImage from '../images/OG_image_2024.webp'
 
 import 'focus-visible'
 import '@/styles/tailwind.css'
@@ -128,10 +129,7 @@ export default function App({ Component, pageProps }) {
           property="og:description"
           content="Velkommen skal du være til konsert med Nordic Tenors!"
         />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/OG%20images/Jubileum/Nordic_Tenors_d8ucgs.webp"
-        />
+        <meta property="og:image" content={OGImage} />
         {schema && (
           <script
             type="application/ld+json"
