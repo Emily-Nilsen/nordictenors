@@ -129,7 +129,7 @@ export default function App({ Component, pageProps }) {
           property="og:description"
           content="Velkommen skal du være til konsert med Nordic Tenors!"
         />
-        <meta property="og:image" content={OGImage} />
+        <meta property="og:image" content="public/OG_image_2024.webp" />
         {schema && (
           <script
             type="application/ld+json"
