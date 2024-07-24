@@ -55,6 +55,14 @@ const concerts = [
     pageUrl: '/konserter/voss-julekonsert',
   },
   {
+    id: 7,
+    name: 'Oseana Kulturhus, Os',
+    imageUrl: '/thumbnails/Oseana.webp',
+    date: '27. november',
+    ticketLink: 'https://www.oseana.no/event/christmas-with-nordic-tenors/',
+    pageUrl: '/konserter/os-julekonsert',
+  },
+  {
     id: 4,
     name: 'Ullensaker Kulturhus',
     imageUrl:

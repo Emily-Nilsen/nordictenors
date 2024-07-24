@@ -94,6 +94,7 @@ export const navigation = [
         href: '/konserter/moss-julekonsert',
       },
       { title: 'Nøtterøy', href: '/konserter/notteroy-julekonsert' },
+      { title: 'Os', href: '/konserter/os-julekonsert' },
       { title: 'Oslo', href: '/konserter/oslo-julekonsert' },
       {
         title: 'Sandnes',
