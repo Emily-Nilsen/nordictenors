@@ -107,7 +107,7 @@ export const navigation = [
       { title: 'Stjørdal', href: '/konserter/stjordal-julekonsert' },
       { title: 'Tromsø', href: '/konserter/tromso-julekonsert' },
       { title: 'Trondheim', href: '/konserter/trondheim-julekonsert' },
-
+      { title: 'Tørvikbygd', href: '/konserter/torvikbygd-julekonsert' },
       { title: 'Ullensaker', href: '/konserter/ullensaker-julekonsert' },
       { title: 'Voss', href: '/konserter/voss-julekonsert' },
     ],

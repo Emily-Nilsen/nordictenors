@@ -63,6 +63,15 @@ const concerts = [
     pageUrl: '/konserter/os-julekonsert',
   },
   {
+    id: 8,
+    name: 'Berge Gard & Gartneri',
+    imageUrl: '/thumbnails/Berge_Gard_og_Gartneri.webp',
+    date: '28. november',
+    ticketLink:
+      'https://web.facebook.com/BergeGardGartneri?mibextid=LQQJ4d&rdid=r0UwiTTUxIHNJvMi&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2FdYTxW4eCGKYFPrd9%2F%3Fmibextid%3DLQQJ4d%26_rdc%3D1%26_rdr',
+    pageUrl: '/konserter/torvikbygd-julekonsert',
+  },
+  {
     id: 4,
     name: 'Ullensaker Kulturhus',
     imageUrl:
