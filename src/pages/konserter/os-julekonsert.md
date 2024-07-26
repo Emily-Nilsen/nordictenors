@@ -9,7 +9,7 @@ locationName: Oseana Kunst & Kultursenter, Os
 locationAddress: Oseana Kunst- og Kultursenter, Mobergsbakken 20, 5200 Os, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors.webp
-url: https://nordictenors.no/konserter/oseana-julekonsert
+url: https://nordictenors.no/konserter/os-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://www.oseana.no/event/christmas-with-nordic-tenors/
 ticketPrice: 595 # Replace with the actual price
