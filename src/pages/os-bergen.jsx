@@ -4,31 +4,31 @@ import Link from 'next/link'
 const posts = [
   {
     id: 1,
-    title: 'Sandnes Kulturhus',
-    imageUrl: '/stages/Sandnes.webp',
-    date: 'Lørdag 14. des kl. 18:00',
-    datetime: '2024-12-14',
+    title: 'Oseana Kunst & Kultursenter, Os',
+    imageUrl: '/halls/Oseana.webp',
+    date: 'onsdag 27. nov kl. 19:00',
+    datetime: '2024-11-27',
     category: {
       title: 'Billetter',
-      href: 'https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/',
+      href: 'https://www.oseana.no/event/christmas-with-nordic-tenors/',
     },
-    pageUrl: '/konserter/sandnes-julekonsert',
+    pageUrl: '/konserter/os-julekonsert',
   },
   {
     id: 2,
-    title: 'Stavanger Konserthus',
-    imageUrl: '/stages/Stavanger.webp',
-    date: 'Søndag 15. des kl. 18:00',
-    datetime: '2024-12-14',
+    title: 'Grieghallen, Bergen',
+    imageUrl: '/images/Bergen.jpeg',
+    date: 'tirsdag 17. des kl. 18:00',
+    datetime: '2024-12-17',
     category: {
       title: 'Billetter',
-      href: 'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/',
+      href: 'https://www.ticketmaster.no/event/731181',
     },
-    pageUrl: '/konserter/stavanger-julekonsert',
+    pageUrl: '/konserter/bergen-julekonsert',
   },
 ]
 
-export default function SandnesStavanger() {
+export default function OsBergen() {
   return (
     <div className="bg-t relative py-24 sm:py-32">
       <div className="absolute left-0 top-0 h-96 w-full overflow-hidden">
