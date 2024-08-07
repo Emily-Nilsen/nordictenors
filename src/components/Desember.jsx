@@ -65,7 +65,7 @@ const concerts = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704984754/Julekonsert/Asker_kulturhus_l7xhoo.webp',
     date: '6. desember',
     ticketLink:
-      'https://tix.no/nb/bolgen/buyingflow/tickets/25744/?_ga=2.161043901.1051657898.1702914858-1165690517.1702914857&_gac=1.253871610.1702914858.CjwKCAiA-P-rBhBEEiwAQEXhH_WmJIGxwI7O6og-vDAp_WW5t7UB2nhQ5O9LhbCKNXotQGFB8cNqHBoCURAQAvD_BwE&_gl=1*1bnmxif*_ga*MTE2NTY5MDUxNy4xNzAyOTE0ODU3*_ga_R2NHV9NW52*MTcwMjkxNDg1Ny4xLjEuMTcwMjkxNDg4Ny4zMC4wLjA.',
+      'https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/',
     pageUrl: '/konserter/asker-julekonsert',
   },
   {
