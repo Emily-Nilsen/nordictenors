@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors.webp
 url: https://nordictenors.no/konserter/torvikbygd-julekonsert
 organizer: Nordic Moments AS
-ticketUrl: https://web.facebook.com/BergeGardGartneri?mibextid=LQQJ4d&rdid=r0UwiTTUxIHNJvMi&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2FdYTxW4eCGKYFPrd9%2F%3Fmibextid%3DLQQJ4d%26_rdc%3D1%26_rdr
+ticketUrl: https://berge.ticketco.events/no/nb/e/nordic_tenors
 ticketPrice: 595 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="28" month="november" time="(tid bekreftes)" ticketUrl="https://web.facebook.com/BergeGardGartneri?mibextid=LQQJ4d&rdid=r0UwiTTUxIHNJvMi&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2FdYTxW4eCGKYFPrd9%2F%3Fmibextid%3DLQQJ4d%26_rdc%3D1%26_rdr" /%}
+{% concert-header day="torsdag" date="28" month="november" time="(tid bekreftes)" ticketUrl="https://berge.ticketco.events/no/nb/e/nordic_tenors" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Berge Gard & Gartneri" ticketUrl="https://web.facebook.com/BergeGardGartneri?mibextid=LQQJ4d&rdid=r0UwiTTUxIHNJvMi&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2FdYTxW4eCGKYFPrd9%2F%3Fmibextid%3DLQQJ4d%26_rdc%3D1%26_rdr" /%}
+{% billetter concert="" outlet="Berge Gard & Gartneri" ticketUrl="https://berge.ticketco.events/no/nb/e/nordic_tenors" /%}
 
 ## Berge Gard & Gartneri
 
