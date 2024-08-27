@@ -43,18 +43,27 @@ export function Hero() {
       <div className="py-16 sm:px-2 md:mb-10 lg:relative lg:mb-0 lg:px-0 lg:pb-0 lg:pt-20">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:max-w-8xl lg:grid-cols-3 lg:px-8 xl:gap-x-16 xl:px-12">
           {/* Hero title and description (buttons separate) on large screen */}
-          <div className="relative z-10 text-center sm:mt-72 lg:col-span-3 lg:text-left xl:col-span-2">
+          <div className="relative z-10 text-center lg:col-span-3 lg:text-left xl:col-span-2">
             <div className="relative">
               {/* New logo */}
               <Image
                 alt="Nordic Tenors"
                 src="/logos/Nordic_Tenors_1_linje_gull.webp"
-                width={2362}
-                height={1329}
+                width={2500}
+                height={330}
                 unoptimized
                 priority
-                className="-ml-2 hidden h-full object-cover object-top pt-10 lg:block"
+                className="-mb-16 -ml-2 mt-44 h-full object-cover object-top pt-10 sm:mb-0 sm:mt-80 lg:block "
               />
+              {/* <Image
+                alt="Nordic Tenors"
+                src="/logos/Nordic_Tenors_2_linjer_gull.webp"
+                width={1500}
+                height={670}
+                unoptimized
+                priority
+                className="object-cover object-top h-full pt-10 -ml-2 sm:hidden"
+              /> */}
               {/* lg:text-7xl Animated text */}
               {/* <div>
                 <p className="hidden tracking-normal lowercase font-logo text-amber-300 sm:block sm:text-5xl md:-mb-10 md:text-6xl lg:-mb-0 lg:text-7xl">
