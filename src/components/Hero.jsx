@@ -53,7 +53,7 @@ export function Hero() {
                 height={330}
                 unoptimized
                 priority
-                className="-mb-16 -ml-2 mt-44 h-full object-cover object-top pt-10 sm:mb-0 sm:mt-80 lg:block "
+                className="-mb-16 mt-44 h-full object-cover object-top pt-10 sm:mb-0 sm:mt-80 lg:-ml-2 lg:block"
               />
               {/* <Image
                 alt="Nordic Tenors"
