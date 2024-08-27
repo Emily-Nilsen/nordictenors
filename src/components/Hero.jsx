@@ -144,7 +144,7 @@ export function Hero() {
                   href={item.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white transition-colors duration-200 ease-in-out hover:text-amber-300"
+                  className="text-white transition-colors duration-200 ease-in-out hover:text-gold-500"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon

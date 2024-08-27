@@ -158,10 +158,10 @@ function Header({ navigation }) {
           className="group"
           // aria-label="Spotify"
         >
-          <p className="cursor-pointer font-display font-semibold text-sky-800 hover:text-red-700 dark:text-amber-300 dark:hover:text-white">
+          <p className="cursor-pointer font-display font-semibold text-sky-800 hover:text-red-700 dark:text-gold-500 dark:hover:text-white">
             EN
           </p>
-          {/* <SpotifyIcon className="w-6 h-6 transition-all duration-150 ease-in-out fill-red-800 group-hover:fill-red-900 dark:fill-white dark:group-hover:fill-amber-300" /> */}
+          {/* <SpotifyIcon className="w-6 h-6 transition-all duration-150 ease-in-out fill-red-800 group-hover:fill-red-900 dark:fill-white dark:group-hover:fill-gold-500" /> */}
         </div>
       </div>
     </header>
@@ -264,7 +264,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
                   <p
                     className={clsx(
                       'text-base font-semibold',
-                      'text-sky-800 dark:text-amber-300',
+                      'text-sky-800 dark:text-gold-500',
                       includesNordicTenors && 'font-logo lowercase' // Apply conditional class here
                     )}
                   >
@@ -332,7 +332,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
                           href={`#${section.id}`}
                           className={clsx(
                             isActive(section)
-                              ? 'text-sky-800 dark:text-amber-300'
+                              ? 'text-sky-800 dark:text-gold-500'
                               : 'font-normal text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'
                           )}
                         >
@@ -350,7 +350,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
                                 href={`#${subSection.id}`}
                                 className={
                                   isActive(subSection)
-                                    ? 'text-sky-800 dark:text-amber-300'
+                                    ? 'text-sky-800 dark:text-gold-500'
                                     : 'hover:text-gray-600 dark:hover:text-gray-300'
                                 }
                               >

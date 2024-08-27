@@ -31,7 +31,7 @@ export function Navigation({ navigation, className }) {
                     className={clsx(
                       'block w-full pl-3.5 text-sm before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full',
                       link.href === router.pathname
-                        ? 'font-semibold text-sky-800 before:bg-sky-800 dark:text-amber-300 before:dark:bg-amber-300'
+                        ? 'font-semibold text-sky-800 before:bg-sky-800 dark:text-gold-500 before:dark:bg-gold-500'
                         : 'text-sm text-gray-500 before:hidden before:bg-gray-300 hover:text-gray-600 hover:before:block dark:text-gray-400 dark:before:bg-gray-700 dark:hover:text-gray-300'
                     )}
                   >

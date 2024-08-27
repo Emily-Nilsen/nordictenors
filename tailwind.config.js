@@ -31,8 +31,9 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
       colors: {
-        red: {
-          600: '#DC2626', // Customize this color as needed
+        gold: {
+          600: '#d0a846',
+          500: '#d8b24f',
         },
       },
       fontFamily: {
