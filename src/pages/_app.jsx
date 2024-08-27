@@ -115,10 +115,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>{pageTitle}</title>
         {description && <meta name="description" content={description} />}
-        <link
-          rel="icon"
-          href="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/favicon_temp_di6jgv.webp"
-        />
+        <link rel="icon" href="/favicon.webp" />
         <link
           rel="canonical"
           href={`https://nordictenors.no${pathname}`}
