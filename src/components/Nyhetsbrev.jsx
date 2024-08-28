@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Nyhetsbrev() {
   return (
-    <div className="rounded-xl bg-white/5">
+    <div className="rounded-xl bg-slate-50 dark:bg-white/5">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:flex lg:items-center lg:justify-between lg:px-8">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
           Ønsker du å motta Nordic Tenors' nyhetsbrev?
