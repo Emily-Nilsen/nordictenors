@@ -6,6 +6,8 @@ description: Nordic Tenors er kjent for unik stemmeprakt, varme, humor, og bland
 
 Nordic Tenors er kjent for unik stemmeprakt, varme, humor, og blanding av tradisjonelt og nyskapende repertoar. Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak tilbyr en harmonisk blanding av kunst og underholdning. {% .lead %}
 
+{% nyhetsbrev /%}
+
 ## Utmerkede tenorer
 
 Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med humor, dans og musikalske overraskelser, og har vært en fremtredende del av den skandinaviske musikkscenen siden 2005. Med premieren på deres første show "Nordic Tenors & Sjur Hjeltnes/Bella Notte", markerte de starten på en bemerkelsesverdig karriere.

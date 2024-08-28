@@ -11,6 +11,7 @@ import { November } from '@/components/November'
 import { Desember } from '@/components/Desember'
 import CurrentYear from '@/components/CurrentYear'
 import { Contact } from '@/components/Contact'
+import { Nyhetsbrev } from '@/components/Nyhetsbrev'
 import { AudioSample } from '@/components/AudioSample'
 import { GoBackButton } from '@/components/GoBackButton'
 import { Socials } from '@/components/Socials'
@@ -167,6 +168,10 @@ const tags = {
   contact: {
     selfClosing: true,
     render: Contact,
+  },
+  nyhetsbrev: {
+    selfClosing: true,
+    render: Nyhetsbrev,
   },
   reviews: {
     selfClosing: true,
