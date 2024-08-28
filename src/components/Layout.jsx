@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 // import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 import clsx from 'clsx'
 
@@ -142,8 +143,22 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Hjemmeside">
-          <Logomark className="h-7 w-auto fill-sky-900 dark:fill-white lg:hidden" />
-          <Logo className="hidden h-2.5 w-auto fill-sky-900 dark:fill-white md:h-3 lg:block" />
+          <Image
+            src="/logos/Nordic_Tenors_2_linjer_sølv.webp"
+            alt="Nordic Tenors logo"
+            width={200}
+            height={200}
+            className="h-7 w-auto lg:hidden"
+          />
+          {/* <Logomark className="w-auto h-7 fill-sky-900 dark:fill-white lg:hidden" /> */}
+          <Image
+            src="/logos/Nordic_Tenors_1_linje_sølv.webp"
+            alt="Nordic Tenors logo"
+            width={200}
+            height={200}
+            className="hidden lg:block"
+          />
+          {/* <Logo className="hidden h-2.5 w-auto fill-sky-900 dark:fill-white md:h-3 lg:block" /> */}
         </Link>
       </div>
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">

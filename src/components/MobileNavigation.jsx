@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { Dialog } from '@headlessui/react'
 
@@ -82,7 +83,14 @@ export function MobileNavigation({ navigation }) {
               <CloseIcon className="h-6 w-6 stroke-gray-500" />
             </button>
             <Link href="/" className="ml-6" aria-label="Home page">
-              <Logomark className="h-6 w-auto fill-sky-800 dark:fill-amber-400" />
+              <Image
+                src="/logos/Nordic_Tenors_2_linjer_gull.webp"
+                alt="Nordic Tenors logo"
+                width={200}
+                height={200}
+                className="h-7 w-auto"
+              />
+              {/* <Logomark className="w-auto h-6 fill-sky-800 dark:fill-amber-400" /> */}
             </Link>
           </div>
           <Navigation navigation={navigation} className="mt-10 px-1" />
