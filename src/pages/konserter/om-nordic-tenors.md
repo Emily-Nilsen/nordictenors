@@ -72,11 +72,9 @@ For {% concert-year /%} året skaper tenortrioen en førjulsstund fylt med varme
 
 Forestillingen er ikke bare en fryd for øret, men også for øyet, da de har med seg Andreas Ohldieck, en av de gryende stjernene på den stadig voksende himmelen av norske videokunstnere.
 
-{% videos %}
+{% spotify-player /%}
 
-{% video title="O Helga Natt" href="https://res.cloudinary.com/dt3k2apqd/video/upload/v1695973774/Julekonsert/Complete_-_Topaz_HD_25fps_weemri.mp4" posterImg="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/O_Helga_Natt_poster_v2_cur6z8.webp" description="Her er en smakebit på hva du kan se frem til på årets julekonsert." /%}
-
-{% /videos %}
+Her er en smakebit på hva du kan se frem til på årets julekonsert.
 
 ---
 

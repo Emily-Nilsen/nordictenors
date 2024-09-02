@@ -24,6 +24,7 @@ import { ConcertIntroduction } from '@/components/ConcertIntroduction'
 import { JubileumIntroduction } from '@/components/JubileumIntroduction'
 import { ExternalLink } from '@/components/ExternalLink'
 import { Reviews } from '@/components/Reviews'
+import { SpotifyPlayer } from '@/components/SpotifyPlayer'
 import { CalendarText } from '@/components/CalendarText'
 import { HomepageText } from '@/components/HomepageText'
 import { getConcertYearWord } from '../../utils/getConcertYearWord'
@@ -176,6 +177,10 @@ const tags = {
   reviews: {
     selfClosing: true,
     render: Reviews,
+  },
+  'spotify-player': {
+    selfClosing: true,
+    render: SpotifyPlayer,
   },
   videos: {
     render: Videos,
