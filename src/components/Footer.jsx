@@ -29,21 +29,7 @@ export function Footer() {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-sm leading-5 text-white">
-            &copy; {new Date().getFullYear()} Nordic Tenors.
-          </p>
-        </div>
-        <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-sm leading-5 text-white">
-            Utviklet av{' '}
-            <Link
-              href="https://norsknett.no"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer transition-all duration-200 ease-in hover:underline"
-            >
-              Norsk Nett
-            </Link>
-            .
+            &copy; {new Date().getFullYear()} Nordic Tenors
           </p>
         </div>
       </div>
