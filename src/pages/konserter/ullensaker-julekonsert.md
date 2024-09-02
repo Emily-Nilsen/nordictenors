@@ -17,7 +17,7 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="29" month="november" time="18:00 og 20:00 (utsolgt)" ticketUrl="https://www.ticketmaster.no/event/731653?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.228013205.905843521.1700720460-336858269.1579679332&_gl=1*wqena*_ga*MzM2ODU4MjY5LjE1Nzk2NzkzMzI.*_ga_Q5XX5068LZ*MTcwMDcyMDQ1OS4xMDAuMS4xNzAwNzIwNTQ4LjAuMC4w" /%}
+{% concert-header day="fredag" date="29" month="november" time="18:00 og 20:30 (utsolgt)" ticketUrl="https://www.ticketmaster.no/event/731653?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.228013205.905843521.1700720460-336858269.1579679332&_gl=1*wqena*_ga*MzM2ODU4MjY5LjE1Nzk2NzkzMzI.*_ga_Q5XX5068LZ*MTcwMDcyMDQ1OS4xMDAuMS4xNzAwNzIwNTQ4LjAuMC4w" /%}
 
 ---
 
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details concert="Ullensaker Kulturhus" date="29" month="november" day="fredag" time="18:00 – 19:20 og 20:00 – 21:20 (utsolgt)" location="Ullensaker Kulturhus, Jessheim" /%}
+{% concert-details concert="Ullensaker Kulturhus" date="29" month="november" day="fredag" time="18:00 – 19:20 og 20:30 – 21:50 (utsolgt)" location="Ullensaker Kulturhus, Jessheim" /%}
 
 ### Adresse
 
