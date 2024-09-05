@@ -17,7 +17,7 @@ const posts = [
   {
     id: 2,
     title: 'Biorama, Holmestrand',
-    imageUrl: '/images/Bergen.jpeg',
+    imageUrl: '/halls/Biorama_Holmestrand.webp',
     date: 'lørdag 7. des kl. 18:00',
     datetime: '2024-12-07',
     category: {
