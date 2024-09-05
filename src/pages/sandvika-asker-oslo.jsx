@@ -4,27 +4,27 @@ import Link from 'next/link'
 const posts = [
   {
     id: 1,
-    title: 'Lillestrøm Kultursenter',
-    imageUrl: '/halls/Lillestrøm_Kultursenter.webp',
-    date: 'Søndag 24. nov kl. 18:00',
-    datetime: '2024-11-24',
+    title: 'Bærum Kulturhus, Sandvika',
+    imageUrl: '/halls/Bærum_kulturhus.webp',
+    date: 'mandag 2. des kl. 19:00',
+    datetime: '2024-12-02',
     category: {
       title: 'Billetter',
-      href: 'https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors/',
+      href: 'https://www.baerumkulturhus.no/arrangement/nordic-tenors2/',
     },
-    pageUrl: '/konserter/lillestrom-julekonsert',
+    pageUrl: '/konserter/sandvika-julekonsert',
   },
   {
     id: 2,
     title: 'Asker kulturhus',
-    imageUrl: '/halls/Ullensaker_Kulturhus.webp',
+    imageUrl: '/halls/Asker_kulturhus.webp',
     date: 'fredag 6. des kl. 18:00',
     datetime: '2024-12-06',
     category: {
       title: 'Billetter',
-      href: 'https://www.ticketmaster.no/event/731653?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.228013205.905843521.1700720460-336858269.1579679332&_gl=1*wqena*_ga*MzM2ODU4MjY5LjE1Nzk2NzkzMzI.*_ga_Q5XX5068LZ*MTcwMDcyMDQ1OS4xMDAuMS4xNzAwNzIwNTQ4LjAuMC4w',
+      href: 'https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/',
     },
-    pageUrl: '/konserter/ullensaker-julekonsert',
+    pageUrl: '/konserter/asker-julekonsert',
   },
   {
     id: 3,
