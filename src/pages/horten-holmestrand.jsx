@@ -5,7 +5,7 @@ const posts = [
   {
     id: 1,
     title: 'Bakkenteigen Kulturhus, Horten',
-    imageUrl: '/halls/Oseana.webp',
+    imageUrl: '/stages/Horten.webp',
     date: 'fredag 22. nov kl. 19:00',
     datetime: '2024-11-22',
     category: {
