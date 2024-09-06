@@ -8,7 +8,7 @@ duration: 80
 locationName: Maihaugsalen, Lillehammer
 locationAddress: Maihaugveien 1, 2609 Lillehammer, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_Maihaugsalen_Lillehammer_ag43qh.webp
+image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/lillehammer-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/731015

@@ -8,7 +8,7 @@ duration: 80
 locationName: Festiviteten Konserthus, Haugesund
 locationAddress: Knut Knutsen O.A.S gate 4, 5528 Haugesund, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/schema_-_festiviteten_haugesund_ybc9k7.webp
+image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/haugesund-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/

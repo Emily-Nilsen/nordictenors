@@ -8,7 +8,7 @@ duration: 80
 locationName: Bærum Kulturhus, Sandvika
 locationAddress: Claude Monets alle 27, 1338 Sandvika, Norway
 performer: Nordic Tenors
-image: https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/B%C3%A6rum_OG_vbemzj.webp
+image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/sandvika-julekonsert
 organizer: Nordic Moments AS
 ticketUrl: https://www.baerumkulturhus.no/arrangement/nordic-tenors2/
