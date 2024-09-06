@@ -1,8 +1,8 @@
-# Christmas with Nordic Tenors
+# Nordic Tenors
 
-Christmas with Nordic Tenors is a website dedicated to showcasing the magical Christmas concerts performed by the Nordic Tenors in Norway. The website provides information about the concerts, ticket booking, artist profiles, and more. It is built using [Next.js](https://nextjs.org) and features a modern and user-friendly design.
+Nordic Tenors is a website dedicated to showcasing the concerts performed by the Nordic Tenors in Norway. The website provides information about the concerts, ticket booking, artist profiles, and more. It is built using [Next.js](https://nextjs.org) and features a modern and user-friendly design.
 
-Visit the [Christmas with Nordic Tenors](https://julekonsert.com) to experience their traditional Christmas concerts!
+Visit the [Nordic Tenors](https://nordictenors.no) to experience their traditional concerts!
 
 ## Technologies Used
 
@@ -38,7 +38,3 @@ You can now access the website locally at http://localhost:3000.
 - Book tickets for upcoming concerts.
 - Learn more about the Nordic Tenors.
 - Contact the Nordic Tenors for inquiries.
-
-## Contact
-
-Created by [norsk nett](https://norsknett.no) - feel free to contact us!
