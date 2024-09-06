@@ -30,7 +30,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Olavshallen, Trondheim" day="onsdag" date="18" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Olavshallen_dzwrff.webp" title="Olavshallen, Trondheim" /%}
+{% category imageUrl="/halls/Olavshallen.webp" title="Olavshallen, Trondheim" /%}
 {% /categories %}
 
 ### Konsertdetaljer

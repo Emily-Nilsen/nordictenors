@@ -1,12 +1,9 @@
 import { Callout } from '@/components/Callout'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
-import { Video, Videos } from '@/components/Videos'
 import { Category, Categories } from '@/components/Categories'
 import { FeatureImage, Images } from '@/components/Images'
 import { Jubileum } from '@/components/Jubileum'
 import { Christmas } from '@/components/Christmas'
-import { Februar } from '@/components/Februar'
-import { Mars } from '@/components/Mars'
 import { November } from '@/components/November'
 import { Desember } from '@/components/Desember'
 import CurrentYear from '@/components/CurrentYear'
@@ -182,19 +179,6 @@ const tags = {
     selfClosing: true,
     render: SpotifyPlayer,
   },
-  videos: {
-    render: Videos,
-  },
-  video: {
-    selfClosing: true,
-    render: Video,
-    attributes: {
-      title: { type: String },
-      description: { type: String },
-      href: { type: String },
-      posterImg: { type: String },
-    },
-  },
   christmas: {
     selfClosing: true,
     render: Christmas,
@@ -202,14 +186,6 @@ const tags = {
   jubileum: {
     selfClosing: true,
     render: Jubileum,
-  },
-  februar: {
-    selfClosing: true,
-    render: Februar,
-  },
-  mars: {
-    selfClosing: true,
-    render: Mars,
   },
   november: {
     selfClosing: true,
