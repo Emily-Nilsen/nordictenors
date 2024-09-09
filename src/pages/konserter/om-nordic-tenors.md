@@ -13,7 +13,7 @@ Nordic Tenors er kjent for unik stemmeprakt, varme, humor, og blanding av tradis
 Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med humor, dans og musikalske overraskelser, og har vært en fremtredende del av den skandinaviske musikkscenen siden 2005. Med premieren på deres første show "Nordic Tenors & Sjur Hjeltnes/Bella Notte", markerte de starten på en bemerkelsesverdig karriere.
 
 {% images %}
-{% feature-image imageUrl="/images/christmas-hats.webp" title="Nordic Tenors" /%}
+{% feature-image imageUrl="/images/christmas_hats.webp" title="Nordic Tenors" /%}
 {% /images %}
 
 I 2006 ble Nordic Tenors tildelt Komiprisens "årets nykommer", en pris som anerkjente gruppens innflytelse med bruk av humor for å nå ut med klassisk musikk til et bredt publikum. Nordic Tenors fortsatte å imponere, med betydningsfulle opptredener som kongelige toastmastere for HMK Harald i 2007, og under åpningen av den nye operaen i Bjørvika i 2008. Deres evne til å fenge publikum fortsatte i 2009 med premieren på "Nytt Show" i Bergen og utgivelsen av gruppens første CD, "Live at Logen". Nordic Tenors kreativitet ble igjen anerkjent i 2010 med en nominasjon til Komiprisen for "Årets nummer".
