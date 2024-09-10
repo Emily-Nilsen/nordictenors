@@ -30,7 +30,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Stormen, Bodø" day="fredag" date="20" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Stormen_konserthus_a3xklm.webp" title="Stormen, Bodø" /%}
+{% category imageUrl="/halls/Stormen_konserthus.webp" title="Stormen, Bodø" /%}
 {% /categories %}
 
 ### Konsertdetaljer
