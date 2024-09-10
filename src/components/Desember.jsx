@@ -31,8 +31,7 @@ const concerts = [
   {
     id: 3,
     name: 'Blå Grotte, Fredrikstad',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695031332/Julekonsert/Bla%CC%8A_Grotte_x4x2hx.webp',
+    imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
     date: '3. desember',
     ticketLink: 'https://checkout.ebillett.no/260/events/129790/purchase/setup',
     pageUrl: '/konserter/fredrikstad-julekonsert',
@@ -40,8 +39,7 @@ const concerts = [
   {
     id: 4,
     name: 'Nøtterøy Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694977171/Julekonsert/n%C3%B8tter%C3%B8y_kulturhus_mxugdj.webp',
+    imageUrl: '/thumbnails/Nøtterøy_kulturhus_thumb.webp',
     date: '4. desember',
     ticketLink: 'https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/',
     pageUrl: '/konserter/notteroy-julekonsert',
