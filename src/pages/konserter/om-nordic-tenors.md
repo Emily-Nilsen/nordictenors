@@ -41,7 +41,7 @@ Alle konsert og bestillingsmuligheter er satt opp av arrangøren. Arrangør er s
 Jan-Tore, stolt av sin opprinnelse fra Holmestrand, er en musikalsk allsidig kunstner. Utdannet ved Norges Musikkhøgskole i Oslo, har han en variert bakgrunn som strekker seg fra boyband til heavy metal, og har bidratt til over 30 utgivelser.
 
 {% images %}
-{% feature-image imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/JT_on_stage_u12dzw.webp" title="Jan-Tore Saltnes" /%}
+{% feature-image imageUrl="/images/JT_on_stage.webp" title="Jan-Tore Saltnes" /%}
 {% /images %}
 
 ### Nils Georg Nilsen
@@ -49,7 +49,7 @@ Jan-Tore, stolt av sin opprinnelse fra Holmestrand, er en musikalsk allsidig kun
 Oppvokst på Jar i Bærum, balanserer Nils sin lidenskap mellom fotball og musikk. Med en Mastergrad fra Manhattan School of Music i New York, har han siden 2013 vært en ettertraktet solist både nasjonalt og internasjonalt.
 
 {% images %}
-{% feature-image imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/NG_on_stage_eajyqo.webp" title="Nils Georg Nilsen" /%}
+{% feature-image imageUrl="/images/NG_on_stage.webp" title="Nils Georg Nilsen" /%}
 {% /images %}
 
 ### Espen Solsbak
@@ -57,7 +57,7 @@ Oppvokst på Jar i Bærum, balanserer Nils sin lidenskap mellom fotball og musik
 Espen har mer stemme enn han har hår, og han er den eneste i Nordic Tenors med tatovering. Han er fra Stavanger, men har bosatt seg på Tomter. Han har studert opera i Stavanger, Roma og Oslo, men har også bred erfaring innen musikaler og populærmusikalske genre.
 
 {% images %}
-{% feature-image imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/Solsbak_yng4in.webp" title="Espen Solsbak" /%}
+{% feature-image imageUrl="/images/Solsbak.webp" title="Espen Solsbak" /%}
 {% /images %}
 
 ---
