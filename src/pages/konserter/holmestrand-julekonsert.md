@@ -30,7 +30,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Biorama, Holmestrand" day="lørdag" date="7" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Biorama_d17sr3.webp" title="Biorama, Holmestrand" /%}
+{% category imageUrl="/halls/Biorama.webp" title="Biorama, Holmestrand" /%}
 {% /categories %}
 
 ### Konsertdetaljer
