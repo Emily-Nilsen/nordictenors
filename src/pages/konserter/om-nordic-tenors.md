@@ -19,7 +19,7 @@ Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med humor, dans og musikal
 I 2006 ble Nordic Tenors tildelt Komiprisens "årets nykommer", en pris som anerkjente gruppens innflytelse med bruk av humor for å nå ut med klassisk musikk til et bredt publikum. Nordic Tenors fortsatte å imponere, med betydningsfulle opptredener som kongelige toastmastere for HMK Harald i 2007, og under åpningen av den nye operaen i Bjørvika i 2008. Deres evne til å fenge publikum fortsatte i 2009 med premieren på "Nytt Show" i Bergen og utgivelsen av gruppens første CD, "Live at Logen". Nordic Tenors kreativitet ble igjen anerkjent i 2010 med en nominasjon til Komiprisen for "Årets nummer".
 
 {% images %}
-{% feature-image imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nordic%20Tenors/NG_and_JT_on_stage_beazxi.webp" title="Jan-Tore Saltnes og Nils Georg Nilsen" /%}
+{% feature-image imageUrl="/images/NG_and_JT_on_stage.webp" title="Jan-Tore Saltnes og Nils Georg Nilsen" /%}
 {% /images %}
 
 Nordic Tenors har gjennomført flere suksessrike prosjekter, inkludert "An evening with Nordic Tenors" og "Ten years with Nordic Tenors" i 2013, samt samarbeid med det svenske ensemblet Neumann Strings for deres juleturné. Deres musikalske reise er preget av regelmessige nye albumutgivelser og nasjonale turneer.
