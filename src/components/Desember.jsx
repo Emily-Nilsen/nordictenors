@@ -15,8 +15,7 @@ const concerts = [
   {
     id: 1,
     name: 'Moss Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694981083/Julekonsert/Moss_Kulturhus_lnpkyw.webp',
+    imageUrl: '/thumbnails/Moss_Kulturhus_thumbnail.webp',
     date: '1. desember',
     ticketLink: 'https://tix.no/nb/moss/buyingflow/tickets/25614/48484/',
     pageUrl: '/konserter/moss-julekonsert',
@@ -24,8 +23,7 @@ const concerts = [
   {
     id: 2,
     name: 'Bærum Kulturhus, Sandvika',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704980301/Julekonsert/B%C3%A6rum_kulturhus_oriunn.webp',
+    imageUrl: '/thumbnails/Bærum_kulturhus_thumb.webp',
     date: '2. desember',
     ticketLink: 'https://www.baerumkulturhus.no/arrangement/nordic-tenors2/',
     pageUrl: '/konserter/sandvika-julekonsert',
