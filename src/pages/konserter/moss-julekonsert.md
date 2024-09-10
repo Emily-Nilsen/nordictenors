@@ -30,7 +30,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% concert-introduction location="Moss Kulturhus - Parkteatret" day="søndag" date="1" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Julekonsert/Moss_Kulturhus_lnpkyw.webp" title="Moss Kulturhus - Parkteatret" /%}
+{% category imageUrl="/halls/Moss_Kulturhus.webp" title="Moss Kulturhus - Parkteatret" /%}
 {% /categories %}
 
 ### Konsertdetaljer
