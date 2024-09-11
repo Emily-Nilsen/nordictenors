@@ -107,8 +107,7 @@ const concerts = [
   {
     id: 12,
     name: 'Kilden, Kristiansand',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695044421/Julekonsert/Kilden_kulturhus_ux1ewk.webp',
+    imageUrl: '/thumbnails/Kilden_kulturhus_thumb.webp',
     date: '12. desember',
     ticketLink:
       'https://kilden.com/forestilling/christmas-with-nordic-tenors-5/',
@@ -117,8 +116,7 @@ const concerts = [
   {
     id: 13,
     name: 'Flekkefjord Kulturhus Spira',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704993834/Julekonsert/Flekkefjord_kyzmwo.webp',
+    imageUrl: '/thumbnails/Flekkefjord_thumb.webp',
     date: '13. desember',
     ticketLink: 'https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/',
     pageUrl: '/konserter/flekkefjord-julekonsert',
@@ -126,8 +124,7 @@ const concerts = [
   {
     id: 14,
     name: 'Sandnes Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695048267/Julekonsert/Sandnes_kulturhus_qdnush.webp',
+    imageUrl: '/thumbnails/Sandnes_kulturhus_thumb.webp',
     date: '14. desember',
     ticketLink: 'https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/',
     pageUrl: '/konserter/sandnes-julekonsert',
@@ -135,8 +132,7 @@ const concerts = [
   {
     id: 15,
     name: 'Stavanger Konserthus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695049327/Julekonsert/Stavanger_konserthus_xfqt2s.webp',
+    imageUrl: '/thumbnails/Stavanger_konserthus_thumb.webp',
     date: '15. desember',
     ticketLink:
       'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/',
@@ -145,8 +141,7 @@ const concerts = [
   {
     id: 16,
     name: 'Festiviteten, Haugesund',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695051392/Julekonsert/Festiviteten_Haugesund_nkllsw.webp',
+    imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
     date: '16. desember',
     ticketLink:
       'https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/',
@@ -155,8 +150,7 @@ const concerts = [
   {
     id: 17,
     name: 'Grieghallen, Bergen',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695103770/Julekonsert/Grieghallen_Bergen_cm8qsr.webp',
+    imageUrl: '/thumbnails/Grieghallen_Bergen_thumb.webp',
     date: '17. desember',
     ticketLink: 'https://www.ticketmaster.no/event/731181',
     pageUrl: '/konserter/bergen-julekonsert',
