@@ -65,7 +65,7 @@ const concerts = [
   {
     id: 7,
     name: 'Biorama, Holmestrand',
-    imageUrl: '/thumbnails/Biorama.webp',
+    imageUrl: '/thumbnails/Biorama_thumb.webp',
     date: '7. desember',
     ticketLink:
       'https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024',
@@ -74,8 +74,7 @@ const concerts = [
   {
     id: 8,
     name: 'Hadeland Kultursal',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704992281/Julekonsert/Hadeland_Kultursal_bdpha3.webp',
+    imageUrl: '/thumbnails/Hadeland_Kultursal_thumb.webp',
     date: '8. desember',
     ticketLink:
       'https://www.kulturhadeland.no/christmas-with-nordic-tenors-2024-xd5i6y4/',
@@ -84,8 +83,7 @@ const concerts = [
   {
     id: 9,
     name: 'Oslo Konserthus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1694973738/Julekonsert/Oslo_Konserthus_bw940p.webp',
+    imageUrl: '/thumbnails/Oslo_Konserthus_thumb.webp',
     date: '9. desember',
     ticketLink: 'https://tix.no/nb/oslok/buyingflow/tickets/25447/48302/#tixsp',
     pageUrl: '/konserter/oslo-julekonsert',
@@ -93,8 +91,7 @@ const concerts = [
   {
     id: 10,
     name: 'Maihaugsalen, Lillehammer',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695032351/Julekonsert/Maihaugsalen_rakxmc.webp',
+    imageUrl: '/thumbnails/Maihaugsalen_thumb.webp',
     date: '10. desember',
     ticketLink: 'https://www.ticketmaster.no/event/731015',
     pageUrl: '/konserter/lillehammer-julekonsert',
@@ -102,8 +99,7 @@ const concerts = [
   {
     id: 11,
     name: 'Arendal Kulturhus',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695043591/Julekonsert/Arendal_kulturhus_xydymn.webp',
+    imageUrl: '/thumbnails/Arendal_kulturhus_thumb.webp',
     date: '11. desember',
     ticketLink: 'https://tix.no/nb/arendal/buyingflow/tickets/25512/',
     pageUrl: '/konserter/arendal-julekonsert',
