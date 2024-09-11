@@ -65,8 +65,7 @@ const concerts = [
   {
     id: 7,
     name: 'Biorama, Holmestrand',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1704990446/Julekonsert/Biorama_d17sr3.webp',
+    imageUrl: '/thumbnails/Biorama.webp',
     date: '7. desember',
     ticketLink:
       'https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024',
