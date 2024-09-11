@@ -158,8 +158,7 @@ const concerts = [
   {
     id: 18,
     name: 'Olavshallen, Trondheim',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695033204/Julekonsert/Olavshallen_dzwrff.webp',
+    imageUrl: '/thumbnails/Olavshallen_thumb.webp',
     date: '18. desember',
     ticketLink:
       'https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors',
@@ -168,8 +167,7 @@ const concerts = [
   {
     id: 19,
     name: 'Kulturhuset i Tromsø',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695062936/Julekonsert/Kulturhuset_troms%C3%B8_tp5q3k.webp',
+    imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
     date: '19. desember',
     ticketLink: 'https://tix.no/nb/tr/buyingflow/tickets/25469/48311/',
     pageUrl: '/konserter/tromso-julekonsert',
@@ -177,8 +175,7 @@ const concerts = [
   {
     id: 20,
     name: 'Stormen, Bodø',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695102938/Julekonsert/Stormen_konserthus_a3xklm.webp',
+    imageUrl: '/thumbnails/Stormen_thumb.webp',
     date: '20. desember',
     ticketLink:
       'https://billetter.stormen.no/nb/buyingflow/tickets/26884/50393',
@@ -187,8 +184,7 @@ const concerts = [
   {
     id: 21,
     name: 'Kimen, Stjørdal',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695036048/Julekonsert/Kimen_hld2po.webp',
+    imageUrl: '/thumbnails/Kimen_thumb.webp',
     date: '21. desember',
     ticketLink:
       'https://tix.no/nb/kimenkulturhus/buyingflow/tickets/27102/50673/',
@@ -197,8 +193,7 @@ const concerts = [
   {
     id: 22,
     name: 'Drammens Teater',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/c_thumb,w_200,h_200/v1695104625/Julekonsert/Drammens_Teater_i81lcc.webp',
+    imageUrl: '/thumbnails/Drammens_Teater_thumb.webp',
     date: '22. desember',
     ticketLink:
       'https://www.drammenscener.no/teatret/program/25611-christmas-with-nordic-tenors/',
