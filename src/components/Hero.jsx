@@ -55,52 +55,7 @@ export function Hero() {
                 priority
                 className="-mb-16 mt-44 h-full object-cover object-top pt-10 sm:mb-0 sm:mt-80 lg:-ml-2 lg:block"
               />
-              {/* <Image
-                alt="Nordic Tenors"
-                src="/logos/Nordic_Tenors_2_linjer_gull.webp"
-                width={1500}
-                height={670}
-                unoptimized
-                priority
-                className="object-cover object-top h-full pt-10 -ml-2 sm:hidden"
-              /> */}
-              {/* lg:text-7xl Animated text */}
-              {/* <div>
-                <p className="hidden tracking-normal lowercase font-logo text-amber-300 sm:block sm:text-5xl md:-mb-10 md:text-6xl lg:-mb-0 lg:text-7xl">
-                  {nordicTenors.map((letter, index) => (
-                    <motion.span
-                      key={index}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{
-                        delay: index * 0.1,
-                        duration: 0.4,
-                        ease: 'easeOut',
-                      }}
-                    >
-                      {letter}
-                    </motion.span>
-                  ))}
-                </p>
-              </div> */}
-              {/* <div>
-                <p className="-mb-40 mt-40 font-logo text-[2.3rem] lowercase tracking-normal text-amber-300 sm:hidden">
-                  {nordicTenors.map((letter, index) => (
-                    <motion.span
-                      key={index}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{
-                        delay: index * 0.1,
-                        duration: 0.4,
-                        ease: 'easeOut',
-                      }}
-                    >
-                      {letter}
-                    </motion.span>
-                  ))}
-                </p>
-              </div> */}
+
               <p className="mt-3 hidden max-w-xl text-xl tracking-tight text-white lg:block">
                 Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med et vidt
                 genrespekter, humor og musikalske overraskelser.
@@ -111,13 +66,13 @@ export function Hero() {
                 <Button className="relative z-20" href="/#julekonsertstart">
                   Julekonserter
                 </Button>
-                <Button
+                {/* <Button
                   className="relative z-20"
                   href="/konserter/kontakt"
                   variant="secondary"
                 >
                   Kontakt oss
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>
@@ -128,13 +83,13 @@ export function Hero() {
               <Button className="relative z-20" href="/#julekonsertstart">
                 Julekonserter
               </Button>
-              <Button
+              {/* <Button
                 className="relative z-20"
                 href="/konserter/kontakt"
                 variant="secondary"
               >
                 Kontakt oss
-              </Button>
+              </Button> */}
             </div>
             {/* Social media icons */}
             <div className="flex items-center justify-center space-x-7 md:order-2">
