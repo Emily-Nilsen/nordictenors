@@ -17,29 +17,11 @@ function TicketIcon(props) {
 const concerts = [
   {
     id: 1,
-    name: 'Kolben Kulturhus, Kolbotn',
-    imageUrl: '/thumbnails/Kolben_Kulturhus.webp',
-    date: '19. mars',
-    ticketLink:
-      'https://checkout.ebillett.no/123/events/51884/purchase/setup?kanal=dxf',
-    pageUrl: '/konserter/kolbotn-a-la-carte',
-  },
-  {
-    id: 2,
-    name: 'Lillestrøm Kulturhus',
-    imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
-    date: '22. mars',
-    ticketLink:
-      'https://www.lillestrom-kultursenter.no/event/nordic-tenors-a-la-carte/',
-    pageUrl: '/konserter/lillestrom-a-la-carte',
-  },
-  {
-    id: 3,
-    name: 'Blå Grotte, Fredrikstad',
-    imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
-    date: '23. mars',
-    ticketLink: 'https://checkout.ebillett.no/260/events/137031/purchase/setup',
-    pageUrl: '/konserter/fredrikstad-a-la-carte',
+    name: 'Parken Kulturhus, Ålesund',
+    imageUrl: '/thumbnails/Parken_kulturhus.webp',
+    date: '7. april',
+    ticketLink: 'https://tix.no/nb/parken/buyingflow/tickets/33582/71685/',
+    pageUrl: '/konserter/alesund-a-la-carte',
   },
 ]
 
