@@ -7,6 +7,7 @@ import { Christmas } from '@/components/Christmas'
 import { November } from '@/components/November'
 import { Desember } from '@/components/Desember'
 import { Mars } from '@/components/Mars'
+import { April } from '@/components/April'
 import CurrentYear from '@/components/CurrentYear'
 import { Contact } from '@/components/Contact'
 import { Nyhetsbrev } from '@/components/Nyhetsbrev'
@@ -233,6 +234,10 @@ const tags = {
   mars: {
     selfClosing: true,
     render: Mars,
+  },
+  april: {
+    selfClosing: true,
+    render: April,
   },
   'calendar-text': {
     selfClosing: true,

@@ -23,7 +23,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Billetter
 
-{% billetter-neutral concert="" outlet="Lillestrøm Kultursenter" ticketUrl="https://checkout.ebillett.no/260/events/137031/purchase/setup" /%}
+{% billetter-neutral concert="" outlet="Kulturhuset Blå Grotte" ticketUrl="https://checkout.ebillett.no/260/events/137031/purchase/setup" /%}
 
 ## Blå Grotte, Fredrikstad
 
