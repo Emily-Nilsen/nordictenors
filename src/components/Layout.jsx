@@ -84,6 +84,7 @@ export const navigation = [
   {
     title: 'Nordic Tenors - À la carte 2025',
     links: [
+      { title: 'Fredrikstad', href: '/konserter/fredrikstad-a-la-carte' },
       { title: 'Kolbotn', href: '/konserter/kolbotn-a-la-carte' },
       { title: 'Lillestrøm', href: '/konserter/lillestrom-a-la-carte' },
     ],

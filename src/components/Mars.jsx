@@ -25,13 +25,21 @@ const concerts = [
     pageUrl: '/konserter/kolbotn-a-la-carte',
   },
   {
-    id: 1,
+    id: 2,
     name: 'Lillestrøm Kulturhus',
     imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
     date: '22. mars',
     ticketLink:
       'https://www.lillestrom-kultursenter.no/event/nordic-tenors-a-la-carte/',
     pageUrl: '/konserter/lillestrom-a-la-carte',
+  },
+  {
+    id: 3,
+    name: 'Blå Grotte, Fredrikstad',
+    imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
+    date: '23. mars',
+    ticketLink: 'https://checkout.ebillett.no/260/events/137031/purchase/setup',
+    pageUrl: '/konserter/fredrikstad-a-la-carte',
   },
 ]
 
