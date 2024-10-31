@@ -23,11 +23,11 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Billetter
 
-{% billetter concert="" outlet="Nordre Follo scener" ticketUrl="https://checkout.ebillett.no/123/events/51884/purchase/setup?kanal=dxf" /%}
+{% billetter-neutral concert="" outlet="Nordre Follo scener" ticketUrl="https://checkout.ebillett.no/123/events/51884/purchase/setup?kanal=dxf" /%}
 
 ## Kolben Kulturhus
 
-{% concert-introduction location="Kolben Kulturhus" day="onsdag" date="19" month="mars" /%}
+{% concert-intro-spring location="Kolben Kulturhus" day="onsdag" date="19" month="mars" /%}
 
 {% categories %}
 {% category imageUrl="/halls/Kolben_kulturhus.webp" title="Kolben Kulturhus" /%}
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details concert="Kolben Kulturhus" date="19" month="mars" day="onsdag" time="19:00 – 20:20" location="Kolben Kulturhus" /%}
+{% concert-details-new concert="Kolben Kulturhus" date="19" month="mars" day="onsdag" time="19:00 – 20:20" location="Kolben Kulturhus" /%}
 
 ### Adresse
 

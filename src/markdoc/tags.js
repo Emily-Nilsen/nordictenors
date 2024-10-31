@@ -6,6 +6,7 @@ import { Jubileum } from '@/components/Jubileum'
 import { Christmas } from '@/components/Christmas'
 import { November } from '@/components/November'
 import { Desember } from '@/components/Desember'
+import { Mars } from '@/components/Mars'
 import CurrentYear from '@/components/CurrentYear'
 import { Contact } from '@/components/Contact'
 import { Nyhetsbrev } from '@/components/Nyhetsbrev'
@@ -14,10 +15,13 @@ import { GoBackButton } from '@/components/GoBackButton'
 import { Socials } from '@/components/Socials'
 import { Map } from '@/components/Map'
 import { Billetter } from '@/components/Billetter'
+import { BilletterNeutral } from '@/components/BilletterNeutral'
 import { JubiluemBilletter } from '@/components/JubileumBilletter'
 import { ConcertDetails } from '@/components/ConcertDetails'
+import { ConcertDetailsNew } from '@/components/ConcertDetailsNew'
 import { ConcertHeader } from '@/components/ConcertHeader'
 import { ConcertIntroduction } from '@/components/ConcertIntroduction'
+import { ConcertIntroSpring } from '@/components/ConcertIntroSpring'
 import { JubileumIntroduction } from '@/components/JubileumIntroduction'
 import { ExternalLink } from '@/components/ExternalLink'
 import { Reviews } from '@/components/Reviews'
@@ -85,6 +89,15 @@ const tags = {
       ticketUrl: { type: String },
     },
   },
+  'billetter-neutral': {
+    selfClosing: true,
+    render: BilletterNeutral,
+    attributes: {
+      concert: { type: String },
+      outlet: { type: String },
+      ticketUrl: { type: String },
+    },
+  },
   'jubileum-billetter': {
     selfClosing: true,
     render: JubiluemBilletter,
@@ -97,6 +110,18 @@ const tags = {
   'concert-details': {
     selfClosing: true,
     render: ConcertDetails,
+    attributes: {
+      concert: { type: String },
+      day: { type: String },
+      date: { type: String },
+      month: { type: String },
+      location: { type: String },
+      time: { type: String },
+    },
+  },
+  'concert-details-new': {
+    selfClosing: true,
+    render: ConcertDetailsNew,
     attributes: {
       concert: { type: String },
       day: { type: String },
@@ -130,6 +155,16 @@ const tags = {
   'concert-introduction': {
     selfClosing: true,
     render: ConcertIntroduction,
+    attributes: {
+      day: { type: String },
+      location: { type: String },
+      date: { type: String },
+      month: { type: String },
+    },
+  },
+  'concert-intro-spring': {
+    selfClosing: true,
+    render: ConcertIntroSpring,
     attributes: {
       day: { type: String },
       location: { type: String },
@@ -194,6 +229,10 @@ const tags = {
   desember: {
     selfClosing: true,
     render: Desember,
+  },
+  mars: {
+    selfClosing: true,
+    render: Mars,
   },
   'calendar-text': {
     selfClosing: true,

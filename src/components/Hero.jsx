@@ -66,13 +66,13 @@ export function Hero() {
                 <Button className="relative z-20" href="/#julekonsertstart">
                   Julekonserter
                 </Button>
-                {/* <Button
+                <Button
                   className="relative z-20"
-                  href="/konserter/kontakt"
+                  href="/#mars"
                   variant="secondary"
                 >
-                  Kontakt oss
-                </Button> */}
+                  À la carte
+                </Button>
               </div>
             </div>
           </div>
@@ -81,15 +81,15 @@ export function Hero() {
             {/* Buttons */}
             <div className="flex justify-center gap-8 sm:gap-10 lg:-mb-0 lg:mt-0 lg:justify-start">
               <Button className="relative z-20" href="/#julekonsertstart">
-                Julekonserter
+                Julekonserter - 2024
               </Button>
-              {/* <Button
+              <Button
                 className="relative z-20"
-                href="/konserter/kontakt"
+                href="/#mars"
                 variant="secondary"
               >
-                Kontakt oss
-              </Button> */}
+                À la carte - 2025
+              </Button>
             </div>
             {/* Social media icons */}
             <div className="flex items-center justify-center space-x-7 md:order-2">

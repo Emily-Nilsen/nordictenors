@@ -19,3 +19,9 @@ description: Opplev konserter med Nordic Tenors. Finn datoer i kalenderen og kj√
 ### Desember 2024
 
 {% desember /%}
+
+## Nordic Tenors - √Ä la carte
+
+### Mars 2025
+
+{% mars /%}

@@ -27,39 +27,6 @@ export const navigation = [
       { title: 'Kontakt oss', href: '/konserter/kontakt' },
     ],
   },
-  // jubileum
-  // {
-  //   title: 'Nordic Tenors Jubileum 2024',
-  //   links: [
-  //     { title: 'Askim', href: '/konserter/askim-jubileum' },
-  //     { title: 'Bergen', href: '/konserter/bergen-jubileum' },
-  //     { title: 'Bremnes', href: '/konserter/bremnes-jubileum' },
-  //     { title: 'Bryne', href: '/konserter/bryne-jubileum' },
-  //     {
-  //       title: 'Drammen',
-  //       href: '/konserter/drammen-jubileum',
-  //     },
-  //     { title: 'Drøbak', href: '/konserter/drobak-jubileum' },
-  //     { title: 'Flekkefjord', href: '/konserter/flekkefjord-jubileum' },
-  //     { title: 'Haugesund', href: '/konserter/haugesund-jubileum' },
-  //     { title: 'Horten', href: '/konserter/horten-jubileum' },
-  //     { title: 'Lillestrøm', href: '/konserter/lillestrom-jubileum' },
-  //     {
-  //       title: 'Moss',
-  //       href: '/konserter/moss-jubileum',
-  //     },
-  //     { title: 'Sandvika', href: '/konserter/sandvika-jubileum' },
-  //     {
-  //       title: 'Sauda',
-  //       href: '/konserter/sauda-jubileum',
-  //     },
-  //     {
-  //       title: 'Stavanger',
-  //       href: '/konserter/stavanger-jubileum',
-  //     },
-  //     { title: 'Valdres', href: '/konserter/valdres-jubileum' },
-  //   ],
-  // },
 
   // julekonsert
   {
@@ -111,6 +78,14 @@ export const navigation = [
       { title: 'Tørvikbygd', href: '/konserter/torvikbygd-julekonsert' },
       { title: 'Ullensaker', href: '/konserter/ullensaker-julekonsert' },
       { title: 'Voss', href: '/konserter/voss-julekonsert' },
+    ],
+  },
+  // À la carte 2025
+  {
+    title: 'Nordic Tenors - À la carte 2025',
+    links: [
+      { title: 'Kolbotn', href: '/konserter/kolbotn-a-la-carte' },
+      { title: 'Lillestrøm', href: '/konserter/lillestrom-a-la-carte' },
     ],
   },
 ]
