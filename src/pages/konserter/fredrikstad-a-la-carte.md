@@ -9,7 +9,7 @@ locationName: Blå Grotte, Fredrikstad
 locationAddress: Nygaardsgata 22-24, 1606 Fredrikstad, Norway
 performer: Nordic Tenors
 image: /images/OG_image_2024.webp
-url: https://nordictenors.no/konserter/kolbotn-a-la-carte
+url: https://nordictenors.no/konserter/fredrikstad-a-la-carte
 organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/260/events/137031/purchase/setup
 ticketPrice: 495 # Replace with the actual price

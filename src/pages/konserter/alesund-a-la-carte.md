@@ -9,7 +9,7 @@ locationName: Parken Kulturhus, Ålesund
 locationAddress: Parkgata 3B, 6003 Ålesund, Norway
 performer: Nordic Tenors
 image: /images/OG_image_2024.webp
-url: https://nordictenors.no/konserter/kolbotn-a-la-carte
+url: https://nordictenors.no/konserter/alesund-a-la-carte
 organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/parken/buyingflow/tickets/33582/71685/
 ticketPrice: 495 # Replace with the actual price

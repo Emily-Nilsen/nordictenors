@@ -9,7 +9,7 @@ locationName: Lillestrøm Kulturhus
 locationAddress: Kirkegata 11, 2000 Lillestrøm, Norway
 performer: Nordic Tenors
 image: /images/OG_image_2024.webp
-url: https://nordictenors.no/konserter/kolbotn-a-la-carte
+url: https://nordictenors.no/konserter/lillestrom-a-la-carte
 organizer: Nordic Moments AS
 ticketUrl: https://www.lillestrom-kultursenter.no/event/nordic-tenors-a-la-carte/
 ticketPrice: 495 # Replace with the actual price

@@ -23,6 +23,15 @@ const concerts = [
     ticketLink: 'https://tix.no/nb/parken/buyingflow/tickets/33582/71685/',
     pageUrl: '/konserter/alesund-a-la-carte',
   },
+  {
+    id: 2,
+    name: 'Festiviteten, Haugesund',
+    imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
+    date: '9. april',
+    ticketLink:
+      'https://tix.no/nb/festiviteten/buyingflow/tickets/33620/71742/',
+    pageUrl: '/konserter/haugesund-a-la-carte',
+  },
 ]
 
 function classNames(...classes) {
