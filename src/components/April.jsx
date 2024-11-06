@@ -52,6 +52,14 @@ const concerts = [
   },
   {
     id: 5,
+    name: 'Ole Bull Scene, Bergen',
+    imageUrl: '/thumbnails/Ole_Bull_Scene.webp',
+    date: '8. april',
+    ticketLink: 'https://www.ticketmaster.no/event/753297',
+    pageUrl: '/konserter/bergen-a-la-carte',
+  },
+  {
+    id: 6,
     name: 'Festiviteten, Haugesund',
     imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
     date: '9. april',
