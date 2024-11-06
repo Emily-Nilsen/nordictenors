@@ -26,6 +26,15 @@ const concerts = [
   },
   {
     id: 2,
+    name: 'Drammens Teater',
+    imageUrl: '/thumbnails/Drammens_Teater_thumb.webp',
+    date: '20. mars',
+    ticketLink:
+      'https://billetter.drammensteater.no/nb/buyingflow/tickets/33584/',
+    pageUrl: '/konserter/drammen-a-la-carte',
+  },
+  {
+    id: 3,
     name: 'Lillestrøm Kulturhus',
     imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
     date: '22. mars',
@@ -34,7 +43,7 @@ const concerts = [
     pageUrl: '/konserter/lillestrom-a-la-carte',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Blå Grotte, Fredrikstad',
     imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
     date: '23. mars',
