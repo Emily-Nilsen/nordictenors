@@ -35,6 +35,15 @@ const concerts = [
   },
   {
     id: 3,
+    name: 'Rådhus-Teatret, Kongsvinger',
+    imageUrl: '/thumbnails/Kongsvinger_Rådhus-Teatret.webp',
+    date: '21. mars',
+    ticketLink:
+      'https://checkout.ebillett.no/206/events/27383/purchase/setup?kanal=fw',
+    pageUrl: '/konserter/kongsvinger-a-la-carte',
+  },
+  {
+    id: 4,
     name: 'Lillestrøm Kulturhus',
     imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
     date: '22. mars',
@@ -43,7 +52,7 @@ const concerts = [
     pageUrl: '/konserter/lillestrom-a-la-carte',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Blå Grotte, Fredrikstad',
     imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
     date: '23. mars',
