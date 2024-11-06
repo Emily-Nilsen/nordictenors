@@ -17,6 +17,15 @@ function TicketIcon(props) {
 const concerts = [
   {
     id: 1,
+    name: 'Steinkjer Kulturhus',
+    imageUrl: '/thumbnails/Steinkjer_Kulturhus.webp',
+    date: '3. april',
+    ticketLink:
+      'https://checkout.ebillett.no/101/events/143618/purchase/setup?kanal=dxf',
+    pageUrl: '/konserter/steinkjer-a-la-carte',
+  },
+  {
+    id: 2,
     name: 'Parken Kulturhus, Ålesund',
     imageUrl: '/thumbnails/Parken_kulturhus.webp',
     date: '7. april',
@@ -24,7 +33,7 @@ const concerts = [
     pageUrl: '/konserter/alesund-a-la-carte',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Festiviteten, Haugesund',
     imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
     date: '9. april',
