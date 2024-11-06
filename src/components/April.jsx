@@ -26,6 +26,15 @@ const concerts = [
   },
   {
     id: 2,
+    name: 'Kulturbadet Sandnessjøen',
+    imageUrl: '/thumbnails/Kulturbadet_Sandnessjøen.webp',
+    date: '6. april',
+    ticketLink:
+      'https://checkout.ebillett.no/245/events/61078/purchase/setup?campaign_id=2184',
+    pageUrl: '/konserter/sandnessjoen-a-la-carte',
+  },
+  {
+    id: 3,
     name: 'Parken Kulturhus, Ålesund',
     imageUrl: '/thumbnails/Parken_kulturhus.webp',
     date: '7. april',
@@ -33,7 +42,7 @@ const concerts = [
     pageUrl: '/konserter/alesund-a-la-carte',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Festiviteten, Haugesund',
     imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
     date: '9. april',
