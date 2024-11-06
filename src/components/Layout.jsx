@@ -86,6 +86,7 @@ export const navigation = [
     links: [
       { title: 'Drammen', href: '/konserter/drammen-a-la-carte' },
       { title: 'Fredrikstad', href: '/konserter/fredrikstad-a-la-carte' },
+      { title: 'Grong', href: '/konserter/grong-a-la-carte' },
       { title: 'Haugesund', href: '/konserter/haugesund-a-la-carte' },
       { title: 'Kolbotn', href: '/konserter/kolbotn-a-la-carte' },
       { title: 'Kongsvinger', href: '/konserter/kongsvinger-a-la-carte' },

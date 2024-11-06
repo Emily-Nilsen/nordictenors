@@ -26,6 +26,15 @@ const concerts = [
   },
   {
     id: 2,
+    name: 'Kulturhuset Kuben, Grong',
+    imageUrl: '/thumbnails/Kuben_Kulturhus.webp',
+    date: '4. april',
+    ticketLink:
+      'https://checkout.ebillett.no/272/events/2001/purchase/setup?kanal=dxf',
+    pageUrl: '/konserter/grong-a-la-carte',
+  },
+  {
+    id: 3,
     name: 'Kulturbadet Sandnessjøen',
     imageUrl: '/thumbnails/Kulturbadet_Sandnessjøen.webp',
     date: '6. april',
@@ -34,7 +43,7 @@ const concerts = [
     pageUrl: '/konserter/sandnessjoen-a-la-carte',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Parken Kulturhus, Ålesund',
     imageUrl: '/thumbnails/Parken_kulturhus.webp',
     date: '7. april',
@@ -42,7 +51,7 @@ const concerts = [
     pageUrl: '/konserter/alesund-a-la-carte',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Festiviteten, Haugesund',
     imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
     date: '9. april',
