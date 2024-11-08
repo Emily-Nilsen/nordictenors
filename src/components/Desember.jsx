@@ -41,7 +41,7 @@ const concerts = [
     name: 'Nøtterøy Kulturhus',
     imageUrl: '/thumbnails/Nøtterøy_kulturhus_thumb.webp',
     date: '4. desember',
-    ticketLink: 'https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/',
+    ticketLink: 'https://tix.no/nb/notteroy/buyingflow/tickets/25514/72772',
     pageUrl: '/konserter/notteroy-julekonsert',
   },
   {

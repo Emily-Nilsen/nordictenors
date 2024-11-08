@@ -11,21 +11,21 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/notteroy-julekonsert
 organizer: Nordic Moments AS
-ticketUrl: https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/
+ticketUrl: https://tix.no/nb/notteroy/buyingflow/tickets/25514/72772
 ticketPrice: 590 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="4" month="desember" time="18:00" ticketUrl="https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/" /%}
+{% concert-header day="onsdag" date="4" month="desember" time="18:00 og 20:00" ticketUrl="https://tix.no/nb/notteroy/buyingflow/tickets/25514/72772" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/notteroy/buyingflow/tickets/25514/48362/" /%}
+{% billetter concert="" outlet="tix.no" ticketUrl="https://tix.no/nb/notteroy/buyingflow/tickets/25514/72772" /%}
 
-## Nøtterøy Kulturhus
+## Nøtterøy Kulturhus – 2 forestillinger
 
 {% concert-introduction location="Nøtterøy Kulturhus" day="onsdag" date="4" month="desember" /%}
 
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details concert="Nøtterøy Kulturhus" date="4" month="desember" day="onsdag" time="18:00 – 19:20" location="Nøtterøy Kulturhus, Amfi" /%}
+{% concert-details concert="Nøtterøy Kulturhus" date="4" month="desember" day="onsdag" time="18:00 – 19:20 og 20:00 – 21:20" location="Nøtterøy Kulturhus, Amfi" /%}
 
 ### Adresse
 
