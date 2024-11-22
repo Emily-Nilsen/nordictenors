@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { PlusCircleIcon } from '@heroicons/react/24/outline'
-import { GoBackButton } from './GoBackButton'
 
 function TicketIcon(props) {
   return (
