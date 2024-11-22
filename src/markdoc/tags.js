@@ -22,6 +22,7 @@ import { ConcertDetails } from '@/components/ConcertDetails'
 import { ConcertDetailsNew } from '@/components/ConcertDetailsNew'
 import { ConcertHeader } from '@/components/ConcertHeader'
 import { ConcertIntroduction } from '@/components/ConcertIntroduction'
+import { JulekonsertIntro2025 } from '@/components/JulekonsertIntro2025'
 import { ConcertIntroSpring } from '@/components/ConcertIntroSpring'
 import { JubileumIntroduction } from '@/components/JubileumIntroduction'
 import { ExternalLink } from '@/components/ExternalLink'
@@ -163,6 +164,17 @@ const tags = {
       month: { type: String },
     },
   },
+
+  'julekonsert-intro-2025': {
+    selfClosing: true,
+    render: JulekonsertIntro2025,
+    attributes: {
+      day: { type: String },
+      location: { type: String },
+      date: { type: String },
+      month: { type: String },
+    },
+  },
   'concert-intro-spring': {
     selfClosing: true,
     render: ConcertIntroSpring,
@@ -227,6 +239,7 @@ const tags = {
     selfClosing: true,
     render: November,
   },
+
   desember: {
     selfClosing: true,
     render: Desember,
