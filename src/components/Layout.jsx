@@ -103,6 +103,7 @@ export const navigation = [
     links: [
       { title: 'Bergen', href: '/konserter/bergen-julekonsert-2025' },
       { title: 'Hadeland', href: '/konserter/hadeland-julekonsert-2025' },
+      { title: 'Hamar', href: '/konserter/hamar-julekonsert-2025' },
       { title: 'Haugesund', href: '/konserter/haugesund-julekonsert-2025' },
       { title: 'Holmestrand', href: '/konserter/holmestrand-julekonsert-2025' },
       { title: 'Horten', href: '/konserter/horten-julekonsert-2025' },

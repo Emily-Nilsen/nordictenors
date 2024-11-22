@@ -61,6 +61,14 @@ const concerts = [
     ticketLink: 'https://www.ticketmaster.no/event/149748545',
     pageUrl: '/konserter/lillehammer-julekonsert-2025',
   },
+  {
+    id: 7,
+    name: 'Hamar Kulturhus',
+    imageUrl: '/thumbnails/Hamar_Kulturhus.webp',
+    date: '20. desember',
+    ticketLink: 'https://checkout.ebillett.no/228/events/148032/purchase/setup',
+    pageUrl: '/konserter/hamar-julekonsert-2025',
+  },
   // {
   //   id: 2,
   //   name: 'Bærum Kulturhus, Sandvika',
@@ -103,15 +111,7 @@ const concerts = [
   //     'https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/',
   //   pageUrl: '/konserter/asker-julekonsert',
   // },
-  // {
-  //   id: 7,
-  //   name: 'Biorama, Holmestrand',
-  //   imageUrl: '/thumbnails/Biorama_thumb.webp',
-  //   date: '7. desember',
-  //   ticketLink:
-  //     'https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024',
-  //   pageUrl: '/konserter/holmestrand-julekonsert',
-  // },
+
   // {
   //   id: 8,
   //   name: 'Hadeland Kultursal',

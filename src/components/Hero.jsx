@@ -62,17 +62,34 @@ export function Hero() {
               </p>
               <div className="h-12 sm:hidden" />
               {/* Buttons */}
-              <div className="-mb-24 mt-32 flex justify-center gap-8 sm:-mb-20 sm:mt-20 sm:gap-10 lg:hidden lg:justify-start">
-                <Button className="relative z-20" href="/#christmas">
-                  Julekonserter
-                </Button>
-                <Button
-                  className="relative z-20"
-                  href="/#mars"
-                  variant="secondary"
-                >
-                  À la carte
-                </Button>
+              <div className="-mb-24 mt-12 flex-col justify-center space-y-7 sm:-mb-20 sm:mt-20 sm:gap-10 lg:hidden lg:justify-start">
+                <div>
+                  <Button
+                    className="relative z-20"
+                    href="/#christmas-with-nordic-tenors"
+                  >
+                    Julekonserter 2024
+                  </Button>
+                </div>
+
+                <div>
+                  <Button
+                    className="relative z-20"
+                    href="/#nordic-tenors-a-la-carte"
+                    variant="secondary"
+                  >
+                    À la carte 2025
+                  </Button>
+                </div>
+
+                <div>
+                  <Button
+                    className="relative z-20"
+                    href="/#christmas-with-nordic-tenors-2"
+                  >
+                    Julekonserter 2025
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
@@ -80,15 +97,24 @@ export function Hero() {
           <div className="col-span-3 hidden items-center justify-between lg:flex">
             {/* Buttons */}
             <div className="flex justify-center gap-8 sm:gap-10 lg:-mb-0 lg:mt-0 lg:justify-start">
-              <Button className="relative z-20" href="/#christmas">
+              <Button
+                className="relative z-20"
+                href="/#christmas-with-nordic-tenors"
+              >
                 Julekonserter - 2024
               </Button>
               <Button
                 className="relative z-20"
-                href="/#mars"
+                href="/#nordic-tenors-a-la-carte"
                 variant="secondary"
               >
                 À la carte - 2025
+              </Button>
+              <Button
+                className="relative z-20"
+                href="/#christmas-with-nordic-tenors-2"
+              >
+                Julekonserter - 2025
               </Button>
             </div>
             {/* Social media icons */}
