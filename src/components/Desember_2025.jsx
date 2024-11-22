@@ -46,6 +46,14 @@ const concerts = [
     pageUrl: '/konserter/stavanger-julekonsert-2025',
   },
   {
+    id: 7578,
+    name: 'Narvik Kulturhus',
+    imageUrl: '/thumbnails/Narvik_Kulturhus.webp',
+    date: '15. desember',
+    ticketLink: 'https://www.ticketmaster.no/event/1109855800',
+    pageUrl: '/konserter/narvik-julekonsert-2025',
+  },
+  {
     id: 19,
     name: 'Kulturhuset i Tromsø',
     imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
@@ -69,6 +77,7 @@ const concerts = [
     ticketLink: 'https://checkout.ebillett.no/228/events/148032/purchase/setup',
     pageUrl: '/konserter/hamar-julekonsert-2025',
   },
+
   // {
   //   id: 2,
   //   name: 'Bærum Kulturhus, Sandvika',
