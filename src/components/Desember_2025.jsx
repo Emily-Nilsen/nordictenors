@@ -45,6 +45,14 @@ const concerts = [
       'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/34991/',
     pageUrl: '/konserter/stavanger-julekonsert-2025',
   },
+  {
+    id: 19,
+    name: 'Kulturhuset i Tromsø',
+    imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
+    date: '16. desember',
+    ticketLink: 'https://tix.no/nb/tr/buyingflow/tickets/34909/74128/',
+    pageUrl: '/konserter/tromso-julekonsert-2025',
+  },
   // {
   //   id: 2,
   //   name: 'Bærum Kulturhus, Sandvika',
@@ -164,14 +172,7 @@ const concerts = [
   //     'https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors',
   //   pageUrl: '/konserter/trondheim-julekonsert',
   // },
-  // {
-  //   id: 19,
-  //   name: 'Kulturhuset i Tromsø',
-  //   imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
-  //   date: '19. desember',
-  //   ticketLink: 'https://tix.no/nb/tr/buyingflow/tickets/25469/48311/',
-  //   pageUrl: '/konserter/tromso-julekonsert',
-  // },
+
   // {
   //   id: 20,
   //   name: 'Stormen, Bodø',
