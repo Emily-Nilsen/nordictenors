@@ -27,6 +27,15 @@ const concerts = [
     ticketLink: 'https://www.ticketmaster.no/event/1587930548',
     pageUrl: '/konserter/bergen-julekonsert-2025',
   },
+  {
+    id: 16,
+    name: 'Festiviteten, Haugesund',
+    imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
+    date: '10. desember',
+    ticketLink:
+      'https://tix.no/nb/festiviteten/buyingflow/tickets/34846/74030/',
+    pageUrl: '/konserter/haugesund-julekonsert-2025',
+  },
   // {
   //   id: 2,
   //   name: 'Bærum Kulturhus, Sandvika',
@@ -144,15 +153,6 @@ const concerts = [
   //   ticketLink:
   //     'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/',
   //   pageUrl: '/konserter/stavanger-julekonsert',
-  // },
-  // {
-  //   id: 16,
-  //   name: 'Festiviteten, Haugesund',
-  //   imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
-  //   date: '16. desember',
-  //   ticketLink:
-  //     'https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/',
-  //   pageUrl: '/konserter/haugesund-julekonsert',
   // },
 
   // {
