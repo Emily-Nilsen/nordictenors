@@ -19,6 +19,14 @@ const concerts = [
     ticketLink: 'https://www.eventim.no/eventseries/1825170/?affiliate=SS2',
     pageUrl: '/konserter/molde-julekonsert-2025',
   },
+  {
+    id: 17,
+    name: 'Grieghallen, Bergen',
+    imageUrl: '/thumbnails/Grieghallen_Bergen_thumb.webp',
+    date: '9. desember',
+    ticketLink: 'https://www.ticketmaster.no/event/1587930548',
+    pageUrl: '/konserter/bergen-julekonsert-2025',
+  },
   // {
   //   id: 2,
   //   name: 'Bærum Kulturhus, Sandvika',
@@ -146,14 +154,7 @@ const concerts = [
   //     'https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/',
   //   pageUrl: '/konserter/haugesund-julekonsert',
   // },
-  // {
-  //   id: 17,
-  //   name: 'Grieghallen, Bergen',
-  //   imageUrl: '/thumbnails/Grieghallen_Bergen_thumb.webp',
-  //   date: '17. desember',
-  //   ticketLink: 'https://www.ticketmaster.no/event/731181',
-  //   pageUrl: '/konserter/bergen-julekonsert',
-  // },
+
   // {
   //   id: 18,
   //   name: 'Olavshallen, Trondheim',

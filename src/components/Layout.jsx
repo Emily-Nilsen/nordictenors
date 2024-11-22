@@ -101,6 +101,7 @@ export const navigation = [
   {
     title: 'Christmas with Nordic Tenors 2025',
     links: [
+      { title: 'Bergen', href: '/konserter/bergen-julekonsert-2025' },
       { title: 'Hadeland', href: '/konserter/hadeland-julekonsert-2025' },
       { title: 'Holmestrand', href: '/konserter/holmestrand-julekonsert-2025' },
       { title: 'Horten', href: '/konserter/horten-julekonsert-2025' },
