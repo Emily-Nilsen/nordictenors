@@ -7,6 +7,7 @@ import { Christmas } from '@/components/Christmas'
 import { November } from '@/components/November'
 import { November_2025 } from '@/components/November_2025'
 import { Desember } from '@/components/Desember'
+import { Desember_2025 } from '@/components/Desember_2025'
 import { Mars } from '@/components/Mars'
 import { April } from '@/components/April'
 import CurrentYear from '@/components/CurrentYear'
@@ -247,6 +248,10 @@ const tags = {
   desember: {
     selfClosing: true,
     render: Desember,
+  },
+  desember_2025: {
+    selfClosing: true,
+    render: Desember_2025,
   },
   mars: {
     selfClosing: true,
