@@ -1,10 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Fragment } from 'react'
-import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
-import { Menu, Transition } from '@headlessui/react'
 import { PlusCircleIcon } from '@heroicons/react/24/outline'
-import { GoBackButton } from './GoBackButton'
 
 function TicketIcon(props) {
   return (
@@ -16,7 +12,7 @@ function TicketIcon(props) {
 
 const concerts = [
   {
-    id: 1,
+    id: 123,
     name: 'Bakkenteigen Kulturhus, Horten',
     imageUrl: '/thumbnails/Bakkenteigen_Kulturhus_Horten.webp',
     date: '22. november',
@@ -25,7 +21,7 @@ const concerts = [
     pageUrl: '/konserter/horten-julekonsert',
   },
   {
-    id: 2,
+    id: 236,
     name: 'Alles Kulturhus, Hønefoss',
     imageUrl: '/thumbnails/Alles-Kulturhus.webp',
     date: '23. november',
@@ -33,7 +29,7 @@ const concerts = [
     pageUrl: '/konserter/honefoss-julekonsert',
   },
   {
-    id: 3,
+    id: 345,
     name: 'Lillestrøm Kultursenter',
     imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
     date: '24. november',
@@ -42,7 +38,7 @@ const concerts = [
     pageUrl: '/konserter/lillestrom-julekonsert',
   },
   {
-    id: 6,
+    id: 666,
     name: 'Voss Kulturhus',
     imageUrl: '/thumbnails/Voss_Kulturhus.webp',
     date: '26. november',
@@ -51,7 +47,7 @@ const concerts = [
     pageUrl: '/konserter/voss-julekonsert',
   },
   {
-    id: 7,
+    id: 7777,
     name: 'Oseana Kulturhus, Os',
     imageUrl: '/thumbnails/Oseana.webp',
     date: '27. november',
@@ -59,7 +55,7 @@ const concerts = [
     pageUrl: '/konserter/os-julekonsert',
   },
   {
-    id: 8,
+    id: 888,
     name: 'Berge Gard & Gartneri',
     imageUrl: '/thumbnails/Berge_Gard_og_Gartneri.webp',
     date: '28. november',
@@ -67,7 +63,7 @@ const concerts = [
     pageUrl: '/konserter/torvikbygd-julekonsert',
   },
   {
-    id: 4,
+    id: 444,
     name: 'Ullensaker Kulturhus',
     imageUrl: '/thumbnails/Ullensaker_Kulturhus.webp',
     date: '29. november',
@@ -76,7 +72,7 @@ const concerts = [
     pageUrl: '/konserter/ullensaker-julekonsert',
   },
   {
-    id: 5,
+    id: 555,
     name: 'Askim Kulturhus',
     imageUrl: '/thumbnails/Askim_Kulturhus.webp',
     date: '30. november',
@@ -85,17 +81,17 @@ const concerts = [
   },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(' ')
+// }
 
-export function November() {
+export function November_2024() {
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
 
   return (
-    <div id="november" className="w-full overflow-x-hidden rounded-xl ">
+    <div id="november_2024" className="w-full overflow-x-hidden rounded-xl ">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (

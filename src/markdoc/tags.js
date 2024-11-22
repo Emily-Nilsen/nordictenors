@@ -4,8 +4,10 @@ import { Category, Categories } from '@/components/Categories'
 import { FeatureImage, Images } from '@/components/Images'
 import { Jubileum } from '@/components/Jubileum'
 import { Christmas } from '@/components/Christmas'
-import { November } from '@/components/November'
+import { November_2024 } from '@/components/November_2024'
 import { November_2025 } from '@/components/November_2025'
+import { Jul_Nov_2024 } from '@/components/Jul_Nov_2024'
+import { Jul_Des_2024 } from '@/components/Jul_Des_2024'
 import { Desember } from '@/components/Desember'
 import { Desember_2025 } from '@/components/Desember_2025'
 import { Mars } from '@/components/Mars'
@@ -237,9 +239,13 @@ const tags = {
     selfClosing: true,
     render: Jubileum,
   },
-  november: {
+  november_2024: {
     selfClosing: true,
-    render: November,
+    render: November_2024,
+  },
+  jul_nov_2024: {
+    selfClosing: true,
+    render: Jul_Nov_2024,
   },
   november_2025: {
     selfClosing: true,
@@ -248,6 +254,10 @@ const tags = {
   desember: {
     selfClosing: true,
     render: Desember,
+  },
+  jul_des_2024: {
+    selfClosing: true,
+    render: Jul_Des_2024,
   },
   desember_2025: {
     selfClosing: true,

@@ -14,11 +14,11 @@ description: Opplev konserter med Nordic Tenors. Finn datoer i kalenderen og kj√
 
 ### November 2024
 
-{% november /%}
+{% jul_nov_2024 /%}
 
 ### Desember 2024
 
-{% desember /%}
+{% jul_des_2024 /%}
 
 ## Nordic Tenors - √Ä la carte
 

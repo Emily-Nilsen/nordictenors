@@ -204,13 +204,13 @@ const concerts = [
 //   return classes.filter(Boolean).join(' ')
 // }
 
-export function Desember() {
+export function Jul_Des_2024() {
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
 
   return (
-    <div id="desember_2024" className="w-full overflow-x-hidden rounded-xl ">
+    <div id="jul_des_2024" className="w-full overflow-x-hidden rounded-xl ">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {concerts.map((concert) => (
