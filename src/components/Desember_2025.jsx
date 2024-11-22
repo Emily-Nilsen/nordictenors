@@ -53,6 +53,14 @@ const concerts = [
     ticketLink: 'https://tix.no/nb/tr/buyingflow/tickets/34909/74128/',
     pageUrl: '/konserter/tromso-julekonsert-2025',
   },
+  {
+    id: 10,
+    name: 'Maihaugsalen, Lillehammer',
+    imageUrl: '/thumbnails/Maihaugsalen_thumb.webp',
+    date: '19. desember',
+    ticketLink: 'https://www.ticketmaster.no/event/149748545',
+    pageUrl: '/konserter/lillehammer-julekonsert-2025',
+  },
   // {
   //   id: 2,
   //   name: 'Bærum Kulturhus, Sandvika',
@@ -121,14 +129,7 @@ const concerts = [
   //   ticketLink: 'https://tix.no/nb/oslok/buyingflow/tickets/25447/48302/#tixsp',
   //   pageUrl: '/konserter/oslo-julekonsert',
   // },
-  // {
-  //   id: 10,
-  //   name: 'Maihaugsalen, Lillehammer',
-  //   imageUrl: '/thumbnails/Maihaugsalen_thumb.webp',
-  //   date: '10. desember',
-  //   ticketLink: 'https://www.ticketmaster.no/event/731015',
-  //   pageUrl: '/konserter/lillehammer-julekonsert',
-  // },
+
   // {
   //   id: 11,
   //   name: 'Arendal Kulturhus',
