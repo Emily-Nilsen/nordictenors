@@ -5,6 +5,7 @@ import { FeatureImage, Images } from '@/components/Images'
 import { Jubileum } from '@/components/Jubileum'
 import { Christmas } from '@/components/Christmas'
 import { November } from '@/components/November'
+import { November_2025 } from '@/components/November_2025'
 import { Desember } from '@/components/Desember'
 import { Mars } from '@/components/Mars'
 import { April } from '@/components/April'
@@ -239,7 +240,10 @@ const tags = {
     selfClosing: true,
     render: November,
   },
-
+  november_2025: {
+    selfClosing: true,
+    render: November_2025,
+  },
   desember: {
     selfClosing: true,
     render: Desember,
