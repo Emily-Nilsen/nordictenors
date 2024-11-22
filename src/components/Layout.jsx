@@ -108,6 +108,7 @@ export const navigation = [
       { title: 'Horten', href: '/konserter/horten-julekonsert-2025' },
       { title: 'Molde', href: '/konserter/molde-julekonsert-2025' },
       { title: 'Oslo', href: '/konserter/oslo-julekonsert-2025' },
+      { title: 'Stavanger', href: '/konserter/stavanger-julekonsert-2025' },
     ],
   },
 ]

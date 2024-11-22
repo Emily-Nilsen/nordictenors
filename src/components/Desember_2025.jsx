@@ -36,6 +36,15 @@ const concerts = [
       'https://tix.no/nb/festiviteten/buyingflow/tickets/34846/74030/',
     pageUrl: '/konserter/haugesund-julekonsert-2025',
   },
+  {
+    id: 15,
+    name: 'Stavanger Konserthus',
+    imageUrl: '/thumbnails/Stavanger_konserthus_thumb.webp',
+    date: '12. desember',
+    ticketLink:
+      'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/34991/',
+    pageUrl: '/konserter/stavanger-julekonsert-2025',
+  },
   // {
   //   id: 2,
   //   name: 'Bærum Kulturhus, Sandvika',
@@ -144,15 +153,6 @@ const concerts = [
   //   date: '14. desember',
   //   ticketLink: 'https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/',
   //   pageUrl: '/konserter/sandnes-julekonsert',
-  // },
-  // {
-  //   id: 15,
-  //   name: 'Stavanger Konserthus',
-  //   imageUrl: '/thumbnails/Stavanger_konserthus_thumb.webp',
-  //   date: '15. desember',
-  //   ticketLink:
-  //     'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/',
-  //   pageUrl: '/konserter/stavanger-julekonsert',
   // },
 
   // {
