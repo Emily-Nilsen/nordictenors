@@ -97,6 +97,16 @@ export const navigation = [
       { title: 'Ålesund', href: '/konserter/alesund-a-la-carte' },
     ],
   },
+  // Christmas with Nordic Tenors 2025
+  {
+    title: 'Christmas with Nordic Tenors 2025',
+    links: [
+      { title: 'Hadeland', href: '/konserter/hadeland-julekonsert-2025' },
+      { title: 'Holmestrand', href: '/konserter/holmestrand-julekonsert-2025' },
+      { title: 'Horten', href: '/konserter/horten-julekonsert-2025' },
+      { title: 'Oslo', href: '/konserter/oslo-julekonsert-2025' },
+    ],
+  },
 ]
 
 function Header({ navigation }) {
