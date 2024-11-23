@@ -47,14 +47,14 @@ const concerts = [
       'https://oslokonserthus.no/program/christmas-with-nordic-tenors-2025',
     pageUrl: '/konserter/oslo-julekonsert-2025',
   },
-  // {
-  //   id: 2,
-  //   name: 'Alles Kulturhus, Hønefoss',
-  //   imageUrl: '/thumbnails/Alles-Kulturhus.webp',
-  //   date: '23. november',
-  //   ticketLink: 'https://alleskulturhus.no/arrangement/christmas-with',
-  //   pageUrl: '/konserter/honefoss-julekonsert',
-  // },
+  {
+    id: 2154,
+    name: 'Alles Kulturhus, Hønefoss',
+    imageUrl: '/thumbnails/Alles-Kulturhus.webp',
+    date: '23. november',
+    ticketLink: 'https://tix.no/nb/alles/buyingflow/tickets/35084/74398/',
+    pageUrl: '/konserter/honefoss-julekonsert-2025',
+  },
   // {
   //   id: 3,
   //   name: 'Lillestrøm Kultursenter',
