@@ -107,6 +107,7 @@ export const navigation = [
       { title: 'Haugesund', href: '/konserter/haugesund-julekonsert-2025' },
       { title: 'Holmestrand', href: '/konserter/holmestrand-julekonsert-2025' },
       { title: 'Horten', href: '/konserter/horten-julekonsert-2025' },
+      { title: 'Hønefoss', href: '/konserter/honefoss-julekonsert-2025' },
       {
         title: 'Lillehammer',
         href: '/konserter/lillehammer-julekonsert-2025',
