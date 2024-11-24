@@ -16,6 +16,15 @@ function TicketIcon(props) {
 
 const concerts = [
   {
+    id: 198,
+    name: 'Olavshallen, Trondheim',
+    imageUrl: '/thumbnails/Olavshallen_thumb.webp',
+    date: '2. april',
+    ticketLink:
+      'https://www.olavshallen.no/forestillinger/2024-11-22-nordic-tenors',
+    pageUrl: '/konserter/trondheim-a-la-carte',
+  },
+  {
     id: 1,
     name: 'Steinkjer Kulturhus',
     imageUrl: '/thumbnails/Steinkjer_Kulturhus.webp',

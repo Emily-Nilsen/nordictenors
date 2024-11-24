@@ -94,6 +94,7 @@ export const navigation = [
       { title: 'Lillestrøm', href: '/konserter/lillestrom-a-la-carte' },
       { title: 'Sandnessjøen', href: '/konserter/sandnessjoen-a-la-carte' },
       { title: 'Steinkjer', href: '/konserter/steinkjer-a-la-carte' },
+      { title: 'Trondheim', href: '/konserter/trondheim-a-la-carte' },
       { title: 'Ålesund', href: '/konserter/alesund-a-la-carte' },
     ],
   },
