@@ -43,6 +43,15 @@ const concerts = [
     pageUrl: '/konserter/grong-a-la-carte',
   },
   {
+    id: 2789,
+    name: 'Mosjøen Kulturhuset',
+    imageUrl: '/thumbnails/Mosjøen_Kulturhus.webp',
+    date: '5. april',
+    ticketLink:
+      'https://checkout.ebillett.no/193/events/76962/purchase/setup?kanal=dxf',
+    pageUrl: '/konserter/mosjoen-a-la-carte',
+  },
+  {
     id: 3,
     name: 'Kulturbadet Sandnessjøen',
     imageUrl: '/thumbnails/Kulturbadet_Sandnessjøen.webp',

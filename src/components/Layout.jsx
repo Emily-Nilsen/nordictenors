@@ -92,6 +92,7 @@ export const navigation = [
       { title: 'Kolbotn', href: '/konserter/kolbotn-a-la-carte' },
       { title: 'Kongsvinger', href: '/konserter/kongsvinger-a-la-carte' },
       { title: 'Lillestrøm', href: '/konserter/lillestrom-a-la-carte' },
+      { title: 'Mosjøen', href: '/konserter/mosjoen-a-la-carte' },
       { title: 'Sandnessjøen', href: '/konserter/sandnessjoen-a-la-carte' },
       { title: 'Steinkjer', href: '/konserter/steinkjer-a-la-carte' },
       { title: 'Trondheim', href: '/konserter/trondheim-a-la-carte' },
