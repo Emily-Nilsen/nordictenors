@@ -169,6 +169,16 @@ const concerts = [
     pageUrl: '',
   },
   {
+    id: 1268,
+    name: 'Lillestrøm Kulturhus',
+    imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
+    date: '18. desember',
+    isoDate: '2025-12-18T18:00:00.000Z',
+    ticketLink:
+      'https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors-2025/',
+    pageUrl: '/konserter/lillestrom-julekonsert-2025',
+  },
+  {
     id: 10,
     name: 'Maihaugsalen, Lillehammer',
     imageUrl: '/thumbnails/Maihaugsalen_thumb.webp',

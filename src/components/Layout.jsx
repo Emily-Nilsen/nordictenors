@@ -115,6 +115,7 @@ export const navigation = [
         title: 'Lillehammer',
         href: '/konserter/lillehammer-julekonsert-2025',
       },
+      { title: 'Lillestrøm', href: '/konserter/lillestrom-julekonsert-2025' },
       { title: 'Molde', href: '/konserter/molde-julekonsert-2025' },
       {
         title: 'Moss',
