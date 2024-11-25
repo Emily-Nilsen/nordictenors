@@ -12,10 +12,20 @@ function TicketIcon(props) {
 
 const concerts = [
   {
-    id: 1,
+    id: 5734,
+    name: 'Olavshallen, Trondheim',
+    imageUrl: '/thumbnails/Olavshallen_thumb.webp',
+    date: '2. desember',
+    isoDate: '2025-12-02T18:00:00.000Z',
+    ticketLink: '',
+    pageUrl: '',
+  },
+  {
+    id: 158,
     name: 'Bjørnsonhuset, Molde',
     imageUrl: '/thumbnails/Bjørnsonhuset_Molde.webp',
     date: '7. desember',
+    isoDate: '2025-12-07T18:00:00.000Z',
     ticketLink: 'https://www.eventim.no/eventseries/1825170/?affiliate=SS2',
     pageUrl: '/konserter/molde-julekonsert-2025',
   },
@@ -24,6 +34,7 @@ const concerts = [
     name: 'Grieghallen, Bergen',
     imageUrl: '/thumbnails/Grieghallen_Bergen_thumb.webp',
     date: '9. desember',
+    isoDate: '2025-12-09T18:00:00.000Z',
     ticketLink: 'https://www.ticketmaster.no/event/1587930548',
     pageUrl: '/konserter/bergen-julekonsert-2025',
   },
@@ -32,6 +43,7 @@ const concerts = [
     name: 'Festiviteten, Haugesund',
     imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
     date: '10. desember',
+    isoDate: '2025-12-10T18:00:00.000Z',
     ticketLink:
       'https://tix.no/nb/festiviteten/buyingflow/tickets/34846/74030/',
     pageUrl: '/konserter/haugesund-julekonsert-2025',
@@ -41,6 +53,7 @@ const concerts = [
     name: 'Stavanger Konserthus',
     imageUrl: '/thumbnails/Stavanger_konserthus_thumb.webp',
     date: '12. desember',
+    isoDate: '2025-12-12T18:00:00.000Z',
     ticketLink:
       'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/34991/',
     pageUrl: '/konserter/stavanger-julekonsert-2025',
@@ -50,6 +63,7 @@ const concerts = [
     name: 'Narvik Kulturhus',
     imageUrl: '/thumbnails/Narvik_Kulturhus.webp',
     date: '15. desember',
+    isoDate: '2025-12-15T18:00:00.000Z',
     ticketLink: 'https://www.ticketmaster.no/event/1109855800',
     pageUrl: '/konserter/narvik-julekonsert-2025',
   },
@@ -58,6 +72,7 @@ const concerts = [
     name: 'Kulturhuset i Tromsø',
     imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
     date: '16. desember',
+    isoDate: '2025-12-16T18:00:00.000Z',
     ticketLink: 'https://tix.no/nb/tr/buyingflow/tickets/34909/74128/',
     pageUrl: '/konserter/tromso-julekonsert-2025',
   },
@@ -66,6 +81,7 @@ const concerts = [
     name: 'Maihaugsalen, Lillehammer',
     imageUrl: '/thumbnails/Maihaugsalen_thumb.webp',
     date: '19. desember',
+    isoDate: '2025-12-19T18:00:00.000Z',
     ticketLink: 'https://www.ticketmaster.no/event/149748545',
     pageUrl: '/konserter/lillehammer-julekonsert-2025',
   },
@@ -74,142 +90,10 @@ const concerts = [
     name: 'Hamar Kulturhus',
     imageUrl: '/thumbnails/Hamar_Kulturhus.webp',
     date: '20. desember',
+    isoDate: '2025-12-20T18:00:00.000Z',
     ticketLink: 'https://checkout.ebillett.no/228/events/148032/purchase/setup',
     pageUrl: '/konserter/hamar-julekonsert-2025',
   },
-
-  // {
-  //   id: 2,
-  //   name: 'Bærum Kulturhus, Sandvika',
-  //   imageUrl: '/thumbnails/Bærum_kulturhus_thumb.webp',
-  //   date: '2. desember',
-  //   ticketLink: 'https://www.baerumkulturhus.no/arrangement/nordic-tenors2/',
-  //   pageUrl: '/konserter/sandvika-julekonsert',
-  // },
-  // {
-  //   id: 3,
-  //   name: 'Blå Grotte, Fredrikstad',
-  //   imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
-  //   date: '3. desember',
-  //   ticketLink: 'https://checkout.ebillett.no/260/events/129790/purchase/setup',
-  //   pageUrl: '/konserter/fredrikstad-julekonsert',
-  // },
-  // {
-  //   id: 4,
-  //   name: 'Nøtterøy Kulturhus',
-  //   imageUrl: '/thumbnails/Nøtterøy_kulturhus_thumb.webp',
-  //   date: '4. desember',
-  //   ticketLink: 'https://tix.no/nb/notteroy/buyingflow/tickets/25514/72772',
-  //   pageUrl: '/konserter/notteroy-julekonsert',
-  // },
-  // {
-  //   id: 5,
-  //   name: 'Bølgen Kulturhus, Larvik',
-  //   imageUrl: '/thumbnails/Bølgen_kulturhus_thumb.webp',
-  //   date: '5. desember',
-  //   ticketLink:
-  //     'https://tix.no/nb/bolgen/buyingflow/tickets/25744/?_ga=2.161043901.1051657898.1702914858-1165690517.1702914857&_gac=1.253871610.1702914858.CjwKCAiA-P-rBhBEEiwAQEXhH_WmJIGxwI7O6og-vDAp_WW5t7UB2nhQ5O9LhbCKNXotQGFB8cNqHBoCURAQAvD_BwE&_gl=1*1bnmxif*_ga*MTE2NTY5MDUxNy4xNzAyOTE0ODU3*_ga_R2NHV9NW52*MTcwMjkxNDg1Ny4xLjEuMTcwMjkxNDg4Ny4zMC4wLjA.',
-  //   pageUrl: '/konserter/larvik-julekonsert',
-  // },
-  // {
-  //   id: 6,
-  //   name: 'Asker Kulturhus',
-  //   imageUrl: '/thumbnails/Asker_kulturhus_thumb.webp',
-  //   date: '6. desember',
-  //   ticketLink:
-  //     'https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/',
-  //   pageUrl: '/konserter/asker-julekonsert',
-  // },
-
-  // {
-  //   id: 8,
-  //   name: 'Hadeland Kultursal',
-  //   imageUrl: '/thumbnails/Hadeland_Kultursal_thumb.webp',
-  //   date: '8. desember',
-  //   ticketLink:
-  //     'https://www.kulturhadeland.no/christmas-with-nordic-tenors-2024-xd5i6y4/',
-  //   pageUrl: '/konserter/hadeland-julekonsert',
-  // },
-  // {
-  //   id: 9,
-  //   name: 'Oslo Konserthus',
-  //   imageUrl: '/thumbnails/Oslo_Konserthus_thumb.webp',
-  //   date: '9. desember',
-  //   ticketLink: 'https://tix.no/nb/oslok/buyingflow/tickets/25447/48302/#tixsp',
-  //   pageUrl: '/konserter/oslo-julekonsert',
-  // },
-
-  // {
-  //   id: 11,
-  //   name: 'Arendal Kulturhus',
-  //   imageUrl: '/thumbnails/Arendal_kulturhus_thumb.webp',
-  //   date: '11. desember',
-  //   ticketLink: 'https://tix.no/nb/arendal/buyingflow/tickets/25512/',
-  //   pageUrl: '/konserter/arendal-julekonsert',
-  // },
-  // {
-  //   id: 12,
-  //   name: 'Kilden, Kristiansand',
-  //   imageUrl: '/thumbnails/Kilden_kulturhus_thumb.webp',
-  //   date: '12. desember',
-  //   ticketLink:
-  //     'https://kilden.com/forestilling/christmas-with-nordic-tenors-5/',
-  //   pageUrl: '/konserter/kristiansand-julekonsert',
-  // },
-  // {
-  //   id: 13,
-  //   name: 'Flekkefjord Kulturhus Spira',
-  //   imageUrl: '/thumbnails/Flekkefjord_thumb.webp',
-  //   date: '13. desember',
-  //   ticketLink: 'https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/',
-  //   pageUrl: '/konserter/flekkefjord-julekonsert',
-  // },
-  // {
-  //   id: 14,
-  //   name: 'Sandnes Kulturhus',
-  //   imageUrl: '/thumbnails/Sandnes_kulturhus_thumb.webp',
-  //   date: '14. desember',
-  //   ticketLink: 'https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/',
-  //   pageUrl: '/konserter/sandnes-julekonsert',
-  // },
-
-  // {
-  //   id: 18,
-  //   name: 'Olavshallen, Trondheim',
-  //   imageUrl: '/thumbnails/Olavshallen_thumb.webp',
-  //   date: '18. desember',
-  //   ticketLink:
-  //     'https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors',
-  //   pageUrl: '/konserter/trondheim-julekonsert',
-  // },
-
-  // {
-  //   id: 20,
-  //   name: 'Stormen, Bodø',
-  //   imageUrl: '/thumbnails/Stormen_thumb.webp',
-  //   date: '20. desember',
-  //   ticketLink:
-  //     'https://billetter.stormen.no/nb/buyingflow/tickets/26884/50393',
-  //   pageUrl: '/konserter/bodo-julekonsert',
-  // },
-  // {
-  //   id: 21,
-  //   name: 'Kimen, Stjørdal',
-  //   imageUrl: '/thumbnails/Kimen_thumb.webp',
-  //   date: '21. desember',
-  //   ticketLink:
-  //     'https://tix.no/nb/kimenkulturhus/buyingflow/tickets/27102/50673/',
-  //   pageUrl: '/konserter/stjordal-julekonsert',
-  // },
-  // {
-  //   id: 22,
-  //   name: 'Drammens Teater',
-  //   imageUrl: '/thumbnails/Drammens_Teater_thumb.webp',
-  //   date: '22. desember',
-  //   ticketLink:
-  //     'https://www.drammenscener.no/teatret/program/25611-christmas-with-nordic-tenors/',
-  //   pageUrl: '/konserter/drammen-julekonsert',
-  // },
 ]
 
 export function Desember_2025() {
@@ -217,11 +101,17 @@ export function Desember_2025() {
     event.stopPropagation()
   }
 
+  // Filter out concerts that are older than today
+  const today = new Date()
+  const upcomingConcerts = concerts.filter(
+    (concert) => new Date(concert.isoDate) > today
+  )
+
   return (
     <div id="desember" className="w-full overflow-x-hidden rounded-xl ">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
-          {concerts.map((concert) => (
+          {upcomingConcerts.map((concert) => (
             <li
               key={concert.id}
               className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-amber-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-amber-50/50 dark:bg-red-900/20 dark:focus-within:bg-gray-800/60 dark:hover:bg-red-950/40 sm:pl-7"
@@ -235,16 +125,29 @@ export function Desember_2025() {
               />
 
               <div className="flex-auto font-normal">
-                <Link href={concert.pageUrl}>
-                  <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
-                    {concert.name}
-                  </p>
-                  <p className="-mt-5 flex gap-x-3 text-sm">
-                    <span className="font-bold text-gray-900 dark:text-white">
-                      {concert.date}
-                    </span>
-                  </p>
-                </Link>
+                {concert.pageUrl ? (
+                  <Link href={concert.pageUrl}>
+                    <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
+                      {concert.name}
+                    </p>
+                    <p className="-mt-5 flex gap-x-3 text-sm">
+                      <span className="font-bold text-gray-900 dark:text-white">
+                        {concert.date}
+                      </span>
+                    </p>
+                  </Link>
+                ) : (
+                  <div>
+                    <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
+                      {concert.name}
+                    </p>
+                    <p className="-mt-5 flex gap-x-3 text-sm">
+                      <span className="font-bold text-gray-900 dark:text-white">
+                        {concert.date}
+                      </span>
+                    </p>
+                  </div>
+                )}
               </div>
               {/* Large screens */}
               <div className="z-10 hidden sm:block">
@@ -262,7 +165,11 @@ export function Desember_2025() {
                       </span>
                     </button>
                   </Link>
-                ) : null}
+                ) : (
+                  <span className="text-sm text-gray-500 dark:text-gray-300">
+                    Billetter kommer
+                  </span>
+                )}
               </div>
               {/* Mobile devices */}
               <div className="z-10 sm:hidden">
@@ -280,19 +187,25 @@ export function Desember_2025() {
                       </span>
                     </button>
                   </Link>
-                ) : null}
+                ) : (
+                  <span className="text-sm text-gray-500 dark:text-gray-300">
+                    Billetter kommer
+                  </span>
+                )}
               </div>
 
               <div>
-                <Link href={concert.pageUrl}>
-                  <div className="-m-2 flex items-center rounded-full p-1.5 text-sm text-gray-500 hover:text-gray-600 dark:text-amber-400">
-                    <p className="hidden px-3 sm:block">Vis mer</p>
-                    <PlusCircleIcon
-                      className="ml-3 h-7 w-7 sm:hidden"
-                      aria-hidden="true"
-                    />
-                  </div>
-                </Link>
+                {concert.pageUrl ? (
+                  <Link href={concert.pageUrl}>
+                    <div className="-m-2 flex items-center rounded-full p-1.5 text-sm text-gray-500 hover:text-gray-600 dark:text-amber-400">
+                      <p className="hidden px-3 sm:block">Vis mer</p>
+                      <PlusCircleIcon
+                        className="ml-3 h-7 w-7 sm:hidden"
+                        aria-hidden="true"
+                      />
+                    </div>
+                  </Link>
+                ) : null}
               </div>
             </li>
           ))}
