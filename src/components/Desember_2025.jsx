@@ -30,6 +30,16 @@ const concerts = [
     pageUrl: '',
   },
   {
+    id: 3114,
+    name: 'Arendal Kulturhus',
+    imageUrl: '/thumbnails/Arendal_kulturhus_thumb.webp',
+    date: '3. desember',
+    isoDate: '2025-12-03T18:00:00.000Z',
+    ticketLink:
+      'https://www.arendalkulturhus.no/program/christmas-with-nordic-tenors-2005/',
+    pageUrl: '/konserter/arendal-julekonsert-2025',
+  },
+  {
     id: 5797,
     name: 'KRS Live, Kristiansand',
     imageUrl: '/thumbnails/KRS_Live.webp',
