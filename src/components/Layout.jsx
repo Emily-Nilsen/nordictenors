@@ -122,6 +122,7 @@ export const navigation = [
       { title: 'Narvik', href: '/konserter/narvik-julekonsert-2025' },
       { title: 'Oslo', href: '/konserter/oslo-julekonsert-2025' },
       { title: 'Stavanger', href: '/konserter/stavanger-julekonsert-2025' },
+      { title: 'Stjørdal', href: '/konserter/stjordal-julekonsert-2025' },
       { title: 'Tromsø', href: '/konserter/tromso-julekonsert-2025' },
     ],
   },

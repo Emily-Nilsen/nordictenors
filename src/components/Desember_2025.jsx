@@ -12,6 +12,15 @@ function TicketIcon(props) {
 
 const concerts = [
   {
+    id: 3434,
+    name: 'Kimen Kulturhus, Stjørdal',
+    imageUrl: '/thumbnails/Kimen_thumb.webp',
+    date: '1. desember',
+    isoDate: '2025-12-01T18:00:00.000Z',
+    ticketLink: 'https://kimenkulturhus.no/Program/NordicTenors25',
+    pageUrl: '/konserter/stjordal-julekonsert-2025',
+  },
+  {
     id: 5734,
     name: 'Olavshallen, Trondheim',
     imageUrl: '/thumbnails/Olavshallen_thumb.webp',
