@@ -160,6 +160,15 @@ const concerts = [
     pageUrl: '/konserter/tromso-julekonsert-2025',
   },
   {
+    id: 1968,
+    name: 'Stormen, Bodø',
+    imageUrl: '/thumbnails/Stormen_thumb.webp',
+    date: '17. desember',
+    isoDate: '2025-12-17T18:00:00.000Z',
+    ticketLink: '',
+    pageUrl: '',
+  },
+  {
     id: 10,
     name: 'Maihaugsalen, Lillehammer',
     imageUrl: '/thumbnails/Maihaugsalen_thumb.webp',
