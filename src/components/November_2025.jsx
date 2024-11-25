@@ -60,6 +60,42 @@ const concerts = [
       'https://oslokonserthus.no/program/christmas-with-nordic-tenors-2025',
     pageUrl: '/konserter/oslo-julekonsert-2025',
   },
+  {
+    id: 3842,
+    name: 'Nøtterøy Kulturhus',
+    imageUrl: '/thumbnails/Nøtterøy_kulturhus_thumb.webp',
+    date: '26. november',
+    isoDate: '2028-11-26T18:00:00.000Z',
+    ticketLink: '',
+    pageUrl: '',
+  },
+  // {
+  //   id: 3843,
+  //   name: 'Elverum Kulturhus',
+  //   imageUrl: '/thumbnails/Nøtterøy_kulturhus_thumb.webp',
+  //   date: '27. november',
+  //   isoDate: '2028-11-27T18:00:00.000Z',
+  //   ticketLink: '',
+  //   pageUrl: '',
+  // },
+  {
+    id: 5783,
+    name: 'Blå Gråtte, Fredrikstad',
+    imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
+    date: '28. november',
+    isoDate: '2028-11-25T18:00:00.000Z',
+    ticketLink: '',
+    pageUrl: '',
+  },
+  {
+    id: 5774,
+    name: 'Askim Kulturhus',
+    imageUrl: '/thumbnails/Askim_Kulturhus.webp',
+    date: '29. november',
+    isoDate: '2028-11-29T18:00:00.000Z',
+    ticketLink: '',
+    pageUrl: '',
+  },
 ]
 
 export function November_2025() {
@@ -67,11 +103,17 @@ export function November_2025() {
     event.stopPropagation()
   }
 
+  // Filter out concerts that are older than today
+  const today = new Date()
+  const upcomingConcerts = concerts.filter(
+    (concert) => new Date(concert.isoDate) > today
+  )
+
   return (
     <div id="november" className="w-full overflow-x-hidden rounded-xl ">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
-          {concerts.map((concert) => (
+          {upcomingConcerts.map((concert) => (
             <li
               key={concert.id}
               className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-amber-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-amber-50/50 dark:bg-red-900/20 dark:focus-within:bg-gray-800/60 dark:hover:bg-red-950/40 sm:pl-7"
@@ -85,16 +127,29 @@ export function November_2025() {
               />
 
               <div className="flex-auto font-normal">
-                <Link href={concert.pageUrl}>
-                  <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
-                    {concert.name}
-                  </p>
-                  <p className="-mt-5 flex gap-x-3 text-sm">
-                    <span className="font-bold text-gray-900 dark:text-white">
-                      {concert.date}
-                    </span>
-                  </p>
-                </Link>
+                {concert.pageUrl ? (
+                  <Link href={concert.pageUrl}>
+                    <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
+                      {concert.name}
+                    </p>
+                    <p className="-mt-5 flex gap-x-3 text-sm">
+                      <span className="font-bold text-gray-900 dark:text-white">
+                        {concert.date}
+                      </span>
+                    </p>
+                  </Link>
+                ) : (
+                  <div>
+                    <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
+                      {concert.name}
+                    </p>
+                    <p className="-mt-5 flex gap-x-3 text-sm">
+                      <span className="font-bold text-gray-900 dark:text-white">
+                        {concert.date}
+                      </span>
+                    </p>
+                  </div>
+                )}
               </div>
               {/* Large screens */}
               <div className="z-10 hidden sm:block">
@@ -112,7 +167,11 @@ export function November_2025() {
                       </span>
                     </button>
                   </Link>
-                ) : null}
+                ) : (
+                  <span className="text-sm text-gray-500 dark:text-gray-300">
+                    Billetter kommer
+                  </span>
+                )}
               </div>
               {/* Mobile devices */}
               <div className="z-10 sm:hidden">
@@ -130,19 +189,25 @@ export function November_2025() {
                       </span>
                     </button>
                   </Link>
-                ) : null}
+                ) : (
+                  <span className="text-sm text-gray-500 dark:text-gray-300">
+                    Billetter kommer
+                  </span>
+                )}
               </div>
 
               <div>
-                <Link href={concert.pageUrl}>
-                  <div className="-m-2 flex items-center rounded-full p-1.5 text-sm text-gray-500 hover:text-gray-600 dark:text-amber-400">
-                    <p className="hidden px-3 sm:block">Vis mer</p>
-                    <PlusCircleIcon
-                      className="ml-3 h-7 w-7 sm:hidden"
-                      aria-hidden="true"
-                    />
-                  </div>
-                </Link>
+                {concert.pageUrl ? (
+                  <Link href={concert.pageUrl}>
+                    <div className="-m-2 flex items-center rounded-full p-1.5 text-sm text-gray-500 hover:text-gray-600 dark:text-amber-400">
+                      <p className="hidden px-3 sm:block">Vis mer</p>
+                      <PlusCircleIcon
+                        className="ml-3 h-7 w-7 sm:hidden"
+                        aria-hidden="true"
+                      />
+                    </div>
+                  </Link>
+                ) : null}
               </div>
             </li>
           ))}
