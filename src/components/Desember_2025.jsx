@@ -133,6 +133,15 @@ const concerts = [
     pageUrl: '/konserter/sandnes-julekonsert-2025',
   },
   {
+    id: 1857,
+    name: 'Ullensaker Kulturhus',
+    imageUrl: '/thumbnails/Ullensaker_Kulturhus.webp',
+    date: '14. desember',
+    isoDate: '2025-12-14T18:00:00.000Z',
+    ticketLink: '',
+    pageUrl: '',
+  },
+  {
     id: 7578,
     name: 'Narvik Kulturhus',
     imageUrl: '/thumbnails/Narvik_Kulturhus.webp',
