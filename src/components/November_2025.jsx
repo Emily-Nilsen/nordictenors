@@ -96,6 +96,15 @@ const concerts = [
     ticketLink: '',
     pageUrl: '',
   },
+  {
+    id: 8174,
+    name: 'Moss Kulturhus - Parkteatret',
+    imageUrl: '/thumbnails/Moss_Kulturhus_thumbnail.webp',
+    date: '30. november',
+    isoDate: '2028-11-30T18:00:00.000Z',
+    ticketLink: 'https://tix.no/nb/moss/buyingflow/tickets/35070/74371/',
+    pageUrl: '/konserter/moss-julekonsert-2025',
+  },
 ]
 
 export function November_2025() {

@@ -115,6 +115,10 @@ export const navigation = [
         href: '/konserter/lillehammer-julekonsert-2025',
       },
       { title: 'Molde', href: '/konserter/molde-julekonsert-2025' },
+      {
+        title: 'Moss',
+        href: '/konserter/moss-julekonsert-2025',
+      },
       { title: 'Narvik', href: '/konserter/narvik-julekonsert-2025' },
       { title: 'Oslo', href: '/konserter/oslo-julekonsert-2025' },
       { title: 'Stavanger', href: '/konserter/stavanger-julekonsert-2025' },
