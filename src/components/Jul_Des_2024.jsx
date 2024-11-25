@@ -200,10 +200,6 @@ const concerts = [
   },
 ]
 
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(' ')
-// }
-
 export function Jul_Des_2024() {
   const handleTicketClick = (event) => {
     event.stopPropagation()

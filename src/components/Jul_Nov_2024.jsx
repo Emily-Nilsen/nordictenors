@@ -11,37 +11,22 @@ function TicketIcon(props) {
 }
 
 const concerts = [
-  // {
-  //   id: 123,
-  //   name: 'Bakkenteigen Kulturhus, Horten',
-  //   imageUrl: '/thumbnails/Bakkenteigen_Kulturhus_Horten.webp',
-  //   date: '22. november',
-  //   ticketLink:
-  //     'https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024',
-  //   pageUrl: '/konserter/horten-julekonsert',
-  // },
-  // {
-  //   id: 236,
-  //   name: 'Alles Kulturhus, Hønefoss',
-  //   imageUrl: '/thumbnails/Alles-Kulturhus.webp',
-  //   date: '23. november',
-  //   ticketLink: 'https://alleskulturhus.no/arrangement/christmas-with',
-  //   pageUrl: '/konserter/honefoss-julekonsert',
-  // },
-  // {
-  //   id: 345,
-  //   name: 'Lillestrøm Kultursenter',
-  //   imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
-  //   date: '24. november',
-  //   ticketLink:
-  //     'https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors/',
-  //   pageUrl: '/konserter/lillestrom-julekonsert',
-  // },
+  {
+    id: 345,
+    name: 'Lillestrøm Kultursenter',
+    imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
+    date: '24. november',
+    isoDate: '2024-11-24T18:00:00.000Z',
+    ticketLink:
+      'https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors/',
+    pageUrl: '/konserter/lillestrom-julekonsert',
+  },
   {
     id: 666,
     name: 'Voss Kulturhus',
     imageUrl: '/thumbnails/Voss_Kulturhus.webp',
     date: '26. november',
+    isoDate: '2024-11-26T18:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/149/events/82831/purchase/setup?kanal=dxf',
     pageUrl: '/konserter/voss-julekonsert',
@@ -51,6 +36,7 @@ const concerts = [
     name: 'Oseana Kulturhus, Os',
     imageUrl: '/thumbnails/Oseana.webp',
     date: '27. november',
+    isoDate: '2024-11-27T18:00:00.000Z',
     ticketLink: 'https://www.oseana.no/event/christmas-with-nordic-tenors/',
     pageUrl: '/konserter/os-julekonsert',
   },
@@ -59,6 +45,7 @@ const concerts = [
     name: 'Berge Gard & Gartneri',
     imageUrl: '/thumbnails/Berge_Gard_og_Gartneri.webp',
     date: '28. november',
+    isoDate: '2024-11-28T18:00:00.000Z',
     ticketLink: 'https://berge.ticketco.events/no/nb/e/nordic_tenors',
     pageUrl: '/konserter/torvikbygd-julekonsert',
   },
@@ -67,6 +54,7 @@ const concerts = [
     name: 'Ullensaker Kulturhus',
     imageUrl: '/thumbnails/Ullensaker_Kulturhus.webp',
     date: '29. november',
+    isoDate: '2024-11-29T18:00:00.000Z',
     ticketLink:
       'https://www.ticketmaster.no/event/731653?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.228013205.905843521.1700720460-336858269.1579679332&_gl=1*wqena*_ga*MzM2ODU4MjY5LjE1Nzk2NzkzMzI.*_ga_Q5XX5068LZ*MTcwMDcyMDQ1OS4xMDAuMS4xNzAwNzIwNTQ4LjAuMC4w',
     pageUrl: '/konserter/ullensaker-julekonsert',
@@ -76,25 +64,28 @@ const concerts = [
     name: 'Askim Kulturhus',
     imageUrl: '/thumbnails/Askim_Kulturhus.webp',
     date: '30. november',
+    isoDate: '2024-11-30T18:00:00.000Z',
     ticketLink: 'https://tix.no/nb/askim/buyingflow/tickets/25588/',
     pageUrl: '/konserter/askim-julekonsert',
   },
 ]
-
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(' ')
-// }
 
 export function Jul_Nov_2024() {
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
 
+  // Filter out concerts that are older than today
+  const today = new Date()
+  const upcomingConcerts = concerts.filter(
+    (concert) => new Date(concert.isoDate) > today
+  )
+
   return (
     <div id="jul_nov_2024" className="w-full overflow-x-hidden rounded-xl ">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
-          {concerts.map((concert) => (
+          {upcomingConcerts.map((concert) => (
             <li
               key={concert.id}
               className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-amber-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-amber-50/50 dark:bg-red-900/20 dark:focus-within:bg-gray-800/60 dark:hover:bg-red-950/40 sm:pl-7"

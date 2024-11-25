@@ -55,62 +55,7 @@ const concerts = [
     ticketLink: 'https://tix.no/nb/alles/buyingflow/tickets/35084/74398/',
     pageUrl: '/konserter/honefoss-julekonsert-2025',
   },
-  // {
-  //   id: 3,
-  //   name: 'Lillestrøm Kultursenter',
-  //   imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
-  //   date: '24. november',
-  //   ticketLink:
-  //     'https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors/',
-  //   pageUrl: '/konserter/lillestrom-julekonsert',
-  // },
-  // {
-  //   id: 6,
-  //   name: 'Voss Kulturhus',
-  //   imageUrl: '/thumbnails/Voss_Kulturhus.webp',
-  //   date: '26. november',
-  //   ticketLink:
-  //     'https://checkout.ebillett.no/149/events/82831/purchase/setup?kanal=dxf',
-  //   pageUrl: '/konserter/voss-julekonsert',
-  // },
-  // {
-  //   id: 7,
-  //   name: 'Oseana Kulturhus, Os',
-  //   imageUrl: '/thumbnails/Oseana.webp',
-  //   date: '27. november',
-  //   ticketLink: 'https://www.oseana.no/event/christmas-with-nordic-tenors/',
-  //   pageUrl: '/konserter/os-julekonsert',
-  // },
-  // {
-  //   id: 8,
-  //   name: 'Berge Gard & Gartneri',
-  //   imageUrl: '/thumbnails/Berge_Gard_og_Gartneri.webp',
-  //   date: '28. november',
-  //   ticketLink: 'https://berge.ticketco.events/no/nb/e/nordic_tenors',
-  //   pageUrl: '/konserter/torvikbygd-julekonsert',
-  // },
-  // {
-  //   id: 4,
-  //   name: 'Ullensaker Kulturhus',
-  //   imageUrl: '/thumbnails/Ullensaker_Kulturhus.webp',
-  //   date: '29. november',
-  //   ticketLink:
-  //     'https://www.ticketmaster.no/event/731653?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_ga=2.228013205.905843521.1700720460-336858269.1579679332&_gl=1*wqena*_ga*MzM2ODU4MjY5LjE1Nzk2NzkzMzI.*_ga_Q5XX5068LZ*MTcwMDcyMDQ1OS4xMDAuMS4xNzAwNzIwNTQ4LjAuMC4w',
-  //   pageUrl: '/konserter/ullensaker-julekonsert',
-  // },
-  // {
-  //   id: 5,
-  //   name: 'Askim Kulturhus',
-  //   imageUrl: '/thumbnails/Askim_Kulturhus.webp',
-  //   date: '30. november',
-  //   ticketLink: 'https://tix.no/nb/askim/buyingflow/tickets/25588/',
-  //   pageUrl: '/konserter/askim-julekonsert',
-  // },
 ]
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
 
 export function November_2025() {
   const handleTicketClick = (event) => {
