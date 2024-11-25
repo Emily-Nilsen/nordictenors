@@ -12,19 +12,21 @@ function TicketIcon(props) {
 
 const concerts = [
   {
-    id: 1,
+    id: 158,
     name: 'Bakkenteigen Kulturhus, Horten',
     imageUrl: '/thumbnails/Bakkenteigen_Kulturhus_Horten.webp',
     date: '20. november',
+    isoDate: '2025-11-20T18:00:00.000Z',
     ticketLink:
       'https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2025',
     pageUrl: '/konserter/horten-julekonsert-2025',
   },
   {
-    id: 25,
+    id: 257,
     name: 'Biorama, Holmestrand',
     imageUrl: '/thumbnails/Biorama_thumb.webp',
     date: '21. november',
+    isoDate: '2025-11-21T18:00:00.000Z',
     ticketLink:
       'https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors2025',
     pageUrl: '/konserter/holmestrand-julekonsert-2025',
@@ -34,6 +36,7 @@ const concerts = [
     name: 'Hadeland Kultursal',
     imageUrl: '/thumbnails/Hadeland_Kultursal_thumb.webp',
     date: '22. november',
+    isoDate: '2025-11-22T18:00:00.000Z',
     ticketLink:
       'https://www.kulturhadeland.no/christmas-with-nordic-tenors-2025-yp46pr/',
     pageUrl: '/konserter/hadeland-julekonsert-2025',
@@ -43,6 +46,7 @@ const concerts = [
     name: 'Alles Kulturhus, Hønefoss',
     imageUrl: '/thumbnails/Alles-Kulturhus.webp',
     date: '23. november',
+    isoDate: '2025-11-23T18:00:00.000Z',
     ticketLink: 'https://tix.no/nb/alles/buyingflow/tickets/35084/74398/',
     pageUrl: '/konserter/honefoss-julekonsert-2025',
   },
@@ -51,6 +55,7 @@ const concerts = [
     name: 'Oslo Konserthus',
     imageUrl: '/thumbnails/Oslo_Konserthus_thumb.webp',
     date: '25. november',
+    isoDate: '2025-11-25T18:00:00.000Z',
     ticketLink:
       'https://oslokonserthus.no/program/christmas-with-nordic-tenors-2025',
     pageUrl: '/konserter/oslo-julekonsert-2025',
