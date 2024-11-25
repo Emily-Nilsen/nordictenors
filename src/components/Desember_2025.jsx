@@ -122,6 +122,24 @@ const concerts = [
     ticketLink: 'https://checkout.ebillett.no/228/events/148032/purchase/setup',
     pageUrl: '/konserter/hamar-julekonsert-2025',
   },
+  {
+    id: 737,
+    name: 'Bærum Kulturhus, Sandvika',
+    imageUrl: '/thumbnails/Bærum_kulturhus_thumb.webp',
+    date: '21. desember',
+    isoDate: '2025-12-21T18:00:00.000Z',
+    ticketLink: '',
+    pageUrl: '',
+  },
+  {
+    id: 738,
+    name: 'Drammens Teater',
+    imageUrl: '/thumbnails/Drammens_Teater_thumb.webp',
+    date: '22. desember',
+    isoDate: '2025-12-22T18:00:00.000Z',
+    ticketLink: '',
+    pageUrl: '',
+  },
 ]
 
 export function Desember_2025() {
