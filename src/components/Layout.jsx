@@ -48,15 +48,15 @@ export const navigation = [
       { title: 'Hadeland', href: '/konserter/hadeland-julekonsert' },
       { title: 'Haugesund', href: '/konserter/haugesund-julekonsert' },
       { title: 'Holmestrand', href: '/konserter/holmestrand-julekonsert' },
-      { title: 'Horten', href: '/konserter/horten-julekonsert' },
-      { title: 'Hønefoss', href: '/konserter/honefoss-julekonsert' },
+      // { title: 'Horten', href: '/konserter/horten-julekonsert' },
+      // { title: 'Hønefoss', href: '/konserter/honefoss-julekonsert' },
       { title: 'Kristiansand', href: '/konserter/kristiansand-julekonsert' },
       { title: 'Larvik', href: '/konserter/larvik-julekonsert' },
       {
         title: 'Lillehammer',
         href: '/konserter/lillehammer-julekonsert',
       },
-      { title: 'Lillestrøm', href: '/konserter/lillestrom-julekonsert' },
+      // { title: 'Lillestrøm', href: '/konserter/lillestrom-julekonsert' },
       {
         title: 'Moss',
         href: '/konserter/moss-julekonsert',

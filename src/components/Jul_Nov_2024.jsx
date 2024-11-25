@@ -11,32 +11,32 @@ function TicketIcon(props) {
 }
 
 const concerts = [
-  {
-    id: 123,
-    name: 'Bakkenteigen Kulturhus, Horten',
-    imageUrl: '/thumbnails/Bakkenteigen_Kulturhus_Horten.webp',
-    date: '22. november',
-    ticketLink:
-      'https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024',
-    pageUrl: '/konserter/horten-julekonsert',
-  },
-  {
-    id: 236,
-    name: 'Alles Kulturhus, Hønefoss',
-    imageUrl: '/thumbnails/Alles-Kulturhus.webp',
-    date: '23. november',
-    ticketLink: 'https://alleskulturhus.no/arrangement/christmas-with',
-    pageUrl: '/konserter/honefoss-julekonsert',
-  },
-  {
-    id: 345,
-    name: 'Lillestrøm Kultursenter',
-    imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
-    date: '24. november',
-    ticketLink:
-      'https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors/',
-    pageUrl: '/konserter/lillestrom-julekonsert',
-  },
+  // {
+  //   id: 123,
+  //   name: 'Bakkenteigen Kulturhus, Horten',
+  //   imageUrl: '/thumbnails/Bakkenteigen_Kulturhus_Horten.webp',
+  //   date: '22. november',
+  //   ticketLink:
+  //     'https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024',
+  //   pageUrl: '/konserter/horten-julekonsert',
+  // },
+  // {
+  //   id: 236,
+  //   name: 'Alles Kulturhus, Hønefoss',
+  //   imageUrl: '/thumbnails/Alles-Kulturhus.webp',
+  //   date: '23. november',
+  //   ticketLink: 'https://alleskulturhus.no/arrangement/christmas-with',
+  //   pageUrl: '/konserter/honefoss-julekonsert',
+  // },
+  // {
+  //   id: 345,
+  //   name: 'Lillestrøm Kultursenter',
+  //   imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
+  //   date: '24. november',
+  //   ticketLink:
+  //     'https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors/',
+  //   pageUrl: '/konserter/lillestrom-julekonsert',
+  // },
   {
     id: 666,
     name: 'Voss Kulturhus',
