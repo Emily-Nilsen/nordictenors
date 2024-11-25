@@ -76,6 +76,15 @@ const concerts = [
     pageUrl: '/konserter/molde-julekonsert-2025',
   },
   {
+    id: 1582,
+    name: 'Parken Kulturhus, Ålesund',
+    imageUrl: '/thumbnails/Parken_kulturhus.webp',
+    date: '8. desember',
+    isoDate: '2025-12-08T18:00:00.000Z',
+    ticketLink: 'https://tix.no/nb/parken/buyingflow/tickets/34865/74068/',
+    pageUrl: '/konserter/alesund-julekonsert-2025',
+  },
+  {
     id: 17,
     name: 'Grieghallen, Bergen',
     imageUrl: '/thumbnails/Grieghallen_Bergen_thumb.webp',
