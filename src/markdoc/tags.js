@@ -8,7 +8,7 @@ import { November_2024 } from '@/components/November_2024'
 import { November_2025 } from '@/components/November_2025'
 import { Jul_Nov_2024 } from '@/components/Jul_Nov_2024'
 import { Jul_Des_2024 } from '@/components/Jul_Des_2024'
-import { Desember } from '@/components/Desember'
+// import { Desember } from '@/components/Desember'
 import { Desember_2025 } from '@/components/Desember_2025'
 import { Mars } from '@/components/Mars'
 import { April } from '@/components/April'
@@ -251,10 +251,10 @@ const tags = {
     selfClosing: true,
     render: November_2025,
   },
-  desember: {
-    selfClosing: true,
-    render: Desember,
-  },
+  // desember: {
+  //   selfClosing: true,
+  //   render: Desember,
+  // },
   jul_des_2024: {
     selfClosing: true,
     render: Jul_Des_2024,

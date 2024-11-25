@@ -16,6 +16,7 @@ const concerts = [
     name: 'Moss Kulturhus',
     imageUrl: '/thumbnails/Moss_Kulturhus_thumbnail.webp',
     date: '1. desember',
+    isoDate: '2024-12-01T18:00:00.000Z',
     ticketLink: 'https://tix.no/nb/moss/buyingflow/tickets/25614/48484/',
     pageUrl: '/konserter/moss-julekonsert',
   },
@@ -24,6 +25,7 @@ const concerts = [
     name: 'Bærum Kulturhus, Sandvika',
     imageUrl: '/thumbnails/Bærum_kulturhus_thumb.webp',
     date: '2. desember',
+    isoDate: '2024-12-02T18:00:00.000Z',
     ticketLink: 'https://www.baerumkulturhus.no/arrangement/nordic-tenors2/',
     pageUrl: '/konserter/sandvika-julekonsert',
   },
@@ -32,6 +34,7 @@ const concerts = [
     name: 'Blå Grotte, Fredrikstad',
     imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
     date: '3. desember',
+    isoDate: '2024-12-03T18:00:00.000Z',
     ticketLink: 'https://checkout.ebillett.no/260/events/129790/purchase/setup',
     pageUrl: '/konserter/fredrikstad-julekonsert',
   },
@@ -40,6 +43,7 @@ const concerts = [
     name: 'Nøtterøy Kulturhus',
     imageUrl: '/thumbnails/Nøtterøy_kulturhus_thumb.webp',
     date: '4. desember',
+    isoDate: '2024-12-04T18:00:00.000Z',
     ticketLink: 'https://tix.no/nb/notteroy/buyingflow/tickets/25514/72772',
     pageUrl: '/konserter/notteroy-julekonsert',
   },
@@ -48,6 +52,7 @@ const concerts = [
     name: 'Bølgen Kulturhus, Larvik',
     imageUrl: '/thumbnails/Bølgen_kulturhus_thumb.webp',
     date: '5. desember',
+    isoDate: '2024-12-05T18:00:00.000Z',
     ticketLink:
       'https://tix.no/nb/bolgen/buyingflow/tickets/25744/?_ga=2.161043901.1051657898.1702914858-1165690517.1702914857&_gac=1.253871610.1702914858.CjwKCAiA-P-rBhBEEiwAQEXhH_WmJIGxwI7O6og-vDAp_WW5t7UB2nhQ5O9LhbCKNXotQGFB8cNqHBoCURAQAvD_BwE&_gl=1*1bnmxif*_ga*MTE2NTY5MDUxNy4xNzAyOTE0ODU3*_ga_R2NHV9NW52*MTcwMjkxNDg1Ny4xLjEuMTcwMjkxNDg4Ny4zMC4wLjA.',
     pageUrl: '/konserter/larvik-julekonsert',
@@ -57,6 +62,7 @@ const concerts = [
     name: 'Asker Kulturhus',
     imageUrl: '/thumbnails/Asker_kulturhus_thumb.webp',
     date: '6. desember',
+    isoDate: '2024-12-06T18:00:00.000Z',
     ticketLink:
       'https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/',
     pageUrl: '/konserter/asker-julekonsert',
@@ -66,6 +72,7 @@ const concerts = [
     name: 'Biorama, Holmestrand',
     imageUrl: '/thumbnails/Biorama_thumb.webp',
     date: '7. desember',
+    isoDate: '2024-12-07T18:00:00.000Z',
     ticketLink:
       'https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2024',
     pageUrl: '/konserter/holmestrand-julekonsert',
@@ -75,6 +82,7 @@ const concerts = [
     name: 'Hadeland Kultursal',
     imageUrl: '/thumbnails/Hadeland_Kultursal_thumb.webp',
     date: '8. desember',
+    isoDate: '2024-12-08T18:00:00.000Z',
     ticketLink:
       'https://www.kulturhadeland.no/christmas-with-nordic-tenors-2024-xd5i6y4/',
     pageUrl: '/konserter/hadeland-julekonsert',
@@ -84,6 +92,7 @@ const concerts = [
     name: 'Oslo Konserthus',
     imageUrl: '/thumbnails/Oslo_Konserthus_thumb.webp',
     date: '9. desember',
+    isoDate: '2024-12-09T18:00:00.000Z',
     ticketLink: 'https://tix.no/nb/oslok/buyingflow/tickets/25447/48302/#tixsp',
     pageUrl: '/konserter/oslo-julekonsert',
   },
@@ -92,6 +101,7 @@ const concerts = [
     name: 'Maihaugsalen, Lillehammer',
     imageUrl: '/thumbnails/Maihaugsalen_thumb.webp',
     date: '10. desember',
+    isoDate: '2024-12-10T18:00:00.000Z',
     ticketLink: 'https://www.ticketmaster.no/event/731015',
     pageUrl: '/konserter/lillehammer-julekonsert',
   },
@@ -100,6 +110,7 @@ const concerts = [
     name: 'Arendal Kulturhus',
     imageUrl: '/thumbnails/Arendal_kulturhus_thumb.webp',
     date: '11. desember',
+    isoDate: '2024-12-11T18:00:00.000Z',
     ticketLink: 'https://tix.no/nb/arendal/buyingflow/tickets/25512/',
     pageUrl: '/konserter/arendal-julekonsert',
   },
@@ -108,6 +119,7 @@ const concerts = [
     name: 'Kilden, Kristiansand',
     imageUrl: '/thumbnails/Kilden_kulturhus_thumb.webp',
     date: '12. desember',
+    isoDate: '2024-12-12T18:00:00.000Z',
     ticketLink:
       'https://kilden.com/forestilling/christmas-with-nordic-tenors-5/',
     pageUrl: '/konserter/kristiansand-julekonsert',
@@ -117,6 +129,7 @@ const concerts = [
     name: 'Flekkefjord Kulturhus Spira',
     imageUrl: '/thumbnails/Flekkefjord_thumb.webp',
     date: '13. desember',
+    isoDate: '2024-12-13T18:00:00.000Z',
     ticketLink: 'https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/',
     pageUrl: '/konserter/flekkefjord-julekonsert',
   },
@@ -125,6 +138,7 @@ const concerts = [
     name: 'Sandnes Kulturhus',
     imageUrl: '/thumbnails/Sandnes_kulturhus_thumb.webp',
     date: '14. desember',
+    isoDate: '2024-12-14T18:00:00.000Z',
     ticketLink: 'https://tix.no/nb/sandnes/buyingflow/tickets/25517/48365/',
     pageUrl: '/konserter/sandnes-julekonsert',
   },
@@ -133,6 +147,7 @@ const concerts = [
     name: 'Stavanger Konserthus',
     imageUrl: '/thumbnails/Stavanger_konserthus_thumb.webp',
     date: '15. desember',
+    isoDate: '2024-12-15T18:00:00.000Z',
     ticketLink:
       'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/25566/',
     pageUrl: '/konserter/stavanger-julekonsert',
@@ -142,6 +157,7 @@ const concerts = [
     name: 'Festiviteten, Haugesund',
     imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
     date: '16. desember',
+    isoDate: '2024-12-16T18:00:00.000Z',
     ticketLink:
       'https://tix.no/nb/festiviteten/buyingflow/tickets/25462/48303/',
     pageUrl: '/konserter/haugesund-julekonsert',
@@ -151,6 +167,7 @@ const concerts = [
     name: 'Grieghallen, Bergen',
     imageUrl: '/thumbnails/Grieghallen_Bergen_thumb.webp',
     date: '17. desember',
+    isoDate: '2024-12-17T18:00:00.000Z',
     ticketLink: 'https://www.ticketmaster.no/event/731181',
     pageUrl: '/konserter/bergen-julekonsert',
   },
@@ -159,6 +176,7 @@ const concerts = [
     name: 'Olavshallen, Trondheim',
     imageUrl: '/thumbnails/Olavshallen_thumb.webp',
     date: '18. desember',
+    isoDate: '2024-12-18T18:00:00.000Z',
     ticketLink:
       'https://www.olavshallen.no/forestillinger/2023-11-23-christmas-with-nordic-tenors?utm_source=Social&utm_medium=Social&utm_campaign=Nordictenors&utm_id=Nordictenors',
     pageUrl: '/konserter/trondheim-julekonsert',
@@ -168,6 +186,7 @@ const concerts = [
     name: 'Kulturhuset i Tromsø',
     imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
     date: '19. desember',
+    isoDate: '2024-12-19T18:00:00.000Z',
     ticketLink: 'https://tix.no/nb/tr/buyingflow/tickets/25469/48311/',
     pageUrl: '/konserter/tromso-julekonsert',
   },
@@ -176,6 +195,7 @@ const concerts = [
     name: 'Stormen, Bodø',
     imageUrl: '/thumbnails/Stormen_thumb.webp',
     date: '20. desember',
+    isoDate: '2024-12-20T18:00:00.000Z',
     ticketLink:
       'https://billetter.stormen.no/nb/buyingflow/tickets/26884/50393',
     pageUrl: '/konserter/bodo-julekonsert',
@@ -185,6 +205,7 @@ const concerts = [
     name: 'Kimen, Stjørdal',
     imageUrl: '/thumbnails/Kimen_thumb.webp',
     date: '21. desember',
+    isoDate: '2024-12-21T18:00:00.000Z',
     ticketLink:
       'https://tix.no/nb/kimenkulturhus/buyingflow/tickets/27102/50673/',
     pageUrl: '/konserter/stjordal-julekonsert',
@@ -194,6 +215,7 @@ const concerts = [
     name: 'Drammens Teater',
     imageUrl: '/thumbnails/Drammens_Teater_thumb.webp',
     date: '22. desember',
+    isoDate: '2024-12-22T18:00:00.000Z',
     ticketLink:
       'https://www.drammenscener.no/teatret/program/25611-christmas-with-nordic-tenors/',
     pageUrl: '/konserter/drammen-julekonsert',
@@ -205,11 +227,17 @@ export function Jul_Des_2024() {
     event.stopPropagation()
   }
 
+  // Filter out concerts that are older than today
+  const today = new Date()
+  const upcomingConcerts = concerts.filter(
+    (concert) => new Date(concert.isoDate) > today
+  )
+
   return (
     <div id="jul_des_2024" className="w-full overflow-x-hidden rounded-xl ">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
-          {concerts.map((concert) => (
+          {upcomingConcerts.map((concert) => (
             <li
               key={concert.id}
               className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-amber-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-amber-50/50 dark:bg-red-900/20 dark:focus-within:bg-gray-800/60 dark:hover:bg-red-950/40 sm:pl-7"
