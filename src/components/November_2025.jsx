@@ -39,6 +39,14 @@ const concerts = [
     pageUrl: '/konserter/hadeland-julekonsert-2025',
   },
   {
+    id: 2154,
+    name: 'Alles Kulturhus, Hønefoss',
+    imageUrl: '/thumbnails/Alles-Kulturhus.webp',
+    date: '23. november',
+    ticketLink: 'https://tix.no/nb/alles/buyingflow/tickets/35084/74398/',
+    pageUrl: '/konserter/honefoss-julekonsert-2025',
+  },
+  {
     id: 919,
     name: 'Oslo Konserthus',
     imageUrl: '/thumbnails/Oslo_Konserthus_thumb.webp',
@@ -46,14 +54,6 @@ const concerts = [
     ticketLink:
       'https://oslokonserthus.no/program/christmas-with-nordic-tenors-2025',
     pageUrl: '/konserter/oslo-julekonsert-2025',
-  },
-  {
-    id: 2154,
-    name: 'Alles Kulturhus, Hønefoss',
-    imageUrl: '/thumbnails/Alles-Kulturhus.webp',
-    date: '23. november',
-    ticketLink: 'https://tix.no/nb/alles/buyingflow/tickets/35084/74398/',
-    pageUrl: '/konserter/honefoss-julekonsert-2025',
   },
 ]
 
