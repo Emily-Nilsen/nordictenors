@@ -104,6 +104,15 @@ const concerts = [
     pageUrl: '/konserter/haugesund-julekonsert-2025',
   },
   {
+    id: 1651,
+    name: 'Sauda Kulturhus',
+    imageUrl: '/thumbnails/Sauda_Kulturhus.webp',
+    date: '11. desember',
+    isoDate: '2025-12-11T18:00:00.000Z',
+    ticketLink: '',
+    pageUrl: '',
+  },
+  {
     id: 15,
     name: 'Stavanger Konserthus',
     imageUrl: '/thumbnails/Stavanger_konserthus_thumb.webp',
