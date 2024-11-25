@@ -123,6 +123,16 @@ const concerts = [
     pageUrl: '/konserter/stavanger-julekonsert-2025',
   },
   {
+    id: 1587,
+    name: 'Sandnes Kulturhus',
+    imageUrl: '/thumbnails/Sandnes_kulturhus_thumb.webp',
+    date: '13. desember',
+    isoDate: '2025-12-13T18:00:00.000Z',
+    ticketLink:
+      'https://www.sandnes-kulturhus.no/program/christmas-with-nordic-tenors-2025/',
+    pageUrl: '/konserter/sandnes-julekonsert-2025',
+  },
+  {
     id: 7578,
     name: 'Narvik Kulturhus',
     imageUrl: '/thumbnails/Narvik_Kulturhus.webp',
