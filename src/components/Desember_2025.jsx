@@ -21,6 +21,15 @@ const concerts = [
     pageUrl: '',
   },
   {
+    id: 5797,
+    name: 'KRS Live, Kristiansand',
+    imageUrl: '/thumbnails/Olavshallen_thumb.webp',
+    date: '4. desember',
+    isoDate: '2025-12-04T18:00:00.000Z',
+    ticketLink: '',
+    pageUrl: '',
+  },
+  {
     id: 158,
     name: 'Bjørnsonhuset, Molde',
     imageUrl: '/thumbnails/Bjørnsonhuset_Molde.webp',
