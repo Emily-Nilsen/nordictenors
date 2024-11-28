@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
@@ -433,6 +433,17 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
   // Filter the navigation to exclude past concerts
   const filteredNavigation = filterNavigation(navigation)
 
+  // Function to check if a section is active (for tableOfContents)
+  const isActive = (section) => {
+    if (section.id === tableOfContents?.[0]?.id) {
+      return true
+    }
+    if (!section.children) {
+      return false
+    }
+    return section.children.findIndex(isActive) > -1
+  }
+
   return (
     <>
       <Header navigation={filteredNavigation} />
@@ -450,11 +461,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
             {(title || frontmatter) && (
               <header className="mb-9 space-y-1">
                 {frontmatter && (
-                  <p
-                    className={clsx(
-                      'text-base font-semibold text-sky-800 dark:text-gold-500'
-                    )}
-                  >
+                  <p className="text-base font-semibold text-sky-800 dark:text-gold-500">
                     {frontmatter.title}
                   </p>
                 )}
@@ -467,6 +474,59 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
             )}
             <Prose>{children}</Prose>
           </article>
+        </div>
+        <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
+          <nav aria-labelledby="on-this-page-title" className="w-56">
+            {tableOfContents?.length > 0 && (
+              <>
+                <h2
+                  id="on-this-page-title"
+                  className="font-display text-base font-semibold text-gray-900 dark:text-white sm:text-lg"
+                >
+                  På denne siden
+                </h2>
+                <ol role="list" className="mt-4 space-y-3 text-sm">
+                  {tableOfContents.map((section) => (
+                    <li key={section.id}>
+                      <p>
+                        <Link
+                          href={`#${section.id}`}
+                          className={clsx(
+                            isActive(section)
+                              ? 'text-sky-800 dark:text-gold-500'
+                              : 'font-normal text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300'
+                          )}
+                        >
+                          {section.title}
+                        </Link>
+                      </p>
+                      {section.children.length > 0 && (
+                        <ol
+                          role="list"
+                          className="mt-2 space-y-3 pl-5 text-gray-500 dark:text-gray-400"
+                        >
+                          {section.children.map((subSection) => (
+                            <li key={subSection.id}>
+                              <Link
+                                href={`#${subSection.id}`}
+                                className={clsx(
+                                  isActive(subSection)
+                                    ? 'text-sky-800 dark:text-gold-500'
+                                    : 'hover:text-gray-600 dark:hover:text-gray-300'
+                                )}
+                              >
+                                {subSection.title}
+                              </Link>
+                            </li>
+                          ))}
+                        </ol>
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </>
+            )}
+          </nav>
         </div>
       </div>
 
