@@ -17,7 +17,7 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="4" month="desember" time="18:00 og 20:00" ticketUrl="https://tix.no/nb/notteroy/buyingflow/tickets/25514/72772" /%}
+{% concert-header day="onsdag" date="4" month="desember" time="18:00 og 20:30" ticketUrl="https://tix.no/nb/notteroy/buyingflow/tickets/25514/72772" /%}
 
 ---
 
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details concert="Nøtterøy Kulturhus" date="4" month="desember" day="onsdag" time="18:00 – 19:20 og 20:00 – 21:20" location="Nøtterøy Kulturhus, Amfi" /%}
+{% concert-details concert="Nøtterøy Kulturhus" date="4" month="desember" day="onsdag" time="18:00 – 19:20 og 20:30 – 21:50" location="Nøtterøy Kulturhus, Amfi" /%}
 
 ### Adresse
 
