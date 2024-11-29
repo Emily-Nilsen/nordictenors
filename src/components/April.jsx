@@ -1,10 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Fragment } from 'react'
-import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
-import { Menu, Transition } from '@headlessui/react'
 import { PlusCircleIcon } from '@heroicons/react/24/outline'
-import { GoBackButton } from './GoBackButton'
 
 function TicketIcon(props) {
   return (
@@ -20,6 +16,7 @@ const concerts = [
     name: 'Olavshallen, Trondheim',
     imageUrl: '/thumbnails/Olavshallen_thumb.webp',
     date: '2. april',
+    isoDate: '2025-04-02T19:00:00.000Z',
     ticketLink:
       'https://www.olavshallen.no/forestillinger/2024-11-22-nordic-tenors',
     pageUrl: '/konserter/trondheim-a-la-carte',
@@ -29,6 +26,7 @@ const concerts = [
     name: 'Steinkjer Kulturhus',
     imageUrl: '/thumbnails/Steinkjer_Kulturhus.webp',
     date: '3. april',
+    isoDate: '2025-04-03T19:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/101/events/143618/purchase/setup?kanal=dxf',
     pageUrl: '/konserter/steinkjer-a-la-carte',
@@ -38,6 +36,7 @@ const concerts = [
     name: 'Kulturhuset Kuben, Grong',
     imageUrl: '/thumbnails/Kuben_Kulturhus.webp',
     date: '4. april',
+    isoDate: '2025-04-04T19:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/272/events/2001/purchase/setup?kanal=dxf',
     pageUrl: '/konserter/grong-a-la-carte',
@@ -47,6 +46,7 @@ const concerts = [
     name: 'Mosjøen Kulturhuset',
     imageUrl: '/thumbnails/Mosjøen_Kulturhus.webp',
     date: '5. april',
+    isoDate: '2025-04-05T19:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/193/events/76962/purchase/setup?kanal=dxf',
     pageUrl: '/konserter/mosjoen-a-la-carte',
@@ -56,6 +56,7 @@ const concerts = [
     name: 'Kulturbadet Sandnessjøen',
     imageUrl: '/thumbnails/Kulturbadet_Sandnessjøen.webp',
     date: '6. april',
+    isoDate: '2025-04-06T19:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/245/events/61078/purchase/setup?campaign_id=2184',
     pageUrl: '/konserter/sandnessjoen-a-la-carte',
@@ -65,6 +66,7 @@ const concerts = [
     name: 'Parken Kulturhus, Ålesund',
     imageUrl: '/thumbnails/Parken_kulturhus.webp',
     date: '7. april',
+    isoDate: '2025-04-07T19:00:00.000Z',
     ticketLink: 'https://tix.no/nb/parken/buyingflow/tickets/33582/71685/',
     pageUrl: '/konserter/alesund-a-la-carte',
   },
@@ -73,6 +75,7 @@ const concerts = [
     name: 'Ole Bull Scene, Bergen',
     imageUrl: '/thumbnails/Ole_Bull_Scene.webp',
     date: '8. april',
+    isoDate: '2025-04-08T19:00:00.000Z',
     ticketLink: 'https://www.ticketmaster.no/event/753297',
     pageUrl: '/konserter/bergen-a-la-carte',
   },
@@ -81,26 +84,29 @@ const concerts = [
     name: 'Festiviteten, Haugesund',
     imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
     date: '9. april',
+    isoDate: '2025-04-09T19:00:00.000Z',
     ticketLink:
       'https://tix.no/nb/festiviteten/buyingflow/tickets/33620/71742/',
     pageUrl: '/konserter/haugesund-a-la-carte',
   },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
-
 export function April() {
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
 
+  // Filter out concerts that are older than today
+  const today = new Date()
+  const upcomingConcerts = concerts.filter(
+    (concert) => new Date(concert.isoDate) > today
+  )
+
   return (
     <div id="april" className="w-full overflow-x-hidden rounded-xl ">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
-          {concerts.map((concert) => (
+          {upcomingConcerts.map((concert) => (
             <li
               key={concert.id}
               className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-amber-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-amber-50/50 dark:bg-red-900/20 dark:focus-within:bg-gray-800/60 dark:hover:bg-red-950/40 sm:pl-7"
