@@ -1,10 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Fragment } from 'react'
-import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
-import { Menu, Transition } from '@headlessui/react'
 import { PlusCircleIcon } from '@heroicons/react/24/outline'
-import { GoBackButton } from './GoBackButton'
 
 function TicketIcon(props) {
   return (
@@ -20,6 +16,7 @@ const concerts = [
     name: 'Kolben Kulturhus, Kolbotn',
     imageUrl: '/thumbnails/Kolben_Kulturhus.webp',
     date: '19. mars',
+    isoDate: '2025-03-19T19:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/123/events/51884/purchase/setup?kanal=dxf',
     pageUrl: '/konserter/kolbotn-a-la-carte',
@@ -29,6 +26,7 @@ const concerts = [
     name: 'Drammens Teater',
     imageUrl: '/thumbnails/Drammens_Teater_thumb.webp',
     date: '20. mars',
+    isoDate: '2025-03-20T19:00:00.000Z',
     ticketLink:
       'https://billetter.drammensteater.no/nb/buyingflow/tickets/33584/',
     pageUrl: '/konserter/drammen-a-la-carte',
@@ -38,6 +36,7 @@ const concerts = [
     name: 'Rådhus-Teatret, Kongsvinger',
     imageUrl: '/thumbnails/Kongsvinger_Rådhus-Teatret.webp',
     date: '21. mars',
+    isoDate: '2025-03-21T19:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/206/events/27383/purchase/setup?kanal=fw',
     pageUrl: '/konserter/kongsvinger-a-la-carte',
@@ -47,6 +46,7 @@ const concerts = [
     name: 'Lillestrøm Kulturhus',
     imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
     date: '22. mars',
+    isoDate: '2025-03-22T19:00:00.000Z',
     ticketLink:
       'https://www.lillestrom-kultursenter.no/event/nordic-tenors-a-la-carte/',
     pageUrl: '/konserter/lillestrom-a-la-carte',
@@ -56,25 +56,28 @@ const concerts = [
     name: 'Blå Grotte, Fredrikstad',
     imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
     date: '23. mars',
+    isoDate: '2025-03-23T19:00:00.000Z',
     ticketLink: 'https://checkout.ebillett.no/260/events/137031/purchase/setup',
     pageUrl: '/konserter/fredrikstad-a-la-carte',
   },
 ]
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
 
 export function Mars() {
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
 
+  // Filter out concerts that are older than today
+  const today = new Date()
+  const upcomingConcerts = concerts.filter(
+    (concert) => new Date(concert.isoDate) > today
+  )
+
   return (
     <div id="mars" className="w-full overflow-x-hidden rounded-xl ">
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
-          {concerts.map((concert) => (
+          {upcomingConcerts.map((concert) => (
             <li
               key={concert.id}
               className="group relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-amber-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-amber-50/50 dark:bg-red-900/20 dark:focus-within:bg-gray-800/60 dark:hover:bg-red-950/40 sm:pl-7"
