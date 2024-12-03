@@ -84,8 +84,9 @@ const concerts = [
     imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
     date: '28. november',
     isoDate: '2025-11-28T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink:
+      'https://checkout.ebillett.no/260/events/137626/purchase/setup?kanal=dxf',
+    pageUrl: '/konserter/fredrikstad-julekonsert-2025',
   },
   {
     id: 5774,
