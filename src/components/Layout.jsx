@@ -294,7 +294,7 @@ export const navigation = [
       {
         title: 'Haugesund',
         href: '/konserter/haugesund-julekonsert-2025',
-        isoDate: '2025-12-10T19:00:00.000Z',
+        isoDate: '2025-12-10T18:00:00.000Z',
       },
       {
         title: 'Holmestrand',
