@@ -93,8 +93,8 @@ const concerts = [
     imageUrl: '/thumbnails/Askim_Kulturhus.webp',
     date: '29. november',
     isoDate: '2025-11-29T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink: 'https://tix.no/nb/askim/buyingflow/tickets/34937/74164/',
+    pageUrl: '/konserter/askim-julekonsert-2025',
   },
   {
     id: 8174,

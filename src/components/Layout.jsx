@@ -277,6 +277,11 @@ export const navigation = [
         isoDate: '2025-12-03T19:00:00.000Z',
       },
       {
+        title: 'Askim',
+        href: '/konserter/askim-julekonsert-2025',
+        isoDate: '2025-11-26T18:00:00.000Z',
+      },
+      {
         title: 'Bergen',
         href: '/konserter/bergen-julekonsert-2025',
         isoDate: '2025-12-09T18:30:00.000Z',
