@@ -337,6 +337,11 @@ export const navigation = [
         isoDate: '2025-12-15T19:00:00.000Z',
       },
       {
+        title: 'Nøtterøy',
+        href: '/konserter/notteroy-julekonsert-2025',
+        isoDate: '2025-11-26T18:00:00.000Z',
+      },
+      {
         title: 'Oslo',
         href: '/konserter/oslo-julekonsert-2025',
         isoDate: '2025-11-25T19:00:00.000Z',

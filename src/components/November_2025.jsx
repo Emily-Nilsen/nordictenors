@@ -66,8 +66,8 @@ const concerts = [
     imageUrl: '/thumbnails/Nøtterøy_kulturhus_thumb.webp',
     date: '26. november',
     isoDate: '2025-11-26T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink: 'https://tix.no/nb/notteroy/buyingflow/tickets/35030/74314/',
+    pageUrl: '/konserter/notteroy-julekonsert-2025',
   },
   {
     id: 3843,
