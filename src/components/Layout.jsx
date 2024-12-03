@@ -287,6 +287,11 @@ export const navigation = [
         isoDate: '2025-12-09T18:30:00.000Z',
       },
       {
+        title: 'Brattvåg',
+        href: '/konserter/brattvag-julekonsert-2025',
+        isoDate: '2025-12-06T18:00:00.000Z',
+      },
+      {
         title: 'Hadeland',
         href: '/konserter/hadeland-julekonsert-2025',
         isoDate: '2025-11-22T18:00:00.000Z',

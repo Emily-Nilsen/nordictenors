@@ -64,8 +64,9 @@ const concerts = [
     imageUrl: '/thumbnails/Brattvåg_ID-huset.webp',
     date: '6. desember',
     isoDate: '2025-12-06T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink:
+      'https://checkout.ebillett.no/128/events/12981/purchase/setup?kanal=dxf',
+    pageUrl: '/konserter/brattvag-julekonsert-2025',
   },
   {
     id: 158,
