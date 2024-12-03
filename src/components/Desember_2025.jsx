@@ -26,8 +26,9 @@ const concerts = [
     imageUrl: '/thumbnails/Olavshallen_thumb.webp',
     date: '2. desember',
     isoDate: '2025-12-02T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink:
+      'https://www.olavshallen.no/forestillinger/2024-11-14-christmas-with-nordic-tenors-2025',
+    pageUrl: '/konserter/trondheim-julekonsert-2025',
   },
   {
     id: 3114,

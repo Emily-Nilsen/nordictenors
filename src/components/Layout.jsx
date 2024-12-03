@@ -279,7 +279,7 @@ export const navigation = [
       {
         title: 'Askim',
         href: '/konserter/askim-julekonsert-2025',
-        isoDate: '2025-11-26T18:00:00.000Z',
+        isoDate: '2025-11-29T18:00:00.000Z',
       },
       {
         title: 'Bergen',
@@ -370,6 +370,11 @@ export const navigation = [
         title: 'Tromsø',
         href: '/konserter/tromso-julekonsert-2025',
         isoDate: '2025-12-16T19:00:00.000Z',
+      },
+      {
+        title: 'Trondheim',
+        href: '/konserter/trondheim-julekonsert-2025',
+        isoDate: '2025-12-02T18:00:00.000Z',
       },
       {
         title: 'Ålesund',
