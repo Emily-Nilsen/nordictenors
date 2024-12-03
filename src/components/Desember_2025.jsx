@@ -140,8 +140,9 @@ const concerts = [
     imageUrl: '/thumbnails/Ullensaker_Kulturhus.webp',
     date: '14. desember',
     isoDate: '2025-12-14T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink:
+      'https://www.ticketmaster.no/event/2077939146?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_gl=1*pua2yt*_ga*MjExOTYzMjE0NS4xNzMyMjc2MjE3*_ga_Q5XX5068LZ*MTczMzEzMDQyNy4yLjAuMTczMzEzMDQyNy4wLjAuMA..',
+    pageUrl: '/konserter/ullensaker-julekonsert-2025',
   },
   {
     id: 7578,

@@ -382,6 +382,11 @@ export const navigation = [
         isoDate: '2025-12-02T18:00:00.000Z',
       },
       {
+        title: 'Ullensaker',
+        href: '/konserter/ullensaker-julekonsert-2025',
+        isoDate: '2025-12-14T18:00:00.000Z',
+      },
+      {
         title: 'Ålesund',
         href: '/konserter/alesund-julekonsert-2025',
         isoDate: '2025-12-08T18:00:00.000Z',
