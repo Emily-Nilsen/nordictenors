@@ -327,6 +327,11 @@ export const navigation = [
         isoDate: '2025-11-23T18:00:00.000Z',
       },
       {
+        title: 'Larvik',
+        href: '/konserter/larvik-julekonsert-2025',
+        isoDate: '2025-12-04T18:00:00.000Z',
+      },
+      {
         title: 'Lillehammer',
         href: '/konserter/lillehammer-julekonsert-2025',
         isoDate: '2025-12-19T18:00:00.000Z',

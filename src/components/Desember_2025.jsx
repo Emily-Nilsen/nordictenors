@@ -42,12 +42,13 @@ const concerts = [
   },
   {
     id: 5797,
-    name: 'KRS Live, Kristiansand',
-    imageUrl: '/thumbnails/KRS_Live.webp',
+    name: 'Bølgen Kulturhus, Larvik',
+    imageUrl: '/thumbnails/Bølgen_kulturhus_thumb.webp',
     date: '4. desember',
     isoDate: '2025-12-04T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink:
+      'https://www.bolgenkulturhus.no/program/christmas-with-nordic-tenors-2025/',
+    pageUrl: '/konserter/larvik-julekonsert-2025',
   },
   {
     id: 5733,
