@@ -169,8 +169,9 @@ const concerts = [
     imageUrl: '/thumbnails/Stormen_thumb.webp',
     date: '17. desember',
     isoDate: '2025-12-17T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink:
+      'https://billetter.stormen.no/nb/buyingflow/tickets/35444/74971',
+    pageUrl: '/konserter/bodo-julekonsert-2025',
   },
   {
     id: 1268,

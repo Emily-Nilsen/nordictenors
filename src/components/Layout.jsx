@@ -292,6 +292,11 @@ export const navigation = [
         isoDate: '2025-12-06T18:00:00.000Z',
       },
       {
+        title: 'Bodø',
+        href: '/konserter/bodo-julekonsert-2025',
+        isoDate: '2025-12-17T18:00:00.000Z',
+      },
+      {
         title: 'Fredrikstad',
         href: '/konserter/fredrikstad-julekonsert-2025',
         isoDate: '2025-11-28T19:00:00.000Z',
