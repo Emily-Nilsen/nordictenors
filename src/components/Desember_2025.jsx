@@ -216,8 +216,9 @@ const concerts = [
     imageUrl: '/thumbnails/Drammens_Teater_thumb.webp',
     date: '22. desember',
     isoDate: '2025-12-22T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink:
+      'https://www.drammensteater.no/program/35531-christmas-with-nordic-tenors/',
+    pageUrl: '/konserter/drammen-julekonsert-2025',
   },
 ]
 

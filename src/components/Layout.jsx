@@ -297,6 +297,11 @@ export const navigation = [
         isoDate: '2025-12-17T18:00:00.000Z',
       },
       {
+        title: 'Drammen',
+        href: '/konserter/drammen-julekonsert-2025',
+        isoDate: '2025-12-22T18:00:00.000Z',
+      },
+      {
         title: 'Fredrikstad',
         href: '/konserter/fredrikstad-julekonsert-2025',
         isoDate: '2025-11-28T19:00:00.000Z',
