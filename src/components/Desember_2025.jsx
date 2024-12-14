@@ -207,8 +207,8 @@ const concerts = [
     imageUrl: '/thumbnails/Bærum_kulturhus_thumb.webp',
     date: '21. desember',
     isoDate: '2025-12-21T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink: 'https://www.baerumkulturhus.no/arrangement/nordic-tenors/',
+    pageUrl: '/konserter/sandvika-julekonsert-2025',
   },
   {
     id: 738,
