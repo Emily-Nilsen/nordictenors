@@ -387,6 +387,11 @@ export const navigation = [
         isoDate: '2025-12-21T18:00:00.000Z',
       },
       {
+        title: 'Sauda',
+        href: '/konserter/sauda-julekonsert-2025',
+        isoDate: '2025-12-11T19:00:00.000Z',
+      },
+      {
         title: 'Stavanger',
         href: '/konserter/stavanger-julekonsert-2025',
         isoDate: '2025-12-12T18:00:00.000Z',

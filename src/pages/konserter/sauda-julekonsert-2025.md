@@ -30,7 +30,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 {% julekonsert-intro-2025 location="Folkets Hus i Sauda" day="torsdag" date="11" month="desember" /%}
 
 {% categories %}
-{% category imageUrl="/halls/Festiviteten_Haugesund.webp" title="Folkets Hus i Sauda" /%}
+{% category imageUrl="/halls/Sauda_folketshus.webp" title="Folkets Hus i Sauda" /%}
 {% /categories %}
 
 ### Konsertdetaljer
