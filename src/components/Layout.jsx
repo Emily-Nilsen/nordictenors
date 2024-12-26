@@ -38,164 +38,164 @@ export const navigation = [
   },
 
   // julekonsert
-  {
-    title: 'Christmas with Nordic Tenors 2024',
-    links: [
-      {
-        title: 'Arendal',
-        href: '/konserter/arendal-julekonsert',
-        isoDate: '2024-12-11T19:00:00.000Z',
-      },
-      {
-        title: 'Asker',
-        href: '/konserter/asker-julekonsert',
-        isoDate: '2024-12-06T18:00:00.000Z',
-      },
-      {
-        title: 'Askim',
-        href: '/konserter/askim-julekonsert',
-        isoDate: '2024-11-30T18:00:00.000Z',
-      },
-      {
-        title: 'Bergen',
-        href: '/konserter/bergen-julekonsert',
-        isoDate: '2024-12-17T18:00:00.000Z',
-      },
+  // {
+  //   title: 'Christmas with Nordic Tenors 2024',
+  //   links: [
+  //     {
+  //       title: 'Arendal',
+  //       href: '/konserter/arendal-julekonsert',
+  //       isoDate: '2024-12-11T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Asker',
+  //       href: '/konserter/asker-julekonsert',
+  //       isoDate: '2024-12-06T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Askim',
+  //       href: '/konserter/askim-julekonsert',
+  //       isoDate: '2024-11-30T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Bergen',
+  //       href: '/konserter/bergen-julekonsert',
+  //       isoDate: '2024-12-17T18:00:00.000Z',
+  //     },
 
-      {
-        title: 'Bodø',
-        href: '/konserter/bodo-julekonsert',
-        isoDate: '2024-12-20T18:00:00.000Z',
-      },
-      {
-        title: 'Drammen',
-        href: '/konserter/drammen-julekonsert',
-        isoDate: '2024-12-22T18:00:00.000Z',
-      },
-      {
-        title: 'Flekkefjord',
-        href: '/konserter/flekkefjord-julekonsert',
-        isoDate: '2024-12-03T18:00:00.000Z',
-      },
-      {
-        title: 'Fredrikstad',
-        href: '/konserter/fredrikstad-julekonsert',
-        isoDate: '2024-12-03T19:00:00.000Z',
-      },
+  //     {
+  //       title: 'Bodø',
+  //       href: '/konserter/bodo-julekonsert',
+  //       isoDate: '2024-12-20T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Drammen',
+  //       href: '/konserter/drammen-julekonsert',
+  //       isoDate: '2024-12-22T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Flekkefjord',
+  //       href: '/konserter/flekkefjord-julekonsert',
+  //       isoDate: '2024-12-03T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Fredrikstad',
+  //       href: '/konserter/fredrikstad-julekonsert',
+  //       isoDate: '2024-12-03T19:00:00.000Z',
+  //     },
 
-      {
-        title: 'Hadeland',
-        href: '/konserter/hadeland-julekonsert',
-        isoDate: '2024-12-08T18:00:00.000Z',
-      },
-      {
-        title: 'Haugesund',
-        href: '/konserter/haugesund-julekonsert',
-        isoDate: '2024-12-16T18:00:00.000Z',
-      },
-      {
-        title: 'Holmestrand',
-        href: '/konserter/holmestrand-julekonsert',
-        isoDate: '2024-12-07T18:00:00.000Z',
-      },
-      {
-        title: 'Horten',
-        href: '/konserter/horten-julekonsert',
-        isoDate: '2024-11-22T19:00:00.000Z',
-      },
-      {
-        title: 'Hønefoss',
-        href: '/konserter/honefoss-julekonsert',
-        isoDate: '2024-11-23T18:00:00.000Z',
-      },
-      {
-        title: 'Kristiansand',
-        href: '/konserter/kristiansand-julekonsert',
-        isoDate: '2024-12-12T18:00:00.000Z',
-      },
-      {
-        title: 'Larvik',
-        href: '/konserter/larvik-julekonsert',
-        isoDate: '2024-12-05T18:00:00.000Z',
-      },
-      {
-        title: 'Lillehammer',
-        href: '/konserter/lillehammer-julekonsert',
-        isoDate: '2024-12-10T18:00:00.000Z',
-      },
-      {
-        title: 'Lillestrøm',
-        href: '/konserter/lillestrom-julekonsert',
-        isoDate: '2024-11-24T18:00:00.000Z',
-      },
-      {
-        title: 'Moss',
-        href: '/konserter/moss-julekonsert',
-        isoDate: '2024-12-01T18:00:00.000Z',
-      },
-      {
-        title: 'Nøtterøy',
-        href: '/konserter/notteroy-julekonsert',
-        isoDate: '2024-12-04T18:00:00.000Z',
-      },
-      {
-        title: 'Os',
-        href: '/konserter/os-julekonsert',
-        isoDate: '2024-11-27T19:00:00.000Z',
-      },
-      {
-        title: 'Oslo',
-        href: '/konserter/oslo-julekonsert',
-        isoDate: '2024-12-09T19:00:00.000Z',
-      },
-      {
-        title: 'Sandnes',
-        href: '/konserter/sandnes-julekonsert',
-        isoDate: '2024-12-14T18:00:00.000Z',
-      },
-      {
-        title: 'Sandvika',
-        href: '/konserter/sandvika-julekonsert',
-        isoDate: '2024-12-02T19:00:00.000Z',
-      },
+  //     {
+  //       title: 'Hadeland',
+  //       href: '/konserter/hadeland-julekonsert',
+  //       isoDate: '2024-12-08T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Haugesund',
+  //       href: '/konserter/haugesund-julekonsert',
+  //       isoDate: '2024-12-16T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Holmestrand',
+  //       href: '/konserter/holmestrand-julekonsert',
+  //       isoDate: '2024-12-07T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Horten',
+  //       href: '/konserter/horten-julekonsert',
+  //       isoDate: '2024-11-22T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Hønefoss',
+  //       href: '/konserter/honefoss-julekonsert',
+  //       isoDate: '2024-11-23T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Kristiansand',
+  //       href: '/konserter/kristiansand-julekonsert',
+  //       isoDate: '2024-12-12T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Larvik',
+  //       href: '/konserter/larvik-julekonsert',
+  //       isoDate: '2024-12-05T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Lillehammer',
+  //       href: '/konserter/lillehammer-julekonsert',
+  //       isoDate: '2024-12-10T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Lillestrøm',
+  //       href: '/konserter/lillestrom-julekonsert',
+  //       isoDate: '2024-11-24T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Moss',
+  //       href: '/konserter/moss-julekonsert',
+  //       isoDate: '2024-12-01T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Nøtterøy',
+  //       href: '/konserter/notteroy-julekonsert',
+  //       isoDate: '2024-12-04T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Os',
+  //       href: '/konserter/os-julekonsert',
+  //       isoDate: '2024-11-27T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Oslo',
+  //       href: '/konserter/oslo-julekonsert',
+  //       isoDate: '2024-12-09T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Sandnes',
+  //       href: '/konserter/sandnes-julekonsert',
+  //       isoDate: '2024-12-14T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Sandvika',
+  //       href: '/konserter/sandvika-julekonsert',
+  //       isoDate: '2024-12-02T19:00:00.000Z',
+  //     },
 
-      {
-        title: 'Stavanger',
-        href: '/konserter/stavanger-julekonsert',
-        isoDate: '2024-12-15T18:00:00.000Z',
-      },
-      {
-        title: 'Stjørdal',
-        href: '/konserter/stjordal-julekonsert',
-        isoDate: '2024-12-21T18:00:00.000Z',
-      },
-      {
-        title: 'Tromsø',
-        href: '/konserter/tromso-julekonsert',
-        isoDate: '2024-12-19T18:00:00.000Z',
-      },
-      {
-        title: 'Trondheim',
-        href: '/konserter/trondheim-julekonsert',
-        isoDate: '2024-12-18T18:00:00.000Z',
-      },
-      {
-        title: 'Tørvikbygd',
-        href: '/konserter/torvikbygd-julekonsert',
-        isoDate: '2024-11-28T19:00:00.000Z',
-      },
-      {
-        title: 'Ullensaker',
-        href: '/konserter/ullensaker-julekonsert',
-        isoDate: '2024-11-29T18:00:00.000Z',
-      },
-      {
-        title: 'Voss',
-        href: '/konserter/voss-julekonsert',
-        isoDate: '2024-11-26T18:00:00.000Z',
-      },
-    ],
-  },
+  //     {
+  //       title: 'Stavanger',
+  //       href: '/konserter/stavanger-julekonsert',
+  //       isoDate: '2024-12-15T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Stjørdal',
+  //       href: '/konserter/stjordal-julekonsert',
+  //       isoDate: '2024-12-21T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Tromsø',
+  //       href: '/konserter/tromso-julekonsert',
+  //       isoDate: '2024-12-19T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Trondheim',
+  //       href: '/konserter/trondheim-julekonsert',
+  //       isoDate: '2024-12-18T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Tørvikbygd',
+  //       href: '/konserter/torvikbygd-julekonsert',
+  //       isoDate: '2024-11-28T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Ullensaker',
+  //       href: '/konserter/ullensaker-julekonsert',
+  //       isoDate: '2024-11-29T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Voss',
+  //       href: '/konserter/voss-julekonsert',
+  //       isoDate: '2024-11-26T18:00:00.000Z',
+  //     },
+  //   ],
+  // },
   // À la carte 2025
   {
     title: 'Nordic Tenors - À la carte 2025',
