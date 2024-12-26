@@ -1,9 +1,7 @@
 import { Fragment, useRef, useEffect, useLayoutEffect } from 'react' // Import useRef
 import Image from 'next/image'
 import Link from 'next/link'
-import clsx from 'clsx'
-import Highlight, { defaultProps } from 'prism-react-renderer'
-import { motion } from 'framer-motion'
+
 import { Button } from '@/components/Button'
 import { Socials } from './Socials'
 import navigation from 'utils/navigation'
@@ -63,14 +61,14 @@ export function Hero() {
               <div className="h-12 sm:hidden" />
               {/* Buttons */}
               <div className="-mb-24 mt-12 flex-col justify-center space-y-7 sm:-mb-20 sm:mt-20 sm:gap-10 lg:hidden lg:justify-start">
-                <div>
+                {/* <div>
                   <Button
                     className="relative z-20"
                     href="/#christmas-with-nordic-tenors"
                   >
                     Julekonserter 2024
                   </Button>
-                </div>
+                </div> */}
 
                 <div>
                   <Button
@@ -97,12 +95,12 @@ export function Hero() {
           <div className="col-span-3 hidden items-center justify-between lg:flex">
             {/* Buttons */}
             <div className="flex justify-center gap-8 sm:gap-10 lg:-mb-0 lg:mt-0 lg:justify-start">
-              <Button
+              {/* <Button
                 className="relative z-20"
                 href="/#christmas-with-nordic-tenors"
               >
                 Julekonserter - 2024
-              </Button>
+              </Button> */}
               <Button
                 className="relative z-20"
                 href="/#nordic-tenors-a-la-carte"
