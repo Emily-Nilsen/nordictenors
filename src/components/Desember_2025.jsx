@@ -112,8 +112,9 @@ const concerts = [
     imageUrl: '/thumbnails/Sauda_Kulturhus.webp',
     date: '11. desember',
     isoDate: '2025-12-11T18:00:00.000Z',
-    ticketLink: '',
-    pageUrl: '',
+    ticketLink:
+      'https://checkout.ebillett.no/160/events/7898/purchase/setup?kanal=fw',
+    pageUrl: '/konserter/sauda-julekonsert-2025',
   },
   {
     id: 15,

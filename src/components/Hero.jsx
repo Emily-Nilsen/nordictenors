@@ -83,7 +83,7 @@ export function Hero() {
                 <div>
                   <Button
                     className="relative z-20"
-                    href="/#christmas-with-nordic-tenors-2"
+                    href="/#christmas-with-nordic-tenors"
                   >
                     Julekonserter 2025
                   </Button>
@@ -110,7 +110,7 @@ export function Hero() {
               </Button>
               <Button
                 className="relative z-20"
-                href="/#christmas-with-nordic-tenors-2"
+                href="/#christmas-with-nordic-tenors"
               >
                 Julekonserter - 2025
               </Button>
