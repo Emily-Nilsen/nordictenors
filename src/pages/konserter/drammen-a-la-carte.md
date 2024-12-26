@@ -17,7 +17,7 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="20" month="mars" time="19:00" ticketUrl="https://billetter.drammensteater.no/nb/buyingflow/tickets/33584/" /%}
+{% concert-header day="torsdag" date="20" month="mars" time="19:00 og 21:00" ticketUrl="https://billetter.drammensteater.no/nb/buyingflow/tickets/33584/" /%}
 
 ---
 
@@ -25,7 +25,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 {% billetter-neutral concert="" outlet="Drammens Teater" ticketUrl="https://billetter.drammensteater.no/nb/buyingflow/tickets/33584/" /%}
 
-## Drammens Teater
+## Drammens Teater – 2 forestillinger
 
 {% concert-intro-spring location="Drammens Teater" day="torsdag" date="20" month="mars" /%}
 
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details-new concert="Drammens Teater" date="20" month="mars" day="torsdag" time="19:00 – 20:20" location="Drammens Teater" /%}
+{% concert-details-new concert="Drammens Teater" date="20" month="mars" day="torsdag" time="19:00 – 20:20 og 21:00 - 22:20" location="Drammens Teater" /%}
 
 ### Adresse
 
