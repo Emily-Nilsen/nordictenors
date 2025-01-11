@@ -80,4 +80,4 @@ Her er en smakebit på hva du kan se frem til på årets julekonsert.
 
 ## Videre til Nye Musikalske Horisonter
 
-Med en arv av eksepsjonelle opptredener og en stadig voksende diskografi, fortsetter Nordic Tenors å berike den skandinaviske og internasjonale musikkscenen. Gjennom sin kombinasjon av talent, lidenskap og mangfold, lover de å fortsette å trollbinde og glede sitt publikum i årene som kommer.
+Med en arv av eksepsjonelle opptredener og en stadig voksende diskografi, fortsetter Nordic Tenors å berike den skandinaviske og internasjonale musikkscenen. Gjennom sin kombinasjon av talent, lidenskap og mangfold, lover de å fortsette å trollbinde og glede sitt publikum i årene som kommer..
