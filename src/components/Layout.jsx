@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
@@ -37,165 +37,6 @@ export const navigation = [
     ],
   },
 
-  // julekonsert
-  // {
-  //   title: 'Christmas with Nordic Tenors 2024',
-  //   links: [
-  //     {
-  //       title: 'Arendal',
-  //       href: '/konserter/arendal-julekonsert',
-  //       isoDate: '2024-12-11T19:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Asker',
-  //       href: '/konserter/asker-julekonsert',
-  //       isoDate: '2024-12-06T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Askim',
-  //       href: '/konserter/askim-julekonsert',
-  //       isoDate: '2024-11-30T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Bergen',
-  //       href: '/konserter/bergen-julekonsert',
-  //       isoDate: '2024-12-17T18:00:00.000Z',
-  //     },
-
-  //     {
-  //       title: 'Bodø',
-  //       href: '/konserter/bodo-julekonsert',
-  //       isoDate: '2024-12-20T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Drammen',
-  //       href: '/konserter/drammen-julekonsert',
-  //       isoDate: '2024-12-22T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Flekkefjord',
-  //       href: '/konserter/flekkefjord-julekonsert',
-  //       isoDate: '2024-12-03T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Fredrikstad',
-  //       href: '/konserter/fredrikstad-julekonsert',
-  //       isoDate: '2024-12-03T19:00:00.000Z',
-  //     },
-
-  //     {
-  //       title: 'Hadeland',
-  //       href: '/konserter/hadeland-julekonsert',
-  //       isoDate: '2024-12-08T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Haugesund',
-  //       href: '/konserter/haugesund-julekonsert',
-  //       isoDate: '2024-12-16T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Holmestrand',
-  //       href: '/konserter/holmestrand-julekonsert',
-  //       isoDate: '2024-12-07T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Horten',
-  //       href: '/konserter/horten-julekonsert',
-  //       isoDate: '2024-11-22T19:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Hønefoss',
-  //       href: '/konserter/honefoss-julekonsert',
-  //       isoDate: '2024-11-23T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Kristiansand',
-  //       href: '/konserter/kristiansand-julekonsert',
-  //       isoDate: '2024-12-12T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Larvik',
-  //       href: '/konserter/larvik-julekonsert',
-  //       isoDate: '2024-12-05T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Lillehammer',
-  //       href: '/konserter/lillehammer-julekonsert',
-  //       isoDate: '2024-12-10T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Lillestrøm',
-  //       href: '/konserter/lillestrom-julekonsert',
-  //       isoDate: '2024-11-24T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Moss',
-  //       href: '/konserter/moss-julekonsert',
-  //       isoDate: '2024-12-01T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Nøtterøy',
-  //       href: '/konserter/notteroy-julekonsert',
-  //       isoDate: '2024-12-04T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Os',
-  //       href: '/konserter/os-julekonsert',
-  //       isoDate: '2024-11-27T19:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Oslo',
-  //       href: '/konserter/oslo-julekonsert',
-  //       isoDate: '2024-12-09T19:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Sandnes',
-  //       href: '/konserter/sandnes-julekonsert',
-  //       isoDate: '2024-12-14T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Sandvika',
-  //       href: '/konserter/sandvika-julekonsert',
-  //       isoDate: '2024-12-02T19:00:00.000Z',
-  //     },
-
-  //     {
-  //       title: 'Stavanger',
-  //       href: '/konserter/stavanger-julekonsert',
-  //       isoDate: '2024-12-15T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Stjørdal',
-  //       href: '/konserter/stjordal-julekonsert',
-  //       isoDate: '2024-12-21T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Tromsø',
-  //       href: '/konserter/tromso-julekonsert',
-  //       isoDate: '2024-12-19T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Trondheim',
-  //       href: '/konserter/trondheim-julekonsert',
-  //       isoDate: '2024-12-18T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Tørvikbygd',
-  //       href: '/konserter/torvikbygd-julekonsert',
-  //       isoDate: '2024-11-28T19:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Ullensaker',
-  //       href: '/konserter/ullensaker-julekonsert',
-  //       isoDate: '2024-11-29T18:00:00.000Z',
-  //     },
-  //     {
-  //       title: 'Voss',
-  //       href: '/konserter/voss-julekonsert',
-  //       isoDate: '2024-11-26T18:00:00.000Z',
-  //     },
-  //   ],
-  // },
   // À la carte 2025
   {
     title: 'Nordic Tenors - À la carte 2025',
@@ -300,6 +141,11 @@ export const navigation = [
         title: 'Drammen',
         href: '/konserter/drammen-julekonsert-2025',
         isoDate: '2025-12-22T18:00:00.000Z',
+      },
+      {
+        title: 'Elverum',
+        href: '/konserter/elverum-julekonsert-2025',
+        isoDate: '2025-11-27T18:00:00.000Z',
       },
       {
         title: 'Fredrikstad',
@@ -445,17 +291,17 @@ function Header({ navigation }) {
           : 'dark:bg-transparent'
       )}
     >
-      <div className="mr-6 flex lg:hidden">
+      <div className="flex mr-6 lg:hidden">
         <MobileNavigation navigation={navigation} />
       </div>
-      <div className="relative flex flex-grow basis-0 items-center">
+      <div className="relative flex items-center flex-grow basis-0">
         <Link href="/" aria-label="Hjemmeside">
           <Image
             src="/logos/Nordic_Tenors_2_linjer_sølv.webp"
             alt="Nordic Tenors logo"
             width={200}
             height={200}
-            className="h-7 w-auto lg:hidden"
+            className="w-auto h-7 lg:hidden"
           />
           <Image
             src="/logos/Nordic_Tenors_1_linje_sølv.webp"
@@ -466,13 +312,13 @@ function Header({ navigation }) {
           />
         </Link>
       </div>
-      <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
+      <div className="mr-6 -my-5 sm:mr-8 md:mr-0">
         <Search />
       </div>
-      <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
+      <div className="relative flex justify-end gap-6 basis-0 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
         <div className="group">
-          <p className="cursor-pointer font-display font-semibold text-sky-800 hover:text-red-700 dark:text-gold-500 dark:hover:text-white">
+          <p className="font-semibold cursor-pointer font-display text-sky-800 hover:text-red-700 dark:text-gold-500 dark:hover:text-white">
             EN
           </p>
         </div>
@@ -505,23 +351,23 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
 
       {isHomePage && <Hero />}
 
-      <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
+      <div className="relative flex justify-center mx-auto max-w-8xl sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
           <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] w-64 overflow-y-auto overflow-x-hidden py-16 pl-0.5 pr-8 xl:w-72 xl:pr-16">
             <Navigation navigation={filteredNavigation} />
           </div>
         </div>
-        <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
+        <div className="flex-auto max-w-2xl min-w-0 px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
           <article>
             {(title || frontmatter) && (
-              <header className="mb-9 space-y-1">
+              <header className="space-y-1 mb-9">
                 {frontmatter && (
                   <p className="text-base font-semibold text-sky-800 dark:text-gold-500">
                     {frontmatter.title}
                   </p>
                 )}
                 {title && (
-                  <h1 className="font-display text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                  <h1 className="text-3xl font-semibold tracking-tight text-gray-900 font-display dark:text-white">
                     {title}
                   </h1>
                 )}
@@ -536,7 +382,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
               <>
                 <h2
                   id="on-this-page-title"
-                  className="font-display text-base font-semibold text-gray-900 dark:text-white sm:text-lg"
+                  className="text-base font-semibold text-gray-900 font-display dark:text-white sm:text-lg"
                 >
                   På denne siden
                 </h2>
@@ -558,7 +404,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
                       {section.children.length > 0 && (
                         <ol
                           role="list"
-                          className="mt-2 space-y-3 pl-5 text-gray-500 dark:text-gray-400"
+                          className="pl-5 mt-2 space-y-3 text-gray-500 dark:text-gray-400"
                         >
                           {section.children.map((subSection) => (
                             <li key={subSection.id}>
