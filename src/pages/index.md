@@ -10,10 +10,6 @@ description: Opplev konserter med Nordic Tenors. Finn datoer i kalenderen og kj√
 
 ## Nordic Tenors - √Ä la carte
 
-### Mars 2025
-
-{% mars /%}
-
 ### April 2025
 
 {% april /%}
