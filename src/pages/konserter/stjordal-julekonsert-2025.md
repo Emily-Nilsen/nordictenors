@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/stjordal-julekonsert-2025
 organizer: Nordic Moments AS
-ticketUrl: https://kimenkulturhus.no/Program/NordicTenors25
+ticketUrl: https://kimenkulturhus.no/program/35068-nordic-tenors/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="1" month="desember" time="20:00" ticketUrl="https://kimenkulturhus.no/Program/NordicTenors25" /%}
+{% concert-header day="mandag" date="1" month="desember" time="20:00" ticketUrl="https://kimenkulturhus.no/program/35068-nordic-tenors/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Kimen Kulturhus" ticketUrl="https://kimenkulturhus.no/Program/NordicTenors25" /%}
+{% billetter concert="" outlet="Kimen Kulturhus" ticketUrl="https://kimenkulturhus.no/program/35068-nordic-tenors/" /%}
 
 ## Kimen Kulturhus, Stjørdal
 

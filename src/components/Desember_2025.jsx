@@ -17,7 +17,7 @@ const concerts = [
     imageUrl: '/thumbnails/Kimen_thumb.webp',
     date: '1. desember',
     isoDate: '2025-12-01T18:00:00.000Z',
-    ticketLink: 'https://kimenkulturhus.no/Program/NordicTenors25',
+    ticketLink: 'https://kimenkulturhus.no/program/35068-nordic-tenors/',
     pageUrl: '/konserter/stjordal-julekonsert-2025',
   },
   {
