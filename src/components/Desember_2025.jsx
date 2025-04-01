@@ -57,7 +57,8 @@ const concerts = [
     imageUrl: '/thumbnails/Fosnavåg_Konserthus.webp',
     date: '5. desember',
     isoDate: '2025-12-05T18:00:00.000Z',
-    ticketLink: '',
+    ticketLink:
+      'https://checkout.ebillett.no/139/events/21331/purchase/setup?kanal=dxf',
     pageUrl: '',
   },
   {
