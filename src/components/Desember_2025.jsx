@@ -59,7 +59,7 @@ const concerts = [
     isoDate: '2025-12-05T18:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/139/events/21331/purchase/setup?kanal=dxf',
-    pageUrl: '',
+    pageUrl: '/konserter/fosnavag-julekonsert-2025',
   },
   {
     id: 9233,
