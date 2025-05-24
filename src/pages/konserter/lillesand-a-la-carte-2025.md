@@ -23,7 +23,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Billetter
 
-{% billetter-neutral concert="" outlet="Kalvild Gård" ticketUrl="https://ld.hoopla.no/event/148195489" /%}
+{% billetter-neutral concert="" outlet="Hoopla" ticketUrl="https://ld.hoopla.no/event/148195489" /%}
 
 ## Kalvild Gård, Lillesand
 

@@ -14,6 +14,10 @@ description: Opplev konserter med Nordic Tenors. Finn datoer i kalenderen og kj√
 
 {% juni_2025 /%}
 
+### August 2025
+
+{% august_2025 /%}
+
 ## Christmas with Nordic Tenors
 
 ### November 2025

@@ -42,6 +42,11 @@ export const navigation = [
     title: 'Nordic Tenors - À la carte 2025',
     links: [
       {
+        title: 'Knarvik',
+        href: '/konserter/knarvik-a-la-carte-2025',
+        isoDate: '2025-08-19T19:00:00.000Z',
+      },
+      {
         title: 'Lillesand',
         href: '/konserter/lillesand-a-la-carte-2025',
         isoDate: '2025-06-29T20:00:00.000Z',
