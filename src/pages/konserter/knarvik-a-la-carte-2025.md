@@ -3,7 +3,7 @@ title: Knarvik
 description: Nordic Tenors - À la carte | Knarvik Kyrkje, Knarvik
 schemaName: Nordic Tenors - À la carte 2025 | Knarvik Kyrkje, Knarvik
 schemaDescription: Nordic Tenors - À la carte i Knarvik Kyrkje, Knarvik
-date: 2025-08-19T19:00:00.000Z
+date: 2025-08-29T19:00:00.000Z
 duration: 80
 locationName: Knarvik Kyrkje, Knarvik
 locationAddress: Lonsvegen 100, 5914 Knarvik, Norway
