@@ -37,6 +37,18 @@ export const navigation = [
     ],
   },
 
+  // A la carte 2025
+  {
+    title: 'Nordic Tenors - À la carte 2025',
+    links: [
+      {
+        title: 'Lillesand',
+        href: '/konserter/lillesand-a-la-carte-2025',
+        isoDate: '2025-06-29T20:00:00.000Z',
+      },
+    ],
+  },
+
   // Christmas with Nordic Tenors 2025
   {
     title: 'Christmas with Nordic Tenors 2025',

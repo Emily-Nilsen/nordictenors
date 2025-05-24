@@ -4,6 +4,7 @@ import { Category, Categories } from '@/components/Categories'
 import { FeatureImage, Images } from '@/components/Images'
 import { Jubileum } from '@/components/Jubileum'
 import { Christmas } from '@/components/Christmas'
+import { Juni_2025 } from '@/components/Juni_2025'
 import { November_2025 } from '@/components/November_2025'
 import { Desember_2025 } from '@/components/Desember_2025'
 import { Mars } from '@/components/Mars'
@@ -234,6 +235,10 @@ const tags = {
   jubileum: {
     selfClosing: true,
     render: Jubileum,
+  },
+  juni_2025: {
+    selfClosing: true,
+    render: Juni_2025,
   },
   november_2025: {
     selfClosing: true,
