@@ -183,7 +183,7 @@ const concerts = [
     date: '18. desember',
     isoDate: '2025-12-18T18:00:00.000Z',
     ticketLink:
-      'https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors-2025/',
+      'https://www.lillestrom-kultursenter.no/program/15723-christmas-with-nordic-tenors/',
     pageUrl: '/konserter/lillestrom-julekonsert-2025',
   },
   {

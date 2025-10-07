@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/OG_image_2024.webp
 url: https://nordictenors.no/konserter/lillestrom-a-la-carte
 organizer: Nordic Moments AS
-ticketUrl: https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors-2025/
+ticketUrl: https://www.lillestrom-kultursenter.no/program/15723-christmas-with-nordic-tenors/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="18" month="desember" time="18:00" ticketUrl="https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors-2025/" /%}
+{% concert-header day="torsdag" date="18" month="desember" time="18:00" ticketUrl="https://www.lillestrom-kultursenter.no/program/15723-christmas-with-nordic-tenors/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Lillestrøm Kultursenter" ticketUrl="https://www.lillestrom-kultursenter.no/event/christmas-with-nordic-tenors-2025/" /%}
+{% billetter concert="" outlet="Lillestrøm Kultursenter" ticketUrl="https://www.lillestrom-kultursenter.no/program/15723-christmas-with-nordic-tenors/" /%}
 
 ## Lillestrøm Kulturhus
 
