@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/molde-julekonsert-2025
 organizer: Nordic Moments AS
-ticketUrl: https://www.eventim.no/eventseries/1825170/?affiliate=SS2
+ticketUrl: https://www.eventim.no/event/christmas-with-nordic-tenors-2025-bjoernsonhuset-19479724/?affiliate=SS2
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="7" month="desember" time="18:00" ticketUrl="https://www.eventim.no/eventseries/1825170/?affiliate=SS2" /%}
+{% concert-header day="søndag" date="7" month="desember" time="18:00" ticketUrl="https://www.eventim.no/event/christmas-with-nordic-tenors-2025-bjoernsonhuset-19479724/?affiliate=SS2" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Eventim.no" ticketUrl="https://www.eventim.no/eventseries/1825170/?affiliate=SS2" /%}
+{% billetter concert="" outlet="Eventim.no" ticketUrl="https://www.eventim.no/event/christmas-with-nordic-tenors-2025-bjoernsonhuset-19479724/?affiliate=SS2" /%}
 
 ## Bjørnsonhuset, Molde
 

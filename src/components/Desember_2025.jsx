@@ -77,7 +77,8 @@ const concerts = [
     imageUrl: '/thumbnails/Bjørnsonhuset_Molde.webp',
     date: '7. desember',
     isoDate: '2025-12-07T18:00:00.000Z',
-    ticketLink: 'https://www.eventim.no/eventseries/1825170/?affiliate=SS2',
+    ticketLink:
+      'https://www.eventim.no/event/christmas-with-nordic-tenors-2025-bjoernsonhuset-19479724/?affiliate=SS2',
     pageUrl: '/konserter/molde-julekonsert-2025',
   },
   {
