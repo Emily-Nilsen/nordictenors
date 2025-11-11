@@ -81,7 +81,7 @@ const concerts = [
   },
   {
     id: 5783,
-    name: 'Blå Gråtte, Fredrikstad',
+    name: 'Blå Grotte, Fredrikstad',
     imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
     date: '28. november',
     isoDate: '2025-11-28T18:00:00.000Z',
