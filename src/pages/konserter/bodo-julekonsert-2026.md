@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Stormen, Bodø
 
-{% julekonsert-intro-2026 location="Stormen, Bodø" day="mandag" date="23" month="november" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Stormen, Bodø mandag 23. november 2026. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Stormen_konserthus.webp" title="Stormen, Bodø" /%}

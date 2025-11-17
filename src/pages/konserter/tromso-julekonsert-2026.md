@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Kulturhuset Tromsø
 
-{% julekonsert-intro-2026 location="Kulturhuset Tromsø" day="søndag" date="22" month="november" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Kulturhuset Tromsø søndag 22. november 2026. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Kulturhuset_tromsø.webp" title="Kulturhuset Tromsø" /%}

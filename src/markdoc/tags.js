@@ -26,7 +26,6 @@ import { ConcertDetails2026 } from '@/components/ConcertDetails2026'
 import { ConcertHeader } from '@/components/ConcertHeader'
 import { ConcertIntroduction } from '@/components/ConcertIntroduction'
 import { JulekonsertIntro2025 } from '@/components/JulekonsertIntro2025'
-import { JulekonsertIntro2026 } from '@/components/JulekonsertIntro2026'
 import { ConcertIntroSpring } from '@/components/ConcertIntroSpring'
 import { JubileumIntroduction } from '@/components/JubileumIntroduction'
 import { ExternalLink } from '@/components/ExternalLink'
@@ -184,16 +183,6 @@ const tags = {
   'julekonsert-intro-2025': {
     selfClosing: true,
     render: JulekonsertIntro2025,
-    attributes: {
-      day: { type: String },
-      location: { type: String },
-      date: { type: String },
-      month: { type: String },
-    },
-  },
-  'julekonsert-intro-2026': {
-    selfClosing: true,
-    render: JulekonsertIntro2026,
     attributes: {
       day: { type: String },
       location: { type: String },
