@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Biorama, Holmestrand
 
-{% julekonsert-intro-2025 location="Biorama, Holmestrand" day="lørdag" date="21" month="november" /%}
+{% julekonsert-intro-2026 location="Biorama, Holmestrand" day="lørdag" date="21" month="november" /%}
 
 {% categories %}
 {% category imageUrl="/halls/Biorama.webp" title="Biorama, Holmestrand" /%}
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details-new concert="Biorama, Holmestrand" date="21" month="november" day="lørdag" time="19:00 – 21:00" location="Biorama kulturhus, Holmestrand" /%}
+{% concert-details-2026 concert="Biorama, Holmestrand" date="21" month="november" day="lørdag" time="19:00 – 21:00" location="Biorama kulturhus, Holmestrand" /%}
 
 ### Adresse
 

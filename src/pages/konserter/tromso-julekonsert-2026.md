@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Kulturhuset Tromsø
 
-{% julekonsert-intro-2025 location="Kulturhuset Tromsø" day="søndag" date="22" month="november" /%}
+{% julekonsert-intro-2026 location="Kulturhuset Tromsø" day="søndag" date="22" month="november" /%}
 
 {% categories %}
 {% category imageUrl="/halls/Kulturhuset_tromsø.webp" title="Kulturhuset Tromsø" /%}
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details-new concert="Kulturhuset Tromsø" date="22" month="november" day="søndag" time="19:00 – 20:20" location="Kulturhuset Tromsø, Hovedscenen" /%}
+{% concert-details-2026 concert="Kulturhuset Tromsø" date="22" month="november" day="søndag" time="19:00 – 20:20" location="Kulturhuset Tromsø, Hovedscenen" /%}
 
 ### Adresse
 
