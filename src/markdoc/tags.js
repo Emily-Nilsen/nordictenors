@@ -22,9 +22,11 @@ import { BilletterNeutral } from '@/components/BilletterNeutral'
 import { JubiluemBilletter } from '@/components/JubileumBilletter'
 import { ConcertDetails } from '@/components/ConcertDetails'
 import { ConcertDetailsNew } from '@/components/ConcertDetailsNew'
+import { ConcertDetails2026 } from '@/components/ConcertDetails2026'
 import { ConcertHeader } from '@/components/ConcertHeader'
 import { ConcertIntroduction } from '@/components/ConcertIntroduction'
 import { JulekonsertIntro2025 } from '@/components/JulekonsertIntro2025'
+import { JulekonsertIntro2026 } from '@/components/JulekonsertIntro2026'
 import { ConcertIntroSpring } from '@/components/ConcertIntroSpring'
 import { JubileumIntroduction } from '@/components/JubileumIntroduction'
 import { ExternalLink } from '@/components/ExternalLink'
@@ -135,6 +137,18 @@ const tags = {
       time: { type: String },
     },
   },
+  'concert-details-2026': {
+    selfClosing: true,
+    render: ConcertDetails2026,
+    attributes: {
+      concert: { type: String },
+      day: { type: String },
+      date: { type: String },
+      month: { type: String },
+      location: { type: String },
+      time: { type: String },
+    },
+  },
   'concert-header': {
     selfClosing: true,
     render: ConcertHeader,
@@ -170,6 +184,16 @@ const tags = {
   'julekonsert-intro-2025': {
     selfClosing: true,
     render: JulekonsertIntro2025,
+    attributes: {
+      day: { type: String },
+      location: { type: String },
+      date: { type: String },
+      month: { type: String },
+    },
+  },
+  'julekonsert-intro-2026': {
+    selfClosing: true,
+    render: JulekonsertIntro2026,
     attributes: {
       day: { type: String },
       location: { type: String },

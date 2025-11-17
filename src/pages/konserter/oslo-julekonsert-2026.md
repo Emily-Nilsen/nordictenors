@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Oslo Konserthus
 
-{% julekonsert-intro-2025 location="Oslo Konserthus" day="fredag" date="20" month="november" /%}
+{% julekonsert-intro-2026 location="Oslo Konserthus" day="fredag" date="20" month="november" /%}
 
 {% categories %}
 {% category imageUrl="/halls/Oslo_Konserthus.webp" title="Oslo Konserthus" /%}
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details-new concert="Oslo Konserthus" date="20" month="november" day="fredag" time="19:00 – 20:20" location="Store sal, Oslo Konserthus" /%}
+{% concert-details-2026 concert="Oslo Konserthus" date="20" month="november" day="fredag" time="19:00 – 20:20" location="Store sal, Oslo Konserthus" /%}
 
 ### Adresse
 
