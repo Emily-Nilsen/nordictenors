@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Bakkenteigen Kulturhus, Horten - Turnépremiere
 
-{% julekonsert-intro-2025 location="Bakkenteigen Kulturhus, Horten" day="torsdag" date="20" month="november" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Bakkenteigen Kulturhus, Horten torsdag 20. november 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Bakkenteigen_Kulturhus_Horten.webp" title="Bakkenteigen Kulturhus, Horten" /%}
