@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Parken Kulturhus, Ålesund
 
-{% julekonsert-intro-2025 location="Parken Kulturhus, Ålesund" day="mandag" date="8" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Parken Kulturhus, Ålesund mandag 8. desember 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Parken_kulturhus.webp" title="Parken Kulturhus, Ålesund" /%}

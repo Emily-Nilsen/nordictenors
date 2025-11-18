@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Stavanger Konserthus
 
-{% julekonsert-intro-2025 location="Stavanger Konserthus" day="fredag" date="12" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Stavanger Konserthus fredag 12. desember 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Stavanger_konserthus.webp" title="Stavanger Konserthus" /%}

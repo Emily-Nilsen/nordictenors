@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Sandnes Kulturhus
 
-{% julekonsert-intro-2025 location="Sandnes Kulturhus" day="lørdag" date="13" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Sandnes Kulturhus lørdag 13. desember 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Sandnes_kulturhus.webp" title="Sandnes Kulturhus" /%}

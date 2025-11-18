@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Festiviteten, Haugesund
 
-{% julekonsert-intro-2025 location="Festiviteten, Haugesund" day="onsdag" date="10" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Festiviteten, Haugesund onsdag 10. desember 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Festiviteten_Haugesund.webp" title="Festiviteten, Haugesund" /%}

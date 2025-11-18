@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Grieghallen, Bergen
 
-{% julekonsert-intro-2025 location="Grieghallen, Bergen" day="tirsdag" date="9" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Grieghallen, Bergen tirsdag 9. desember 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Grieghallen_Bergen.webp" title="Grieghallen, Bergen" /%}
