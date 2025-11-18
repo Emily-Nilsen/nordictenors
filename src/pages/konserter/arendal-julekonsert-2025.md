@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Arendal Kulturhus
 
-{% julekonsert-intro-2025 location="Arendal Kulturhus" day="onsdag" date="3" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Arendal Kulturhus onsdag 3. desember 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Arendal_kulturhus.webp" title="Store Torungen, Arendal Kulturhus" /%}

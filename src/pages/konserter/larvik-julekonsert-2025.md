@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Bølgen Kulturhus, Larvik
 
-{% julekonsert-intro-2025 location="Bølgen Kulturhus, Larvik" day="torsdag" date="4" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Bølgen Kulturhus, Larvik torsdag 4. desember 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Bølgen_kulturhus.webp" title="Bølgen Kulturhus, Larvik" /%}

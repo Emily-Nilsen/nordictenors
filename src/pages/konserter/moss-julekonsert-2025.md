@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Moss Kulturhus - Parkteatret
 
-{% julekonsert-intro-2025 location="Moss Kulturhus - Parkteatret" day="søndag" date="30" month="november" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Moss Kulturhus - Parkteatret søndag 30. november 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Moss_Kulturhus.webp" title="Moss Kulturhus - Parkteatret" /%}

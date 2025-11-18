@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Blå Grotte, Fredrikstad
 
-{% julekonsert-intro-2025 location="Blå Grotte, Fredrikstad" day="fredag" date="28" month="november" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Blå Grotte, Fredrikstad fredag 28. november 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Blå_Grotte.webp" title="Blå Grotte, Fredrikstad" /%}
