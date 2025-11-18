@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Olavshallen, Trondheim
 
-{% julekonsert-intro-2025 location="Olavshallen, Trondheim" day="tirsdag" date="2" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Olavshallen, Trondheim tirsdag 2. desember 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Olavshallen.webp" title="Olavshallen, Trondheim" /%}

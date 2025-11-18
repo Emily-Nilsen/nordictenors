@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Bærum Kulturhus, Sandvika
 
-{% julekonsert-intro-2025 location="Bærum Kulturhus, Sandvika" day="søndag" date="21" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Bærum Kulturhus, Sandvika søndag 21. desember 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Bærum_kulturhus.webp" title="Bærum Kulturhus, Sandvika" /%}

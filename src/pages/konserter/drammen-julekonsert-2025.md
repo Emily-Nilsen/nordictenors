@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Drammens Teater – 2 forestillinger
 
-{% julekonsert-intro-2025 location="Drammens Teater" day="mandag" date="22" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Drammens Teater mandag 22. desember 2025. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Drammens_Teater.webp" title="Drammens Teater" /%}
