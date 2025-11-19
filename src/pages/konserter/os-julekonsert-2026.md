@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Oseana Kunst & Kultursenter
 
-Kom i førjulsstemning med Nordic Tenors sin julekonsert i Drammens Teater onsdag 16. desember 2026. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Oseana Kunst & Kultursenter onsdag 16. desember 2026. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Oseana.webp" title="Oseana Kunst & Kultursenter" /%}
