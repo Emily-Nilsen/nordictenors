@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/askim-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://tix.no/nb/askim/buyingflow/tickets/34937/74164/
+ticketUrl: https://www.askimkulturhus.no/program/43711-christmas-with-nordic-tenors/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="29" month="november" time="18:00" ticketUrl="https://tix.no/nb/askim/buyingflow/tickets/34937/74164/" /%}
+{% concert-header day="søndag" date="29" month="november" time="18:00" ticketUrl="https://www.askimkulturhus.no/program/43711-christmas-with-nordic-tenors/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Askim Kulturhus" ticketUrl="https://tix.no/nb/askim/buyingflow/tickets/34937/74164/" /%}
+{% billetter concert="" outlet="Askim Kulturhus" ticketUrl="https://www.askimkulturhus.no/program/43711-christmas-with-nordic-tenors/" /%}
 
 ## Askim Kulturhus
 

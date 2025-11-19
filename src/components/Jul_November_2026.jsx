@@ -134,8 +134,9 @@ const concerts = [
     imageUrl: '/thumbnails/Askim_Kulturhus.webp',
     date: '29. november',
     isoDate: '2026-11-29T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://www.askimkulturhus.no/program/43711-christmas-with-nordic-tenors/',
+    pageUrl: '/konserter/askim-julekonsert-2026',
   },
 ]
 
