@@ -7,7 +7,9 @@ import { Christmas } from '@/components/Christmas'
 import { Juni_2025 } from '@/components/Juni_2025'
 import { August_2025 } from '@/components/August_2025'
 import { November_2025 } from '@/components/November_2025'
+import { Jul_November_2026 } from '@/components/Jul_November_2026'
 import { Desember_2025 } from '@/components/Desember_2025'
+import { Jul_Desember_2026 } from '@/components/Jul_Desember_2026'
 import { Mars } from '@/components/Mars'
 import { April } from '@/components/April'
 import CurrentYear from '@/components/CurrentYear'
@@ -262,9 +264,17 @@ const tags = {
     selfClosing: true,
     render: November_2025,
   },
+  jul_november_2026: {
+    selfClosing: true,
+    render: Jul_November_2026,
+  },
   desember_2025: {
     selfClosing: true,
     render: Desember_2025,
+  },
+  jul_desember_2026: {
+    selfClosing: true,
+    render: Jul_Desember_2026,
   },
   mars: {
     selfClosing: true,

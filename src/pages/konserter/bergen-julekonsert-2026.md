@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/bergen-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://www.ticketmaster.no/event/1587930548
+ticketUrl: https://www.ticketmaster.no/event/2094932538
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="15" month="desember" time="18:30" ticketUrl="https://www.ticketmaster.no/event/1587930548" /%}
+{% concert-header day="tirsdag" date="15" month="desember" time="18:30" ticketUrl="https://www.ticketmaster.no/event/2094932538" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="ticketmaster" ticketUrl="https://www.ticketmaster.no/event/1587930548" /%}
+{% billetter concert="" outlet="ticketmaster" ticketUrl="https://www.ticketmaster.no/event/2094932538" /%}
 
 ## Grieghallen, Bergen
 

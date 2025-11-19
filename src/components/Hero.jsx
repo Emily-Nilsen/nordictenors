@@ -64,15 +64,6 @@ export function Hero() {
                 {/* <div>
                   <Button
                     className="relative z-20"
-                    href="/#christmas-with-nordic-tenors"
-                  >
-                    Julekonserter 2024
-                  </Button>
-                </div> */}
-
-                {/* <div>
-                  <Button
-                    className="relative z-20"
                     href="/#nordic-tenors-a-la-carte"
                     variant="secondary"
                   >
@@ -88,6 +79,15 @@ export function Hero() {
                     Julekonserter 2025
                   </Button>
                 </div>
+                <div>
+                  <Button
+                    className="relative z-20"
+                    href="/#jul-november-2026"
+                    variant="secondary"
+                  >
+                    Julekonserter 2026
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
@@ -95,12 +95,6 @@ export function Hero() {
           <div className="col-span-3 hidden items-center justify-between lg:flex">
             {/* Buttons */}
             <div className="flex justify-center gap-8 sm:gap-10 lg:-mb-0 lg:mt-0 lg:justify-start">
-              {/* <Button
-                className="relative z-20"
-                href="/#christmas-with-nordic-tenors"
-              >
-                Julekonserter - 2024
-              </Button> */}
               {/* <Button
                 className="relative z-20"
                 href="/#nordic-tenors-a-la-carte"
@@ -113,6 +107,13 @@ export function Hero() {
                 href="/#christmas-with-nordic-tenors"
               >
                 Julekonserter - 2025
+              </Button>
+              <Button
+                className="relative z-20"
+                href="/#jul-november-2026"
+                variant="secondary"
+              >
+                Julekonserter - 2026
               </Button>
             </div>
             {/* Social media icons */}

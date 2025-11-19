@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/lillehammer-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://www.ticketmaster.no/event/149748545
+ticketUrl: https://www.ticketmaster.no/event/1917741778
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="27" month="november" time="18:00" ticketUrl="https://www.ticketmaster.no/event/149748545" /%}
+{% concert-header day="fredag" date="27" month="november" time="18:00" ticketUrl="https://www.ticketmaster.no/event/1917741778" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="ticketmaster.no" ticketUrl="https://www.ticketmaster.no/event/149748545" /%}
+{% billetter concert="" outlet="ticketmaster.no" ticketUrl="https://www.ticketmaster.no/event/1917741778" /%}
 
 ## Maihaugsalen, Lillehammer
 
