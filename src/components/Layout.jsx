@@ -223,6 +223,11 @@ export const navigation = [
         href: 'konserter/lillehammer-julekonsert-2026',
         isoDate: '2026-11-27T18:00:00.000Z',
       },
+      {
+        title: 'Stavanger',
+        href: '/konserter/stavanger-julekonsert-2026',
+        isoDate: '2026-12-13T18:00:00.000Z',
+      },
     ],
   },
 ]

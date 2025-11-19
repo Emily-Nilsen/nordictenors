@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/stavanger-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/34991/
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/43591/
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="13" month="desember" time="18:00" ticketUrl="https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/34991/" /%}
+{% concert-header day="søndag" date="13" month="desember" time="18:00" ticketUrl="https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/43591/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Stavanger Konserthus" ticketUrl="https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/34991/" /%}
+{% billetter concert="" outlet="Stavanger Konserthus" ticketUrl="https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/43591/" /%}
 
 ## Stavanger Konserthus
 

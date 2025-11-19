@@ -125,8 +125,9 @@ const concerts = [
     imageUrl: '/thumbnails/Stavanger_Konserthus_thumb.webp',
     date: '13. desember',
     isoDate: '2026-12-13T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/43591/',
+    pageUrl: '/konserter/stavanger-julekonsert-2026',
   },
   {
     id: 202624,
