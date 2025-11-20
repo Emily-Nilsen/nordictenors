@@ -44,8 +44,8 @@ const concerts = [
     imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
     date: '22. november',
     isoDate: '2026-11-22T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink: 'https://tix.no/nb/tr/buyingflow/tickets/43631/89408/',
+    pageUrl: '/konserter/tromso-julekonsert-2026',
   },
   {
     id: 30200556616628,

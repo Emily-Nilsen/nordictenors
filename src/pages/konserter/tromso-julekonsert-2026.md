@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/tromso-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://tix.no/nb/tr/buyingflow/tickets/34909/74128/
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://tix.no/nb/tr/buyingflow/tickets/43631/89408/
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="22" month="november" time="19:00" ticketUrl="https://tix.no/nb/tr/buyingflow/tickets/34909/74128/" /%}
+{% concert-header day="søndag" date="22" month="november" time="19:00" ticketUrl="https://tix.no/nb/tr/buyingflow/tickets/43631/89408/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Kulturhuset Tromsø" ticketUrl="https://tix.no/nb/tr/buyingflow/tickets/34909/74128/" /%}
+{% billetter concert="" outlet="Kulturhuset Tromsø" ticketUrl="https://tix.no/nb/tr/buyingflow/tickets/43631/89408/" /%}
 
 ## Kulturhuset Tromsø
 
