@@ -234,6 +234,11 @@ export const navigation = [
         isoDate: '2026-12-14T18:00:00.000Z',
       },
       {
+        title: 'Holmestrand',
+        href: '/konserter/holmestrand-julekonsert-2026',
+        isoDate: '2026-11-21T18:00:00.000Z',
+      },
+      {
         title: 'Horten',
         href: '/konserter/horten-julekonsert-2026',
         isoDate: '2026-11-19T18:00:00.000Z',

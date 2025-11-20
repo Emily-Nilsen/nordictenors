@@ -36,8 +36,9 @@ const concerts = [
     imageUrl: '/thumbnails/Biorama_thumb.webp',
     date: '21. november',
     isoDate: '2026-11-21T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026',
+    pageUrl: '/konserter/holmestrand-julekonsert-2026',
   },
   {
     id: 2026070116623,
