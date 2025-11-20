@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/kristiansand-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://kilden.com/forestilling/christmas-with-nordic-tenors-5/
-ticketPrice: 595 # Replace with the actual price
+ticketUrl: https://tix.no/nb/kilden/specialoffer/tickets/43693/
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="1" month="desember" time="18:00" ticketUrl="https://kilden.com/forestilling/christmas-with-nordic-tenors-5/" /%}
+{% concert-header day="tirsdag" date="1" month="desember" time="18:00" ticketUrl="https://tix.no/nb/kilden/specialoffer/tickets/43693/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="kilden.com" ticketUrl="https://kilden.com/forestilling/christmas-with-nordic-tenors-5/" /%}
+{% billetter concert="" outlet="kilden.com" ticketUrl="https://tix.no/nb/kilden/specialoffer/tickets/43693/" /%}
 
 ## Kilden, Kristiansand
 

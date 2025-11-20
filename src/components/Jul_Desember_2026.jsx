@@ -17,8 +17,8 @@ const concerts = [
     imageUrl: '/thumbnails/Kilden_kulturhus_thumb.webp',
     date: '1. desember',
     isoDate: '2026-12-01T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink: 'https://tix.no/nb/kilden/specialoffer/tickets/43693/',
+    pageUrl: '/konserter/kristiansand-julekonsert-2026',
   },
   {
     id: 202612,
