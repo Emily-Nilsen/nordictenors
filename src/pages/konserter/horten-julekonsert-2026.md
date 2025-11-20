@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/horten-tors-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2025
+ticketUrl: https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="19" month="november" time="19:00" ticketUrl="https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2025" /%}
+{% concert-header day="torsdag" date="19" month="november" time="19:00" ticketUrl="https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="TicketCo" ticketUrl="https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2025" /%}
+{% billetter concert="" outlet="TicketCo" ticketUrl="https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026" /%}
 
 ## Bakkenteigen Kulturhus, Horten
 
@@ -35,7 +35,7 @@ Kom i førjulsstemning med Nordic Tenors sin julekonsert i Bakkenteigen Kulturhu
 
 ### Konsertdetaljer
 
-{% concert-details-2026 concert="Bakkenteigen Kulturhus, Horten" date="19" month="november" day="torsdag" time="19:00 – 20:25" location="Bakkenteigen Kulturhus, Horten" /%}
+{% concert-details-2026 concert="Bakkenteigen Kulturhus, Horten" date="19" month="november" day="torsdag" time="19:00 – 20:30" location="Bakkenteigen Kulturhus, Horten" /%}
 
 ### Adresse
 

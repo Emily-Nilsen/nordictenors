@@ -17,8 +17,9 @@ const concerts = [
     imageUrl: '/thumbnails/Bakkenteigen_Kulturhus_Horten.webp',
     date: '19. november',
     isoDate: '2026-11-19T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026',
+    pageUrl: '/konserter/horten-julekonsert-2026',
   },
   {
     id: 2026051289520,
