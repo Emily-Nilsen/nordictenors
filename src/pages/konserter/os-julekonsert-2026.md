@@ -3,7 +3,7 @@ title: Oseana, Os
 description: Christmas with Nordic Tenors | Oseana Kunst & Kultursenter
 schemaName: Christmas with Nordic Tenors 2026 | Oseana Kunst & Kultursenter
 schemaDescription: Julekonsert med Nordic Tenors i Oseana Kunst & Kultursenter
-date: 2026-12-16T19:00:00.000Z
+date: 2026-12-16T18:00:00.000Z
 duration: 80
 locationName: Oseana Kunst & Kultursenter, Os
 locationAddress: Oseana Kunst- og Kultursenter, Mobergsbakken 20, 5200 Os, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/os-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://www.oseana.no/event/christmas-with-nordic-tenors/
-ticketPrice: 595 # Replace with the actual price
+ticketUrl: https://tix.no/nn/oseana/buyingflow/tickets/43735/89598#tixsp
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="16" month="desember" time="19:00" ticketUrl="https://www.oseana.no/event/christmas-with-nordic-tenors/" /%}
+{% concert-header day="onsdag" date="16" month="desember" time="18:00" ticketUrl="https://tix.no/nn/oseana/buyingflow/tickets/43735/89598#tixsp" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Oseana Kunst & Kultursenter" ticketUrl="https://www.oseana.no/event/christmas-with-nordic-tenors/" /%}
+{% billetter concert="" outlet="Oseana Kunst & Kultursenter" ticketUrl="https://tix.no/nn/oseana/buyingflow/tickets/43735/89598#tixsp" /%}
 
 ## Oseana Kunst & Kultursenter
 
@@ -35,7 +35,7 @@ Kom i førjulsstemning med Nordic Tenors sin julekonsert i Oseana Kunst & Kultur
 
 ### Konsertdetaljer
 
-{% concert-details concert="Oseana Kunst & Kultursenter" date="16" month="desember" day="onsdag" time="19:00 – 20:20" location="Oseana Kunst & Kultursenter, Os" /%}
+{% concert-details concert="Oseana Kunst & Kultursenter" date="16" month="desember" day="onsdag" time="18:00 – 19:20" location="Oseana Kunst & Kultursenter, Os" /%}
 
 ### Adresse
 

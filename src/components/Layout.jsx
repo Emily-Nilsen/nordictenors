@@ -209,6 +209,11 @@ export const navigation = [
     title: 'Christmas with Nordic Tenors 2026',
     links: [
       {
+        title: 'Asker',
+        href: '/konserter/asker-julekonsert-2026',
+        isoDate: '2026-12-08T18:00:00.000Z',
+      },
+      {
         title: 'Askim',
         href: '/konserter/askim-julekonsert-2026',
         isoDate: '2026-11-29T18:00:00.000Z',
@@ -224,6 +229,11 @@ export const navigation = [
         isoDate: '2026-11-28T18:00:00.000Z',
       },
       {
+        title: 'Haugesund',
+        href: '/konserter/haugesund-julekonsert-2026',
+        isoDate: '2026-12-14T18:00:00.000Z',
+      },
+      {
         title: 'Kristiansand',
         href: '/konserter/kristiansand-julekonsert-2026',
         isoDate: '2026-12-01T18:00:00.000Z',
@@ -237,6 +247,11 @@ export const navigation = [
         title: 'Namsos',
         href: '/konserter/namsos-julekonsert-2026',
         isoDate: '2026-11-25T18:00:00.000Z',
+      },
+      {
+        title: 'Os',
+        href: '/konserter/os-julekonsert-2026',
+        isoDate: '2026-12-16T18:00:00.000Z',
       },
       {
         title: 'Stavanger',

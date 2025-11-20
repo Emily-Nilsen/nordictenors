@@ -80,8 +80,9 @@ const concerts = [
     imageUrl: '/thumbnails/Asker_kulturhus_thumb.webp',
     date: '8. desember',
     isoDate: '2026-12-08T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://www.askerkulturhus.no/program/christmas-with-nordic-tenors-2026/',
+    pageUrl: '/konserter/asker-julekonsert-2026',
   },
   {
     id: 202619,
@@ -135,8 +136,9 @@ const concerts = [
     imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
     date: '14. desember',
     isoDate: '2026-12-14T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://tix.no/nb/festiviteten/buyingflow/tickets/43719/89562/',
+    pageUrl: '/konserter/haugesund-julekonsert-2026',
   },
   {
     id: 202625,
@@ -153,8 +155,8 @@ const concerts = [
     imageUrl: '/thumbnails/Oseana.webp',
     date: '16. desember',
     isoDate: '2026-12-16T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink: 'https://tix.no/nn/oseana/buyingflow/tickets/43735/89598#tixsp',
+    pageUrl: '/konserter/os-julekonsert-2026',
   },
   {
     id: 202627,

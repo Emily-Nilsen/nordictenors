@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/haugesund-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://tix.no/nb/festiviteten/buyingflow/tickets/34846/74030/
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://tix.no/nb/festiviteten/buyingflow/tickets/43719/89562/
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="14" month="desember" time="18:00" ticketUrl="https://tix.no/nb/festiviteten/buyingflow/tickets/34846/74030/" /%}
+{% concert-header day="mandag" date="14" month="desember" time="18:00" ticketUrl="https://tix.no/nb/festiviteten/buyingflow/tickets/43719/89562/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Festiviteten" ticketUrl="https://tix.no/nb/festiviteten/buyingflow/tickets/34846/74030/" /%}
+{% billetter concert="" outlet="Festiviteten Haugesund Konserthus" ticketUrl="https://tix.no/nb/festiviteten/buyingflow/tickets/43719/89562/" /%}
 
 ## Festiviteten, Haugesund
 

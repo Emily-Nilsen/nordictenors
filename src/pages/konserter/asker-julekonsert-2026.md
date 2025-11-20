@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/asker-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl:
-ticketPrice: 595 # Replace with the actual price
+ticketUrl: https://www.askerkulturhus.no/program/christmas-with-nordic-tenors-2026/
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="8" month="desember" time="18:00" ticketUrl="https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/" /%}
+{% concert-header day="tirsdag" date="8" month="desember" time="18:00" ticketUrl="https://www.askerkulturhus.no/program/christmas-with-nordic-tenors-2026/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Asker kulturhus" ticketUrl="https://www.askerkulturhus.no/program/christmas-with-nordic-tenors/" /%}
+{% billetter concert="" outlet="Asker kulturhus" ticketUrl="https://www.askerkulturhus.no/program/christmas-with-nordic-tenors-2026/" /%}
 
 ## Asker kulturhus
 
