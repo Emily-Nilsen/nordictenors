@@ -273,6 +273,11 @@ export const navigation = [
         href: '/konserter/tromso-julekonsert-2026',
         isoDate: '2026-11-22T19:00:00.000Z',
       },
+      {
+        title: 'Tønsberg',
+        href: '/konserter/tonsberg-julekonsert-2026',
+        isoDate: '2026-12-10T18:00:00.000Z',
+      },
     ],
   },
 ]
