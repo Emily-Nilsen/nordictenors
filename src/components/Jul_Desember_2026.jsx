@@ -95,7 +95,7 @@ const concerts = [
   },
   {
     id: 202620,
-    name: 'Oseberg Kulturhus, Tønsberg',
+    name: 'Teigen Scene, Tønsberg',
     imageUrl: '/thumbnails/Oseberg_Konserthus_thumb.webp',
     date: '10. desember',
     isoDate: '2026-12-10T18:00:00.000Z',

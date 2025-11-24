@@ -1,11 +1,11 @@
 ---
 title: Tønsberg
-description: Christmas with Nordic Tenors | Oseberg Kulturhus, Tønsberg
-schemaName: Christmas with Nordic Tenors 2026 | Oseberg Kulturhus, Tønsberg
-schemaDescription: Julekonsert med Nordic Tenors i Oseberg Kulturhus, Tønsberg
+description: Christmas with Nordic Tenors | Teigen Scene, Tønsberg
+schemaName: Christmas with Nordic Tenors 2026 | Teigen Scene, Tønsberg
+schemaDescription: Julekonsert med Nordic Tenors i Teigen Scene, Tønsberg
 date: 2026-12-10T18:00:00.000Z
 duration: 80
-locationName: Oseberg Kulturhus
+locationName: Teigen Scene
 locationAddress: Ollebukta 3, 3126 Tønsberg, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
@@ -23,19 +23,19 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Billetter
 
-{% billetter concert="" outlet="Oseberg Kulturhus" ticketUrl="https://www.ticketmaster.no/event/1197792848" /%}
+{% billetter concert="" outlet="Teigen Scene" ticketUrl="https://www.ticketmaster.no/event/1197792848" /%}
 
-## Oseberg Kulturhus, Tønsberg
+## Teigen Scene, Tønsberg
 
-Opplev Christmas with Nordic Tenors i Oseberg Kulturhus torsdag 10. desember 2026. Få en stemningsfull førjulstid med utsøkte stemmer, varme historier og humor når Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak inviterer til julekonsert.
+Opplev Christmas with Nordic Tenors i Teigen Scene torsdag 10. desember 2026. Få en stemningsfull førjulstid med utsøkte stemmer, varme historier og humor når Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak inviterer til julekonsert.
 
 {% categories %}
-{% category imageUrl="/halls/Oseberg_Kulturhus.webp" title="Oseberg Kulturhus, Tønsberg" /%}
+{% category imageUrl="/halls/Oseberg_Kulturhus.webp" title="Teigen Scene, Tønsberg" /%}
 {% /categories %}
 
 ### Konsertdetaljer
 
-{% concert-details-2026 concert="Oseberg Kulturhus, Tønsberg" date="10" month="desember" day="torsdag" time="18:00 – 19:20" location="Oseberg Kulturhus, Tønsberg" /%}
+{% concert-details-2026 concert="Teigen Scene, Tønsberg" date="10" month="desember" day="torsdag" time="18:00 – 19:20" location="Teigen Scene, Tønsberg" /%}
 
 ### Adresse
 
