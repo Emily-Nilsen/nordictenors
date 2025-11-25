@@ -3,7 +3,7 @@ title: Stjørdal
 description: Christmas with Nordic Tenors | Kimen Kulturhus, Stjørdal
 schemaName: Christmas with Nordic Tenors 2025 | Kimen Kulturhus, Stjørdal
 schemaDescription: Julekonsert med Nordic Tenors i Kimen Kulturhus, Stjørdal
-date: 2025-12-01T20:00:00.000Z
+date: 2025-12-01T18:00:00.000Z
 duration: 80
 locationName: Kimen Kulturhus
 locationAddress: Sandgata 15, 7500 Stjørdal, Norway
@@ -17,7 +17,7 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="1" month="desember" time="20:00" ticketUrl="https://tix.no/nb/kimenkulturhus/buyingflow/tickets/35068/74370" /%}
+{% concert-header day="mandag" date="1" month="desember" time="18:00" ticketUrl="https://tix.no/nb/kimenkulturhus/buyingflow/tickets/35068/74370" /%}
 
 ---
 
@@ -35,7 +35,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ### Konsertdetaljer
 
-{% concert-details-new concert="Kimen Kulturhus, Stjørdal" date="1" month="desember" day="mandag" time="20:00 – 21:15" location="Kimen Kulturhus, Storsalen, Stjørdal" /%}
+{% concert-details-new concert="Kimen Kulturhus, Stjørdal" date="1" month="desember" day="mandag" time="18:00 – 19:15" location="Kimen Kulturhus, Storsalen, Stjørdal" /%}
 
 ### Adresse
 

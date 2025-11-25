@@ -179,7 +179,7 @@ export const navigation = [
       {
         title: 'Stjørdal',
         href: '/konserter/stjordal-julekonsert-2025',
-        isoDate: '2025-12-01T20:00:00.000Z',
+        isoDate: '2025-12-01T18:00:00.000Z',
       },
       {
         title: 'Tromsø',
