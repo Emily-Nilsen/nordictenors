@@ -27,8 +27,9 @@ const concerts = [
     imageUrl: '/thumbnails/Oslo_Konserthus_thumb.webp',
     date: '20. november',
     isoDate: '2026-11-20T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://oslokonserthus.no/program/christmas-with-nordic-tenors-2026',
+    pageUrl: '/konserter/oslo-julekonsert-2026',
   },
   {
     id: 202606890567,

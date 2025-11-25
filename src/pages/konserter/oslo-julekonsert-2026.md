@@ -3,7 +3,7 @@ title: Oslo
 description: Christmas with Nordic Tenors | Oslo Konserthus
 schemaName: Christmas with Nordic Tenors 2026 | Oslo Konserthus
 schemaDescription: Julekonsert med Nordic Tenors i Oslo Konserthus
-date: 2026-11-20T19:00:00.000Z
+date: 2026-11-20T18:00:00.000Z
 duration: 80
 locationName: Oslo Konserthus
 locationAddress: Munkedamsveien 14, 0115 Oslo, Norway
@@ -12,12 +12,12 @@ image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/oslo-julekonsert-2026
 organizer: Nordic Moments AS
 ticketUrl: https://oslokonserthus.no/program/christmas-with-nordic-tenors-2026
-ticketPrice: 630 # Replace with the actual price
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="20" month="november" time="19:00" ticketUrl="https://oslokonserthus.no/program/christmas-with-nordic-tenors-2026" /%}
+{% concert-header day="fredag" date="20" month="november" time="18:00" ticketUrl="https://oslokonserthus.no/program/christmas-with-nordic-tenors-2026" /%}
 
 ---
 
@@ -35,7 +35,7 @@ Kom i førjulsstemning med Nordic Tenors sin julekonsert i Oslo Konserthus freda
 
 ### Konsertdetaljer
 
-{% concert-details-2026 concert="Oslo Konserthus" date="20" month="november" day="fredag" time="19:00 – 20:20" location="Store sal, Oslo Konserthus" /%}
+{% concert-details-2026 concert="Oslo Konserthus" date="20" month="november" day="fredag" time="18:00 – 19:25" location="Store sal, Oslo Konserthus" /%}
 
 ### Adresse
 
