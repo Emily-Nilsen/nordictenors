@@ -77,15 +77,15 @@ const concerts = [
     ticketLink: 'https://checkout.ebillett.no/105/events/73985/purchase',
     pageUrl: '/konserter/namsos-julekonsert-2026',
   },
-  // {
-  //   id: 402608341627,
-  //   name: 'Steinkjer Kulturhus',
-  //   imageUrl: '/thumbnails/Steinkjer_Kulturhus_thumb.webp',
-  //   date: '26. november',
-  //   isoDate: '2026-11-26T18:00:00.000Z',
-  //   ticketLink: null,
-  //   pageUrl: null,
-  // },
+  {
+    id: 402608341627,
+    name: 'Steinkjer Kulturhus',
+    imageUrl: '/thumbnails/Steinkjer_Kulturhus.webp',
+    date: '26. november',
+    isoDate: '2026-11-26T18:00:00.000Z',
+    ticketLink: 'https://checkout.ebillett.no/101/events/145990/purchase',
+    pageUrl: '/konserter/steinkjer-julekonsert-2026',
+  },
   {
     id: 20261084552211,
     name: 'Maihaugsalen, Lillehammer',
@@ -130,14 +130,14 @@ export function Jul_November_2026() {
   return (
     <div
       id="jul-november-2026"
-      className="w-full scroll-mt-32 overflow-x-hidden rounded-xl"
+      className="w-full overflow-x-hidden scroll-mt-32 rounded-xl"
     >
       <section className="-mt-3 sm:mt-6">
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {upcomingConcerts.map((concert) => (
             <li
               key={concert.id}
-              className="relative z-0 -ml-6 flex items-center space-x-2 rounded-xl border border-transparent bg-amber-50 px-4 py-0 transition duration-300 ease-in-out focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-amber-50/50 dark:bg-red-900/20 dark:focus-within:bg-gray-800/60 dark:hover:bg-red-950/40 sm:pl-7"
+              className="relative z-0 flex items-center px-4 py-0 -ml-6 space-x-2 transition duration-300 ease-in-out border border-transparent rounded-xl bg-amber-50 focus-within:bg-gray-50 hover:border hover:border-amber-400/5 hover:bg-amber-50/50 dark:bg-red-900/20 dark:focus-within:bg-gray-800/60 dark:hover:bg-red-950/40 sm:pl-7"
             >
               <Image
                 src={concert.imageUrl}
@@ -153,7 +153,7 @@ export function Jul_November_2026() {
                     <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
                       {concert.name}
                     </p>
-                    <p className="-mt-5 flex gap-x-3 text-sm">
+                    <p className="flex -mt-5 text-sm gap-x-3">
                       <span className="font-bold text-gray-900 dark:text-white">
                         {concert.date}
                       </span>
@@ -164,7 +164,7 @@ export function Jul_November_2026() {
                     <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
                       {concert.name}
                     </p>
-                    <p className="-mt-5 flex gap-x-3 text-sm">
+                    <p className="flex -mt-5 text-sm gap-x-3">
                       <span className="font-bold text-gray-900 dark:text-white">
                         {concert.date}
                       </span>
@@ -183,7 +183,7 @@ export function Jul_November_2026() {
                   >
                     <button className="dark:bg-t flex items-center justify-center px-0 py-0 text-sm text-gray-500 shadow-black/5 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:text-gray-300 dark:ring-inset sm:rounded-lg sm:bg-white/80 sm:px-5 sm:py-2.5 sm:shadow-md sm:ring-1 sm:dark:bg-red-700/20 sm:dark:ring-white/5 sm:dark:hover:bg-white/5">
                       <span className="flex items-center gap-3 text-sm text-red-800 dark:text-white">
-                        <TicketIcon className="mr-2 h-10 w-10 fill-red-700 focus:bg-transparent dark:fill-red-500 sm:mr-0 sm:h-6 sm:w-6" />
+                        <TicketIcon className="w-10 h-10 mr-2 fill-red-700 focus:bg-transparent dark:fill-red-500 sm:mr-0 sm:h-6 sm:w-6" />
                         <span>Billetter</span>
                       </span>
                     </button>
@@ -205,8 +205,8 @@ export function Jul_November_2026() {
                   >
                     <button className="dark:bg-t flex items-center justify-center rounded-lg bg-white/80 px-2.5 py-1.5 text-2xl text-gray-500 shadow-md shadow-black/5 ring-1 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:bg-red-700/20 dark:text-gray-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-white/10">
                       <span className="flex items-center gap-3 text-sm text-red-800 dark:text-white">
-                        <TicketIcon className="mr-0 h-6 w-6 fill-red-700 focus:bg-transparent dark:fill-red-500 sm:mr-0 sm:h-6 sm:w-6" />
-                        <span className="text-left text-sm">Kjøp</span>
+                        <TicketIcon className="w-6 h-6 mr-0 fill-red-700 focus:bg-transparent dark:fill-red-500 sm:mr-0 sm:h-6 sm:w-6" />
+                        <span className="text-sm text-left">Kjøp</span>
                       </span>
                     </button>
                   </Link>
@@ -234,7 +234,7 @@ export function Jul_November_2026() {
           ))}
         </ol>
       </section>
-      <div className="h-10 w-full border-none border-gray-300/30 dark:border-gray-300/10" />
+      <div className="w-full h-10 border-none border-gray-300/30 dark:border-gray-300/10" />
     </div>
   )
 }
