@@ -224,6 +224,11 @@ export const navigation = [
         isoDate: '2026-12-15T18:00:00.000Z',
       },
       {
+        title: 'Fredrikstad',
+        href: '/konserter/fredrikstad-julekonsert-2026',
+        isoDate: '2026-12-09T18:00:00.000Z',
+      },
+      {
         title: 'Gjøvik',
         href: '/konserter/gjovik-julekonsert-2026',
         isoDate: '2026-11-28T18:00:00.000Z',
@@ -312,17 +317,17 @@ function Header({ navigation }) {
           : 'dark:bg-transparent'
       )}
     >
-      <div className="mr-6 flex lg:hidden">
+      <div className="flex mr-6 lg:hidden">
         <MobileNavigation navigation={navigation} />
       </div>
-      <div className="relative flex flex-grow basis-0 items-center">
+      <div className="relative flex items-center flex-grow basis-0">
         <Link href="/" aria-label="Hjemmeside">
           <Image
             src="/logos/Nordic_Tenors_2_linjer_sølv.webp"
             alt="Nordic Tenors logo"
             width={200}
             height={200}
-            className="h-7 w-auto lg:hidden"
+            className="w-auto h-7 lg:hidden"
           />
           <Image
             src="/logos/Nordic_Tenors_1_linje_sølv.webp"
@@ -333,13 +338,13 @@ function Header({ navigation }) {
           />
         </Link>
       </div>
-      <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
+      <div className="mr-6 -my-5 sm:mr-8 md:mr-0">
         <Search />
       </div>
-      <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
+      <div className="relative flex justify-end gap-6 basis-0 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
         <div className="group">
-          <p className="cursor-pointer font-display font-semibold text-sky-800 hover:text-red-700 dark:text-gold-500 dark:hover:text-white">
+          <p className="font-semibold cursor-pointer font-display text-sky-800 hover:text-red-700 dark:text-gold-500 dark:hover:text-white">
             EN
           </p>
         </div>
@@ -372,23 +377,23 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
 
       {isHomePage && <Hero />}
 
-      <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
+      <div className="relative flex justify-center mx-auto max-w-8xl sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
           <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] w-64 overflow-y-auto overflow-x-hidden py-16 pl-0.5 pr-8 xl:w-72 xl:pr-16">
             <Navigation navigation={filteredNavigation} />
           </div>
         </div>
-        <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
+        <div className="flex-auto max-w-2xl min-w-0 px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
           <article>
             {(title || frontmatter) && (
-              <header className="mb-9 space-y-1">
+              <header className="space-y-1 mb-9">
                 {frontmatter && (
                   <p className="text-base font-semibold text-sky-800 dark:text-gold-500">
                     {frontmatter.title}
                   </p>
                 )}
                 {title && (
-                  <h1 className="font-display text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                  <h1 className="text-3xl font-semibold tracking-tight text-gray-900 font-display dark:text-white">
                     {title}
                   </h1>
                 )}
@@ -403,7 +408,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
               <>
                 <h2
                   id="on-this-page-title"
-                  className="font-display text-base font-semibold text-gray-900 dark:text-white sm:text-lg"
+                  className="text-base font-semibold text-gray-900 font-display dark:text-white sm:text-lg"
                 >
                   På denne siden
                 </h2>
@@ -425,7 +430,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
                       {section.children.length > 0 && (
                         <ol
                           role="list"
-                          className="mt-2 space-y-3 pl-5 text-gray-500 dark:text-gray-400"
+                          className="pl-5 mt-2 space-y-3 text-gray-500 dark:text-gray-400"
                         >
                           {section.children.map((subSection) => (
                             <li key={subSection.id}>

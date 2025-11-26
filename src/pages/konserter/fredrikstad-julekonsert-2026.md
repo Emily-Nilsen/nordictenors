@@ -3,7 +3,7 @@ title: Fredrikstad
 description: Christmas with Nordic Tenors | Blå Grotte, Fredrikstad
 schemaName: Christmas with Nordic Tenors 2026 | Blå Grotte, Fredrikstad
 schemaDescription: Julekonsert med Nordic Tenors i Blå Grotte, Fredrikstad
-date: 2026-12-09T19:00:00.000Z
+date: 2026-12-09T18:00:00.000Z
 duration: 80
 locationName: Blå Grotte, Fredrikstad
 locationAddress: Nygaardsgata 22-24, 1606 Fredrikstad, Norway
@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/fredrikstad-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://checkout.ebillett.no/260/events/137626/purchase/setup?kanal=dxf
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://checkout.ebillett.no/260/events/147610/purchase/setup
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="onsdag" date="9" month="desember" time="19:00" ticketUrl="https://checkout.ebillett.no/260/events/137626/purchase/setup?kanal=dxf" /%}
+{% concert-header day="onsdag" date="9" month="desember" time="18:00" ticketUrl="https://checkout.ebillett.no/260/events/147610/purchase/setup" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Kulturhuset Blå Grotte" ticketUrl="https://checkout.ebillett.no/260/events/137626/purchase/setup?kanal=dxf" /%}
+{% billetter concert="" outlet="Kulturhuset Blå Grotte" ticketUrl="https://checkout.ebillett.no/260/events/147610/purchase/setup" /%}
 
 ## Blå Grotte, Fredrikstad
 
@@ -35,7 +35,7 @@ Kom i førjulsstemning med Nordic Tenors sin julekonsert i Blå Grotte, Fredriks
 
 ### Konsertdetaljer
 
-{% concert-details-2026 concert="Blå Grotte, Fredrikstad" date="9" month="desember" day="onsdag" time="19:00 – 20:20" location="Kulturhuset Blå Grotte, Fredrikstad" /%}
+{% concert-details-2026 concert="Blå Grotte, Fredrikstad" date="9" month="desember" day="onsdag" time="18:00 – 19:20" location="Kulturhuset Blå Grotte, Fredrikstad" /%}
 
 ### Adresse
 

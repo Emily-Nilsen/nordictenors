@@ -90,8 +90,8 @@ const concerts = [
     imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
     date: '9. desember',
     isoDate: '2026-12-09T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink: 'https://checkout.ebillett.no/260/events/147610/purchase/setup',
+    pageUrl: '/konserter/fredrikstad-julekonsert-2026',
   },
   {
     id: 202620,
