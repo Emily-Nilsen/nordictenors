@@ -276,7 +276,7 @@ export const navigation = [
       {
         title: 'Steinkjer',
         href: '/konserter/steinkjer-julekonsert-2026',
-        isoDate: '2026-11-26T18:00:00.000Z',
+        isoDate: '2026-11-26T19:00:00.000Z',
       },
       {
         title: 'Tromsø',

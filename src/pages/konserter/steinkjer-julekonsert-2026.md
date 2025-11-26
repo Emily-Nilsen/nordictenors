@@ -3,7 +3,7 @@ title: Steinkjer
 description: Christmas with Nordic Tenors | Steinkjer Kulturhus
 schemaName: Christmas with Nordic Tenors 2026 | Steinkjer Kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Steinkjer Kulturhus
-date: 2026-11-26T18:00:00.000Z
+date: 2026-11-26T19:00:00.000Z
 duration: 85
 locationName: Steinkjer Kulturhus
 locationAddress: Jakob Weidemanns gate 1, 7713 Steinkjer, Norway
@@ -17,7 +17,7 @@ eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="26" month="november" time="18:00" ticketUrl="https://checkout.ebillett.no/101/events/145990/purchase" /%}
+{% concert-header day="torsdag" date="26" month="november" time="19:00" ticketUrl="https://checkout.ebillett.no/101/events/145990/purchase" /%}
 
 ---
 
@@ -35,7 +35,7 @@ Kom i førjulsstemning med Nordic Tenors sin julekonsert i Steinkjer Kulturhus t
 
 ### Konsertdetaljer
 
-{% concert-details-2026 concert="Steinkjer Kulturhus" date="26" month="november" day="torsdag" time="18:00 – 19:25" location="Steinkjer Kulturhus" /%}
+{% concert-details-2026 concert="Steinkjer Kulturhus" date="26" month="november" day="torsdag" time="19:00 – 20:25" location="Steinkjer Kulturhus" /%}
 
 ### Adresse
 
