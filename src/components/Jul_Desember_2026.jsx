@@ -164,8 +164,8 @@ const concerts = [
     imageUrl: '/thumbnails/Parken_kulturhus.webp',
     date: '17. desember',
     isoDate: '2026-12-17T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink: 'https://tix.no/nb/parken/buyingflow/tickets/43586/89330/',
+    pageUrl: '/konserter/alesund-julekonsert-2026',
   },
   // {
   //   id: 202628,

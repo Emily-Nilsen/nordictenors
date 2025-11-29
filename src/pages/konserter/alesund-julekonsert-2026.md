@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/alesund-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://tix.no/nb/parken/buyingflow/tickets/34865/74068/
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://tix.no/nb/parken/buyingflow/tickets/43586/89330/
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="17" month="desember" time="18:00" ticketUrl="https://tix.no/nb/parken/buyingflow/tickets/34865/74068/" /%}
+{% concert-header day="torsdag" date="17" month="desember" time="18:00" ticketUrl="https://tix.no/nb/parken/buyingflow/tickets/43586/89330/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Parken Kulturhus" ticketUrl="https://tix.no/nb/parken/buyingflow/tickets/34865/74068/" /%}
+{% billetter concert="" outlet="Parken Kulturhus" ticketUrl="https://tix.no/nb/parken/buyingflow/tickets/43586/89330/" /%}
 
 ## Parken Kulturhus, Ålesund
 
