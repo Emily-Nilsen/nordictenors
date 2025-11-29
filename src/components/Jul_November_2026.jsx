@@ -59,15 +59,16 @@ const concerts = [
     ticketLink: null,
     pageUrl: null,
   },
-  // {
-  //   id: 40260072423,
-  //   name: 'Sandnessjøen Kulturhus',
-  //   imageUrl: '/thumbnails/Sandnessjøen_Kulturhus_thumb.webp',
-  //   date: '24. november',
-  //   isoDate: '2026-11-24T18:00:00.000Z',
-  //   ticketLink: null,
-  //   pageUrl: null,
-  // },
+  {
+    id: 40260072423,
+    name: 'Kulturbadet Sandnessjøen',
+    imageUrl: '/thumbnails/Kulturbadet_Sandnessjøen.webp',
+    date: '24. november',
+    isoDate: '2026-11-24T18:00:00.000Z',
+    ticketLink:
+      'https://checkout.ebillett.no/245/events/64468/purchase/setup?campaign_id=2467',
+    pageUrl: '/konserter/sandnessjoen-julekonsert-2026',
+  },
   {
     id: 3116699116629,
     name: 'Kulturhuset i Namsos',
