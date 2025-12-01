@@ -11,21 +11,21 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/drammen-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://www.drammensteater.no/program/35531-christmas-with-nordic-tenors/
+ticketUrl: https://www.drammensteater.no/program/44111-christmas-with-nordic-tenors/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="tirsdag" date="22" month="desember" time="18:00" ticketUrl="https://www.drammensteater.no/program/35531-christmas-with-nordic-tenors/" /%}
+{% concert-header day="tirsdag" date="22" month="desember" time="18:00 og 20:00" ticketUrl="https://www.drammensteater.no/program/44111-christmas-with-nordic-tenors/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="drammenscener.no" ticketUrl="https://www.drammensteater.no/program/35531-christmas-with-nordic-tenors/" /%}
+{% billetter concert="" outlet="drammenscener.no" ticketUrl="https://www.drammensteater.no/program/44111-christmas-with-nordic-tenors/" /%}
 
-## Drammens Teater
+## Drammens Teater – 2 forestillinger
 
 Kom i førjulsstemning med Nordic Tenors sin julekonsert i Drammens Teater tirsdag 22. desember 2026. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
@@ -35,7 +35,7 @@ Kom i førjulsstemning med Nordic Tenors sin julekonsert i Drammens Teater tirsd
 
 ### Konsertdetaljer
 
-{% concert-details-2026 concert="Drammens Teater" date="22" month="desember" day="tirsdag" time="18:00 – 19:20" location="Drammens Teater, Hovedscenen" /%}
+{% concert-details-2026 concert="Drammens Teater" date="22" month="desember" day="tirsdag" time="18:00 – 19:20 og 20:00 – 21:20" location="Drammens Teater, Hovedscenen" /%}
 
 ### Adresse
 
