@@ -209,6 +209,11 @@ export const navigation = [
     title: 'Christmas with Nordic Tenors 2026',
     links: [
       {
+        title: 'Arendal',
+        href: '/konserter/arendal-julekonsert-2026',
+        isoDate: '2026-12-02T19:00:00.000Z',
+      },
+      {
         title: 'Asker',
         href: '/konserter/asker-julekonsert-2026',
         isoDate: '2026-12-08T18:00:00.000Z',

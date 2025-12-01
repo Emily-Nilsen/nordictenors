@@ -26,8 +26,9 @@ const concerts = [
     imageUrl: '/thumbnails/Arendal_kulturhus_thumb.webp',
     date: '2. desember',
     isoDate: '2026-12-02T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://tix.no/nb/arendal/buyingflow/tickets/43982/?_gl=1*1gp7prv*_gcl_au*MTE2NzE1MjcwNi4xNzY0MDc1NTU2*_ga*MTc2MDU4ODA5LjE3NjQwNzU1NTA.*_ga_Y3JHC4J8GN*czE3NjQ1ODQ1ODgkbzIkZzEkdDE3NjQ1ODQ1OTckajUxJGwwJGgw',
+    pageUrl: '/konserter/arendal-julekonsert-2026',
   },
   {
     id: 202613,
