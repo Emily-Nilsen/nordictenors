@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/flekkefjord-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/
-ticketPrice: 450 # Replace with the actual price
+ticketUrl: https://checkout.ebillett.no/181/events/26371/purchase
+ticketPrice: 490 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="11" month="desember" time="18:00" ticketUrl="https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/" /%}
+{% concert-header day="fredag" date="11" month="desember" time="18:00" ticketUrl="https://checkout.ebillett.no/181/events/26371/purchase" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="eBillett" ticketUrl="https://flekkefjordkultursenter.no/nordic-tenors-kd8r9j/" /%}
+{% billetter concert="" outlet="eBillett" ticketUrl="https://checkout.ebillett.no/181/events/26371/purchase" /%}
 
 ## Flekkefjord Kultursenter Spira
 

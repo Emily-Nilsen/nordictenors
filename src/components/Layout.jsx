@@ -229,6 +229,11 @@ export const navigation = [
         isoDate: '2026-12-22T18:00:00.000Z',
       },
       {
+        title: 'Flekkefjord',
+        href: '/konserter/flekkefjord-julekonsert-2026',
+        isoDate: '2026-12-11T18:00:00.000Z',
+      },
+      {
         title: 'Fredrikstad',
         href: '/konserter/fredrikstad-julekonsert-2026',
         isoDate: '2026-12-09T18:00:00.000Z',

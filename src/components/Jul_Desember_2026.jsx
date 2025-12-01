@@ -108,8 +108,8 @@ const concerts = [
     imageUrl: '/thumbnails/Flekkefjord_thumb.webp',
     date: '11. desember',
     isoDate: '2026-12-11T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink: 'https://checkout.ebillett.no/181/events/26371/purchase',
+    pageUrl: '/konserter/flekkefjord-julekonsert-2026',
   },
   {
     id: 202622,
