@@ -279,6 +279,11 @@ export const navigation = [
         isoDate: '2026-11-20T18:00:00.000Z',
       },
       {
+        title: 'Sandnes',
+        href: '/konserter/sandnes-julekonsert-2026',
+        isoDate: '2026-12-12T18:00:00.000Z',
+      },
+      {
         title: 'Sandnessjøen',
         href: '/konserter/sandnessjoen-julekonsert-2026',
         isoDate: '2026-11-24T18:00:00.000Z',

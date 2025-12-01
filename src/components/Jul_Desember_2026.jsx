@@ -117,8 +117,8 @@ const concerts = [
     imageUrl: '/thumbnails/Sandnes_kulturhus_thumb.webp',
     date: '12. desember',
     isoDate: '2026-12-12T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink: 'https://tix.no/nb/sandnes/buyingflow/tickets/44125/',
+    pageUrl: '/konserter/sandnes-julekonsert-2026',
   },
   {
     id: 202623,

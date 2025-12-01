@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/sandnes-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://www.sandnes-kulturhus.no/program/christmas-with-nordic-tenors-2025/
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://tix.no/nb/sandnes/buyingflow/tickets/44125/
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="12" month="desember" time="18:00" ticketUrl="https://www.sandnes-kulturhus.no/program/christmas-with-nordic-tenors-2025/" /%}
+{% concert-header day="lørdag" date="12" month="desember" time="18:00" ticketUrl="https://tix.no/nb/sandnes/buyingflow/tickets/44125/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="sandnes-kulturhus.no" ticketUrl="https://www.sandnes-kulturhus.no/program/christmas-with-nordic-tenors-2025/" /%}
+{% billetter concert="" outlet="sandnes-kulturhus.no" ticketUrl="https://tix.no/nb/sandnes/buyingflow/tickets/44125/" /%}
 
 ## Sandnes Kulturhus
 
