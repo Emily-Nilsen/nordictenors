@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/moss-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://tix.no/nb/moss/buyingflow/tickets/35070/74371/
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://billetter.mosskulturhus.no/nb/buyingflow/tickets/44109/90072/
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="fredag" date="4" month="desember" time="18:00" ticketUrl="https://tix.no/nb/moss/buyingflow/tickets/35070/74371/" /%}
+{% concert-header day="fredag" date="4" month="desember" time="18:00" ticketUrl="https://billetter.mosskulturhus.no/nb/buyingflow/tickets/44109/90072/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Moss Kulturhus" ticketUrl="https://tix.no/nb/moss/buyingflow/tickets/35070/74371/" /%}
+{% billetter concert="" outlet="Moss Kulturhus" ticketUrl="https://billetter.mosskulturhus.no/nb/buyingflow/tickets/44109/90072/" /%}
 
 ## Moss Kulturhus - Parkteatret
 

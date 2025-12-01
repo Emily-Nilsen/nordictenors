@@ -44,8 +44,9 @@ const concerts = [
     imageUrl: '/thumbnails/Moss_Kulturhus_thumbnail.webp',
     date: '4. desember',
     isoDate: '2026-12-04T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://billetter.mosskulturhus.no/nb/buyingflow/tickets/44109/90072/',
+    pageUrl: '/konserter/moss-julekonsert-2026',
   },
   // {
   //   id: 202615,
