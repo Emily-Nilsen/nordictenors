@@ -64,8 +64,9 @@ const concerts = [
     imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
     date: '6. desember',
     isoDate: '2026-12-06T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://checkout.ebillett.no/120/events/125310/purchase/setup?_gl=1*1ns66xz*_gcl_au*MTY3MTk4NzI5OS4xNzY0NTg1MDIy*_ga*MTMxOTAzMTgwOC4xNzY0NTg1MDEx*_ga_6CD7G851T2*czE3NjQ1ODUwMTAkbzEkZzEkdDE3NjQ1ODUwMjEkajUyJGwwJGgw&kanal=dxf',
+    pageUrl: '/konserter/lillestrom-julekonsert-2026',
   },
   // {
   //   id: 202617,

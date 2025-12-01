@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/OG_image_2024.webp
 url: https://nordictenors.no/konserter/lillestrom-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://www.lillestrom-kultursenter.no/program/15723-christmas-with-nordic-tenors/
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://checkout.ebillett.no/120/events/125310/purchase/setup?_gl=1*1ns66xz*_gcl_au*MTY3MTk4NzI5OS4xNzY0NTg1MDIy*_ga*MTMxOTAzMTgwOC4xNzY0NTg1MDEx*_ga_6CD7G851T2*czE3NjQ1ODUwMTAkbzEkZzEkdDE3NjQ1ODUwMjEkajUyJGwwJGgw&kanal=dxf
+ticketPrice: 675 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="6" month="desember" time="18:00" ticketUrl="https://www.lillestrom-kultursenter.no/program/15723-christmas-with-nordic-tenors/" /%}
+{% concert-header day="søndag" date="6" month="desember" time="18:00" ticketUrl="https://checkout.ebillett.no/120/events/125310/purchase/setup?_gl=1*1ns66xz*_gcl_au*MTY3MTk4NzI5OS4xNzY0NTg1MDIy*_ga*MTMxOTAzMTgwOC4xNzY0NTg1MDEx*_ga_6CD7G851T2*czE3NjQ1ODUwMTAkbzEkZzEkdDE3NjQ1ODUwMjEkajUyJGwwJGgw&kanal=dxf" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Lillestrøm Kultursenter" ticketUrl="https://www.lillestrom-kultursenter.no/program/15723-christmas-with-nordic-tenors/" /%}
+{% billetter concert="" outlet="Lillestrøm Kultursenter" ticketUrl="https://checkout.ebillett.no/120/events/125310/purchase/setup?_gl=1*1ns66xz*_gcl_au*MTY3MTk4NzI5OS4xNzY0NTg1MDIy*_ga*MTMxOTAzMTgwOC4xNzY0NTg1MDEx*_ga_6CD7G851T2*czE3NjQ1ODUwMTAkbzEkZzEkdDE3NjQ1ODUwMjEkajUyJGwwJGgw&kanal=dxf" /%}
 
 ## Lillestrøm Kulturhus
 
