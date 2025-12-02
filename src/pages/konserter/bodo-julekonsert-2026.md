@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webpebp
 url: https://nordictenors.no/konserter/bodo-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://billetter.stormen.no/nb/buyingflow/tickets/35444/74971
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://billetter.stormen.no/nb/buyingflow/tickets/43831/89760
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="23" month="november" time="18:00" ticketUrl="https://billetter.stormen.no/nb/buyingflow/tickets/35444/74971" /%}
+{% concert-header day="mandag" date="23" month="november" time="18:00" ticketUrl="https://billetter.stormen.no/nb/buyingflow/tickets/43831/89760" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Stormen" ticketUrl="https://billetter.stormen.no/nb/buyingflow/tickets/35444/74971" /%}
+{% billetter concert="" outlet="Stormen" ticketUrl="https://billetter.stormen.no/nb/buyingflow/tickets/43831/89760" /%}
 
 ## Stormen, Bodø
 

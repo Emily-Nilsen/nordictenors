@@ -12,7 +12,7 @@ image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/trondheim-julekonsert-2026
 organizer: Nordic Moments AS
 ticketUrl: https://www.olavshallen.no/forestillinger/2025-12-02-christmas-with-nordic-tenors
-ticketPrice: 630 # Replace with the actual price
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---

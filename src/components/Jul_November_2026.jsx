@@ -56,8 +56,9 @@ const concerts = [
     imageUrl: '/thumbnails/Stormen_thumb.webp',
     date: '23. november',
     isoDate: '2026-11-23T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://billetter.stormen.no/nb/buyingflow/tickets/43831/89760',
+    pageUrl: '/konserter/bodo-julekonsert-2026',
   },
   {
     id: 40260072423,

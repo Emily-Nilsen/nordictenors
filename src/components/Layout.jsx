@@ -229,6 +229,11 @@ export const navigation = [
         isoDate: '2026-12-15T18:00:00.000Z',
       },
       {
+        title: 'Bodø',
+        href: '/konserter/bodo-julekonsert-2026',
+        isoDate: '2026-11-23T18:00:00.000Z',
+      },
+      {
         title: 'Drammen',
         href: '/konserter/drammen-julekonsert-2026',
         isoDate: '2026-12-22T18:00:00.000Z',
