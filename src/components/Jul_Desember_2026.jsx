@@ -36,8 +36,8 @@ const concerts = [
     imageUrl: '/thumbnails/Bølgen_kulturhus_thumb.webp',
     date: '3. desember',
     isoDate: '2026-12-03T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink: 'https://tix.no/nb/bolgen/buyingflow/tickets/44127/',
+    pageUrl: '/konserter/larvik-julekonsert-2026',
   },
   {
     id: 202614,

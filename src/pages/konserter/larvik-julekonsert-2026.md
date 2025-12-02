@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/larvik-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://www.bolgenkulturhus.no/program/christmas-with-nordic-tenors-2025/
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://tix.no/nb/bolgen/buyingflow/tickets/44127/
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="3" month="desember" time="18:00" ticketUrl="https://www.bolgenkulturhus.no/program/christmas-with-nordic-tenors-2025/" /%}
+{% concert-header day="torsdag" date="3" month="desember" time="18:00" ticketUrl="https://tix.no/nb/bolgen/buyingflow/tickets/44127/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Bølgen Kulturhus" ticketUrl="https://www.bolgenkulturhus.no/program/christmas-with-nordic-tenors-2025/" /%}
+{% billetter concert="" outlet="Bølgen Kulturhus" ticketUrl="https://tix.no/nb/bolgen/buyingflow/tickets/44127/" /%}
 
 ## Bølgen Kulturhus, Larvik
 
