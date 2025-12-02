@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/trondheim-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://www.olavshallen.no/forestillinger/2024-11-14-christmas-with-nordic-tenors-2025
+ticketUrl: https://www.olavshallen.no/forestillinger/2025-12-02-christmas-with-nordic-tenors
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="21" month="desember" time="18:00" ticketUrl="https://www.olavshallen.no/forestillinger/2024-11-14-christmas-with-nordic-tenors-2025" /%}
+{% concert-header day="mandag" date="21" month="desember" time="18:00" ticketUrl="https://www.olavshallen.no/forestillinger/2025-12-02-christmas-with-nordic-tenors" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Olavshallen" ticketUrl="https://www.olavshallen.no/forestillinger/2024-11-14-christmas-with-nordic-tenors-2025" /%}
+{% billetter concert="" outlet="Olavshallen" ticketUrl="https://www.olavshallen.no/forestillinger/2025-12-02-christmas-with-nordic-tenors" /%}
 
 ## Olavshallen, Trondheim
 

@@ -329,6 +329,11 @@ export const navigation = [
         isoDate: '2026-11-22T19:00:00.000Z',
       },
       {
+        title: 'Trondheim',
+        href: '/konserter/trondheim-julekonsert-2026',
+        isoDate: '2026-12-21T18:00:00.000Z',
+      },
+      {
         title: 'Tønsberg',
         href: '/konserter/tonsberg-julekonsert-2026',
         isoDate: '2026-12-10T18:00:00.000Z',
