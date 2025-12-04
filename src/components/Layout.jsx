@@ -299,6 +299,11 @@ export const navigation = [
         isoDate: '2026-11-25T18:00:00.000Z',
       },
       {
+        title: 'Nordfjordeid',
+        href: '/konserter/nordfjordeid-julekonsert-2026',
+        isoDate: '2026-12-18T18:00:00.000Z',
+      },
+      {
         title: 'Os',
         href: '/konserter/os-julekonsert-2026',
         isoDate: '2026-12-16T18:00:00.000Z',

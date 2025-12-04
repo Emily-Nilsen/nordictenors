@@ -170,15 +170,16 @@ const concerts = [
     ticketLink: 'https://tix.no/nb/parken/buyingflow/tickets/43586/89330/',
     pageUrl: '/konserter/alesund-julekonsert-2026',
   },
-  // {
-  //   id: 202628,
-  //   name: 'Operashuet',
-  //   imageUrl: '/thumbnails/Operashuet.webp',
-  //   date: '18. desember',
-  //   isoDate: '2026-12-18T18:00:00.000Z',
-  //   ticketLink: null,
-  //   pageUrl: null,
-  // },
+  {
+    id: 202628,
+    name: 'Operahuset Nordfjord, Nordfjordeid',
+    imageUrl: '/thumbnails/operahuset.webp',
+    date: '18. desember',
+    isoDate: '2026-12-18T18:00:00.000Z',
+    ticketLink:
+      'https://checkout.ebillett.no/161/events/37415/purchase/setup?kanal=dxf',
+    pageUrl: '/konserter/nordfjordeid-julekonsert-2026',
+  },
   // {
   //   id: 202629,
   //   name: 'Førdehuset, Førde',
