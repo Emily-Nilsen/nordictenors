@@ -289,6 +289,11 @@ export const navigation = [
         isoDate: '2026-12-06T18:00:00.000Z',
       },
       {
+        title: 'Lørenskog',
+        href: 'konserter/lorenskog-julekonsert-2026',
+        isoDate: '2026-12-05T18:00:00.000Z',
+      },
+      {
         title: 'Moss',
         href: '/konserter/moss-julekonsert-2026',
         isoDate: '2026-12-04T18:00:00.000Z',

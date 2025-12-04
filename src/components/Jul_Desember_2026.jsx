@@ -49,15 +49,16 @@ const concerts = [
       'https://billetter.mosskulturhus.no/nb/buyingflow/tickets/44109/90072/',
     pageUrl: '/konserter/moss-julekonsert-2026',
   },
-  // {
-  //   id: 202615,
-  //   name: 'Lørenskog Hus',
-  //   imageUrl: '/thumbnails/Lørenskog_Hus.webp',
-  //   date: '5. desember',
-  //   isoDate: '2026-12-05T18:00:00.000Z',
-  //   ticketLink: null,
-  //   pageUrl: null,
-  // },
+  {
+    id: 202615,
+    name: 'Lørenskog Hus',
+    imageUrl: '/thumbnails/lørenskog.webp',
+    date: '5. desember',
+    isoDate: '2026-12-05T18:00:00.000Z',
+    ticketLink:
+      'https://checkout.ebillett.no/106/events/166731/purchase/setup?_gl=1*159x5l2*_gcl_au*Njg3NjkwODk2LjE3NjIyNjQxNjU.*_ga*MTkzMjE0MzM3OC4xNzYxNTUxMDYy*_ga_50JLENG0R8*czE3NjQ4NDc2ODAkbzUkZzEkdDE3NjQ4NDc2ODYkajU0JGwwJGgw&kanal=dxf',
+    pageUrl: '/konserter/lorenskog-julekonsert-2026',
+  },
   {
     id: 202616,
     name: 'Lillestrøm Kulturhus',
