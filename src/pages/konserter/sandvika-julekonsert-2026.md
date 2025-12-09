@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/sandvika-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://www.baerumkulturhus.no/arrangement/nordic-tenors/
-ticketPrice: 630 # Replace with the actual price
+ticketUrl: https://billetter.baerumkulturhus.no/nb/buyingflow/tickets/44332/90570/
+ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="søndag" date="20" month="desember" time="18:00" ticketUrl="https://www.baerumkulturhus.no/arrangement/nordic-tenors/" /%}
+{% concert-header day="søndag" date="20" month="desember" time="18:00" ticketUrl="https://billetter.baerumkulturhus.no/nb/buyingflow/tickets/44332/90570/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Bærum Kulturhus" ticketUrl="https://www.baerumkulturhus.no/arrangement/nordic-tenors/" /%}
+{% billetter concert="" outlet="Bærum Kulturhus" ticketUrl="https://billetter.baerumkulturhus.no/nb/buyingflow/tickets/44332/90570/" /%}
 
 ## Bærum Kulturhus, Sandvika
 

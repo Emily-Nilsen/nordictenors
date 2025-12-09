@@ -196,8 +196,9 @@ const concerts = [
     imageUrl: '/thumbnails/Bærum_kulturhus_thumb.webp',
     date: '20. desember',
     isoDate: '2026-12-20T18:00:00.000Z',
-    ticketLink: null,
-    pageUrl: null,
+    ticketLink:
+      'https://billetter.baerumkulturhus.no/nb/buyingflow/tickets/44332/90570/',
+    pageUrl: '/konserter/sandvika-julekonsert-2026',
   },
   {
     id: 202631,

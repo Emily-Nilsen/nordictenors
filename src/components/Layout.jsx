@@ -329,6 +329,11 @@ export const navigation = [
         isoDate: '2026-11-24T18:00:00.000Z',
       },
       {
+        title: 'Sandvika',
+        href: '/konserter/sandvika-julekonsert-2026',
+        isoDate: '2026-12-20T18:00:00.000Z',
+      },
+      {
         title: 'Stavanger',
         href: '/konserter/stavanger-julekonsert-2026',
         isoDate: '2026-12-13T18:00:00.000Z',
