@@ -269,6 +269,11 @@ export const navigation = [
         isoDate: '2026-11-19T18:00:00.000Z',
       },
       {
+        title: 'Kongsberg',
+        href: '/konserter/kongsberg-julekonsert-2026',
+        isoDate: '2026-12-07T18:00:00.000Z',
+      },
+      {
         title: 'Kristiansand',
         href: '/konserter/kristiansand-julekonsert-2026',
         isoDate: '2026-12-01T18:00:00.000Z',
