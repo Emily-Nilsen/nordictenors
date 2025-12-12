@@ -249,6 +249,11 @@ export const navigation = [
         isoDate: '2026-12-09T18:00:00.000Z',
       },
       {
+        title: 'Førde',
+        href: '/konserter/forde-julekonsert-2026',
+        isoDate: '2026-12-19T18:00:00.000Z',
+      },
+      {
         title: 'Gjøvik',
         href: '/konserter/gjovik-julekonsert-2026',
         isoDate: '2026-11-28T18:00:00.000Z',
