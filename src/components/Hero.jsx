@@ -71,19 +71,19 @@ export function Hero() {
                   </Button>
                 </div> */}
 
-                <div>
+                {/* <div>
                   <Button
                     className="relative z-20"
                     href="/#christmas-with-nordic-tenors"
                   >
                     Julekonserter 2025
                   </Button>
-                </div>
+                </div> */}
                 <div>
                   <Button
                     className="relative z-20"
                     href="/#jul-november-2026"
-                    variant="secondary"
+                    // variant="secondary"
                   >
                     Julekonserter 2026
                   </Button>
@@ -102,16 +102,16 @@ export function Hero() {
               >
                 À la carte - 2025
               </Button> */}
-              <Button
+              {/* <Button
                 className="relative z-20"
                 href="/#christmas-with-nordic-tenors"
               >
                 Julekonserter - 2025
-              </Button>
+              </Button> */}
               <Button
                 className="relative z-20"
                 href="/#jul-november-2026"
-                variant="secondary"
+                // variant="secondary"
               >
                 Julekonserter - 2026
               </Button>

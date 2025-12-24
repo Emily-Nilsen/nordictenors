@@ -38,171 +38,171 @@ export const navigation = [
   },
 
   // Christmas with Nordic Tenors 2025
-  {
-    title: 'Christmas with Nordic Tenors 2025',
-    links: [
-      {
-        title: 'Arendal',
-        href: '/konserter/arendal-julekonsert-2025',
-        isoDate: '2025-12-03T19:00:00.000Z',
-      },
-      {
-        title: 'Askim',
-        href: '/konserter/askim-julekonsert-2025',
-        isoDate: '2025-11-29T18:00:00.000Z',
-      },
-      {
-        title: 'Bergen',
-        href: '/konserter/bergen-julekonsert-2025',
-        isoDate: '2025-12-09T18:30:00.000Z',
-      },
-      {
-        title: 'Brattvåg',
-        href: '/konserter/brattvag-julekonsert-2025',
-        isoDate: '2025-12-06T18:00:00.000Z',
-      },
-      {
-        title: 'Bodø',
-        href: '/konserter/bodo-julekonsert-2025',
-        isoDate: '2025-12-17T18:00:00.000Z',
-      },
-      {
-        title: 'Drammen',
-        href: '/konserter/drammen-julekonsert-2025',
-        isoDate: '2025-12-22T18:00:00.000Z',
-      },
-      {
-        title: 'Elverum',
-        href: '/konserter/elverum-julekonsert-2025',
-        isoDate: '2025-11-27T18:00:00.000Z',
-      },
-      {
-        title: 'Fredrikstad',
-        href: '/konserter/fredrikstad-julekonsert-2025',
-        isoDate: '2025-11-28T19:00:00.000Z',
-      },
-      {
-        title: 'Fosnavåg',
-        href: '/konserter/fosnavag-julekonsert-2025',
-        isoDate: '2025-12-05T20:00:00.000Z',
-      },
-      {
-        title: 'Hadeland',
-        href: '/konserter/hadeland-julekonsert-2025',
-        isoDate: '2025-11-22T18:00:00.000Z',
-      },
-      {
-        title: 'Hamar',
-        href: '/konserter/hamar-julekonsert-2025',
-        isoDate: '2025-12-20T18:00:00.000Z',
-      },
-      {
-        title: 'Haugesund',
-        href: '/konserter/haugesund-julekonsert-2025',
-        isoDate: '2025-12-10T18:00:00.000Z',
-      },
-      {
-        title: 'Holmestrand',
-        href: '/konserter/holmestrand-julekonsert-2025',
-        isoDate: '2025-11-21T19:00:00.000Z',
-      },
-      {
-        title: 'Horten',
-        href: '/konserter/horten-julekonsert-2025',
-        isoDate: '2025-11-20T19:00:00.000Z',
-      },
-      {
-        title: 'Hønefoss',
-        href: '/konserter/honefoss-julekonsert-2025',
-        isoDate: '2025-11-23T18:00:00.000Z',
-      },
-      {
-        title: 'Larvik',
-        href: '/konserter/larvik-julekonsert-2025',
-        isoDate: '2025-12-04T18:00:00.000Z',
-      },
-      {
-        title: 'Lillehammer',
-        href: '/konserter/lillehammer-julekonsert-2025',
-        isoDate: '2025-12-19T18:00:00.000Z',
-      },
-      {
-        title: 'Lillestrøm',
-        href: '/konserter/lillestrom-julekonsert-2025',
-        isoDate: '2025-12-18T18:00:00.000Z',
-      },
-      {
-        title: 'Molde',
-        href: '/konserter/molde-julekonsert-2025',
-        isoDate: '2025-12-07T18:00:00.000Z',
-      },
-      {
-        title: 'Moss',
-        href: '/konserter/moss-julekonsert-2025',
-        isoDate: '2025-11-30T18:00:00.000Z',
-      },
-      {
-        title: 'Narvik',
-        href: '/konserter/narvik-julekonsert-2025',
-        isoDate: '2025-12-15T19:00:00.000Z',
-      },
-      {
-        title: 'Nøtterøy',
-        href: '/konserter/notteroy-julekonsert-2025',
-        isoDate: '2025-11-26T18:00:00.000Z',
-      },
-      {
-        title: 'Oslo',
-        href: '/konserter/oslo-julekonsert-2025',
-        isoDate: '2025-11-25T19:00:00.000Z',
-      },
-      {
-        title: 'Sandnes',
-        href: '/konserter/sandnes-julekonsert-2025',
-        isoDate: '2025-12-13T18:00:00.000Z',
-      },
-      {
-        title: 'Sandvika',
-        href: '/konserter/sandvika-julekonsert-2025',
-        isoDate: '2025-12-21T18:00:00.000Z',
-      },
-      {
-        title: 'Sauda',
-        href: '/konserter/sauda-julekonsert-2025',
-        isoDate: '2025-12-11T19:00:00.000Z',
-      },
-      {
-        title: 'Stavanger',
-        href: '/konserter/stavanger-julekonsert-2025',
-        isoDate: '2025-12-12T18:00:00.000Z',
-      },
-      {
-        title: 'Stjørdal',
-        href: '/konserter/stjordal-julekonsert-2025',
-        isoDate: '2025-12-01T18:00:00.000Z',
-      },
-      {
-        title: 'Tromsø',
-        href: '/konserter/tromso-julekonsert-2025',
-        isoDate: '2025-12-16T19:00:00.000Z',
-      },
-      {
-        title: 'Trondheim',
-        href: '/konserter/trondheim-julekonsert-2025',
-        isoDate: '2025-12-02T18:00:00.000Z',
-      },
-      {
-        title: 'Ullensaker',
-        href: '/konserter/ullensaker-julekonsert-2025',
-        isoDate: '2025-12-14T18:00:00.000Z',
-      },
-      {
-        title: 'Ålesund',
-        href: '/konserter/alesund-julekonsert-2025',
-        isoDate: '2025-12-08T18:00:00.000Z',
-      },
-    ],
-  },
+  // {
+  //   title: 'Christmas with Nordic Tenors 2025',
+  //   links: [
+  //     {
+  //       title: 'Arendal',
+  //       href: '/konserter/arendal-julekonsert-2025',
+  //       isoDate: '2025-12-03T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Askim',
+  //       href: '/konserter/askim-julekonsert-2025',
+  //       isoDate: '2025-11-29T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Bergen',
+  //       href: '/konserter/bergen-julekonsert-2025',
+  //       isoDate: '2025-12-09T18:30:00.000Z',
+  //     },
+  //     {
+  //       title: 'Brattvåg',
+  //       href: '/konserter/brattvag-julekonsert-2025',
+  //       isoDate: '2025-12-06T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Bodø',
+  //       href: '/konserter/bodo-julekonsert-2025',
+  //       isoDate: '2025-12-17T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Drammen',
+  //       href: '/konserter/drammen-julekonsert-2025',
+  //       isoDate: '2025-12-22T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Elverum',
+  //       href: '/konserter/elverum-julekonsert-2025',
+  //       isoDate: '2025-11-27T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Fredrikstad',
+  //       href: '/konserter/fredrikstad-julekonsert-2025',
+  //       isoDate: '2025-11-28T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Fosnavåg',
+  //       href: '/konserter/fosnavag-julekonsert-2025',
+  //       isoDate: '2025-12-05T20:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Hadeland',
+  //       href: '/konserter/hadeland-julekonsert-2025',
+  //       isoDate: '2025-11-22T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Hamar',
+  //       href: '/konserter/hamar-julekonsert-2025',
+  //       isoDate: '2025-12-20T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Haugesund',
+  //       href: '/konserter/haugesund-julekonsert-2025',
+  //       isoDate: '2025-12-10T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Holmestrand',
+  //       href: '/konserter/holmestrand-julekonsert-2025',
+  //       isoDate: '2025-11-21T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Horten',
+  //       href: '/konserter/horten-julekonsert-2025',
+  //       isoDate: '2025-11-20T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Hønefoss',
+  //       href: '/konserter/honefoss-julekonsert-2025',
+  //       isoDate: '2025-11-23T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Larvik',
+  //       href: '/konserter/larvik-julekonsert-2025',
+  //       isoDate: '2025-12-04T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Lillehammer',
+  //       href: '/konserter/lillehammer-julekonsert-2025',
+  //       isoDate: '2025-12-19T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Lillestrøm',
+  //       href: '/konserter/lillestrom-julekonsert-2025',
+  //       isoDate: '2025-12-18T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Molde',
+  //       href: '/konserter/molde-julekonsert-2025',
+  //       isoDate: '2025-12-07T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Moss',
+  //       href: '/konserter/moss-julekonsert-2025',
+  //       isoDate: '2025-11-30T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Narvik',
+  //       href: '/konserter/narvik-julekonsert-2025',
+  //       isoDate: '2025-12-15T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Nøtterøy',
+  //       href: '/konserter/notteroy-julekonsert-2025',
+  //       isoDate: '2025-11-26T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Oslo',
+  //       href: '/konserter/oslo-julekonsert-2025',
+  //       isoDate: '2025-11-25T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Sandnes',
+  //       href: '/konserter/sandnes-julekonsert-2025',
+  //       isoDate: '2025-12-13T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Sandvika',
+  //       href: '/konserter/sandvika-julekonsert-2025',
+  //       isoDate: '2025-12-21T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Sauda',
+  //       href: '/konserter/sauda-julekonsert-2025',
+  //       isoDate: '2025-12-11T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Stavanger',
+  //       href: '/konserter/stavanger-julekonsert-2025',
+  //       isoDate: '2025-12-12T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Stjørdal',
+  //       href: '/konserter/stjordal-julekonsert-2025',
+  //       isoDate: '2025-12-01T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Tromsø',
+  //       href: '/konserter/tromso-julekonsert-2025',
+  //       isoDate: '2025-12-16T19:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Trondheim',
+  //       href: '/konserter/trondheim-julekonsert-2025',
+  //       isoDate: '2025-12-02T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Ullensaker',
+  //       href: '/konserter/ullensaker-julekonsert-2025',
+  //       isoDate: '2025-12-14T18:00:00.000Z',
+  //     },
+  //     {
+  //       title: 'Ålesund',
+  //       href: '/konserter/alesund-julekonsert-2025',
+  //       isoDate: '2025-12-08T18:00:00.000Z',
+  //     },
+  //   ],
+  // },
 
   // Christmas with Nordic Tenors 2026
   {
