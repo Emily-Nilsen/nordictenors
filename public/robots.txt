@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nordictenors.no/
+
+# Sitemaps
+Sitemap: https://nordictenors.no/sitemap.xml
