@@ -227,6 +227,8 @@ export function Jul_Desember_2026() {
   const isEnglish = useRouter().pathname.startsWith('/en')
   const buyLabel = isEnglish ? 'Buy' : 'Kjøp'
   const ticketsComingLabel = isEnglish ? 'Tickets coming soon' : 'Billetter kommer'
+  const ticketsLabel = isEnglish ? 'Tickets' : 'Billetter'
+  const showMoreLabel = isEnglish ? 'Show more' : 'Vis mer'
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
@@ -293,7 +295,7 @@ export function Jul_Desember_2026() {
                     <button className="dark:bg-t flex items-center justify-center px-0 py-0 text-sm text-gray-500 shadow-black/5 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:text-gray-300 dark:ring-inset sm:rounded-lg sm:bg-white/80 sm:px-5 sm:py-2.5 sm:shadow-md sm:ring-1 sm:dark:bg-red-700/20 sm:dark:ring-white/5 sm:dark:hover:bg-white/5">
                       <span className="flex items-center gap-3 text-sm text-red-800 dark:text-white">
                         <TicketIcon className="mr-2 h-10 w-10 fill-red-700 focus:bg-transparent dark:fill-red-500 sm:mr-0 sm:h-6 sm:w-6" />
-                        <span>Billetter</span>
+                        <span>{ticketsLabel}</span>
                       </span>
                     </button>
                   </Link>
@@ -330,7 +332,7 @@ export function Jul_Desember_2026() {
                 {concert.pageUrl ? (
                   <Link href={concert.pageUrl}>
                     <div className="-m-2 flex items-center rounded-full p-1.5 text-sm text-gray-500 hover:text-gray-600 dark:text-amber-400">
-                      <p className="hidden px-3 sm:block">Vis mer</p>
+                      <p className="hidden px-3 sm:block">{showMoreLabel}</p>
                       <PlusCircleIcon
                         className="ml-3 h-7 w-7 sm:hidden"
                         aria-hidden="true"
