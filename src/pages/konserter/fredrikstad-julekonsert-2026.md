@@ -10,6 +10,7 @@ locationAddress: Nygaardsgata 22-24, 1606 Fredrikstad, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/fredrikstad-julekonsert-2026
+organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/260/events/147610/purchase/setup
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled

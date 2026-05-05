@@ -10,6 +10,7 @@ locationAddress: Parkgata 3B, 6003 Ålesund, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/alesund-julekonsert-2026
+organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/parken/buyingflow/tickets/43586/89330/
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled

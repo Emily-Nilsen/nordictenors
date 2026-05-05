@@ -10,6 +10,7 @@ locationAddress: Munkedamsveien 14, 0115 Oslo, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/oslo-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://oslokonserthus.no/program/christmas-with-nordic-tenors-2025
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

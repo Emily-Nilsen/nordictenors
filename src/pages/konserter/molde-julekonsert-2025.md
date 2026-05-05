@@ -10,6 +10,7 @@ locationAddress: Gideonvegen 2, 6412 Molde, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/molde-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://www.eventim.no/event/christmas-with-nordic-tenors-2025-bjoernsonhuset-19479724/?affiliate=SS2
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

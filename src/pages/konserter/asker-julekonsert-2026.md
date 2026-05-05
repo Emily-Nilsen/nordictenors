@@ -10,6 +10,7 @@ locationAddress: Strøket 15A, 1383 Asker, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/asker-julekonsert-2026
+organizer: Nordic Moments AS
 ticketUrl: https://www.askerkulturhus.no/program/christmas-with-nordic-tenors-2026/
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled

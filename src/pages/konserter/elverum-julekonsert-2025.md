@@ -10,6 +10,7 @@ locationAddress: Storgata 18, 2414 Elverum, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/elverum-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://www.elverumkulturhus.no/christmas-withnordic-tenors-dz21pp/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

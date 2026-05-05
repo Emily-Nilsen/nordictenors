@@ -10,6 +10,7 @@ locationAddress: Gerhard Voldnes veg 7, 6090 Fosnavåg, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/fosnavag-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/139/events/21331/purchase/setup?kanal=dxf
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

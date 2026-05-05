@@ -10,6 +10,7 @@ locationAddress: Claude Monets alle 27, 1338 Sandvika, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/sandvika-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://www.baerumkulturhus.no/arrangement/nordic-tenors/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

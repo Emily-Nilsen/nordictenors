@@ -10,6 +10,7 @@ locationAddress: Knut Knutsen O.A.S gate 4, 5528 Haugesund, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/haugesund-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/festiviteten/buyingflow/tickets/34846/74030/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

@@ -88,6 +88,11 @@ export default function App({ Component, pageProps }) {
             '@type': 'Person',
             name: pageProps.markdoc?.frontmatter.performer,
           },
+          organizer: {
+            '@type': 'Organization',
+            name: 'Nordic Moments AS',
+            url: 'https://www.nordictenors.no/',
+          },
           offers: {
             // Modified to be dynamic
             '@type': 'Offer',

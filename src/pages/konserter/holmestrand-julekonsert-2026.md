@@ -10,6 +10,7 @@ locationAddress: Rådhusgaten 11, 3080 Holmestrand, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/holmestrand-julekonsert-2026
+organizer: Nordic Moments AS
 ticketUrl: https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled

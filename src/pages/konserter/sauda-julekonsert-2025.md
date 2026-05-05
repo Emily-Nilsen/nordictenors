@@ -10,6 +10,7 @@ locationAddress: Skulegata 20, 4200 Sauda, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/sauda-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/160/events/7898/purchase/setup?kanal=fw
 ticketPrice: 590 # Replace with the actual price
 eventStatus: EventScheduled

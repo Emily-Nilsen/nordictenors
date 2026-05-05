@@ -10,6 +10,7 @@ locationAddress: Bernt Hildre Vegen 2, 6270 Brattvåg, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/brattvag-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/128/events/12981/purchase/setup?kanal=dxf
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

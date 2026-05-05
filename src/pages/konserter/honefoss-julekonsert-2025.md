@@ -10,6 +10,7 @@ locationAddress: Hønefoss bru 3, 3510 Hønefoss, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/konserter/honefoss-julekonsert
+organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/alles/buyingflow/tickets/35084/74398/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
