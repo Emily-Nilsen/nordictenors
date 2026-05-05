@@ -74,24 +74,24 @@ export function Hero() {
             <div className="relative hidden lg:block">
             <div className="absolute right-0 top-16 z-10 w-[min(39vw,31rem)] xl:right-0 xl:top-20 xl:w-[min(42vw,33rem)]">
               <HeroVideoCard />
+              <Link
+                href="https://nordictenors.us17.list-manage.com/subscribe?u=067fa210513aeafa6dfc27206&id=136c1bfdb3"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 block text-left text-sm font-semibold text-white/80 underline-offset-4 transition hover:text-gold-500 hover:underline"
+              >
+                Påmelding nyhetsbrev <span aria-hidden="true">&rarr;</span>
+              </Link>
             </div>
             </div>
             <div className="col-span-3 hidden items-center justify-between lg:flex">
-              <div className="flex items-center justify-center gap-8 sm:gap-10 lg:-mb-0 lg:mt-0 lg:justify-start">
+              <div className="flex justify-center gap-8 sm:gap-10 lg:-mb-0 lg:mt-0 lg:justify-start">
                 <Button
                   className="relative z-20"
                   href="/#jul-november-2026"
                 >
                   Julekonserter - 2026
                 </Button>
-                <Link
-                  href="https://nordictenors.us17.list-manage.com/subscribe?u=067fa210513aeafa6dfc27206&id=136c1bfdb3"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="relative z-20 text-sm font-semibold text-white/80 underline-offset-4 transition hover:text-gold-500 hover:underline"
-                >
-                  Påmelding nyhetsbrev <span aria-hidden="true">&rarr;</span>
-                </Link>
               </div>
 
               <div className="flex items-center justify-center space-x-7 md:order-2 lg:translate-y-4 xl:translate-y-6">
