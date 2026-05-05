@@ -330,6 +330,7 @@ function useSearchProps() {
 export function Search() {
   let [modifierKey, setModifierKey] = useState()
   let { buttonProps, dialogProps } = useSearchProps()
+  let isEnglish = useRouter().pathname.startsWith('/en')
 
   useEffect(() => {
     setModifierKey(
@@ -346,7 +347,7 @@ export function Search() {
       >
         <SearchIcon className="h-5 w-5 flex-none fill-gray-400 group-hover:fill-gray-500 dark:fill-gray-500 md:group-hover:fill-gray-400" />
         <span className="sr-only md:not-sr-only md:ml-2 md:text-gray-500 md:dark:text-gray-400">
-          Søk etter konsert
+          {isEnglish ? 'Search for a concert' : 'Søk etter konsert'}
         </span>
         {modifierKey && (
           <kbd className="ml-auto hidden font-medium text-gray-400 dark:text-gray-500 md:block">

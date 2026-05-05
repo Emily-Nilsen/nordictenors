@@ -28,12 +28,19 @@ export const navigation = [
   {
     title: 'Nordic Tenors',
     links: [
-      { title: 'Konserter', href: '/' },
+      { title: 'Konserter', enTitle: 'Concerts', href: '/', enHref: '/en' },
       {
         title: `Om Nordic Tenors`,
+        enTitle: 'About Nordic Tenors',
         href: '/konserter/om-nordic-tenors',
+        enHref: '/en/about-us',
       },
-      { title: 'Kontakt oss', href: '/konserter/kontakt' },
+      {
+        title: 'Kontakt oss',
+        enTitle: 'Contact us',
+        href: '/konserter/kontakt',
+        enHref: '/en/contact',
+      },
     ],
   },
 
@@ -378,6 +385,7 @@ export const navigation = [
 ]
 
 const TRANSLATED_PAGES = {
+  '/': '/en',
   '/konserter/om-nordic-tenors': '/en/about-us',
   '/konserter/kontakt': '/en/contact',
 }
@@ -460,7 +468,8 @@ function Header({ navigation }) {
 
 export function Layout({ children, title, tableOfContents, frontmatter }) {
   const router = useRouter()
-  const isHomePage = router.pathname === '/'
+  const isHomePage = router.pathname === '/' || router.pathname === '/en'
+  const isEnglish = router.pathname.startsWith('/en')
 
   // Filter the navigation to exclude past concerts
   const filteredNavigation = filterNavigation(navigation)
@@ -485,7 +494,10 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
       <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
           <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] w-64 overflow-y-auto overflow-x-hidden py-16 pl-0.5 pr-8 xl:w-72 xl:pr-16">
-            <Navigation navigation={filteredNavigation} />
+            <Navigation
+              navigation={filteredNavigation}
+              isEnglish={isEnglish}
+            />
           </div>
         </div>
         <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pl-8 lg:pr-0 xl:px-16">
@@ -515,7 +527,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
                   id="on-this-page-title"
                   className="font-display text-base font-semibold text-gray-900 dark:text-white sm:text-lg"
                 >
-                  På denne siden
+                  {isEnglish ? 'On this page' : 'På denne siden'}
                 </h2>
                 <ol role="list" className="mt-4 space-y-3 text-sm">
                   {tableOfContents.map((section) => (
