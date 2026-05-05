@@ -10,7 +10,6 @@ locationAddress: Raveien 197, 3184 Borre, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/horten-julekonsert-2025
-organizer: Nordic Moments AS
 ticketUrl: https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2025
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

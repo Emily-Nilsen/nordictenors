@@ -10,7 +10,6 @@ locationAddress: Sandvigå 1, 4007 Stavanger, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/stavanger-julekonsert-2025
-organizer: Nordic Moments AS
 ticketUrl: https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/34991/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

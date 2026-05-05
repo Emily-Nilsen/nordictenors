@@ -10,7 +10,6 @@ locationAddress: Sjølystveien 2, 4610 Kristiansand, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/kristiansand-julekonsert-2026
-organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/kilden/specialoffer/tickets/43693/
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled

@@ -10,7 +10,6 @@ locationAddress: Kirkegata 11, 2000 Lillestrøm, Norway
 performer: Nordic Tenors
 image: /images/OG_image_2024.webp
 url: https://nordictenors.no/konserter/lillestrom-a-la-carte
-organizer: Nordic Moments AS
 ticketUrl: https://www.lillestrom-kultursenter.no/program/15723-christmas-with-nordic-tenors/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

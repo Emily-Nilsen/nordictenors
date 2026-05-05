@@ -10,7 +10,6 @@ locationAddress: Ollebukta 3, 3126 Tønsberg, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/tonsberg-julekonsert-2026
-organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/1197792848
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled

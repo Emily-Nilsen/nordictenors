@@ -10,7 +10,6 @@ locationAddress: Kalvild Gård, Østre Kaldvell 10, 4790 Lillesand, Norway
 performer: Nordic Tenors
 image: /images/OG_image_2024.webp
 url: https://nordictenors.no/konserter/lillesand-a-la-carte-2025
-organizer: Nordic Moments AS
 ticketUrl: https://ld.hoopla.no/event/148195489
 ticketPrice: 475 # Replace with the actual price
 eventStatus: EventScheduled

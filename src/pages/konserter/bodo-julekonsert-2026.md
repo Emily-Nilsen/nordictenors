@@ -10,7 +10,6 @@ locationAddress: Storgata 1B, 8006 Bodø, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webpebp
 url: https://nordictenors.no/konserter/bodo-julekonsert-2026
-organizer: Nordic Moments AS
 ticketUrl: https://billetter.stormen.no/nb/buyingflow/tickets/43831/89760
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled

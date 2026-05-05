@@ -10,7 +10,6 @@ locationAddress: Abel Meyers gate 12, 7800 Namsos, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/namsos-julekonsert-2026
-organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/105/events/73985/purchase
 ticketPrice: 690
 eventStatus: EventScheduled

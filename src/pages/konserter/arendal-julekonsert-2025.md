@@ -10,7 +10,6 @@ locationAddress: Sam Eydes plass 2, 4836 Arendal, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/arendal-julekonsert-2025
-organizer: Nordic Moments AS
 ticketUrl: https://www.arendalkulturhus.no/program/christmas-with-nordic-tenors-2005/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

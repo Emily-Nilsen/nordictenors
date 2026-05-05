@@ -10,7 +10,6 @@ locationAddress: Sophus Lie-vegen 3, 6770 Nordfjordeid, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/nordfjordeid-julekonsert-2026
-organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/161/events/37415/purchase/setup?kanal=dxf
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled

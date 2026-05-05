@@ -10,7 +10,6 @@ locationAddress: Øvre Storgate 12, 3018 Drammen, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/drammen-julekonsert-2026
-organizer: Nordic Moments AS
 ticketUrl: https://www.drammensteater.no/program/44111-christmas-with-nordic-tenors/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled
