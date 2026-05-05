@@ -229,6 +229,14 @@ export function Jul_Desember_2026() {
   const ticketsComingLabel = isEnglish ? 'Tickets coming soon' : 'Billetter kommer'
   const ticketsLabel = isEnglish ? 'Tickets' : 'Billetter'
   const showMoreLabel = isEnglish ? 'Show more' : 'Vis mer'
+  const displayDate = (concert) =>
+    isEnglish
+      ? new Date(concert.isoDate).toLocaleDateString('en-GB', {
+          day: 'numeric',
+          month: 'long',
+          timeZone: 'Europe/Oslo',
+        })
+      : concert.date
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
@@ -266,7 +274,7 @@ export function Jul_Desember_2026() {
                     </p>
                     <p className="-mt-5 flex gap-x-3 text-sm">
                       <span className="font-bold text-gray-900 dark:text-white">
-                        {concert.date}
+                        {displayDate(concert)}
                       </span>
                     </p>
                   </Link>
@@ -277,7 +285,7 @@ export function Jul_Desember_2026() {
                     </p>
                     <p className="-mt-5 flex gap-x-3 text-sm">
                       <span className="font-bold text-gray-900 dark:text-white">
-                        {concert.date}
+                        {displayDate(concert)}
                       </span>
                     </p>
                   </div>
