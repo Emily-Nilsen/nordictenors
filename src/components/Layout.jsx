@@ -377,6 +377,35 @@ export const navigation = [
   },
 ]
 
+const TRANSLATED_PAGES = {
+  '/konserter/om-nordic-tenors': '/en/about-us',
+  '/konserter/kontakt': '/en/contact',
+}
+const REVERSE_TRANSLATED_PAGES = Object.fromEntries(
+  Object.entries(TRANSLATED_PAGES).map(([no, en]) => [en, no])
+)
+
+function LanguageToggle() {
+  const router = useRouter()
+  const enHref = TRANSLATED_PAGES[router.pathname]
+  const noHref = REVERSE_TRANSLATED_PAGES[router.pathname]
+  if (!enHref && !noHref) return null
+  const href = enHref || noHref
+  const label = enHref ? 'EN' : 'NO'
+  const ariaLabel = enHref
+    ? 'View this page in English'
+    : 'Vis denne siden på norsk'
+  return (
+    <Link
+      href={href}
+      aria-label={ariaLabel}
+      className="font-display font-semibold text-sky-800 hover:text-red-700 dark:text-gold-500 dark:hover:text-white"
+    >
+      {label}
+    </Link>
+  )
+}
+
 function Header({ navigation }) {
   const [isScrolled, setIsScrolled] = useState(false)
 
@@ -421,13 +450,9 @@ function Header({ navigation }) {
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
         <Search />
       </div>
-      <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
+      <div className="relative flex basis-0 items-center justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <div className="group">
-          <p className="cursor-pointer font-display font-semibold text-sky-800 hover:text-red-700 dark:text-gold-500 dark:hover:text-white">
-            EN
-          </p>
-        </div>
+        <LanguageToggle />
       </div>
     </header>
   )

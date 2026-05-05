@@ -1,0 +1,102 @@
+import Link from 'next/link'
+import {
+  BuildingOfficeIcon,
+  DevicePhoneMobileIcon,
+  TicketIcon,
+} from '@heroicons/react/24/outline'
+
+export function ContactInfoEn() {
+  return (
+    <div className="not-prose isolate bg-transparent sm:pb-12">
+      <div className="mx-auto max-w-2xl">
+        <h2 className="font-display text-3xl font-semibold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+          Contact information
+        </h2>
+      </div>
+      <div className="mx-auto mt-16 max-w-lg space-y-16">
+        <div className="flex gap-x-6">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-sky-600 dark:bg-amber-400">
+            <BuildingOfficeIcon
+              className="h-6 w-6 text-white"
+              aria-hidden="true"
+            />
+          </div>
+          <div>
+            <h3 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
+              Address
+            </h3>
+            <p className="mt-2 leading-7 text-gray-600 dark:text-gray-400">
+              Nordic Moments AS
+            </p>
+            <p className="text-gray-600 dark:text-gray-400">Skogsrudveien 7</p>
+            <p className="text-gray-600 dark:text-gray-400">3083 Holmestrand</p>
+            <p className="mt-4">
+              <a
+                href="tel:+47 930 57 189"
+                className="text-sm font-semibold leading-6 text-sky-600 dark:text-amber-300"
+              >
+                Call +47 930 57 189 <span aria-hidden="true">&rarr;</span>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-x-6">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-sky-600 dark:bg-amber-400">
+            <DevicePhoneMobileIcon
+              className="h-6 w-6 text-white"
+              aria-hidden="true"
+            />
+          </div>
+          <div>
+            <h3 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
+              Booking
+            </h3>
+            <p className="mt-2 leading-7 text-gray-600 dark:text-gray-400">
+              Nordic Moments AS
+            </p>
+            <p className="text-gray-600 dark:text-gray-400">Line Sabine Ein</p>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="email:booking@nordictenors.no"
+              className="text-gray-600 underline transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+            >
+              booking@nordictenors.no
+            </Link>
+            <p className="mt-4">
+              <a
+                href="tel:+47 930 57 189"
+                className="text-sm font-semibold leading-6 text-sky-600 dark:text-amber-300"
+              >
+                Call +47 930 57 189 <span aria-hidden="true">&rarr;</span>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-x-6">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-sky-600 dark:bg-amber-400">
+            <TicketIcon className="h-6 w-6 text-white" aria-hidden="true" />
+          </div>
+          <div>
+            <h3 className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
+              Tickets
+            </h3>
+            <p className="mt-2 max-w-64 leading-7 text-gray-600 dark:text-gray-400 sm:max-w-80">
+              For tickets, please contact each venue directly. See our concerts
+              for venue links.
+            </p>
+
+            <p className="mt-4">
+              <Link
+                href="/#konsertplan"
+                className="text-sm font-semibold leading-6 text-sky-600 dark:text-amber-300"
+              >
+                Concerts <span aria-hidden="true">&rarr;</span>
+              </Link>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
