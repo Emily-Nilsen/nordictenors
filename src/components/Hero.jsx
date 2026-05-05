@@ -74,6 +74,14 @@ export function Hero() {
             <div className="relative hidden lg:block">
             <div className="absolute right-0 top-16 z-10 w-[min(39vw,31rem)] xl:right-0 xl:top-20 xl:w-[min(42vw,33rem)]">
               <HeroVideoCard />
+              <Link
+                href="https://nordictenors.us17.list-manage.com/subscribe?u=067fa210513aeafa6dfc27206&id=136c1bfdb3"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 block text-center text-sm font-semibold text-white/80 underline-offset-4 transition hover:text-gold-500 hover:underline"
+              >
+                Påmelding nyhetsbrev <span aria-hidden="true">&rarr;</span>
+              </Link>
             </div>
             </div>
             <div className="col-span-3 hidden items-center justify-between lg:flex">
@@ -113,6 +121,14 @@ export function Hero() {
 
       <div className="relative z-20 mt-2 px-4 lg:hidden">
         <HeroVideoCard className="mx-auto max-w-md text-left" />
+        <Link
+          href="https://nordictenors.us17.list-manage.com/subscribe?u=067fa210513aeafa6dfc27206&id=136c1bfdb3"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-auto mt-4 block max-w-md text-center text-sm font-semibold text-white/80 underline-offset-4 transition hover:text-gold-500 hover:underline"
+        >
+          Påmelding nyhetsbrev <span aria-hidden="true">&rarr;</span>
+        </Link>
       </div>
     </>
   )
