@@ -10,6 +10,7 @@ locationAddress: Skolelia 3, 2750 Gran, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/hadeland-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://www.kulturhadeland.no/christmas-with-nordic-tenors-2025-yp46pr/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

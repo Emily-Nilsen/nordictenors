@@ -10,6 +10,7 @@ locationAddress: Maihaugveien 1, 2609 Lillehammer, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/lillehammer-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/149748545
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

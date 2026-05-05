@@ -10,6 +10,7 @@ locationAddress: Kjøpmannsgata 48, 7010 Trondheim, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/trondheim-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://www.olavshallen.no/forestillinger/2024-11-14-christmas-with-nordic-tenors-2025
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

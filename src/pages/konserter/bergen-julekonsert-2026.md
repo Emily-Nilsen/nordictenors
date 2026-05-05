@@ -10,6 +10,7 @@ locationAddress: Edvard Griegs plass 1, 5015 Bergen, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/bergen-julekonsert-2026
+organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/2094932538
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

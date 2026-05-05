@@ -10,6 +10,7 @@ locationAddress: Elvegaten 1, 4400 Flekkefjord, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/flekkefjord-julekonsert-2026
+organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/181/events/26371/purchase
 ticketPrice: 490 # Replace with the actual price
 eventStatus: EventScheduled

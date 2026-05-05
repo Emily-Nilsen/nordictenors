@@ -10,6 +10,7 @@ locationAddress: Furusethgata 12, 2050 Jessheim, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/ullensaker-julekonsert-2025
+organizer: Nordic Moments AS
 ticketUrl: https://www.ticketmaster.no/event/2077939146?language=no-no&track=DiscoveryAPI&subchannel_id=1&brand=ullensakerkulturhus&_gl=1*pua2yt*_ga*MjExOTYzMjE0NS4xNzMyMjc2MjE3*_ga_Q5XX5068LZ*MTczMzEzMDQyNy4yLjAuMTczMzEzMDQyNy4wLjAuMA..
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

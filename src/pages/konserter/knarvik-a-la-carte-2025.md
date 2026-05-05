@@ -10,6 +10,7 @@ locationAddress: Lonsvegen 100, 5914 Knarvik, Norway
 performer: Nordic Tenors
 image: /images/OG_image_2024.webp
 url: https://nordictenors.no/konserter/knarvik-a-la-carte-2025
+organizer: Nordic Moments AS
 ticketUrl: https://nordhordland.easyticket.no/
 ticketPrice: 430 # Replace with the actual price
 eventStatus: EventScheduled

@@ -26,8 +26,9 @@ export function ContactInfo() {
               Adresse
             </h3>
             <p className="mt-2 leading-7 text-gray-600 dark:text-gray-400">
-              Skogsrudveien 7
+              Nordic Moments AS
             </p>
+            <p className="text-gray-600 dark:text-gray-400">Skogsrudveien 7</p>
             <p className="text-gray-600 dark:text-gray-400">3083 Holmestrand</p>
             <p className="mt-4">
               <a
@@ -51,8 +52,9 @@ export function ContactInfo() {
               Booking
             </h3>
             <p className="mt-2 leading-7 text-gray-600 dark:text-gray-400">
-              Line Sabine Ein
+              Nordic Moments AS
             </p>
+            <p className="text-gray-600 dark:text-gray-400">Line Sabine Ein</p>
             <Link
               target="_blank"
               rel="noopener noreferrer"
