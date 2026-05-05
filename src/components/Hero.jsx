@@ -12,7 +12,7 @@ import HeroMobile from '../images/nordictenors_hero_mobile_2024.webp'
 export function Hero() {
   const isEnglish = useRouter().pathname.startsWith('/en')
   const description = isEnglish
-    ? 'Nordic Tenors combine exquisite artistic quality with humour and musical surprises across a wide range of genres.'
+    ? 'Nordic Tenors blend exquisite artistry with humour and musical surprises across many genres.'
     : 'Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med et vidt genrespekter, humor og musikalske overraskelser.'
   const buttonLabel = isEnglish
     ? 'Christmas concerts - 2026'
@@ -91,7 +91,7 @@ export function Hero() {
                 href="https://nordictenors.us17.list-manage.com/subscribe?u=067fa210513aeafa6dfc27206&id=136c1bfdb3"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 block pl-6 text-left text-sm font-semibold text-white/80 underline-offset-4 transition hover:text-gold-500 hover:underline"
+                className="mt-6 block pl-6 text-left text-sm font-semibold text-gold-500 underline-offset-4 transition hover:text-white hover:underline"
               >
                 {newsletterLabel} <span aria-hidden="true">&rarr;</span>
               </Link>
@@ -138,7 +138,7 @@ export function Hero() {
           href="https://nordictenors.us17.list-manage.com/subscribe?u=067fa210513aeafa6dfc27206&id=136c1bfdb3"
           target="_blank"
           rel="noopener noreferrer"
-          className="mx-auto mt-4 block max-w-md text-left text-sm font-semibold text-white/80 underline-offset-4 transition hover:text-gold-500 hover:underline"
+          className="mx-auto mt-4 block max-w-md text-left text-sm font-semibold text-gold-500 underline-offset-4 transition hover:text-white hover:underline"
         >
           Påmelding nyhetsbrev <span aria-hidden="true">&rarr;</span>
         </Link>
