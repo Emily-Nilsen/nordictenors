@@ -2,7 +2,7 @@ export function SpotifyPlayer() {
   return (
     <div className="mx-left mt-16 w-full max-w-xl overflow-hidden rounded-xl">
       <iframe
-        src="https://open.spotify.com/embed/track/2evTmFdNhNjHLxFHTWFm34?si=b5031ec4924f45c7"
+        src="https://open.spotify.com/embed/track/6vyCyUMe15ZGkrwYOqO7UL?si=6h4yd_ttT1OWIW9iaTfn3w"
         width="100%"
         height="380"
         frameBorder="0"
