@@ -37,6 +37,10 @@ import { CalendarText } from '@/components/CalendarText'
 import { HomepageText } from '@/components/HomepageText'
 import { getConcertYearWord } from '../../utils/getConcertYearWord'
 import { ContactInfo } from '@/components/ContactInfo'
+import { ContactInfoEn } from '@/components/ContactInfoEn'
+import { ContactEn } from '@/components/ContactEn'
+import { NyhetsbrevEn } from '@/components/NyhetsbrevEn'
+import { ReviewsEn } from '@/components/ReviewsEn'
 
 const tags = {
   callout: {
@@ -239,6 +243,22 @@ const tags = {
   reviews: {
     selfClosing: true,
     render: Reviews,
+  },
+  'contact-info-en': {
+    selfClosing: true,
+    render: ContactInfoEn,
+  },
+  'contact-en': {
+    selfClosing: true,
+    render: ContactEn,
+  },
+  'nyhetsbrev-en': {
+    selfClosing: true,
+    render: NyhetsbrevEn,
+  },
+  'reviews-en': {
+    selfClosing: true,
+    render: ReviewsEn,
   },
   'spotify-player': {
     selfClosing: true,
