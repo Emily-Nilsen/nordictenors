@@ -78,7 +78,7 @@ export function Hero() {
                 href="https://nordictenors.us17.list-manage.com/subscribe?u=067fa210513aeafa6dfc27206&id=136c1bfdb3"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-24 block pl-6 text-left text-sm font-semibold text-white/80 underline-offset-4 transition hover:text-gold-500 hover:underline xl:mt-28"
+                className="mt-6 block pl-6 text-left text-sm font-semibold text-white/80 underline-offset-4 transition hover:text-gold-500 hover:underline"
               >
                 Påmelding nyhetsbrev <span aria-hidden="true">&rarr;</span>
               </Link>
