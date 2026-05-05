@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 import { Button } from '@/components/Button'
 import { HeroVideoCard } from '@/components/HeroVideoCard'
@@ -9,6 +10,19 @@ import HeroDesktop from '../images/nordictenors_hero_landscape_2024.webp'
 import HeroMobile from '../images/nordictenors_hero_mobile_2024.webp'
 
 export function Hero() {
+  const isEnglish = useRouter().pathname.startsWith('/en')
+  const description = isEnglish
+    ? 'Nordic Tenors combine exquisite artistic quality with humour and musical surprises across a wide range of genres.'
+    : 'Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med et vidt genrespekter, humor og musikalske overraskelser.'
+  const buttonLabel = isEnglish
+    ? 'Christmas concerts - 2026'
+    : 'Julekonserter - 2026'
+  const buttonLabelMobile = isEnglish
+    ? 'Christmas concerts 2026'
+    : 'Julekonserter 2026'
+  const newsletterLabel = isEnglish
+    ? 'Newsletter signup'
+    : 'Påmelding nyhetsbrev'
   return (
     <>
       <div className="relative overflow-hidden">
@@ -53,8 +67,7 @@ export function Hero() {
                 />
 
                 <p className="mt-3 hidden max-w-xl text-xl tracking-tight text-white lg:block">
-                  Nordic Tenors kombinerer utsøkt kunstnerisk kvalitet med et vidt
-                  genrespekter, humor og musikalske overraskelser.
+                  {description}
                 </p>
 
                 <div className="h-8 sm:hidden" />
@@ -65,7 +78,7 @@ export function Hero() {
                       className="relative z-20"
                       href="/#jul-november-2026"
                     >
-                      Julekonserter 2026
+                      {buttonLabelMobile}
                     </Button>
                   </div>
                 </div>
@@ -80,7 +93,7 @@ export function Hero() {
                 rel="noopener noreferrer"
                 className="mt-6 block pl-6 text-left text-sm font-semibold text-white/80 underline-offset-4 transition hover:text-gold-500 hover:underline"
               >
-                Påmelding nyhetsbrev <span aria-hidden="true">&rarr;</span>
+                {newsletterLabel} <span aria-hidden="true">&rarr;</span>
               </Link>
             </div>
             </div>
@@ -90,7 +103,7 @@ export function Hero() {
                   className="relative z-20"
                   href="/#jul-november-2026"
                 >
-                  Julekonserter - 2026
+                  {buttonLabel}
                 </Button>
               </div>
 

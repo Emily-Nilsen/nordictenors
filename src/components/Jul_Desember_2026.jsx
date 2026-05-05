@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { PlusCircleIcon } from '@heroicons/react/24/outline'
 
 function TicketIcon(props) {
@@ -223,6 +224,9 @@ const concerts = [
 ]
 
 export function Jul_Desember_2026() {
+  const isEnglish = useRouter().pathname.startsWith('/en')
+  const buyLabel = isEnglish ? 'Buy' : 'Kjøp'
+  const ticketsComingLabel = isEnglish ? 'Tickets coming soon' : 'Billetter kommer'
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
@@ -295,7 +299,7 @@ export function Jul_Desember_2026() {
                   </Link>
                 ) : (
                   <span className="text-sm text-gray-500 dark:text-gray-300">
-                    Billetter kommer
+                    {ticketsComingLabel}
                   </span>
                 )}
               </div>
@@ -311,13 +315,13 @@ export function Jul_Desember_2026() {
                     <button className="dark:bg-t flex items-center justify-center rounded-lg bg-white/80 px-2.5 py-1.5 text-2xl text-gray-500 shadow-md shadow-black/5 ring-1 ring-black/5 transition duration-150 ease-in-out hover:bg-white focus:bg-transparent dark:bg-red-700/20 dark:text-gray-300 dark:ring-inset dark:ring-white/5 dark:hover:bg-white/10">
                       <span className="flex items-center gap-3 text-sm text-red-800 dark:text-white">
                         <TicketIcon className="mr-0 h-6 w-6 fill-red-700 focus:bg-transparent dark:fill-red-500 sm:mr-0 sm:h-6 sm:w-6" />
-                        <span className="text-left text-sm">Kjøp</span>
+                        <span className="text-left text-sm">{buyLabel}</span>
                       </span>
                     </button>
                   </Link>
                 ) : (
                   <span className="text-sm text-gray-500 dark:text-gray-300">
-                    Billetter kommer
+                    {ticketsComingLabel}
                   </span>
                 )}
               </div>

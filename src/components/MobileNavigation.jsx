@@ -93,7 +93,11 @@ export function MobileNavigation({ navigation }) {
               {/* <Logomark className="w-auto h-6 fill-sky-800 dark:fill-amber-400" /> */}
             </Link>
           </div>
-          <Navigation navigation={navigation} className="mt-10 px-1" />
+          <Navigation
+            navigation={navigation}
+            className="mt-10 px-1"
+            isEnglish={router.pathname.startsWith('/en')}
+          />
         </Dialog.Panel>
       </Dialog>
     </>
