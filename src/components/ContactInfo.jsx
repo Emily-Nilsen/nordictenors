@@ -26,16 +26,15 @@ export function ContactInfo() {
               Adresse
             </h3>
             <p className="mt-2 leading-7 text-gray-600 dark:text-gray-400">
-              Nordic Moments AS
+              Skogsrudveien 7
             </p>
-            <p className="text-gray-600 dark:text-gray-400">Skogsrudveien 7</p>
             <p className="text-gray-600 dark:text-gray-400">3083 Holmestrand</p>
             <p className="mt-4">
               <a
-                href="tel:+47 906 61 926"
+                href="tel:+47 930 57 189"
                 className="text-sm font-semibold leading-6 text-sky-600 dark:text-amber-300"
               >
-                Ring +47 906 61 926 <span aria-hidden="true">&rarr;</span>
+                Ring +47 930 57 189 <span aria-hidden="true">&rarr;</span>
               </a>
             </p>
           </div>
@@ -52,10 +51,7 @@ export function ContactInfo() {
               Booking
             </h3>
             <p className="mt-2 leading-7 text-gray-600 dark:text-gray-400">
-              Nordic Moments AS
-            </p>
-            <p className="text-gray-600 dark:text-gray-400">
-              Merete Økland Espedal
+              Line Sabine Ein
             </p>
             <Link
               target="_blank"
@@ -67,10 +63,10 @@ export function ContactInfo() {
             </Link>
             <p className="mt-4">
               <a
-                href="tel:+47 906 61 926"
+                href="tel:+47 930 57 189"
                 className="text-sm font-semibold leading-6 text-sky-600 dark:text-amber-300"
               >
-                Ring +47 906 61 926 <span aria-hidden="true">&rarr;</span>
+                Ring +47 930 57 189 <span aria-hidden="true">&rarr;</span>
               </a>
             </p>
           </div>

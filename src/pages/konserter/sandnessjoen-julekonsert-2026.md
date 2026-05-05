@@ -10,7 +10,6 @@ locationAddress: Torolv Kveldulvsons gate 10-14, 8800 Sandnessjøen, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/sandnessjoen-julekonsert-2026
-organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/245/events/64468/purchase/setup?campaign_id=2467
 ticketPrice: 670
 eventStatus: EventScheduled

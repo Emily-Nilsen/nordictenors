@@ -10,7 +10,6 @@ locationAddress: Festplassen 1, 1473 Lørenskog, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/lorenskog-julekonsert-2026
-organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/106/events/166731/purchase/setup?_gl=1*159x5l2*_gcl_au*Njg3NjkwODk2LjE3NjIyNjQxNjU.*_ga*MTkzMjE0MzM3OC4xNzYxNTUxMDYy*_ga_50JLENG0R8*czE3NjQ4NDc2ODAkbzUkZzEkdDE3NjQ4NDc2ODYkajU0JGwwJGgw&kanal=dxf
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled

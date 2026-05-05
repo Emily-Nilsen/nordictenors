@@ -10,7 +10,6 @@ locationAddress: Oseana Kunst- og Kultursenter, Mobergsbakken 20, 5200 Os, Norwa
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/os-julekonsert-2026
-organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nn/oseana/buyingflow/tickets/43735/89598#tixsp
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled

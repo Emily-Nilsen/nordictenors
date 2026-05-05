@@ -10,7 +10,6 @@ locationAddress: Torggata 100, 2317 Hamar, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/hamar-julekonsert-2025
-organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/228/events/148032/purchase/setup
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

@@ -10,7 +10,6 @@ locationAddress: Erling Bangsunds plass 1, 9008 Tromsø, Norway
 performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/tromso-julekonsert-2025
-organizer: Nordic Moments AS
 ticketUrl: https://tix.no/nb/tr/buyingflow/tickets/34909/74128/
 ticketPrice: 630 # Replace with the actual price
 eventStatus: EventScheduled

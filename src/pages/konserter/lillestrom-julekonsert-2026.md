@@ -10,7 +10,6 @@ locationAddress: Kirkegata 11, 2000 Lillestrøm, Norway
 performer: Nordic Tenors
 image: /images/OG_image_2024.webp
 url: https://nordictenors.no/konserter/lillestrom-julekonsert-2026
-organizer: Nordic Moments AS
 ticketUrl: https://checkout.ebillett.no/120/events/125310/purchase/setup?_gl=1*1ns66xz*_gcl_au*MTY3MTk4NzI5OS4xNzY0NTg1MDIy*_ga*MTMxOTAzMTgwOC4xNzY0NTg1MDEx*_ga_6CD7G851T2*czE3NjQ1ODUwMTAkbzEkZzEkdDE3NjQ1ODUwMjEkajUyJGwwJGgw&kanal=dxf
 ticketPrice: 675 # Replace with the actual price
 eventStatus: EventScheduled
