@@ -6,6 +6,12 @@ description: Opplev konserter med Nordic Tenors. Finn datoer i kalenderen og kj√
 
 {% homepage-text /%}
 
+## Konserter
+
+### Oktober 2026
+
+{% konserter /%}
+
 ## Christmas with Nordic Tenors
 
 ### November 2026
