@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/steinkjer-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://checkout.ebillett.no/101/events/145990/purchase
+ticketUrl: https://www.steinkjerkulturhus.no/program/nordic-tenors-jul/
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="torsdag" date="26" month="november" time="19:00" ticketUrl="https://checkout.ebillett.no/101/events/145990/purchase" /%}
+{% concert-header day="torsdag" date="26" month="november" time="19:00" ticketUrl="https://www.steinkjerkulturhus.no/program/nordic-tenors-jul/" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Steinkjer Kulturhus" ticketUrl="https://checkout.ebillett.no/101/events/145990/purchase" /%}
+{% billetter concert="" outlet="Steinkjer Kulturhus" ticketUrl="https://www.steinkjerkulturhus.no/program/nordic-tenors-jul/" /%}
 
 ## Steinkjer Kulturhus
 

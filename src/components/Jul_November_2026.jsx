@@ -86,7 +86,7 @@ const concerts = [
     imageUrl: '/thumbnails/Steinkjer_Kulturhus.webp',
     date: '26. november',
     isoDate: '2026-11-26T19:00:00.000Z',
-    ticketLink: 'https://checkout.ebillett.no/101/events/145990/purchase',
+    ticketLink: 'https://www.steinkjerkulturhus.no/program/nordic-tenors-jul/',
     pageUrl: '/konserter/steinkjer-julekonsert-2026',
   },
   {
