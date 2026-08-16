@@ -11,6 +11,7 @@ import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
 import { Footer } from '@/components/Footer'
+import { CookieConsent } from '@/components/CookieConsent'
 
 // Filter past concerts based on their isoDate
 function filterNavigation(navigation) {
@@ -388,6 +389,7 @@ const TRANSLATED_PAGES = {
   '/': '/en',
   '/konserter/om-nordic-tenors': '/en/about-us',
   '/konserter/kontakt': '/en/contact',
+  '/konserter/personvern': '/en/privacy',
 }
 const REVERSE_TRANSLATED_PAGES = Object.fromEntries(
   Object.entries(TRANSLATED_PAGES).map(([no, en]) => [en, no])
@@ -575,6 +577,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
       </div>
 
       <Footer />
+      <CookieConsent />
     </>
   )
 }
