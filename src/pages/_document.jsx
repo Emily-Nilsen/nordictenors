@@ -38,7 +38,10 @@ const themeScript = `
   isDarkMode.addEventListener('change', () => updateThemeWithoutTransitions())
 `
 
-const gtmId = process.env.NEXT_PUBLIC_GTM_ID
+// GTM-container fra mediebyrået. Container-ID-en er offentlig (den ligger i
+// sidekilden hos alle besøkende), så den kan stå i koden. Kan overstyres med
+// miljøvariabelen NEXT_PUBLIC_GTM_ID.
+const gtmId = process.env.NEXT_PUBLIC_GTM_ID || 'GTM-5TZ97V5D'
 
 // Google Consent Mode v2. Må kjøre før Google Tag Manager lastes, slik at
 // ingen tagger kan lagre noe før besøkende har sagt ja. Cookie-navnet og
