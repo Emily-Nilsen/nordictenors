@@ -99,6 +99,14 @@ export function pushConsentUpdate(consent) {
 export function saveConsent(consent) {
   const saved = writeConsent(consent)
   pushConsentUpdate(saved)
+
+  // GTM lastes ikke ved sidelast uten samtykke. Sier besøkende ja til
+  // statistikk eller markedsføring, laster vi den her, slik at valget virker
+  // med en gang og ikke først ved neste sidevisning.
+  if ((saved.analytics || saved.marketing) && typeof window.ntLoadGtm === 'function') {
+    window.ntLoadGtm()
+  }
+
   window.dispatchEvent(new CustomEvent(CONSENT_CHANGE_EVENT, { detail: saved }))
   return saved
 }
