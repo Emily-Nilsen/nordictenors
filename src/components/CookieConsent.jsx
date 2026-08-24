@@ -13,26 +13,16 @@ import {
 const COPY = {
   no: {
     heading: 'Vi bruker informasjonskapsler',
-    summary: [
-      {
-        label: 'Nødvendige informasjonskapsler',
-        text: 'er alltid på. De får nettsiden til å fungere, og husker valgene dine – som lyst eller mørkt utseende, og hva du svarer her.',
-      },
-      {
-        label: 'Statistikk',
-        text: 'brukes bare hvis du sier ja. Statistikk viser oss hvordan nettsiden blir brukt, slik at vi kan forbedre den.',
-      },
-      {
-        label: 'Markedsføring',
-        text: 'brukes bare hvis du sier ja. Markedsføring måler effekten av annonseringen vår, og lar oss vise annonser på andre nettsteder.',
-      },
-    ],
-    body: 'Til statistikk og markedsføring bruker vi Google. Du kan endre valget ditt når som helst nederst på siden.',
+    // Vises ved første besøk, når ingenting er valgt ennå.
+    introFirstVisit:
+      'Statistikk og markedsføring er slått av. De blir bare brukt hvis du slår dem på selv.',
+    // Vises når banneret åpnes igjen fra bunnteksten, og valget allerede er lagret.
+    introStoredChoice: 'Dette er valgene du har lagret. Du kan endre dem her.',
+    body: 'Til statistikk og markedsføring bruker vi Google.',
     policy: 'Les mer i personvernerklæringen',
     policyHref: '/konserter/personvern',
     acceptAll: 'Godta alle',
     rejectAll: 'Kun nødvendige',
-    customize: 'Tilpass',
     savePreferences: 'Lagre valg',
     close: 'Lukk',
     categories: [
@@ -59,26 +49,14 @@ const COPY = {
   },
   en: {
     heading: 'We use cookies',
-    summary: [
-      {
-        label: 'Necessary cookies',
-        text: 'are always on. They make the site work, and remember your choices – such as the light or dark appearance, and what you answer here.',
-      },
-      {
-        label: 'Statistics',
-        text: 'are used only if you say yes. Statistics show us how the site is used, so we can improve it.',
-      },
-      {
-        label: 'Marketing',
-        text: 'are used only if you say yes. Marketing measures how our advertising performs, and lets us show ads on other websites.',
-      },
-    ],
-    body: 'We use Google for statistics and marketing. You can change your choice at any time at the bottom of the page.',
+    introFirstVisit:
+      'Statistics and marketing are switched off. They are only used if you turn them on yourself.',
+    introStoredChoice: 'These are the choices you have saved. You can change them here.',
+    body: 'We use Google for statistics and marketing.',
     policy: 'Read more in our privacy policy',
     policyHref: '/en/privacy',
     acceptAll: 'Accept all',
     rejectAll: 'Necessary only',
-    customize: 'Customise',
     savePreferences: 'Save choices',
     close: 'Close',
     categories: [
@@ -116,8 +94,8 @@ function Toggle({ checked, disabled, onChange, label }) {
         onChange={(event) => onChange?.(event.target.checked)}
         aria-label={label}
       />
-      <span className="h-6 w-11 rounded-full bg-gray-300 transition-colors peer-checked:bg-sky-700 peer-disabled:opacity-60 peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-sky-700 dark:bg-gray-700 dark:peer-checked:bg-gold-500 dark:peer-focus-visible:outline-gold-500" />
-      <span className="pointer-events-none absolute left-0.5 h-5 w-5 rounded-full bg-white shadow transition-transform peer-checked:translate-x-5" />
+      <span className="h-6 w-11 rounded-full bg-gray-300 ring-1 ring-inset ring-gray-400/50 transition-colors peer-checked:bg-sky-700 peer-checked:ring-transparent peer-disabled:opacity-60 peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-sky-700 dark:bg-gray-700 dark:ring-gray-500/50 dark:peer-checked:bg-gold-500 dark:peer-focus-visible:outline-gold-500" />
+      <span className="pointer-events-none absolute left-0.5 top-0.5 h-5 w-5 rounded-full bg-white shadow transition-transform peer-checked:translate-x-5" />
     </label>
   )
 }
@@ -128,7 +106,6 @@ export function CookieConsent() {
   const t = isEnglish ? COPY.en : COPY.no
 
   const [isOpen, setIsOpen] = useState(false)
-  const [showDetails, setShowDetails] = useState(false)
   const [selection, setSelection] = useState(DENY_ALL)
   const [hasStoredChoice, setHasStoredChoice] = useState(true)
   const dialogRef = useRef(null)
@@ -141,6 +118,9 @@ export function CookieConsent() {
       setSelection(stored)
       setHasStoredChoice(true)
     } else {
+      // Ingenting er forhåndsgodkjent: statistikk og markedsføring står av til
+      // besøkende selv slår dem på.
+      setSelection(DENY_ALL)
       setHasStoredChoice(false)
       setIsOpen(true)
     }
@@ -149,8 +129,9 @@ export function CookieConsent() {
   // Bunnteksten åpner valget på nytt via dette eventet.
   useEffect(() => {
     const onOpen = () => {
-      setSelection(readConsent() ?? DENY_ALL)
-      setShowDetails(true)
+      const stored = readConsent()
+      setSelection(stored ?? DENY_ALL)
+      setHasStoredChoice(Boolean(stored))
       setIsOpen(true)
       window.requestAnimationFrame(() => dialogRef.current?.focus())
     }
@@ -163,7 +144,6 @@ export function CookieConsent() {
     setSelection(consent)
     setHasStoredChoice(true)
     setIsOpen(false)
-    setShowDetails(false)
   }, [])
 
   if (!isOpen) return null
@@ -181,7 +161,7 @@ export function CookieConsent() {
         aria-labelledby="cookie-consent-heading"
         aria-describedby="cookie-consent-body"
         tabIndex={-1}
-        className="mx-auto max-w-3xl rounded-xl border border-gray-200 bg-white p-6 shadow-2xl outline-none dark:border-gray-700 dark:bg-gray-900"
+        className="mx-auto max-h-[85vh] max-w-3xl overflow-y-auto rounded-xl border border-gray-200 bg-white p-6 shadow-2xl outline-none dark:border-gray-700 dark:bg-gray-900"
       >
         <h2
           id="cookie-consent-heading"
@@ -189,24 +169,12 @@ export function CookieConsent() {
         >
           {t.heading}
         </h2>
-        {!showDetails && (
-          <ul className="mt-3 space-y-1.5 text-sm leading-6 text-gray-600 dark:text-gray-300">
-            {t.summary.map((item) => (
-              <li key={item.label}>
-                <strong className="font-semibold text-gray-900 dark:text-white">
-                  {item.label}
-                </strong>{' '}
-                {item.text}
-              </li>
-            ))}
-          </ul>
-        )}
 
         <p
           id="cookie-consent-body"
           className="mt-3 text-sm leading-6 text-gray-600 dark:text-gray-300"
         >
-          {t.body}{' '}
+          {hasStoredChoice ? t.introStoredChoice : t.introFirstVisit} {t.body}{' '}
           <Link
             href={t.policyHref}
             className="font-semibold text-sky-800 underline hover:text-sky-700 dark:text-gold-500 dark:hover:text-white"
@@ -216,41 +184,39 @@ export function CookieConsent() {
           .
         </p>
 
-        {showDetails && (
-          <ul className="mt-5 space-y-4 border-t border-gray-200 pt-5 dark:border-gray-700">
-            {t.categories.map((category) => {
-              const isNecessary = category.key === 'necessary'
-              return (
-                <li key={category.key} className="flex items-start gap-4">
-                  <div className="flex-auto">
-                    <p className="text-sm font-semibold text-gray-900 dark:text-white">
-                      {category.title}
-                      {isNecessary && (
-                        <span className="ml-2 text-xs font-normal text-gray-500 dark:text-gray-400">
-                          ({category.alwaysOn})
-                        </span>
-                      )}
-                    </p>
-                    <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-gray-400">
-                      {category.description}
-                    </p>
-                  </div>
-                  <Toggle
-                    label={category.title}
-                    checked={isNecessary || selection[category.key]}
-                    disabled={isNecessary}
-                    onChange={(checked) =>
-                      setSelection((current) => ({
-                        ...current,
-                        [category.key]: checked,
-                      }))
-                    }
-                  />
-                </li>
-              )
-            })}
-          </ul>
-        )}
+        <ul className="mt-5 space-y-4 border-t border-gray-200 pt-5 dark:border-gray-700">
+          {t.categories.map((category) => {
+            const isNecessary = category.key === 'necessary'
+            return (
+              <li key={category.key} className="flex items-start gap-4">
+                <div className="flex-auto">
+                  <p className="text-sm font-semibold text-gray-900 dark:text-white">
+                    {category.title}
+                    {isNecessary && (
+                      <span className="ml-2 text-xs font-normal text-gray-500 dark:text-gray-400">
+                        ({category.alwaysOn})
+                      </span>
+                    )}
+                  </p>
+                  <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-gray-400">
+                    {category.description}
+                  </p>
+                </div>
+                <Toggle
+                  label={category.title}
+                  checked={isNecessary || selection[category.key]}
+                  disabled={isNecessary}
+                  onChange={(checked) =>
+                    setSelection((current) => ({
+                      ...current,
+                      [category.key]: checked,
+                    }))
+                  }
+                />
+              </li>
+            )
+          })}
+        </ul>
 
         <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
           <button type="button" className={primaryButton} onClick={() => commit(ALLOW_ALL)}>
@@ -259,31 +225,18 @@ export function CookieConsent() {
           <button type="button" className={secondaryButton} onClick={() => commit(DENY_ALL)}>
             {t.rejectAll}
           </button>
-          {showDetails ? (
-            <button
-              type="button"
-              className={secondaryButton}
-              onClick={() => commit(selection)}
-            >
-              {t.savePreferences}
-            </button>
-          ) : (
-            <button
-              type="button"
-              className="w-full px-4 py-2.5 text-sm font-semibold text-gray-600 underline transition-colors hover:text-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-800 dark:text-gray-300 dark:hover:text-white sm:w-auto"
-              onClick={() => setShowDetails(true)}
-            >
-              {t.customize}
-            </button>
-          )}
+          <button
+            type="button"
+            className={secondaryButton}
+            onClick={() => commit(selection)}
+          >
+            {t.savePreferences}
+          </button>
           {hasStoredChoice && (
             <button
               type="button"
               className="w-full px-4 py-2.5 text-sm font-semibold text-gray-600 underline transition-colors hover:text-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-800 dark:text-gray-300 dark:hover:text-white sm:ml-auto sm:w-auto"
-              onClick={() => {
-                setIsOpen(false)
-                setShowDetails(false)
-              }}
+              onClick={() => setIsOpen(false)}
             >
               {t.close}
             </button>
