@@ -8,14 +8,14 @@ function TicketIcon(props) {
   )
 }
 
-export function BilletterNeutral({ concert, outlet, ticketUrl }) {
+export function BilletterNeutral({ concert, outlet, ticketUrl, title }) {
   return (
     <div className="mb-12">
       <div className="mt-8 flex items-center rounded-3xl bg-red-50/70 p-6 py-8 ring-1 ring-red-800/10 dark:bg-gray-800/60 dark:ring-1 dark:ring-gray-300/10">
         <div className="">
           <h2 className="-mt-2 font-medium text-amber-800 dark:text-amber-300">
             {concert}
-            <span>Nordic Tenors - À la carte</span>
+            <span>{title || 'Nordic Tenors - À la carte'}</span>
           </h2>
           {ticketUrl ? (
             <>

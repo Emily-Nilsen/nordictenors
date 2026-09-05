@@ -108,6 +108,7 @@ const tags = {
       concert: { type: String },
       outlet: { type: String },
       ticketUrl: { type: String },
+      title: { type: String },
     },
   },
   'jubileum-billetter': {

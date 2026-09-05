@@ -21,6 +21,16 @@ const concerts = [
     ticketLink: 'https://checkout.ebillett.no/207/events/40559/purchase?kanal=dxf',
     pageUrl: '/konserter/orsta-a-la-carte-2026',
   },
+  {
+    id: 20261003530,
+    name: 'Geirangersalen, Festspela i Geiranger',
+    imageUrl: '/thumbnails/geirangersalen_thumb.webp',
+    date: '3. oktober',
+    isoDate: '2026-10-03T15:30:00.000Z',
+    ticketLink:
+      'https://festspel.ticketco.events/no/nb/e/nordic_tenors_til_festspela_i_geiranger',
+    pageUrl: '/konserter/geiranger-festspela-2026',
+  },
 ]
 
 export function Konserter() {
