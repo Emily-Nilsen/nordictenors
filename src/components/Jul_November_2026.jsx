@@ -39,7 +39,7 @@ const concerts = [
     date: '21. november',
     isoDate: '2026-11-21T18:00:00.000Z',
     ticketLink:
-      'https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026',
+      'https://www.ticketmaster.no/event/christmas-with-nordic-tenors-billetter/2057419971',
     pageUrl: '/konserter/holmestrand-julekonsert-2026',
   },
   {

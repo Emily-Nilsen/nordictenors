@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/holmestrand-julekonsert-2026
 organizer: Nordic Moments AS
-ticketUrl: https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026
+ticketUrl: https://www.ticketmaster.no/event/christmas-with-nordic-tenors-billetter/2057419971
 ticketPrice: 690 # Replace with the actual price
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="lørdag" date="21" month="november" time="19:00" ticketUrl="https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026" /%}
+{% concert-header day="lørdag" date="21" month="november" time="19:00" ticketUrl="https://www.ticketmaster.no/event/christmas-with-nordic-tenors-billetter/2057419971" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="TicketCo" ticketUrl="https://holmestrandkommune.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026" /%}
+{% billetter concert="" outlet="ticketmaster.no" ticketUrl="https://www.ticketmaster.no/event/christmas-with-nordic-tenors-billetter/2057419971" /%}
 
 ## Biorama, Holmestrand
 
