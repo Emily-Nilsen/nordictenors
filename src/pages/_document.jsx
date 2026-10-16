@@ -103,10 +103,6 @@ export default function Document() {
       <Head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <script dangerouslySetInnerHTML={{ __html: consentBootstrapScript }} />
-        <link
-          rel="stylesheet"
-          href="https://use.typekit.net/nii4mra.css"
-        ></link>
       </Head>
       <body className="relative bg-white dark:bg-sky-950">
         {/* Ingen GTM-noscript her med vilje: uten JavaScript kan vi ikke

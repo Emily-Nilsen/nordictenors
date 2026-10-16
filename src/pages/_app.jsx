@@ -5,6 +5,7 @@ import { Layout } from '@/components/Layout'
 import OGImage from '../images/OG_image_2024.webp'
 
 import 'focus-visible'
+import '@/styles/fonts.css'
 import '@/styles/tailwind.css'
 
 function getNodeText(node) {

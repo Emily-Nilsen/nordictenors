@@ -12,6 +12,9 @@
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
     "@algolia/autocomplete-core": "^1.9.2",
+    "@fontsource-variable/cinzel": "^5.3.0",
+    "@fontsource-variable/eb-garamond": "^5.3.0",
+    "@fontsource/pt-sans": "^5.3.0",
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.18",
     "@markdoc/markdoc": "0.1.7",
