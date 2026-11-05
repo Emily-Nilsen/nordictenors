@@ -17,7 +17,8 @@ const concerts = [
     name: 'Kilden, Kristiansand',
     imageUrl: '/thumbnails/Kilden_kulturhus_thumb.webp',
     date: '1. desember',
-    isoDate: '2026-12-01T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-01T17:00:00.000Z',
     ticketLink: 'https://tix.no/nb/kilden/specialoffer/tickets/43693/',
     pageUrl: '/konserter/kristiansand-julekonsert-2026',
   },
@@ -26,6 +27,7 @@ const concerts = [
     name: 'Arendal Kulturhus',
     imageUrl: '/thumbnails/Arendal_kulturhus_thumb.webp',
     date: '2. desember',
+    time: '19:00',
     isoDate: '2026-12-02T18:00:00.000Z',
     ticketLink:
       'https://tix.no/nb/arendal/buyingflow/tickets/43982/?_gl=1*1gp7prv*_gcl_au*MTE2NzE1MjcwNi4xNzY0MDc1NTU2*_ga*MTc2MDU4ODA5LjE3NjQwNzU1NTA.*_ga_Y3JHC4J8GN*czE3NjQ1ODQ1ODgkbzIkZzEkdDE3NjQ1ODQ1OTckajUxJGwwJGgw',
@@ -36,7 +38,8 @@ const concerts = [
     name: 'Bølgen Kulturhus, Larvik',
     imageUrl: '/thumbnails/Bølgen_kulturhus_thumb.webp',
     date: '3. desember',
-    isoDate: '2026-12-03T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-03T17:00:00.000Z',
     ticketLink: 'https://tix.no/nb/bolgen/buyingflow/tickets/44127/',
     pageUrl: '/konserter/larvik-julekonsert-2026',
   },
@@ -45,7 +48,8 @@ const concerts = [
     name: 'Moss Kulturhus',
     imageUrl: '/thumbnails/Moss_Kulturhus_thumbnail.webp',
     date: '4. desember',
-    isoDate: '2026-12-04T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-04T17:00:00.000Z',
     ticketLink:
       'https://billetter.mosskulturhus.no/nb/buyingflow/tickets/44109/90072/',
     pageUrl: '/konserter/moss-julekonsert-2026',
@@ -55,7 +59,8 @@ const concerts = [
     name: 'Lørenskog Hus',
     imageUrl: '/thumbnails/lørenskog.webp',
     date: '5. desember',
-    isoDate: '2026-12-05T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-05T17:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/106/events/166731/purchase/setup?_gl=1*159x5l2*_gcl_au*Njg3NjkwODk2LjE3NjIyNjQxNjU.*_ga*MTkzMjE0MzM3OC4xNzYxNTUxMDYy*_ga_50JLENG0R8*czE3NjQ4NDc2ODAkbzUkZzEkdDE3NjQ4NDc2ODYkajU0JGwwJGgw&kanal=dxf',
     pageUrl: '/konserter/lorenskog-julekonsert-2026',
@@ -65,7 +70,8 @@ const concerts = [
     name: 'Lillestrøm Kulturhus',
     imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
     date: '6. desember',
-    isoDate: '2026-12-06T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-06T17:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/120/events/125310/purchase/setup?_gl=1*1ns66xz*_gcl_au*MTY3MTk4NzI5OS4xNzY0NTg1MDIy*_ga*MTMxOTAzMTgwOC4xNzY0NTg1MDEx*_ga_6CD7G851T2*czE3NjQ1ODUwMTAkbzEkZzEkdDE3NjQ1ODUwMjEkajUyJGwwJGgw&kanal=dxf',
     pageUrl: '/konserter/lillestrom-julekonsert-2026',
@@ -75,7 +81,8 @@ const concerts = [
     name: 'Kongsberg Musikkteater',
     imageUrl: '/thumbnails/Kongsberg.webp',
     date: '7. desember',
-    isoDate: '2026-12-07T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-07T17:00:00.000Z',
     ticketLink: 'https://tix.no/nb/kongsberg/buyingflow/tickets/44390/90646',
     pageUrl: '/konserter/kongsberg-julekonsert-2026',
   },
@@ -84,7 +91,8 @@ const concerts = [
     name: 'Asker kulturhus',
     imageUrl: '/thumbnails/Asker_kulturhus_thumb.webp',
     date: '8. desember',
-    isoDate: '2026-12-08T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-08T17:00:00.000Z',
     ticketLink:
       'https://www.askerkulturhus.no/program/christmas-with-nordic-tenors-2026/',
     pageUrl: '/konserter/asker-julekonsert-2026',
@@ -94,7 +102,8 @@ const concerts = [
     name: 'Blå Grotte, Fredrikstad',
     imageUrl: '/thumbnails/Blå_Grotte_thumb.webp',
     date: '9. desember',
-    isoDate: '2026-12-09T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-09T17:00:00.000Z',
     ticketLink: 'https://checkout.ebillett.no/260/events/147610/purchase/setup',
     pageUrl: '/konserter/fredrikstad-julekonsert-2026',
   },
@@ -103,7 +112,8 @@ const concerts = [
     name: 'Teigen Scene, Tønsberg',
     imageUrl: '/thumbnails/Oseberg_Konserthus_thumb.webp',
     date: '10. desember',
-    isoDate: '2026-12-10T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-10T17:00:00.000Z',
     ticketLink: 'https://www.ticketmaster.no/event/1197792848',
     pageUrl: '/konserter/tonsberg-julekonsert-2026',
   },
@@ -112,7 +122,8 @@ const concerts = [
     name: 'Flekkefjord Kultursenter Spira',
     imageUrl: '/thumbnails/Flekkefjord_thumb.webp',
     date: '11. desember',
-    isoDate: '2026-12-11T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-11T17:00:00.000Z',
     ticketLink: 'https://checkout.ebillett.no/181/events/26371/purchase',
     pageUrl: '/konserter/flekkefjord-julekonsert-2026',
   },
@@ -121,7 +132,8 @@ const concerts = [
     name: 'Sandnes Kulturhus',
     imageUrl: '/thumbnails/Sandnes_kulturhus_thumb.webp',
     date: '12. desember',
-    isoDate: '2026-12-12T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-12T17:00:00.000Z',
     ticketLink: 'https://tix.no/nb/sandnes/buyingflow/tickets/44125/',
     pageUrl: '/konserter/sandnes-julekonsert-2026',
   },
@@ -130,7 +142,8 @@ const concerts = [
     name: 'Stavanger Konserthus',
     imageUrl: '/thumbnails/Stavanger_Konserthus_thumb.webp',
     date: '13. desember',
-    isoDate: '2026-12-13T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-13T17:00:00.000Z',
     ticketLink:
       'https://billetter.stavanger-konserthus.no/nb/buyingflow/tickets/43591/',
     pageUrl: '/konserter/stavanger-julekonsert-2026',
@@ -140,7 +153,8 @@ const concerts = [
     name: 'Festiviteten, Haugesund',
     imageUrl: '/thumbnails/Festiviteten_Haugesund_thumb.webp',
     date: '14. desember',
-    isoDate: '2026-12-14T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-14T17:00:00.000Z',
     ticketLink:
       'https://tix.no/nb/festiviteten/buyingflow/tickets/43719/89562/',
     pageUrl: '/konserter/haugesund-julekonsert-2026',
@@ -150,7 +164,8 @@ const concerts = [
     name: 'Grieghallen, Bergen',
     imageUrl: '/thumbnails/Grieghallen_Bergen_thumb.webp',
     date: '15. desember',
-    isoDate: '2026-12-15T18:00:00.000Z',
+    time: '18:30',
+    isoDate: '2026-12-15T17:30:00.000Z',
     ticketLink: 'https://www.ticketmaster.no/event/2094932538',
     pageUrl: '/konserter/bergen-julekonsert-2026',
   },
@@ -159,7 +174,8 @@ const concerts = [
     name: 'Oseana Kunst & Kultursenter, Os',
     imageUrl: '/thumbnails/Oseana.webp',
     date: '16. desember',
-    isoDate: '2026-12-16T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-16T17:00:00.000Z',
     ticketLink: 'https://tix.no/nn/oseana/buyingflow/tickets/43735/89598#tixsp',
     pageUrl: '/konserter/os-julekonsert-2026',
   },
@@ -168,7 +184,8 @@ const concerts = [
     name: 'Parken Kulturhus, Ålesund',
     imageUrl: '/thumbnails/Parken_kulturhus.webp',
     date: '17. desember',
-    isoDate: '2026-12-17T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-17T17:00:00.000Z',
     ticketLink: 'https://tix.no/nb/parken/buyingflow/tickets/43586/89330/',
     pageUrl: '/konserter/alesund-julekonsert-2026',
   },
@@ -177,7 +194,8 @@ const concerts = [
     name: 'Operahuset Nordfjord, Nordfjordeid',
     imageUrl: '/thumbnails/operahuset.webp',
     date: '18. desember',
-    isoDate: '2026-12-18T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-18T17:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/161/events/37415/purchase/setup?kanal=dxf',
     pageUrl: '/konserter/nordfjordeid-julekonsert-2026',
@@ -187,7 +205,8 @@ const concerts = [
     name: 'Førdehuset, Førde',
     imageUrl: '/thumbnails/Førdehuset.webp',
     date: '19. desember',
-    isoDate: '2026-12-19T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-19T17:00:00.000Z',
     ticketLink: 'https://fordehuset.no/nordic-tenors-e3teg71/',
     pageUrl: '/konserter/forde-julekonsert-2026',
   },
@@ -196,7 +215,8 @@ const concerts = [
     name: 'Bærum Kulturhus, Sandvika',
     imageUrl: '/thumbnails/Bærum_kulturhus_thumb.webp',
     date: '20. desember',
-    isoDate: '2026-12-20T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-20T17:00:00.000Z',
     ticketLink:
       'https://billetter.baerumkulturhus.no/nb/buyingflow/tickets/44332/90570/',
     pageUrl: '/konserter/sandvika-julekonsert-2026',
@@ -206,7 +226,8 @@ const concerts = [
     name: 'Olavshallen, Trondheim',
     imageUrl: '/thumbnails/Olavshallen_thumb.webp',
     date: '21. desember',
-    isoDate: '2026-12-21T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-12-21T17:00:00.000Z',
     ticketLink:
       'https://www.olavshallen.no/forestillinger/2025-12-02-christmas-with-nordic-tenors',
     pageUrl: '/konserter/trondheim-julekonsert-2026',
@@ -216,7 +237,8 @@ const concerts = [
     name: 'Drammens Teater',
     imageUrl: '/thumbnails/Drammens_Teater_thumb.webp',
     date: '22. desember',
-    isoDate: '2026-12-22T18:00:00.000Z',
+    time: '18:00 og 20:00',
+    isoDate: '2026-12-22T17:00:00.000Z',
     ticketLink:
       'https://www.drammensteater.no/program/44111-christmas-with-nordic-tenors/',
     pageUrl: '/konserter/drammen-julekonsert-2026',
@@ -237,6 +259,8 @@ export function Jul_Desember_2026() {
           timeZone: 'Europe/Oslo',
         })
       : concert.date
+  const displayTime = (concert) =>
+    isEnglish ? concert.time.replace(' og ', ' and ') : `kl. ${concert.time}`
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
@@ -272,10 +296,11 @@ export function Jul_Desember_2026() {
                     <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
                       {concert.name}
                     </p>
-                    <p className="-mt-5 flex gap-x-3 text-sm">
-                      <span className="font-bold text-gray-900 dark:text-white">
+                    <p className="-mt-5 flex flex-wrap gap-x-3 text-sm">
+                      <span className="whitespace-nowrap font-bold text-gray-900 dark:text-white">
                         {displayDate(concert)}
                       </span>
+                      {concert.time && <span className="whitespace-nowrap">{displayTime(concert)}</span>}
                     </p>
                   </Link>
                 ) : (
@@ -283,10 +308,11 @@ export function Jul_Desember_2026() {
                     <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
                       {concert.name}
                     </p>
-                    <p className="-mt-5 flex gap-x-3 text-sm">
-                      <span className="font-bold text-gray-900 dark:text-white">
+                    <p className="-mt-5 flex flex-wrap gap-x-3 text-sm">
+                      <span className="whitespace-nowrap font-bold text-gray-900 dark:text-white">
                         {displayDate(concert)}
                       </span>
+                      {concert.time && <span className="whitespace-nowrap">{displayTime(concert)}</span>}
                     </p>
                   </div>
                 )}

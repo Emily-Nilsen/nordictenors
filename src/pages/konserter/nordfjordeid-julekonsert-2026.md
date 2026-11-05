@@ -3,7 +3,7 @@ title: Nordfjordeid
 description: Christmas with Nordic Tenors | Operahuset Nordfjord, Nordfjordeid
 schemaName: Christmas with Nordic Tenors 2026 | Operahuset Nordfjord, Nordfjordeid
 schemaDescription: Christmas with Nordic Tenors i Operahuset Nordfjord, Nordfjordeid
-date: 2026-12-18T18:00:00.000Z
+date: 2026-12-18T17:00:00.000Z
 duration: 85
 locationName: Operahuset Nordfjord, Nordfjordeid
 locationAddress: Sophus Lie-vegen 3, 6770 Nordfjordeid, Norway

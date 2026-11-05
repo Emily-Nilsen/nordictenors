@@ -3,7 +3,7 @@ title: Bodø
 description: Christmas with Nordic Tenors | Stormen, Bodø
 schemaName: Christmas with Nordic Tenors 2026 | Stormen, Bodø
 schemaDescription: Julekonsert med Nordic Tenors i Stormen, Bodø
-date: 2026-11-23T18:00:00.000Z
+date: 2026-11-23T17:00:00.000Z
 duration: 80
 locationName: Stormen Konserthus, Bodø
 locationAddress: Storgata 1B, 8006 Bodø, Norway

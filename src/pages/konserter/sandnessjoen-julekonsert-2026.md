@@ -3,7 +3,7 @@ title: Sandnessjøen
 description: Christmas with Nordic Tenors | Kulturbadet Sandnessjøen
 schemaName: Christmas with Nordic Tenors 2026 | Kulturbadet Sandnessjøen
 schemaDescription: Christmas with Nordic Tenors i Kulturbadet Sandnessjøen
-date: 2026-11-24T18:00:00.000Z
+date: 2026-11-24T17:00:00.000Z
 duration: 85
 locationName: Kulturbadet Sandnessjøen
 locationAddress: Torolv Kveldulvsons gate 10-14, 8800 Sandnessjøen, Norway

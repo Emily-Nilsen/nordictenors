@@ -468,17 +468,38 @@ function Header({ navigation }) {
   )
 }
 
+// Keep only the table-of-contents entries whose heading is on the page
+// (homepage sections for past concerts hide themselves).
+function visibleSections(sections) {
+  return sections
+    .filter((section) => document.getElementById(section.id))
+    .map((section) => ({
+      ...section,
+      children: section.children.filter((child) =>
+        document.getElementById(child.id)
+      ),
+    }))
+}
+
 export function Layout({ children, title, tableOfContents, frontmatter }) {
   const router = useRouter()
   const isHomePage = router.pathname === '/' || router.pathname === '/en'
   const isEnglish = router.pathname.startsWith('/en')
+
+  const [sections, setSections] = useState(tableOfContents)
+  useEffect(() => {
+    const update = () => setSections(visibleSections(tableOfContents ?? []))
+    update()
+    window.addEventListener('sections-changed', update)
+    return () => window.removeEventListener('sections-changed', update)
+  }, [tableOfContents])
 
   // Filter the navigation to exclude past concerts
   const filteredNavigation = filterNavigation(navigation)
 
   // Function to check if a section is active (for tableOfContents)
   const isActive = (section) => {
-    if (section.id === tableOfContents?.[0]?.id) {
+    if (section.id === sections?.[0]?.id) {
       return true
     }
     if (!section.children) {
@@ -523,7 +544,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
         </div>
         <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
           <nav aria-labelledby="on-this-page-title" className="w-56">
-            {tableOfContents?.length > 0 && (
+            {sections?.length > 0 && (
               <>
                 <h2
                   id="on-this-page-title"
@@ -532,7 +553,7 @@ export function Layout({ children, title, tableOfContents, frontmatter }) {
                   {isEnglish ? 'On this page' : 'På denne siden'}
                 </h2>
                 <ol role="list" className="mt-4 space-y-3 text-sm">
-                  {tableOfContents.map((section) => (
+                  {sections.map((section) => (
                     <li key={section.id}>
                       <p>
                         <Link

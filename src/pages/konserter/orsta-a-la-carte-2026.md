@@ -3,7 +3,7 @@ title: Ørsta
 description: Nordic Tenors - À la carte | Ørsta kulturhus, Ørsta
 schemaName: Nordic Tenors - À la carte 2026 | Ørsta kulturhus, Ørsta
 schemaDescription: Nordic Tenors - À la carte i Ørsta kulturhus, Ørsta
-date: 2026-10-02T19:00:00.000Z
+date: 2026-10-02T17:00:00.000Z
 duration: 80
 locationName: Ørsta kulturhus, Ørsta
 locationAddress: Holmegata 7, 6153 Ørsta, Norway

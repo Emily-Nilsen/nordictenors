@@ -3,7 +3,7 @@ title: Julekonsert i Flekkefjord
 description: Christmas with Nordic Tenors | Flekkefjord Kultursenter Spira
 schemaName: Christmas with Nordic Tenors 2026 | Flekkefjord Kultursenter Spira
 schemaDescription: Julekonsert med Nordic Tenors i Flekkefjord Kultursenter Spira
-date: 2026-12-11T18:00:00.000Z
+date: 2026-12-11T17:00:00.000Z
 duration: 80
 locationName: Flekkefjord Kultursenter Spira
 locationAddress: Elvegaten 1, 4400 Flekkefjord, Norway

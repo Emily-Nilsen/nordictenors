@@ -3,7 +3,7 @@ title: Tromsø
 description: Christmas with Nordic Tenors | Kulturhuset Tromsø
 schemaName: Christmas with Nordic Tenors 2026 | Kulturhuset Tromsø
 schemaDescription: Julekonsert med Nordic Tenors i Kulturhuset Tromsø
-date: 2026-11-22T19:00:00.000Z
+date: 2026-11-22T18:00:00.000Z
 duration: 80
 locationName: Kulturhuset Tromsø
 locationAddress: Erling Bangsunds plass 1, 9008 Tromsø, Norway

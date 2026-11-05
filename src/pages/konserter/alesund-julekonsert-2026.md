@@ -3,7 +3,7 @@ title: Ålesund
 description: Christmas with Nordic Tenors | Parken Kulturhus, Ålesund
 schemaName: Christmas with Nordic Tenors 2026 | Parken Kulturhus, Ålesund
 schemaDescription: Christmas with Nordic Tenors i Parken Kulturhus, Ålesund
-date: 2026-12-17T18:00:00.000Z
+date: 2026-12-17T17:00:00.000Z
 duration: 80
 locationName: Parken Kulturhus, Ålesund
 locationAddress: Parkgata 3B, 6003 Ålesund, Norway

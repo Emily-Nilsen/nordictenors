@@ -3,7 +3,7 @@ title: Kongsberg
 description: Christmas with Nordic Tenors | Kongsberg Musikkteater
 schemaName: Christmas with Nordic Tenors 2026 | Kongsberg Musikkteater
 schemaDescription: Julekonsert med Nordic Tenors i Kongsberg Musikkteater
-date: 2026-12-07T18:00:00.000Z
+date: 2026-12-07T17:00:00.000Z
 duration: 85
 locationName: Kongsberg Musikkteater
 locationAddress: Hasbergs vei 36, 3616 Kongsberg, Norway

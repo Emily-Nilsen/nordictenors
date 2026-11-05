@@ -3,7 +3,7 @@ title: Namsos
 description: Christmas with Nordic Tenors | Kulturhuset i Namsos
 schemaName: Christmas with Nordic Tenors 2026 | Kulturhuset i Namsos
 schemaDescription: Julekonsert med Nordic Tenors i Kulturhuset i Namsos
-date: 2026-11-25T18:00:00.000Z
+date: 2026-11-25T17:00:00.000Z
 duration: 80
 locationName: Kulturhuset i Namsos
 locationAddress: Abel Meyers gate 12, 7800 Namsos, Norway

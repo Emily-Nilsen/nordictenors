@@ -3,7 +3,7 @@ title: Haugesund
 description: Christmas with Nordic Tenors | Festiviteten, Haugesund
 schemaName: Christmas with Nordic Tenors 2026 | Festiviteten, Haugesund
 schemaDescription: Julekonsert med Nordic Tenors i Festiviteten, Haugesund
-date: 2026-12-14T18:00:00.000Z
+date: 2026-12-14T17:00:00.000Z
 duration: 80
 locationName: Festiviteten Konserthus, Haugesund
 locationAddress: Knut Knutsen O.A.S gate 4, 5528 Haugesund, Norway

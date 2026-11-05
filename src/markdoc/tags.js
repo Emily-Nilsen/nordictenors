@@ -10,6 +10,7 @@ import { November_2025 } from '@/components/November_2025'
 import { Jul_November_2026 } from '@/components/Jul_November_2026'
 import { Desember_2025 } from '@/components/Desember_2025'
 import { Jul_Desember_2026 } from '@/components/Jul_Desember_2026'
+import { Upcoming } from '@/components/Upcoming'
 import { Konserter } from '@/components/Konserter'
 import { Mars } from '@/components/Mars'
 import { April } from '@/components/April'
@@ -301,6 +302,9 @@ const tags = {
   konserter: {
     selfClosing: true,
     render: Konserter,
+  },
+  upcoming: {
+    render: Upcoming,
   },
   mars: {
     selfClosing: true,

@@ -3,7 +3,7 @@ title: Lillehammer
 description: Christmas with Nordic Tenors | Maihaugsalen, Lillehammer
 schemaName: Christmas with Nordic Tenors 2026 | Maihaugsalen, Lillehammer
 schemaDescription: Julekonsert med Nordic Tenors i Maihaugsalen, Lillehammer
-date: 2026-11-27T18:00:00.000Z
+date: 2026-11-27T17:00:00.000Z
 duration: 80
 locationName: Maihaugsalen, Lillehammer
 locationAddress: Maihaugveien 1, 2609 Lillehammer, Norway

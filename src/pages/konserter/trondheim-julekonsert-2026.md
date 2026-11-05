@@ -3,7 +3,7 @@ title: Trondheim
 description: Christmas with Nordic Tenors | Olavshallen, Trondheim
 schemaName: Christmas with Nordic Tenors 2026 | Olavshallen, Trondheim
 schemaDescription: Julekonsert med Nordic Tenors i Olavshallen, Trondheim
-date: 2026-12-21T18:00:00.000Z
+date: 2026-12-21T17:00:00.000Z
 duration: 80
 locationName: Olavshallen, Trondheim
 locationAddress: Kjøpmannsgata 48, 7010 Trondheim, Norway

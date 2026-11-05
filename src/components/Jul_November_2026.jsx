@@ -17,6 +17,7 @@ const concerts = [
     name: 'Bakkenteigen Kulturhus, Horten',
     imageUrl: '/thumbnails/Bakkenteigen_Kulturhus_Horten.webp',
     date: '19. november',
+    time: '19:00',
     isoDate: '2026-11-19T18:00:00.000Z',
     ticketLink:
       'https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2026',
@@ -27,7 +28,8 @@ const concerts = [
     name: 'Oslo Konserthus',
     imageUrl: '/thumbnails/Oslo_Konserthus_thumb.webp',
     date: '20. november',
-    isoDate: '2026-11-20T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-11-20T17:00:00.000Z',
     ticketLink:
       'https://oslokonserthus.no/program/christmas-with-nordic-tenors-2026',
     pageUrl: '/konserter/oslo-julekonsert-2026',
@@ -37,6 +39,7 @@ const concerts = [
     name: 'Biorama, Holmestrand',
     imageUrl: '/thumbnails/Biorama_thumb.webp',
     date: '21. november',
+    time: '19:00',
     isoDate: '2026-11-21T18:00:00.000Z',
     ticketLink:
       'https://www.ticketmaster.no/event/christmas-with-nordic-tenors-billetter/2057419971',
@@ -47,6 +50,7 @@ const concerts = [
     name: 'Kulturhuset Tromsø',
     imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
     date: '22. november',
+    time: '19:00',
     isoDate: '2026-11-22T18:00:00.000Z',
     ticketLink: 'https://tix.no/nb/tr/buyingflow/tickets/43631/89408/',
     pageUrl: '/konserter/tromso-julekonsert-2026',
@@ -56,7 +60,8 @@ const concerts = [
     name: 'Stormen, Bodø',
     imageUrl: '/thumbnails/Stormen_thumb.webp',
     date: '23. november',
-    isoDate: '2026-11-23T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-11-23T17:00:00.000Z',
     ticketLink:
       'https://billetter.stormen.no/nb/buyingflow/tickets/43831/89760',
     pageUrl: '/konserter/bodo-julekonsert-2026',
@@ -66,7 +71,8 @@ const concerts = [
     name: 'Kulturbadet Sandnessjøen',
     imageUrl: '/thumbnails/Kulturbadet_Sandnessjøen.webp',
     date: '24. november',
-    isoDate: '2026-11-24T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-11-24T17:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/245/events/64468/purchase/setup?campaign_id=2467',
     pageUrl: '/konserter/sandnessjoen-julekonsert-2026',
@@ -76,7 +82,8 @@ const concerts = [
     name: 'Kulturhuset i Namsos',
     imageUrl: '/thumbnails/Namsos_Kulturhus_thumb.webp',
     date: '25. november',
-    isoDate: '2026-11-25T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-11-25T17:00:00.000Z',
     ticketLink: 'https://checkout.ebillett.no/105/events/73985/purchase',
     pageUrl: '/konserter/namsos-julekonsert-2026',
   },
@@ -85,7 +92,8 @@ const concerts = [
     name: 'Steinkjer Kulturhus',
     imageUrl: '/thumbnails/Steinkjer_Kulturhus.webp',
     date: '26. november',
-    isoDate: '2026-11-26T19:00:00.000Z',
+    time: '19:00',
+    isoDate: '2026-11-26T18:00:00.000Z',
     ticketLink: 'https://www.steinkjerkulturhus.no/program/nordic-tenors-jul/',
     pageUrl: '/konserter/steinkjer-julekonsert-2026',
   },
@@ -94,7 +102,8 @@ const concerts = [
     name: 'Maihaugsalen, Lillehammer',
     imageUrl: '/thumbnails/Maihaugsalen_thumb.webp',
     date: '27. november',
-    isoDate: '2026-11-27T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-11-27T17:00:00.000Z',
     ticketLink: 'https://www.ticketmaster.no/event/1917741778',
     pageUrl: '/konserter/lillehammer-julekonsert-2026',
   },
@@ -103,7 +112,8 @@ const concerts = [
     name: 'Gjøvik kino & scene',
     imageUrl: '/thumbnails/gjovik_thumb.webp',
     date: '28. november',
-    isoDate: '2026-11-28T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-11-28T17:00:00.000Z',
     ticketLink:
       'https://checkout.ebillett.no/116/events/126375/purchase/setup?kanal=dxf',
     pageUrl: '/konserter/gjovik-julekonsert-2026',
@@ -113,7 +123,8 @@ const concerts = [
     name: 'Askim Kulturhus',
     imageUrl: '/thumbnails/Askim_Kulturhus.webp',
     date: '29. november',
-    isoDate: '2026-11-29T18:00:00.000Z',
+    time: '18:00',
+    isoDate: '2026-11-29T17:00:00.000Z',
     ticketLink:
       'https://www.askimkulturhus.no/program/43711-christmas-with-nordic-tenors/',
     pageUrl: '/konserter/askim-julekonsert-2026',
@@ -134,6 +145,8 @@ export function Jul_November_2026() {
           timeZone: 'Europe/Oslo',
         })
       : concert.date
+  const displayTime = (concert) =>
+    isEnglish ? concert.time.replace(' og ', ' and ') : `kl. ${concert.time}`
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
@@ -169,10 +182,11 @@ export function Jul_November_2026() {
                     <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
                       {concert.name}
                     </p>
-                    <p className="-mt-5 flex gap-x-3 text-sm">
-                      <span className="font-bold text-gray-900 dark:text-white">
+                    <p className="-mt-5 flex flex-wrap gap-x-3 text-sm">
+                      <span className="whitespace-nowrap font-bold text-gray-900 dark:text-white">
                         {displayDate(concert)}
                       </span>
+                      {concert.time && <span className="whitespace-nowrap">{displayTime(concert)}</span>}
                     </p>
                   </Link>
                 ) : (
@@ -180,10 +194,11 @@ export function Jul_November_2026() {
                     <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
                       {concert.name}
                     </p>
-                    <p className="-mt-5 flex gap-x-3 text-sm">
-                      <span className="font-bold text-gray-900 dark:text-white">
+                    <p className="-mt-5 flex flex-wrap gap-x-3 text-sm">
+                      <span className="whitespace-nowrap font-bold text-gray-900 dark:text-white">
                         {displayDate(concert)}
                       </span>
+                      {concert.time && <span className="whitespace-nowrap">{displayTime(concert)}</span>}
                     </p>
                   </div>
                 )}

@@ -3,7 +3,7 @@ title: Førde
 description: Christmas with Nordic Tenors | Førdehuset, Førde
 schemaName: Christmas with Nordic Tenors 2026 | Førdehuset, Førde
 schemaDescription: Julekonsert med Nordic Tenors i Førdehuset, Førde
-date: 2026-12-19T18:00:00.000Z
+date: 2026-12-19T17:00:00.000Z
 duration: 85
 locationName: Førdehuset, Førde
 locationAddress: Angedalsvegen 5, 6800 Førde, Norway

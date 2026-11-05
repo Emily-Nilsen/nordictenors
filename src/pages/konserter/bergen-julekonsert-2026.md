@@ -3,7 +3,7 @@ title: Bergen
 description: Christmas with Nordic Tenors | Grieghallen, Bergen
 schemaName: Christmas with Nordic Tenors 2026 | Grieghallen, Bergen
 schemaDescription: Julekonsert med Nordic Tenors i Grieghallen, Bergen
-date: 2026-12-15T18:30:00.000Z
+date: 2026-12-15T17:30:00.000Z
 duration: 80
 locationName: Grieghallen, Bergen
 locationAddress: Edvard Griegs plass 1, 5015 Bergen, Norway

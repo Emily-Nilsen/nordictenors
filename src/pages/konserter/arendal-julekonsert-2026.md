@@ -3,7 +3,7 @@ title: Arendal
 description: Christmas with Nordic Tenors | Arendal Kulturhus
 schemaName: Christmas with Nordic Tenors 2026 | Arendal Kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Arendal Kulturhus
-date: 2026-12-02T19:00:00.000Z
+date: 2026-12-02T18:00:00.000Z
 duration: 80
 locationName: Arendal Kulturhus
 locationAddress: Sam Eydes plass 2, 4836 Arendal, Norway

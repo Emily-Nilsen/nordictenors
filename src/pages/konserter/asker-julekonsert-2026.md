@@ -3,7 +3,7 @@ title: Asker
 description: Christmas with Nordic Tenors | Asker kulturhus
 schemaName: Christmas with Nordic Tenors 2026 | Asker kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Asker kulturhus
-date: 2026-12-08T18:00:00.000Z
+date: 2026-12-08T17:00:00.000Z
 duration: 80
 locationName: Asker kulturhus
 locationAddress: Strøket 15A, 1383 Asker, Norway

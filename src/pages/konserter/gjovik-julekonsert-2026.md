@@ -3,7 +3,7 @@ title: Gjøvik
 description: Christmas with Nordic Tenors | Gjøvik kino & scene
 schemaName: Christmas with Nordic Tenors 2026 | Gjøvik kino & scene
 schemaDescription: Julekonsert med Nordic Tenors i Gjøvik kino & scene
-date: 2026-11-28T18:00:00.000Z
+date: 2026-11-28T17:00:00.000Z
 duration: 80
 locationName: Gjøvik kino & scene
 locationAddress: Elvegata 2, 2815 Gjøvik, Norway

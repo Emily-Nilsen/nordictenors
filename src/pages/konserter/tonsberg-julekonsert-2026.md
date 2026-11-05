@@ -3,7 +3,7 @@ title: Tønsberg
 description: Christmas with Nordic Tenors | Teigen Scene, Tønsberg
 schemaName: Christmas with Nordic Tenors 2026 | Teigen Scene, Tønsberg
 schemaDescription: Julekonsert med Nordic Tenors i Teigen Scene, Tønsberg
-date: 2026-12-10T18:00:00.000Z
+date: 2026-12-10T17:00:00.000Z
 duration: 80
 locationName: Teigen Scene
 locationAddress: Ollebukta 3, 3126 Tønsberg, Norway

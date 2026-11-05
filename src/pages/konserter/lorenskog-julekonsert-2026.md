@@ -3,7 +3,7 @@ title: Lørenskog
 description: Christmas with Nordic Tenors | Lørenskog Hus
 schemaName: Christmas with Nordic Tenors 2026 | Lørenskog Hus
 schemaDescription: Christmas with Nordic Tenors i Lørenskog Hus
-date: 2026-12-05T18:00:00.000Z
+date: 2026-12-05T17:00:00.000Z
 duration: 85
 locationName: Lørenskog Hus
 locationAddress: Festplassen 1, 1473 Lørenskog, Norway

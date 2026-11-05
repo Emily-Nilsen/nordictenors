@@ -3,7 +3,7 @@ title: Drammen
 description: Christmas with Nordic Tenors | Drammens Teater
 schemaName: Christmas with Nordic Tenors 2026 | Drammens Teater
 schemaDescription: Julekonsert med Nordic Tenors i Drammens Teater
-date: 2026-12-22T18:00:00.000Z
+date: 2026-12-22T17:00:00.000Z
 duration: 80
 locationName: Drammens Teater
 locationAddress: Øvre Storgate 12, 3018 Drammen, Norway

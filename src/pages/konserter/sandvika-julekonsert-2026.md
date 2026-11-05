@@ -3,7 +3,7 @@ title: Sandvika
 description: Christmas with Nordic Tenors | Bærum Kulturhus, Sandvika
 schemaName: Christmas with Nordic Tenors 2026 | Bærum Kulturhus, Sandvika
 schemaDescription: Julekonsert med Nordic Tenors i Bærum Kulturhus, Sandvika
-date: 2026-12-20T18:00:00.000Z
+date: 2026-12-20T17:00:00.000Z
 duration: 80
 locationName: Bærum Kulturhus, Sandvika
 locationAddress: Claude Monets alle 27, 1338 Sandvika, Norway

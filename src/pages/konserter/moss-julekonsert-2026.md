@@ -3,7 +3,7 @@ title: Moss
 description: Christmas with Nordic Tenors | Moss Kulturhus - Parkteatret
 schemaName: Christmas with Nordic Tenors 2026 | Moss Kulturhus - Parkteatret
 schemaDescription: Julekonsert med Nordic Tenors i Moss Kulturhus - Parkteatret
-date: 2026-12-04T18:00:00.000Z
+date: 2026-12-04T17:00:00.000Z
 duration: 80
 locationName: Moss Kulturhus - Parkteatret
 locationAddress: Dronningens gate 25, 1530 Moss, Norway

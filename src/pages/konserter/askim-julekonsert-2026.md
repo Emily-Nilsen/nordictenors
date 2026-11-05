@@ -3,7 +3,7 @@ title: Askim
 description: Christmas with Nordic Tenors | Askim Kulturhus
 schemaName: Christmas with Nordic Tenors 2026 | Askim Kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Askim Kulturhus
-date: 2026-11-29T18:00:00.000Z
+date: 2026-11-29T17:00:00.000Z
 duration: 80
 locationName: Askim Kulturhus
 locationAddress: P.M. Røwdes gate 6, 1811 Askim, Norway

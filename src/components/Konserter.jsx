@@ -17,6 +17,7 @@ const concerts = [
     name: 'Ørsta kulturhus, Ørsta',
     imageUrl: '/thumbnails/orsta_kulturhus_thumb.webp',
     date: '2. oktober',
+    time: '19:00',
     isoDate: '2026-10-02T17:00:00.000Z',
     ticketLink: 'https://checkout.ebillett.no/207/events/40559/purchase?kanal=dxf',
     pageUrl: '/konserter/orsta-a-la-carte-2026',
@@ -26,6 +27,7 @@ const concerts = [
     name: 'Geirangersalen, Festspela i Geiranger',
     imageUrl: '/thumbnails/geirangersalen_thumb.webp',
     date: '3. oktober',
+    time: '17:30',
     isoDate: '2026-10-03T15:30:00.000Z',
     ticketLink:
       'https://festspel.ticketco.events/no/nb/e/nordic_tenors_til_festspela_i_geiranger',
@@ -47,6 +49,8 @@ export function Konserter() {
           timeZone: 'Europe/Oslo',
         })
       : concert.date
+  const displayTime = (concert) =>
+    isEnglish ? concert.time.replace(' og ', ' and ') : `kl. ${concert.time}`
   const handleTicketClick = (event) => {
     event.stopPropagation()
   }
@@ -82,10 +86,11 @@ export function Konserter() {
                     <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
                       {concert.name}
                     </p>
-                    <p className="-mt-5 flex gap-x-3 text-sm">
-                      <span className="font-bold text-gray-900 dark:text-white">
+                    <p className="-mt-5 flex flex-wrap gap-x-3 text-sm">
+                      <span className="whitespace-nowrap font-bold text-gray-900 dark:text-white">
                         {displayDate(concert)}
                       </span>
+                      {concert.time && <span className="whitespace-nowrap">{displayTime(concert)}</span>}
                     </p>
                   </Link>
                 ) : (
@@ -93,10 +98,11 @@ export function Konserter() {
                     <p className="text-sm font-medium text-gray-900 dark:text-white sm:text-base">
                       {concert.name}
                     </p>
-                    <p className="-mt-5 flex gap-x-3 text-sm">
-                      <span className="font-bold text-gray-900 dark:text-white">
+                    <p className="-mt-5 flex flex-wrap gap-x-3 text-sm">
+                      <span className="whitespace-nowrap font-bold text-gray-900 dark:text-white">
                         {displayDate(concert)}
                       </span>
+                      {concert.time && <span className="whitespace-nowrap">{displayTime(concert)}</span>}
                     </p>
                   </div>
                 )}

@@ -3,7 +3,7 @@ title: Larvik
 description: Christmas with Nordic Tenors | Bølgen Kulturhus, Larvik
 schemaName: Christmas with Nordic Tenors 2026 | Bølgen Kulturhus, Larvik
 schemaDescription: Julekonsert med Nordic Tenors i Bølgen Kulturhus, Larvik
-date: 2026-12-03T18:00:00.000Z
+date: 2026-12-03T17:00:00.000Z
 duration: 80
 locationName: Bølgen Kulturhus, Larvik
 locationAddress: Sanden 2, 3264 Larvik, Norway

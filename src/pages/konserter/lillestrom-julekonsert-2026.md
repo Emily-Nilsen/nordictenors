@@ -3,7 +3,7 @@ title: Lillestrøm
 description: Christmas with Nordic Tenors | Lillestrøm Kulturhus
 schemaName: Christmas with Nordic Tenors 2026 | Lillestrøm Kulturhus
 schemaDescription: Christmas with Nordic Tenors i Lillestrøm Kulturhus
-date: 2026-12-06T18:00:00.000Z
+date: 2026-12-06T17:00:00.000Z
 duration: 80
 locationName: Lillestrøm Kulturhus
 locationAddress: Kirkegata 11, 2000 Lillestrøm, Norway

@@ -19,9 +19,11 @@ function getNodeText(node) {
   return text
 }
 
-function collectHeadings(nodes, slugify = slugifyWithCounter()) {
-  let sections = []
-
+function collectHeadings(
+  nodes,
+  slugify = slugifyWithCounter(),
+  sections = []
+) {
   for (let node of nodes) {
     if (node.name === 'h2' || node.name === 'h3') {
       let title = getNodeText(node)
@@ -43,7 +45,8 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
         }
       }
     }
-    sections.push(...collectHeadings(node.children ?? [], slugify))
+    // share one list so an h3 nested in a tag can attach to an h2 outside it
+    collectHeadings(node.children ?? [], slugify, sections)
   }
   return sections
 }

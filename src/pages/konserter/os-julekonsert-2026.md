@@ -3,7 +3,7 @@ title: Oseana, Os
 description: Christmas with Nordic Tenors | Oseana Kunst & Kultursenter
 schemaName: Christmas with Nordic Tenors 2026 | Oseana Kunst & Kultursenter
 schemaDescription: Julekonsert med Nordic Tenors i Oseana Kunst & Kultursenter
-date: 2026-12-16T18:00:00.000Z
+date: 2026-12-16T17:00:00.000Z
 duration: 80
 locationName: Oseana Kunst & Kultursenter, Os
 locationAddress: Oseana Kunst- og Kultursenter, Mobergsbakken 20, 5200 Os, Norway

@@ -3,7 +3,7 @@ title: Horten
 description: Christmas with Nordic Tenors | Bakkenteigen Kulturhus, Horten
 schemaName: Christmas with Nordic Tenors 2026 | Bakkenteigen Kulturhus, Horten
 schemaDescription: Julekonsert med Nordic Tenors i Bakkenteigen Kulturhus, Horten
-date: 2026-11-19T19:00:00.000Z
+date: 2026-11-19T18:00:00.000Z
 duration: 80
 locationName: Bakkenteigen Kulturhus, Horten
 locationAddress: Raveien 197, 3184 Borre, Norway

@@ -3,7 +3,7 @@ title: Sandnes
 description: Christmas with Nordic Tenors | Sandnes Kulturhus
 schemaName: Christmas with Nordic Tenors 2026 | Sandnes Kulturhus
 schemaDescription: Julekonsert med Nordic Tenors i Sandnes Kulturhus
-date: 2026-12-12T18:00:00.000Z
+date: 2026-12-12T17:00:00.000Z
 duration: 80
 locationName: Sandnes Kulturhus
 locationAddress: Mauritz Kartevoldsplass 1, 4306 Sandnes, Norway

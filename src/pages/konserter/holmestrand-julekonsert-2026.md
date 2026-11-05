@@ -3,7 +3,7 @@ title: Holmestrand
 description: Christmas with Nordic Tenors | Biorama, Holmestrand
 schemaName: Christmas with Nordic Tenors 2026 | Biorama, Holmestrand
 schemaDescription: Julekonsert med Nordic Tenors i Biorama, Holmestrand
-date: 2026-11-21T19:00:00.000Z
+date: 2026-11-21T18:00:00.000Z
 duration: 80
 locationName: Biorama, Holmestrand
 locationAddress: Rådhusgaten 11, 3080 Holmestrand, Norway

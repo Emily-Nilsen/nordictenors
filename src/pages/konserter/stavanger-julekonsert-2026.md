@@ -3,7 +3,7 @@ title: Stavanger
 description: Christmas with Nordic Tenors | Stavanger Konserthus
 schemaName: Christmas with Nordic Tenors 2026 | Stavanger Konserthus
 schemaDescription: Julekonsert med Nordic Tenors i Stavanger Konserthus
-date: 2026-12-13T18:00:00.000Z
+date: 2026-12-13T17:00:00.000Z
 duration: 80
 locationName: Stavanger Konserthus
 locationAddress: Sandvigå 1, 4007 Stavanger, Norway

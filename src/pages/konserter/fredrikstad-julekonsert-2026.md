@@ -3,7 +3,7 @@ title: Fredrikstad
 description: Christmas with Nordic Tenors | Blå Grotte, Fredrikstad
 schemaName: Christmas with Nordic Tenors 2026 | Blå Grotte, Fredrikstad
 schemaDescription: Julekonsert med Nordic Tenors i Blå Grotte, Fredrikstad
-date: 2026-12-09T18:00:00.000Z
+date: 2026-12-09T17:00:00.000Z
 duration: 80
 locationName: Blå Grotte, Fredrikstad
 locationAddress: Nygaardsgata 22-24, 1606 Fredrikstad, Norway
