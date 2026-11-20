@@ -29,3 +29,25 @@ description: Opplev konserter med Nordic Tenors. Finn datoer i kalenderen og kj�
 {% jul_desember_2026 /%}
 {% /upcoming %}
 {% /upcoming %}
+
+{% upcoming %}
+## Vårturné 2027
+
+{% varturne_2027 /%}
+{% /upcoming %}
+
+{% upcoming %}
+## Sommershow 2027
+
+{% sommershow_2027 /%}
+{% /upcoming %}
+
+{% upcoming %}
+## Christmas 2027
+
+{% upcoming %}
+### November 2027
+
+{% christmas_november_2027 /%}
+{% /upcoming %}
+{% /upcoming %}

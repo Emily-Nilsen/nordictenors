@@ -20,6 +20,12 @@ export function Hero() {
   const buttonLabelMobile = isEnglish
     ? 'Christmas concerts 2026'
     : 'Julekonserter 2026'
+  const buttonLabel2027 = isEnglish
+    ? 'Christmas concerts - 2027'
+    : 'Julekonserter - 2027'
+  const buttonLabelMobile2027 = isEnglish
+    ? 'Christmas concerts 2027'
+    : 'Julekonserter 2027'
   const newsletterLabel = isEnglish
     ? 'Newsletter signup'
     : 'Påmelding nyhetsbrev'
@@ -81,6 +87,15 @@ export function Hero() {
                       {buttonLabelMobile}
                     </Button>
                   </div>
+                  <div>
+                    <Button
+                      variant="secondary"
+                      className="relative z-20"
+                      href="/#jul-november-2027"
+                    >
+                      {buttonLabelMobile2027}
+                    </Button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -104,6 +119,13 @@ export function Hero() {
                   href="/#jul-november-2026"
                 >
                   {buttonLabel}
+                </Button>
+                <Button
+                  variant="secondary"
+                  className="relative z-20"
+                  href="/#jul-november-2027"
+                >
+                  {buttonLabel2027}
                 </Button>
               </div>
 

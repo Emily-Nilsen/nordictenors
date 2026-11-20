@@ -35,7 +35,7 @@ Kom i førjulsstemning med Nordic Tenors sin julekonsert i Oseana Kunst & Kultur
 
 ### Konsertdetaljer
 
-{% concert-details concert="Oseana Kunst & Kultursenter" date="16" month="desember" day="onsdag" time="18:00 – 19:20" location="Oseana Kunst & Kultursenter, Os" /%}
+{% concert-details-2026 concert="Oseana Kunst & Kultursenter" date="16" month="desember" day="onsdag" time="18:00 – 19:20" location="Oseana Kunst & Kultursenter, Os" /%}
 
 ### Adresse
 

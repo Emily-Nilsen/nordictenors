@@ -16,6 +16,7 @@ export function ConcertDetails2026({
   time,
   month,
   location,
+  year = '2026',
 }) {
   return (
     <div className="mb-12">
@@ -36,7 +37,7 @@ export function ConcertDetails2026({
               <span className="font-bold">
                 {date}. {month}
               </span>{' '}
-              2026
+              {year}
             </p>
           </div>
           <div className="-mt-3 flex items-center gap-3">

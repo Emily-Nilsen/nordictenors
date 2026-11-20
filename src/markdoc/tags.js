@@ -8,6 +8,11 @@ import { Juni_2025 } from '@/components/Juni_2025'
 import { August_2025 } from '@/components/August_2025'
 import { November_2025 } from '@/components/November_2025'
 import { Jul_November_2026 } from '@/components/Jul_November_2026'
+import {
+  Jul_November_2027,
+  Varturne_2027,
+  Sommershow_2027,
+} from '@/components/Program_2027'
 import { Desember_2025 } from '@/components/Desember_2025'
 import { Jul_Desember_2026 } from '@/components/Jul_Desember_2026'
 import { Upcoming } from '@/components/Upcoming'
@@ -24,7 +29,6 @@ import { Map } from '@/components/Map'
 import { Billetter } from '@/components/Billetter'
 import { BilletterNeutral } from '@/components/BilletterNeutral'
 import { JubiluemBilletter } from '@/components/JubileumBilletter'
-import { ConcertDetails } from '@/components/ConcertDetails'
 import { ConcertDetailsNew } from '@/components/ConcertDetailsNew'
 import { ConcertDetails2026 } from '@/components/ConcertDetails2026'
 import { ConcertHeader } from '@/components/ConcertHeader'
@@ -121,18 +125,6 @@ const tags = {
       ticketUrl: { type: String },
     },
   },
-  'concert-details': {
-    selfClosing: true,
-    render: ConcertDetails,
-    attributes: {
-      concert: { type: String },
-      day: { type: String },
-      date: { type: String },
-      month: { type: String },
-      location: { type: String },
-      time: { type: String },
-    },
-  },
   'concert-details-new': {
     selfClosing: true,
     render: ConcertDetailsNew,
@@ -155,6 +147,7 @@ const tags = {
       month: { type: String },
       location: { type: String },
       time: { type: String },
+      year: { type: String },
     },
   },
   'concert-header': {
@@ -298,6 +291,20 @@ const tags = {
   jul_desember_2026: {
     selfClosing: true,
     render: Jul_Desember_2026,
+  },
+  // @markdoc/next.js names tag components by their LETTERS only (digits are dropped), so every tag
+  // name needs a unique letter sequence: 'jul_november_2027' would clash with 'jul_november_2026'.
+  christmas_november_2027: {
+    selfClosing: true,
+    render: Jul_November_2027,
+  },
+  varturne_2027: {
+    selfClosing: true,
+    render: Varturne_2027,
+  },
+  sommershow_2027: {
+    selfClosing: true,
+    render: Sommershow_2027,
   },
   konserter: {
     selfClosing: true,
