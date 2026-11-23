@@ -50,4 +50,10 @@ description: Experience concerts with Nordic Tenors. Find dates in the calendar 
 
 {% christmas_november_2027 /%}
 {% /upcoming %}
+
+{% upcoming %}
+### December 2027
+
+{% christmas_desember_2027 /%}
+{% /upcoming %}
 {% /upcoming %}

@@ -11,19 +11,19 @@ performer: Nordic Tenors
 image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/oslo-julekonsert-2027
 organizer: Nordic Moments AS
-ticketUrl: https://billetter.okh.no/nb/buyingflow/tickets/51826/102594/
+ticketUrl: https://oslokonserthus.no/program/christmas-with-nordic-tenors-2027
 ticketPrice: 695
 eventStatus: EventScheduled
 eventAttendanceMode: OfflineEventAttendanceMode
 ---
 
-{% concert-header day="mandag" date="22" month="november" time="19:00" ticketUrl="https://billetter.okh.no/nb/buyingflow/tickets/51826/102594/" /%}
+{% concert-header day="mandag" date="22" month="november" time="19:00" ticketUrl="https://oslokonserthus.no/program/christmas-with-nordic-tenors-2027" /%}
 
 ---
 
 ## Billetter
 
-{% billetter concert="" outlet="Oslo Konserthus" ticketUrl="https://billetter.okh.no/nb/buyingflow/tickets/51826/102594/" /%}
+{% billetter concert="" outlet="Oslo Konserthus" ticketUrl="https://oslokonserthus.no/program/christmas-with-nordic-tenors-2027" /%}
 
 ## Oslo Konserthus
 
@@ -35,7 +35,7 @@ Kom i førjulsstemning med Nordic Tenors sin julekonsert i Oslo Konserthus manda
 
 ### Konsertdetaljer
 
-{% concert-details-2026 concert="Oslo Konserthus" date="22" month="november" day="mandag" time="19:00" year="2027" location="Store sal, Oslo Konserthus" /%}
+{% concert-details-2026 concert="Oslo Konserthus" date="22" month="november" day="mandag" time="19:00 – 20:30" year="2027" location="Store sal, Oslo Konserthus" /%}
 
 ### Adresse
 

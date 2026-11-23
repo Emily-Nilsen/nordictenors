@@ -16,14 +16,37 @@ function TicketIcon(props) {
 
 const christmasNovember2027 = [
   {
+    id: 202711201900,
+    name: 'Bakkenteigen Kulturhus, Horten',
+    imageUrl: '/thumbnails/Bakkenteigen_Kulturhus_Horten.webp',
+    date: '20. november',
+    time: '19:00',
+    isoDate: '2027-11-20T18:00:00.000Z',
+    ticketLink: 'https://bakkenteigen.ticketco.events/no/nb/e/christmas_with_nordic_tenors_2027/7DEMqo4fMw',
+    pageUrl: '/konserter/horten-julekonsert-2027',
+  },
+  {
     id: 202711221900,
     name: 'Oslo Konserthus',
     imageUrl: '/thumbnails/Oslo_Konserthus_thumb.webp',
     date: '22. november',
     time: '19:00',
     isoDate: '2027-11-22T18:00:00.000Z',
-    ticketLink: 'https://billetter.okh.no/nb/buyingflow/tickets/51826/102594/',
+    ticketLink: 'https://oslokonserthus.no/program/christmas-with-nordic-tenors-2027',
     pageUrl: '/konserter/oslo-julekonsert-2027',
+  },
+]
+
+const christmasDecember2027 = [
+  {
+    id: 202712161900,
+    name: 'Kulturhuset Tromsø',
+    imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
+    date: '16. desember',
+    time: '19:00',
+    isoDate: '2027-12-16T18:00:00.000Z',
+    ticketLink: 'https://kulturhuset.tr.no/arrangement/nordic-tenors-2027/',
+    pageUrl: '/konserter/tromso-julekonsert-2027',
   },
 ]
 
@@ -200,6 +223,10 @@ function ConcertList({ id, concerts }) {
 
 export function Jul_November_2027() {
   return <ConcertList id="jul-november-2027" concerts={christmasNovember2027} />
+}
+
+export function Jul_Desember_2027() {
+  return <ConcertList id="jul-desember-2027" concerts={christmasDecember2027} />
 }
 
 export function Varturne_2027() {

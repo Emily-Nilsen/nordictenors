@@ -10,6 +10,7 @@ import { November_2025 } from '@/components/November_2025'
 import { Jul_November_2026 } from '@/components/Jul_November_2026'
 import {
   Jul_November_2027,
+  Jul_Desember_2027,
   Varturne_2027,
   Sommershow_2027,
 } from '@/components/Program_2027'
@@ -297,6 +298,10 @@ const tags = {
   christmas_november_2027: {
     selfClosing: true,
     render: Jul_November_2027,
+  },
+  christmas_desember_2027: {
+    selfClosing: true,
+    render: Jul_Desember_2027,
   },
   varturne_2027: {
     selfClosing: true,
