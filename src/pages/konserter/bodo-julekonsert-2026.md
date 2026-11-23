@@ -8,7 +8,7 @@ duration: 80
 locationName: Stormen Konserthus, Bodø
 locationAddress: Storgata 1B, 8006 Bodø, Norway
 performer: Nordic Tenors
-image: /images/Christmas_with_Nordic_Tenors_v2.webpebp
+image: /images/Christmas_with_Nordic_Tenors_v2.webp
 url: https://nordictenors.no/konserter/bodo-julekonsert-2026
 organizer: Nordic Moments AS
 ticketUrl: https://billetter.stormen.no/nb/buyingflow/tickets/43831/89760

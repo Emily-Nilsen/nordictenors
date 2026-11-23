@@ -39,6 +39,16 @@ const christmasNovember2027 = [
 
 const christmasDecember2027 = [
   {
+    id: 202712091800,
+    name: 'Stormen, Bodø',
+    imageUrl: '/thumbnails/Stormen_thumb.webp',
+    date: '9. desember',
+    time: '18:00',
+    isoDate: '2027-12-09T17:00:00.000Z',
+    ticketLink: 'https://konserthus.stormen.no/program/nordic-tenors-09-12-2027',
+    pageUrl: '/konserter/bodo-julekonsert-2027',
+  },
+  {
     id: 202712161900,
     name: 'Kulturhuset Tromsø',
     imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
