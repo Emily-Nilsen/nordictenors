@@ -49,6 +49,16 @@ const christmasDecember2027 = [
     pageUrl: '/konserter/bodo-julekonsert-2027',
   },
   {
+    id: 202712101800,
+    name: 'Kulturbadet Sandnessjøen',
+    imageUrl: '/thumbnails/Kulturbadet_Sandnessjøen.webp',
+    date: '10. desember',
+    time: '18:00',
+    isoDate: '2027-12-10T17:00:00.000Z',
+    ticketLink: 'https://www.kulturbadet.no/nordic-tenors-jul-m4r8kra',
+    pageUrl: '/konserter/sandnessjoen-julekonsert-2027',
+  },
+  {
     id: 202712161900,
     name: 'Kulturhuset Tromsø',
     imageUrl: '/thumbnails/Kulturhuset_tromsø_thumb.webp',
@@ -61,6 +71,16 @@ const christmasDecember2027 = [
 ]
 
 const springTour2027 = [
+  {
+    id: 202704131800,
+    name: 'Kulturbadet Sandnessjøen',
+    imageUrl: '/thumbnails/Kulturbadet_Sandnessjøen.webp',
+    date: '13. april',
+    time: '18:00',
+    isoDate: '2027-04-13T16:00:00.000Z',
+    ticketLink: 'https://www.kulturbadet.no/nordic-tenors-tg5y7f',
+    pageUrl: '/konserter/sandnessjoen-an-evening-2027',
+  },
   {
     id: 202704070000,
     name: 'An evening with Nordic Tenors',
