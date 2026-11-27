@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Lørenskog Hus
 
-{% julekonsert-intro-2026 location="Lørenskog Hus" day="lørdag" date="05" month="desember" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Lørenskog Hus lørdag 5. desember 2026. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/lørenskog.webp" title="Lørenskog Hus" /%}

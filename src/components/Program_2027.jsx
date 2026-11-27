@@ -39,6 +39,34 @@ const christmasNovember2027 = [
 
 const christmasDecember2027 = [
   {
+    // ebillett link https://checkout.ebillett.no/120/events/127793/purchase goes live early Dec 2026; add it, the time and a concert page then
+    id: 202712020000,
+    name: 'Lillestrøm Kulturhus',
+    imageUrl: '/thumbnails/Lillestrøm_Kultursenter.webp',
+    date: '2. desember',
+    isoDate: '2027-12-02T22:00:00.000Z',
+  },
+  {
+    id: 202712041800,
+    name: 'Askim Kulturhus',
+    imageUrl: '/thumbnails/Askim_Kulturhus.webp',
+    date: '4. desember',
+    time: '18:00',
+    isoDate: '2027-12-04T17:00:00.000Z',
+    ticketLink: 'https://www.askimkulturhus.no/program/52131-christmas-with-nordic-tenors/',
+    pageUrl: '/konserter/askim-julekonsert-2027',
+  },
+  {
+    id: 202712061800,
+    name: 'Maihaugsalen, Lillehammer',
+    imageUrl: '/thumbnails/Maihaugsalen_thumb.webp',
+    date: '6. desember',
+    time: '18:00',
+    isoDate: '2027-12-06T17:00:00.000Z',
+    ticketLink: 'https://maihaugsalen.no/program/christmas-with-nordic-tenors-2027',
+    pageUrl: '/konserter/lillehammer-julekonsert-2027',
+  },
+  {
     id: 202712091800,
     name: 'Stormen, Bodø',
     imageUrl: '/thumbnails/Stormen_thumb.webp',

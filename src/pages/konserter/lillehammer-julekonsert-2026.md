@@ -27,7 +27,7 @@ eventAttendanceMode: OfflineEventAttendanceMode
 
 ## Maihaugsalen, Lillehammer
 
-{% julekonsert-intro-2026 location="Maihaugsalen, Lillehammer" day="fredag" date="27" month="november" /%}
+Kom i førjulsstemning med Nordic Tenors sin julekonsert i Maihaugsalen, Lillehammer fredag 27. november 2026. Opplev unike stemmer, varme, humor og et tradisjonelt julerepertoar med Jan-Tore Saltnes, Nils Georg Nilsen og Espen Solsbak.
 
 {% categories %}
 {% category imageUrl="/halls/Maihaugsalen.webp" title="Maihaugsalen, Lillehammer" /%}
